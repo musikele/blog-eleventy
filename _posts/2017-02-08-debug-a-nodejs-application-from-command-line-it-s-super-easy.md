@@ -5,6 +5,8 @@ paginate: true
 comments: true
 author: musikele
 layout: post
+tags:
+  - post
 ---
 If you want to seriously develop a nodejs application, you can't continue to put `console.log()` statements everywhere. It's just a pain! That's why every modern language has debug support via various tools.
 

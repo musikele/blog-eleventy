@@ -5,6 +5,8 @@ paginate: true
 comments: true
 author: musikele
 layout: post
+tags:
+  - post
 ---
 Se avete scritto uno script bash *complesso* e volete cosa accade step by step, una soluzione semplice è usare lanciare il comando così: 
 

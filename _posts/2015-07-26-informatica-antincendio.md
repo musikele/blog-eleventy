@@ -10,6 +10,8 @@ dsq_thread_id:
   - "3973298639"
 categories:
   - Italiano
+tags:
+  - post
 ---
 Si: l'articolo che sto per scrivere parla proprio di questo: **Informatica Antincendio**.
 
