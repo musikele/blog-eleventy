@@ -5,6 +5,7 @@ date: 2017-08-06 15:11:47 +0000
 layout: post
 paginate: true
 tags:
+  - post
 - vacanze
 - valledaosta
 - cogne

@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: 2018-01-17 00:00:00 +0000
 tags:
+  - post
 - green card
 - usa
 - lotteria

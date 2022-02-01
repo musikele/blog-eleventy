@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: '2017-06-09T09:20:50+00:00'
 tags:
+  - post
 - startup
 - lavoro
 ---

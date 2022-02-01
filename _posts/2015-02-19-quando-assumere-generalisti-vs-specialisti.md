@@ -12,6 +12,7 @@ image: "/wp-content/uploads/2015/02/vs.jpg"
 categories:
 - Italiano
 tags:
+  - post
 - assumere
 - generalisti
 - lavoro

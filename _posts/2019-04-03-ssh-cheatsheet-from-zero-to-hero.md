@@ -6,6 +6,7 @@ category: English
 layout: post
 date: 2019-04-03
 tags:
+  - post
 - ssh
 - tutorial
 title: 'SSH cheatsheet (from zero to hero) '

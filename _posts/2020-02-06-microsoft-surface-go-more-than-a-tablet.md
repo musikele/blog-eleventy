@@ -6,6 +6,7 @@ category: Italiano
 layout: post
 date: 2020-02-06
 tags:
+  - post
 - computer
 - microsoft
 - surface

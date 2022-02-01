@@ -7,6 +7,7 @@ category: English
 layout: post
 date: '2017-03-27T10:55:00+00:00'
 tags:
+  - post
 - testing
 - nodejs
 - async

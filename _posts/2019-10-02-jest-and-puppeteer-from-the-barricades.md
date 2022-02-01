@@ -7,6 +7,7 @@ category:
 layout: post
 date: 2019-10-02
 tags:
+  - post
 - jest
 - testing
 - javascript

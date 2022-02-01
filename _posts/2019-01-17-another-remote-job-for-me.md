@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2019-01-17
 tags:
+  - post
 - lavoro
 - job
 - remote

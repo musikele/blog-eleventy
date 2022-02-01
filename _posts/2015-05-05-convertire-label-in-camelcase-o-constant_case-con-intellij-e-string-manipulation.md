@@ -11,6 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
+  - post
   - camel case
   - intellij
   - string manipulation

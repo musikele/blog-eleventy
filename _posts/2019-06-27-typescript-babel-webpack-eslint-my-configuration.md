@@ -6,6 +6,7 @@ category: Italiano
 layout: post
 date: 2019-06-27
 tags:
+  - post
 - typescript
 - babel
 - webpack

@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: 2017-12-01 00:00:00 +0000
 tags:
+  - post
 - comic sans
 - font
 - storia

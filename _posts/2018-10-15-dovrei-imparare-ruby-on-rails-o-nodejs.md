@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: 2018-10-15
 tags:
+  - post
 - ruby on rails
 - ruby
 - nodejs

@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: 2018-08-22 00:00:00 +0200
 tags:
+  - post
 - testing
 header-img: "/images/Testing_in_Progress.gif"
 description: 'Una brevissima descrizione del testing manuale vs testing automatico. '

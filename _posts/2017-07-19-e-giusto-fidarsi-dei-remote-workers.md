@@ -6,6 +6,7 @@ title: E' giusto fidarsi dei remote workers?
 category: Italiano
 layout: post
 tags:
+  - post
 - lavoro remoto
 - remote working
 - remote

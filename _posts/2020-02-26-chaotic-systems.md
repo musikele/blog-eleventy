@@ -6,6 +6,7 @@ category: English
 layout: post
 date: 2020-02-26
 tags:
+  - post
 - chaotic system
 - economics
 title: Chaotic systems

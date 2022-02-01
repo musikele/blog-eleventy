@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: '2017-03-20T09:56:01+00:00'
 tags:
+  - post
 - lavoro
 - inglese
 - lingua

@@ -11,6 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
+  - post
   - funzioni pure
   - javascript
   - programmazione funzionale

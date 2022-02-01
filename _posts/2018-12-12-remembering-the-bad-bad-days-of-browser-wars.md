@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: 2018-12-12
 tags:
+  - post
 - html
 - " javascript"
 - css

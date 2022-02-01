@@ -6,6 +6,7 @@ title: Easy testing of NodeJS applications with Mocha
 layout: post
 date: 2017-03-23 18:13
 tags:
+  - post
 - Javascript
 - Nodejs
 - Testing

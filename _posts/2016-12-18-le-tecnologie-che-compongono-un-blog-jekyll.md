@@ -5,6 +5,7 @@ layout: post
 categories:
 - Italiano
 tags:
+  - post
 - git
 - github
 - blogging

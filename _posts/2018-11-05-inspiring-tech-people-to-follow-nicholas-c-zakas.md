@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-11-05
 tags:
+  - post
 - zakas
 - eslint
 - people

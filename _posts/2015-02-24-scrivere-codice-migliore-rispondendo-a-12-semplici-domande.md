@@ -12,6 +12,7 @@ image: /wp-content/uploads/2015/02/code-hero-580x230.png
 categories:
   - Italiano
 tags:
+  - post
   - codice
   - qualità
   - questionario

@@ -6,6 +6,7 @@ category: English
 layout: post
 date: 2019-08-02
 tags:
+  - post
 - network
 - sysadmin
 title: Detect network issues from your pc to a remote url

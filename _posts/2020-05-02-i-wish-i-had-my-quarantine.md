@@ -6,6 +6,7 @@ category: English
 layout: post
 date: 2020-05-02
 tags:
+  - post
 - quarantine
 - " c"
 title: I wish I had a programmers' quarantine

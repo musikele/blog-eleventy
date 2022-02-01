@@ -12,6 +12,7 @@ image: /wp-content/uploads/2015/01/Sun-Java-JDK_1.jpg
 categories:
   - Italiano
 tags:
+  - post
   - FileOutputStream
   - java
 ---

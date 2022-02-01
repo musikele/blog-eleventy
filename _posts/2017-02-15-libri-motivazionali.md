@@ -7,6 +7,7 @@ permalink: libri-motivazionali/
 categories:
 - Italiano
 tags:
+  - post
 - rework
 - "è facile smettere di fumare se sai come farlo"
 - chi ha e chi non ha

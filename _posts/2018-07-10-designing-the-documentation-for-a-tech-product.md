@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-07-10 00:00:00 +0200
 tags:
+  - post
 - Documentation
 - Work
 header-img: "/images/documentation.png"

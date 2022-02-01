@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-09-04 00:00:00 +0200
 tags:
+  - post
 - javascript
 - es6
 header-img: "/images/es6.jpeg"

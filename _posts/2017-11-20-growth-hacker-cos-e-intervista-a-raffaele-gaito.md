@@ -6,7 +6,8 @@ title: 'Growth Hacker: cos''è? Intervista a Raffaele Gaito'
 category: Italiano
 layout: post
 date: 2017-11-18 00:00:00 +0000
-tags: [growth hacking, raffaele gaito, marketing,libro]
+tags:
+  - post [growth hacking, raffaele gaito, marketing,libro]
 header-img: "/images/raf_gaito.jpg"
 categories: Italiano
 description: "In quest'intervista Raffale ci parla del Growth Hacking e delle sue connessioni con il mondo degli sviluppatori. "

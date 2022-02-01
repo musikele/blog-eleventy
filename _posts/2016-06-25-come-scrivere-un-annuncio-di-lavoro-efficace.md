@@ -11,6 +11,7 @@ dsq_thread_id:
 categories:
 - Italiano
 tags:
+  - post
 - lavoro
 ---
 L'articolo sul mio [cambio lavoro](http://wp.me/p5zVKm-bk) ha riscosso qualche successo (wow!), e qualcuno mi ha chiamato per sapere dove fossi finito, che stessi facendo, etc. 

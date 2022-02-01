@@ -11,6 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
+  - post
   - codemotion
   - codemotion 2016
   - hapi

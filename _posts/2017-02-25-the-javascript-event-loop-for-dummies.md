@@ -6,6 +6,7 @@ comments: true
 author: musikele
 layout: post
 tags:
+  - post
 - javascript
 - async
 - event loop

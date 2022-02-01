@@ -6,6 +6,7 @@ category: English
 layout: post
 date: 2021-01-28
 tags:
+  - post
 - work
 - sight
 - erasmus

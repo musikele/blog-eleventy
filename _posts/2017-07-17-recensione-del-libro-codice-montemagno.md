@@ -4,6 +4,7 @@ comments: true
 layout: post
 paginate: true
 tags:
+  - post
 - codice montemagno
 - marco montemagno
 - libri

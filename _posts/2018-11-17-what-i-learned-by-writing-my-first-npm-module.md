@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-11-17
 tags:
+  - post
 - javascript
 - nodejs
 header-img: "/images/index.png"

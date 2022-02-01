@@ -10,7 +10,8 @@ dsq_thread_id:
   - "4424679020"
 categories:
   - Italiano
-tags: 
+tags:
+  - post 
   - lavoro
   - programmazione 
   - commit 

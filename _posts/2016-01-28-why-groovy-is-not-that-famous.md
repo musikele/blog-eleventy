@@ -11,6 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
+  - post
   - groovy
   - java
   - languages

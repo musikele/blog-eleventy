@@ -12,6 +12,7 @@ image: /wp-content/uploads/2015/11/abz.jpg
 categories:
   - Italiano
 tags:
+  - post
   - ABZ
   - aspirazioni
   - carriera

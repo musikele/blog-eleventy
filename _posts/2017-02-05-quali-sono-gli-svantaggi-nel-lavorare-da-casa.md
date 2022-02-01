@@ -7,6 +7,7 @@ author: musikele
 layout: post
 category: Italiano
 tags:
+  - post
 - lavoro
 - remoto
 - remote working

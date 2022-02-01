@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: '2017-08-18'
 tags:
+  - post
 - growth hacking
 - marketing
 - libro

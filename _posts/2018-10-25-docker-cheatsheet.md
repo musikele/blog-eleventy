@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-10-25
 tags:
+  - post
 - docker
 - cheatsheet
 header-img: "/images/Q9jiI1pL_400x400.jpg"

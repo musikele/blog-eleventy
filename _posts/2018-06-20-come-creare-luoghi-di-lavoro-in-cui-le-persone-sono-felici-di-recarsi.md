@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: 2018-06-20 00:00:00 +0200
 tags:
+  - post
 - lavoro
 - work
 - ufficio

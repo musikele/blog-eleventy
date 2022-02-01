@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-10-29
 tags:
+  - post
 - javascript
 - es6
 - nodejs

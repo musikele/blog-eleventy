@@ -8,6 +8,7 @@ layout: post
 date: 2017-12-03 00:00:00 +0000
 header-img: "/images/vuejs.png"
 tags:
+  - post
 - vuejs
 - javascript
 - frontend

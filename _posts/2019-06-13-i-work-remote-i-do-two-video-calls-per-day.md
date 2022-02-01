@@ -6,6 +6,7 @@ category: English
 layout: post
 date: 2019-06-13
 tags:
+  - post
 - remote
 - work
 - meeting

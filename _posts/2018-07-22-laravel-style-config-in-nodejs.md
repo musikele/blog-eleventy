@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-07-22
 tags:
+  - post
 - nodejs
 - configuration
 - laravel

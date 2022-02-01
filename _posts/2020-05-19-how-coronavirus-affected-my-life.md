@@ -6,6 +6,7 @@ category: English
 layout: post
 date: 2020-05-19
 tags:
+  - post
 - coronavirus
 title: 'How Coronavirus affected my life  '
 header-img: "/images/man-in-white-t-shirt-holding-black-smartphone-4113948.jpg"

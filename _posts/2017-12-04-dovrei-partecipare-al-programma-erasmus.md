@@ -7,6 +7,7 @@ category: Italiano
 layout: post
 date: 2017-12-04 00:00:00 +0000
 tags:
+  - post
 - erasmus
 - studio
 - life

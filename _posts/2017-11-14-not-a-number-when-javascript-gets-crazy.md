@@ -7,7 +7,8 @@ category: Italiano
 layout: post
 date: 2017-11-14 00:00:00 +0000
 header-img: "/images/not-a-number.jpg"
-tags: []
+tags:
+  - post []
 ---
 Yesterday I was doing some maintenance on a corporate website when I found out that `parseInt()` returns `NaN` if the argument is, well, not a number.
 

@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-06-19 00:00:00 +0200
 tags:
+  - post
 - linux
 - shell
 - bash

@@ -6,6 +6,7 @@ category: Italiano
 layout: post
 date: 2019-12-09
 tags:
+  - post
 - pair programming
 - pull request
 - remote work

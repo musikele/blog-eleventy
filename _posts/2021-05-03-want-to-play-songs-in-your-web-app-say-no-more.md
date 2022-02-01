@@ -11,6 +11,7 @@ description: 'JS Headless Playlist Player is a javascript library that implement
   the API to play music. '
 header-img: "/images/winamp.png"
 tags:
+  - post
 - open source
 - pet project
 - javascript

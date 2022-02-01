@@ -6,6 +6,7 @@ category: Italiano
 layout: post
 date: 2019-10-27
 tags:
+  - post
 - linux
 - ubuntu
 title: Tips & Tricks from my linux experience

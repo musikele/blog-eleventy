@@ -11,6 +11,7 @@ header-img: "/images/0402ae2.jpg"
 description: 'Consigli per i neolaureati: come redigere il CV, come trovare stage,
   evitando gli errori classici '
 tags:
+  - post
 - lavoro
 - stage
 - devday

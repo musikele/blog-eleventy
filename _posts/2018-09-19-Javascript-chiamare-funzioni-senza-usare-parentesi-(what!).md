@@ -7,6 +7,7 @@ category: English
 layout: post
 date: 2018-09-19
 tags:
+  - post
 - javascript
 header-img: "/images/es6.jpeg"
 description: 'A nice to know feature, good for impressing others '
