@@ -7,11 +7,11 @@ layout: post
 date: 2020-02-06
 tags:
   - post
-- computer
-- microsoft
-- surface
-- windows
-- tablet
+  - computer
+  - microsoft
+  - surface
+  - windows
+  - tablet
 title: 'Microsoft Surface GO: more than a tablet'
 header-img: "/images/microsoft_surface_go.jpg"
 description: I sold my old 15" laptop and I bought the Microsoft Surface Go tablet.

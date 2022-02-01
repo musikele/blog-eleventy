@@ -10,11 +10,11 @@ description: 'an How To that tries to write what the official guide omits '
 header-img: "/images/select2.png"
 tags:
   - post
-- python
-- django
-- django admin
-- django-select2
-- select2
+  - python
+  - django
+  - django admin
+  - django-select2
+  - select2
 
 ---
 In a project we had a select box that will probably contain more than a hundred of results, and it will be very difficult for users to select the right one without typing. So we decided to implement a [django-select2](https://django-select2.readthedocs.io/en/latest/) widget instead.

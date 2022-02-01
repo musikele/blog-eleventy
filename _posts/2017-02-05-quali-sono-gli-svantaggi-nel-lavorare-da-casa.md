@@ -1,6 +1,6 @@
 ---
 title: Quali sono gli svantaggi del lavoro da remoto?
-date: '2017-02-05T00:00:00+00:00'
+date: 2017-02-05T00:00:00+00:00
 paginate: true
 comments: true
 author: musikele
@@ -8,10 +8,10 @@ layout: post
 category: Italiano
 tags:
   - post
-- lavoro
-- remoto
-- remote working
-- svantaggi
+  - lavoro
+  - remoto
+  - remote working
+  - svantaggi
 ---
 Salvo sporadiche trasferte a Biella, dove risiedono gran parte dei miei colleghi, io lavoro prevalentemente da remoto, a Salerno.
 

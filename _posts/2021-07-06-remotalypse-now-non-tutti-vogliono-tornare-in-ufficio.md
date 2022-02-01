@@ -13,8 +13,8 @@ description: 'Dopo un anno e mezzo di pandemia, molte aziende si stanno riorgani
 header-img: "/images/pexels-jill-wellington-39853.jpg"
 tags:
   - post
-- remote
-- lavoro
+  - remote
+  - lavoro
 
 ---
 _Questo è un messaggio che ho mandato in mailing list_ [_DevDay Salerno_](https://www.meetup.com/it-IT/devday-salerno/)_, a cui vi consiglio di iscrivervi se siete della zona._

@@ -5,16 +5,16 @@ author: musikele
 title: Alla scoperta di VueJS
 category: Italiano
 layout: post
-date: 2017-12-03 00:00:00 +0000
+date: 2017-12-03 00:00:00
 header-img: "/images/vuejs.png"
 tags:
   - post
-- vuejs
-- javascript
-- frontend
-- angular
-- react
-- vue
+  - vuejs
+  - javascript
+  - frontend
+  - angular
+  - react
+  - vue
 description: 'VueJS è uno dei front-end framework che sta provando a guadagnarsi uno
   po'' di spazio: dalla sua ha la velocità e la semplicità. '
 ---

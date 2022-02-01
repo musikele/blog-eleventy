@@ -13,10 +13,10 @@ categories:
 - Italiano
 tags:
   - post
-- assumere
-- generalisti
-- lavoro
-- specialisti
+  - assumere
+  - generalisti
+  - lavoro
+  - specialisti
 header-img: "/images/vs.jpg"
 description: 'Siete generalisti o specialisti? In questo articolo proviamo a scoprire
   cosa conviene fare alle aziende in base al loro ciclo di vita. '

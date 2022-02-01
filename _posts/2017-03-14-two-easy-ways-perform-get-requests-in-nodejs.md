@@ -4,13 +4,13 @@ comments: true
 author: musikele
 title: 'Two easy ways perform GET requests in NodeJS '
 layout: post
-date: '2017-03-13T23:07:41+00:00'
+date: 2017-03-13T23:07:41+00:00
 tags:
   - post
-- Javascript
-- Nodejs
-- Request
-- Axios
+  - Javascript
+  - Nodejs
+  - Request
+  - Axios
 categories: Italiano
 ---
 Today I want to talk about something that we all need during our programming life: requesting data from a remote server. We will do this using callbacks and promises, to show both the approaches.

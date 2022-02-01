@@ -7,8 +7,8 @@ layout: post
 date: 2020-02-26
 tags:
   - post
-- chaotic system
-- economics
+  - chaotic system
+  - economics
 title: Chaotic systems
 header-img: "/images/island-during-golden-hour-and-upcoming-storm-1118873.jpg"
 description: 'what is a complex system? why we study them, and what can they teach

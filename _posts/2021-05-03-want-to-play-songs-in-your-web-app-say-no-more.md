@@ -12,11 +12,11 @@ description: 'JS Headless Playlist Player is a javascript library that implement
 header-img: "/images/winamp.png"
 tags:
   - post
-- open source
-- pet project
-- javascript
-- audio
-- js headless playlist player
+  - open source
+  - pet project
+  - javascript
+  - audio
+  - js headless playlist player
 permalink: js-headless-playlist-player/
 
 ---

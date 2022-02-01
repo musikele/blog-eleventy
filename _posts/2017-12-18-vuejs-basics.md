@@ -4,12 +4,12 @@ comments: true
 author: musikele
 title: VueJS basics
 layout: post
-date: 2017-12-17 01:00:00 +0100
+date: 2017-12-17 01:00:00
 tags:
   - post
-- vuejs
-- javascript
-- frontend
+  - vuejs
+  - javascript
+  - frontend
 header-img: "/images/vuejs.png"
 description: 'A super brief description of what is VueJS, and how easy it is to get
   in. '

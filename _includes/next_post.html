@@ -1,0 +1,33 @@
+<div>
+    {% if page.previous %}
+
+    <div class="{% cycle '6u', '6u$' %} 12u(small) excerpt" id="previousArticle">
+        <header>
+            <h2><a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
+        </header>
+        <section>
+            {{ page.previous.excerpt | markdownify }}
+        </section>
+        <div>
+            <ul class="actions">
+                <li><a href="{{ site.baseurl }}{{ page.previous.url }}" class="button">Read More</a></li>
+            </ul>
+        </div>
+    </div>
+    {% endif %} {% if page.next %}
+
+    <div class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right" id="nextArticle">
+        <header>
+            <h2><a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a></h2>
+        </header>
+        <section>
+            {{ page.next.excerpt | markdownify }}
+        </section>
+        <div>
+            <ul class="actions">
+                <li><a href="{{ site.baseurl }}/{{ page.next.url }}" class="button">Read More</a></li>
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+</div>

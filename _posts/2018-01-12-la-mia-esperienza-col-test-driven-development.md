@@ -5,13 +5,13 @@ author: musikele
 title: La mia esperienza col Test Driven Development
 category: Italiano
 layout: post
-date: 2018-01-12 00:00:00 +0000
+date: 2018-01-12 00:00:00
 tags:
   - post
-- test driven development
-- tdd
-- testing
-- mock
+  - test driven development
+  - tdd
+  - testing
+  - mock
 header-img: "/images/Testing_in_Progress.gif"
 description: 'Il Test Driven Development porta a un aumento della qualità del codice
   scritto, ma nella vita reale aumenta i tempi di sviluppo e porta a qualche compromesso. '

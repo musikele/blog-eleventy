@@ -13,11 +13,11 @@ categories:
 - Italiano
 tags:
   - post
-- conferenza
-- devfest
-- gdg
-- joel
-- test
+  - conferenza
+  - devfest
+  - gdg
+  - joel
+  - test
 ---
 Ecco le mie slides del talk.
 

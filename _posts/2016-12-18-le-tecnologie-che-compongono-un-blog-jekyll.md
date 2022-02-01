@@ -6,18 +6,18 @@ categories:
 - Italiano
 tags:
   - post
-- git
-- github
-- blogging
-- jekyll
-- markdown
-- web
-- curriculum
+  - git
+  - github
+  - blogging
+  - jekyll
+  - markdown
+  - web
+  - curriculum
 ---
 
 Gli ingredienti segreti di questo magico calderone che é il mio blog sono: **Git**, **github**, **jekyll** (con tanto **html**, **css** & **javascript**), **markdown**. Vediamoli in dettaglio. 
 
-> Per sapere come mai mi sono orientato proprio su Jekyll come piattaforma di blogging, leggete il mio precedente articolo [Le migliori piattaforme di blogging (per un developer) a confronto]({% post_url 2016-12-15-le-piattaforme-di-blogging-a-confronto %}).
+> Per sapere come mai mi sono orientato proprio su Jekyll come piattaforma di blogging, leggete il mio precedente articolo [Le migliori piattaforme di blogging (per un developer) a confronto](/2016/12/15/le-piattaforme-di-blogging-a-confronto.html).
 
 ## Git
 

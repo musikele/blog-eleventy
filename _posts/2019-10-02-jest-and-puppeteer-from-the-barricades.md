@@ -8,9 +8,9 @@ layout: post
 date: 2019-10-02
 tags:
   - post
-- jest
-- testing
-- javascript
+  - jest
+  - testing
+  - javascript
 title: Jest and Puppeteer from the barricades
 header-img: "/images/1BM_RS2-DjYk_JZUKr4uq0g.png"
 description: 'Jest and Puppeteer are two great tools. Together they can satisfy a

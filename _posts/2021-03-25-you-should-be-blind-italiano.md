@@ -12,9 +12,9 @@ description: 'Hai mai pensato di fare il tuo lavoro senza poter vedere? Un mio a
 header-img: "/images/weber-pizza.JPG"
 tags:
   - post
-- work
-- vista
-- erasmus
+  - work
+  - vista
+  - erasmus
 
 ---
 **Hai mai pensato a come svolgeresti il tuo lavoro senza poter vedere?** Lo devo ammettere, non avrei idea di dove iniziare, ma un mio caro amico lo sta sperimentando e penso sia il caso di condividere la sua storia.

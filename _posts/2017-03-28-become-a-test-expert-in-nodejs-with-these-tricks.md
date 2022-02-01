@@ -5,13 +5,13 @@ author: musikele
 title: Become a test expert in NodeJS with these tricks
 category: English
 layout: post
-date: '2017-03-27T10:55:00+00:00'
+date: 2017-03-27T10:55:00+00:00
 tags:
   - post
-- testing
-- nodejs
-- async
-- express
+  - testing
+  - nodejs
+  - async
+  - express
 ---
 After reading my first guide to 
 <a href="https://michelenasti.com/2017/03/23/node-js-testing-easy-with-mocha.html">testing NodeJS with Mocha</a> you might have grasped the fundamental concepts of NodeJS testing. However, **real word code is usually tested with some other expedients** that you might know to be a better tester (and coder).

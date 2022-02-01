@@ -5,10 +5,10 @@ author: musikele
 title: I colloqui di lavoro nelle Big
 category: Italiano
 layout: post
-date: '2017-05-22T15:08:19+00:00'
+date: 2017-05-22T15:08:19+00:00
 tags:
   - post
-- colloqui di lavoro
+  - colloqui di lavoro
 ---
 
 

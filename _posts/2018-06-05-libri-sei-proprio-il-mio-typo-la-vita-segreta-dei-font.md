@@ -4,12 +4,12 @@ comments: true
 author: musikele
 title: "[libri] Sei proprio il mio typo: la vita segreta dei caratteri tipografici"
 layout: post
-date: 2018-06-05 22:00:00 +0000
+date: 2018-06-05 22:00:00
 tags:
   - post
-- font
-- libro
-- sei proprio il mio typo
+  - font
+  - libro
+  - sei proprio il mio typo
 header-img: "/images/seproprioilmiotypo.jpg"
 description: Dietro ai font che utilizziamo quotidianamente c'è un mondo fatto di
   tipografi e tipografie, e una storia vecchia di 500 anni. Scopriamola con questo

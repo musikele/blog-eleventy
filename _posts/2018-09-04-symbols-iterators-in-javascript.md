@@ -5,11 +5,11 @@ author: musikele
 title: Symbols & Iterators in Javascript
 category: English
 layout: post
-date: 2018-09-04 00:00:00 +0200
+date: 2018-09-04 00:00:00
 tags:
   - post
-- javascript
-- es6
+  - javascript
+  - es6
 header-img: "/images/es6.jpeg"
 description: 'Let''s have a look at Symbols and iterators in Javascript. '
 

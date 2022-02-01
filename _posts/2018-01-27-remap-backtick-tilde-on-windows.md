@@ -5,16 +5,16 @@ author: musikele
 title: Remap backtick, ñ and tilde characters on Windows computers
 category: Italiano
 layout: post
-date: 2018-01-27 00:00:00 +0000
+date: 2018-01-27 00:00:00
 tags:
   - post
-- windows
-- dell
-- xps
-- backtick
-- keyboard
-- mapping
-- tilde
+  - windows
+  - dell
+  - xps
+  - backtick
+  - keyboard
+  - mapping
+  - tilde
 header-img: "/images/autohotkey.jpg"
 description: If you own a Windows PC and writing backticks, tildes and other special
   characters is  a pain, this article si for you.

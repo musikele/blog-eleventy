@@ -5,20 +5,20 @@ author: musikele
 title: I trend Javascript del 2018
 category: Italiano
 layout: post
-date: 2018-01-09 00:00:00 +0000
+date: 2018-01-09 00:00:00
 description: Quali saranno i prossimi trend JS del 2018? Ripartiamo dalle buzzword
   del 2017.
 header-img: "/images/trends.jpg"
 tags:
   - post
-- michele risponde
-- javascript
-- trends
-- typescript
-- webpack
-- async await
-- vuejs
-- graphql
+  - michele risponde
+  - javascript
+  - trends
+  - typescript
+  - webpack
+  - async await
+  - vuejs
+  - graphql
 ---
 **Quali sono le "cose" da tenere maggiormente d'occhio nello sviluppo JavaScript nel 2018?**  
 

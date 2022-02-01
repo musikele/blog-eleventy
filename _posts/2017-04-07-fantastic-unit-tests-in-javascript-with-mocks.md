@@ -5,14 +5,14 @@ author: musikele
 title: Fantastic Unit Tests in Javascript with Mocks
 category: Italiano
 layout: post
-date: 2017-04-07 00:00:00 +0000
+date: 2017-04-07 00:00:00
 tags:
   - post
-- nodejs
-- testing
-- rewire
-- expect
-- javascript
+  - nodejs
+  - testing
+  - rewire
+  - expect
+  - javascript
 
 ---
 Let's start with the example. We have two files, one that is the main one called `app.js` that exports just one method, called `handleSignup()`:

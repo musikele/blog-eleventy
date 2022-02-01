@@ -5,12 +5,12 @@ author: musikele
 title: Deploy a NodeJS app on Heroku in less than 1 minute
 category: English
 layout: post
-date: '2017-03-18T13:18:53+00:00'
+date: 2017-03-18T13:18:53+00:00
 tags:
   - post
-- nodejs
-- heroku
-- express
+  - nodejs
+  - heroku
+  - express
 ---
 Actually, the time you need to deploy an app depends on how fast you are to copy & paste.
 

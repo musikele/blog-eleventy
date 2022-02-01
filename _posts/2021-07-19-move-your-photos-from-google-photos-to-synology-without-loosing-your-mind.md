@@ -12,9 +12,9 @@ description: 'In theory moving from Google Photos to Synology is easy. In practi
 header-img: "/images/all_in_one_1.png"
 tags:
   - post
-- synology
-- google photos
-- photos
+  - synology
+  - google photos
+  - photos
 
 ---
 This guide is for you if:

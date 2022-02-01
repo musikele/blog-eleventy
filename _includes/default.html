@@ -3,7 +3,7 @@
 
 <head>
 	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
-	{% include metadata.html %}
+	{% include './metadata.html' %}
 	<meta charset="utf-8">
 	<script>
 		var host = "michelenasti.com";
@@ -20,17 +20,10 @@
 	<meta name="description" content="Michele Nasti's personal blog'" />
 	<meta name="keywords" content="michele nasti" /> {% endif %} {% if page.layout != "default" %}
 	<meta http-equiv="last-modified" content="{{page.last_modified_at}}" /> {% endif %}
-	<!--<noscript>-->
-	<link rel="stylesheet" href="{{ "/css/skel.css" | relative_url }}" />
-	<link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}" />
-	<link rel="stylesheet" href="{{ "/css/style-xlarge.css" | relative_url }}" />
-	<link rel="stylesheet" href="{{ "/css/colorful.css" | relative_url }}" />
-	<link rel="stylesheet" href="{{ "/css/social.css" | relative_url }}" />
 	<meta name="google-site-verification" content="wpVjnRuXV99CAZxjYBzZgKbJm-8_tdLPrlP43u9zhV0" />
 	<!--</noscript>-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-	{% include analytics.html %}
-	<link rel="stylesheet" href="{{ "/css/prism.css" | relative_url }}" />
+	{% include "./analytics.html" %}
 	{% if page.redirect_to %}
 	<meta http-equiv="refresh" content="0; url={{page.redirect_to}}">
 	{% endif %}
@@ -39,17 +32,11 @@
 
 <body id="top">
 
-	{% include header.html %} {{ content }}
+	{% include "./header.html" %} {{ content }}
 
 	<!-- Footer -->
-	{% include footer.html %}
-	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-	<script src="{{ "/js/jquery.min.js" | relative_url }}"></script>
-	<script src="{{ "/js/jquery.poptrox.min.js" | relative_url }}"></script>
-	<script src="{{ "/js/skel.min.js" | relative_url }}"></script>
-	<script src="{{ "/js/init.js"| relative_url }}"></script>
-	<script src="{{ "/js/prism.js" | relative_url }}"></script>
-	<!-- <script src="{{site.baseurl}}/js/badge.js"></script> -->
+	{% include "./footer.html" %}
+	
 </body>
 
 </html>

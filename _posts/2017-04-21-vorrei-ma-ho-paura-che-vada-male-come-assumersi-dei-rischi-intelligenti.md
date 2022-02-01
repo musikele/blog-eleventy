@@ -7,9 +7,9 @@ category: Italiano
 layout: post
 tags:
   - post
-- rischi
-- lavoro
-- startup of you
+  - rischi
+  - lavoro
+  - startup of you
 ---
 
 Oggi vorrei parlarvi di **come assumersi dei rischi intelligenti**. Intelligenti in che senso?!

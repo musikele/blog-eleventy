@@ -5,13 +5,13 @@ author: musikele
 title: 'Diventare Senior™ con Javascript: le funzioni filter, map, reduce'
 category: Italiano
 layout: post
-date: '2017-04-14 10:09:00'
+date: 2017-04-14 10:09:00
 tags:
   - post
-- javascript
-- filter
-- map
-- reduce
+  - javascript
+  - filter
+  - map
+  - reduce
 ---
 Si può lavorare per anni con javascript senza mai arrivare a conoscere tre funzioni fantastiche (e standard) che permettono di scrivere codice veloce e testabile.  
 

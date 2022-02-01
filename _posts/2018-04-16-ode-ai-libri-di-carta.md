@@ -5,17 +5,17 @@ author: musikele
 title: 'Ode ai libri di carta '
 category: Italiano
 layout: post
-date: 2018-04-16 00:00:00 +0000
+date: 2018-04-16 00:00:00
 tags:
   - post
-- libri
-- ebook
-- carta
+  - libri
+  - ebook
+  - carta
 description: 'Da ieri sera sono tornato alla carta, con l''obiettivo di trovare una
   strategia per finire i due libri digitali e non comprarne mai più. '
 header-img: "/images/kindle-vs-books.jpg"
 ---
-![]({{ '/images/kindle-vs-books.jpg' | relative_url }})  
+![](/images/kindle-vs-books.jpg)  
   
 Ci ho provato, attratto dall'idea di portarmi un solo dispositivo dietro con tutti i libri che volevo leggere.
 

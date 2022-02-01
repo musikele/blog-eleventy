@@ -2,12 +2,12 @@
 paginate: true
 comments: true
 author: musikele
-title: " Quando l'azienda non paga gli stipendi"
-date: '2017-02-28T10:36:03+00:00'
+title: "Quando l'azienda non paga gli stipendi"
+date: 2017-02-28T10:36:03+00:00
 tags:
   - post
-- lavoro
-- stipendio
+  - lavoro
+  - stipendio
 categories: Italiano
 category: Italiano
 layout: post

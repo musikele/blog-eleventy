@@ -11,9 +11,9 @@ description: 'Let me show how easy it is to write an https server with nodejs an
 header-img: "/images/person-holding-white-scroll-2292837.jpg"
 tags:
   - post
-- nodejs
-- express
-- https
+  - nodejs
+  - express
+  - https
 
 ---
 One of the things I do, on my job, is to maintain a javascript library to display ads. Customers will inject this script on their page and _voilà_ they start displaying ads.

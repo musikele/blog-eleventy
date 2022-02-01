@@ -7,11 +7,11 @@ layout: post
 date: 2019-03-23
 tags:
   - post
-- browserify
-- webpack
-- rollup
-- parcel
-- bundler
+  - browserify
+  - webpack
+  - rollup
+  - parcel
+  - bundler
 title: What's the difference between Browserify and Webpack?
 header-img: "/images/bropack.png"
 description: 'Webpack is the king of the bundlers now, but Browserify is the former

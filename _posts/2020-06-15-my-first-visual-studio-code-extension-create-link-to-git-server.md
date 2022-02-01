@@ -11,8 +11,8 @@ description: 'I wrote my first Visual Studio Code extension out of need, and I l
 header-img: "/images/visual-studio-code-logo.png"
 tags:
   - post
-- visual studio code
-- extension
+  - visual studio code
+  - extension
 
 ---
 You know when you're chatting with a colleague and **you want to point** **out** **a specific line in the git repository?** For example, **a specific line of a specific branch of a specific fork**? It's a time-wasting process to open the browser, open the git hosting website, navigate to the file, and create the link; so I decided to create an extension for Visual Studio Code.

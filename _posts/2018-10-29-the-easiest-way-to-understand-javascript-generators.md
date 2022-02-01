@@ -8,10 +8,10 @@ layout: post
 date: 2018-10-29
 tags:
   - post
-- javascript
-- es6
-- nodejs
-- generators
+  - javascript
+  - es6
+  - nodejs
+  - generators
 header-img: "/images/81TfpvWrBRL._SL1500_.jpg"
 description: 'Let''s have a look at generator functions in JS. '
 

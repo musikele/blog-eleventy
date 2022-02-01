@@ -7,8 +7,8 @@ layout: post
 date: 2020-01-30
 tags:
   - post
-- books
-- devops
+  - books
+  - devops
 title: a review of the book The Phoenix Project
 header-img: "/images/the_phoenix_project.jpg"
 description: a review of the phoenix project, and how devops saved a company enhancing

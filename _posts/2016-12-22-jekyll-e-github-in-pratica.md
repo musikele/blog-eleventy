@@ -7,10 +7,10 @@ categories:
 - Italiano
 tags:
   - post
-- github
-- blogging
-- jekyll
-- markdown
+  - github
+  - blogging
+  - jekyll
+  - markdown
 ---
 In questo articolo spiegheremo rapidamente come installare un blog jekyll su github.
 
@@ -18,7 +18,7 @@ In questo articolo spiegheremo rapidamente come installare un blog jekyll su git
 
 > **Nerd Alert**: dovete saper usare il **terminale** e **git** ! Se volete, facciamo un tutorial anche su questi due argomenti.
 
-> Ho [parlato ampiamente]({% post_url 2016-12-18-le-tecnologie-che-compongono-un-blog-jekyll %}) del perchè Jekyll sia una buona soluzione di blogging, adatta agli sviluppatori.
+> Ho [parlato ampiamente](/2016/12/18/le-tecnologie-che-compongono-un-blog-jekyll.html) del perchè Jekyll sia una buona soluzione di blogging, adatta agli sviluppatori.
 
 ## Inizializzare Github
 

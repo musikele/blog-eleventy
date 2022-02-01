@@ -7,9 +7,9 @@ layout: post
 date: 2019-08-17
 tags:
   - post
-- Javascript
-- " Interview"
-- " Questions"
+  - Javascript
+  - Interview
+  - Questions
 title: What is the difference between var, let and const in Javascript
 header-img: "/images/proxy.duckduckgo.com-2.jpeg"
 description: 'Var is deprecated; let and const are introduced with es6. Let''s see

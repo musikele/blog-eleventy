@@ -5,13 +5,13 @@ author: musikele
 title: Un programmatore dovrebbe continuare a programmare nel suo tempo libero?
 category: Italiano
 layout: post
-date: 2018-04-05 00:00:00 +0000
+date: 2018-04-05 00:00:00
 tags:
   - post
-- programming
-- tempo libero
-- programmatore
-- riflessioni
+  - programming
+  - tempo libero
+  - programmatore
+  - riflessioni
 header-img: "/images/rtryt.jpg"
 description: Qualche considerazione sparsa sul tempo libero di un programmatore.
 ---

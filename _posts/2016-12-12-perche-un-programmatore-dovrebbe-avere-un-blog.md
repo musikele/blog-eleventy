@@ -7,10 +7,10 @@ categories:
 - Italiano
 tags:
   - post
-- github
-- blogging
-- developer 
-- programmer
+  - github
+  - blogging
+  - developer 
+  - programmer
 ---
 
 E' molto probabile che se leggi questo blog sei uno sviluppatore e ti starai chiedendo se è il caso di iniziare a bloggare di informatica e programmazione. La mia risposta è senza dubbio **si**. 

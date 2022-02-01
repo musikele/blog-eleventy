@@ -7,7 +7,7 @@ category: Italiano
 layout: post
 tags:
   - post
-- elon musk
+  - elon musk
 ---
 
 Stamattina ho "audioascoltato" [un libro su Elon Musk](http://amzn.to/2ullR8A), che è davvero un personaggio fuori dalle righe. Mi hanno colpito un paio di passaggi.

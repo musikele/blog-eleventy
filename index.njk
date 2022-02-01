@@ -1,0 +1,40 @@
+---
+layout: default
+pagination:
+  data: collections.post
+  size: 10
+  alias: posts
+  reverse: true
+---
+
+<!-- Main -->
+<div id="main">
+  <section>
+    {% for post in posts  %}
+      
+      <header class="major">
+        <a href="{{ post.url }}">
+          <h1>{{ post.data.title }}</h1>
+        </a>
+        <p class="post-meta">{{ post.date }}
+          {% if post.author %} 
+            • {{ post.author }}
+          {% endif %}
+          {% if page.meta %} 
+            • {{ page.meta}}
+          {% endif %}
+          </p>
+      </header>
+
+      <section>
+        {{ post.data.excerpt }} <a href="{{post.url}}">Read More...</a> 
+      </section>
+
+      <hr/>
+
+    {% endfor %}
+
+    <section class="button-container">
+        <a href="archives/page2/" class="button"><< Older Posts</a> 
+    </section>
+  </section>

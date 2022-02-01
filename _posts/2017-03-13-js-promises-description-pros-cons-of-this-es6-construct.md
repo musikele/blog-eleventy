@@ -5,12 +5,12 @@ author: musikele
 title: 'JS Promises: description, pros, cons of this ES6 construct'
 category: English
 layout: post
-date: '2017-03-12T13:06:29+00:00'
+date: 2017-03-12T13:06:29+00:00
 tags:
   - post
-- javascript
-- es6
-- promises
+  - javascript
+  - es6
+  - promises
 ---
 I hope that you have done some kind of exploration with Javascript, NodeJS and asynchronous constructs right now.
 

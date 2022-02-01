@@ -7,8 +7,8 @@ layout: post
 date: 2019-06-24
 tags:
   - post
-- typescript
-- javascript
+  - typescript
+  - javascript
 title: 'Typescript: why so complicated?! (A list of my preferred options)'
 header-img: "/images/typescript-cover-image.jpg"
 description: Typescript does not have sane defaults and I had to experiment a lot

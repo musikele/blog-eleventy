@@ -1,19 +1,19 @@
 ---
 author: musikele
 comments: true
-date: 2017-08-06 15:11:47 +0000
+date: 2017-08-06 15:11:47
 layout: post
 paginate: true
 tags:
   - post
-- vacanze
-- valledaosta
-- cogne
-- arpy
-- lillaz
-- bionaz
-- prarayer
-- vda
+  - vacanze
+  - valledaosta
+  - cogne
+  - arpy
+  - lillaz
+  - bionaz
+  - prarayer
+  - vda
 title: Guida alla Val d'Aosta con un neonato
 categories: Italiano
 header-img: "/images/cogne.JPG"

@@ -5,13 +5,13 @@ author: musikele
 title: 'Cambia la tua vita lavorativa! (partecipando a uno Startup Weekend) '
 category: Italiano
 layout: post
-date: 2018-04-23 00:00:00 +0200
+date: 2018-04-23 00:00:00
 tags:
   - post
-- Startup weekend salerno
-- Startup
-- Sws18
-- Mentor
+  - Startup weekend salerno
+  - Startup
+  - Sws18
+  - Mentor
 header-img: "/images/IMG_20180422_132054.jpg"
 description: 'Cos''é uno Startup Weekend, cosa si impara e come? Un evento che consiglio
   a tutti, in cui si impara a diventare imprenditori di sé stessi. '

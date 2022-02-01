@@ -7,10 +7,10 @@ layout: post
 date: 2019-06-27
 tags:
   - post
-- typescript
-- babel
-- webpack
-- eslint
+  - typescript
+  - babel
+  - webpack
+  - eslint
 title: 'Typescript, Babel, Webpack, ESLint: my configuration'
 header-img: "/images/typescript-cover-image.jpg"
 description: 'Here''s a little guide on how to setup a project with Typescript, Babel,

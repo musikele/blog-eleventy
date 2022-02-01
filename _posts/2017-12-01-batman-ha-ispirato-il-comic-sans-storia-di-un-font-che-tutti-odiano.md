@@ -5,16 +5,16 @@ author: musikele
 title: 'Batman ha ispirato il ... Comic Sans: storia di un Font che tutti odiano'
 category: Italiano
 layout: post
-date: 2017-12-01 00:00:00 +0000
+date: 2017-12-01 00:00:00
 tags:
   - post
-- comic sans
-- font
-- storia
-- vincent connaire
-- microsoft
-- microsoft bob
-- design
+  - comic sans
+  - font
+  - storia
+  - vincent connaire
+  - microsoft
+  - microsoft bob
+  - design
 header-img: "/images/ComicSans.gif"
 description: 'La storia che sto per raccontarvi riguarda uno degli aspetti più mitologici
   dell''informatica intera: il Comic Sans, il carattere più odiato in assoluto, ma

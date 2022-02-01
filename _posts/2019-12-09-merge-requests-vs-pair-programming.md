@@ -7,9 +7,9 @@ layout: post
 date: 2019-12-09
 tags:
   - post
-- pair programming
-- pull request
-- remote work
+  - pair programming
+  - pull request
+  - remote work
 title: 'Pair Programming vs Pull Requests '
 header-img: "/images/330px-Pair_programming_1.jpg"
 description: 'What is good, and what is wrong, in pair programming? And in Merge Requests

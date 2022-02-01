@@ -5,14 +5,14 @@ author: musikele
 title: Cinque tool per migliorare la vostra developer experience
 category: Italiano
 layout: post
-date: '2017-05-30T12:07:50+00:00'
+date: 2017-05-30T12:07:50+00:00
 tags:
   - post 
-- git flow
-- mac-cli
-- oh-my-zsh
-- postman
-- ngrok
+  - git flow
+  - mac-cli
+  - oh-my-zsh
+  - postman
+  - ngrok
 ---
 
 

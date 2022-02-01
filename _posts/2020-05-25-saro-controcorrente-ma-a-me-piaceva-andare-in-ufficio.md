@@ -12,11 +12,11 @@ description: Non fraintendetemi, non mi piaceva mica il traffico o il tempo pers
 header-img: "/images/top-view-photo-of-people-near-wooden-table-3183150.jpg"
 tags:
   - post
-- Lavoro
-- Colleghi
-- Covid
-- Remote working
-- Smart working
+  - Lavoro
+  - Colleghi
+  - Covid
+  - Remote working
+  - Smart working
 
 ---
 Non fraintendetemi, non mi piaceva mica il traffico o il tempo perso per raggiungere l'ufficio, o il capo spocchioso. A me piaceva proprio conversare con i miei colleghi.

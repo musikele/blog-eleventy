@@ -5,13 +5,13 @@ author: musikele
 title: Essere programmatori e vivere di progetti propri
 category: Italiano
 layout: post
-date: 2018-01-06 00:00:00 +0000
+date: 2018-01-06 00:00:00
 tags:
   - post
-- michele risponde
-- lavoro
-- informatico
-- programmatore
+  - michele risponde
+  - lavoro
+  - informatico
+  - programmatore
 header-img: "/images/Best Money Making Computer Fields.jpg"
 description: 'Rispondo alla domanda di un giovane studente: si può vivere di programmi
   fatti da sè? Dove trovare l''ispirazione? '

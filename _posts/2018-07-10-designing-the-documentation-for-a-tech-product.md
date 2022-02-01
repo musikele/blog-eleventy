@@ -5,11 +5,11 @@ author: musikele
 title: Designing the documentation for a tech product
 category: English
 layout: post
-date: 2018-07-10 00:00:00 +0200
+date: 2018-07-10 00:00:00
 tags:
   - post
-- Documentation
-- Work
+  - Documentation
+  - Work
 header-img: "/images/documentation.png"
 description: 'What makes great a product? The features, the ease of use, and obviously
   all of this must be explained in a great documentation: one of my jobs. '

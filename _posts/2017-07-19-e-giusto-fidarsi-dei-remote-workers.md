@@ -7,10 +7,10 @@ category: Italiano
 layout: post
 tags:
   - post
-- lavoro remoto
-- remote working
-- remote
-- bemind
+  - lavoro remoto
+  - remote working
+  - remote
+  - bemind
 ---
 
 

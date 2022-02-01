@@ -7,9 +7,9 @@ layout: post
 date: 2020-09-06
 tags:
   - post
-- music
-- wave
-- nodejs
+  - music
+  - wave
+  - nodejs
 title: What is a WAV file?
 header-img: "/images/waveform_post.png"
 description: 'In the linked video, you''ll see how wave files are made and how to

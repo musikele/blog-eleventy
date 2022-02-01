@@ -5,15 +5,15 @@ author: musikele
 title: Proteggi le tue applicazioni Express con HelmetJs
 category: Italiano
 layout: post
-date: 2018-05-06 00:00:00 +0200
+date: 2018-05-06 00:00:00
 header-img: "/images/testuggine-8.jpg"
 tags:
   - post
-- express
-- helmetjs
-- helmet
-- security
-- node
+  - express
+  - helmetjs
+  - helmet
+  - security
+  - node
 description: 'Helmet è un middleware che agganci ad Express e la tua app è immediatamente
   più sicura. '
 ---

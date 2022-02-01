@@ -4,12 +4,12 @@ comments: true
 author: musikele
 title: All my articles about Testing in Javascript in one post
 layout: post
-date: '2017-04-08T13:23:03+00:00'
+date: 2017-04-08T13:23:03+00:00
 tags:
   - post
-- testing
-- nodejs
-- javascript
+  - testing
+  - nodejs
+  - javascript
 categories: English
 ---
 

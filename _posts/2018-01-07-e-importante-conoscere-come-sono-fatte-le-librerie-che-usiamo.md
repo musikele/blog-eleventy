@@ -5,14 +5,14 @@ author: musikele
 title: E' importante conoscere come sono fatte le librerie che usiamo?
 category: Italiano
 layout: post
-date: 2018-01-07 00:00:00 +0000
+date: 2018-01-07 00:00:00
 tags:
   - post
-- michele risponde
-- programmazione
-- elon musk
-- tesla
-- spacex
+  - michele risponde
+  - programmazione
+  - elon musk
+  - tesla
+  - spacex
 description: Rispondo alla domanda di uno studente, preoccupato perchè usa librerie
   di cui non conosce come sono fatte internamente. Dobbiamo reinventare la ruota ogni
   volta? O fare come Elon Musk?

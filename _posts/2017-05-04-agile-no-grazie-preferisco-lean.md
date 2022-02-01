@@ -7,10 +7,10 @@ category: Italiano
 layout: post
 tags:
   - post
-- agile
-- Lean
-- scrum
-- metodologie
+  - agile
+  - Lean
+  - scrum
+  - metodologie
 ---
 
 Agile, agile, agile... ormai tutti fanno Agile, implementando un framework tipo Scrum (che è uno dei possibili modi di essere Agile). 

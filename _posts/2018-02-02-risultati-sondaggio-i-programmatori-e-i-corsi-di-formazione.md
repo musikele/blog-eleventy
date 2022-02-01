@@ -5,15 +5,15 @@ author: musikele
 title: "[Risultati Sondaggio] - I programmatori e i corsi di formazione"
 category: Italiano
 layout: post
-date: 2018-02-02 00:00:00 +0000
+date: 2018-02-02 00:00:00
 tags:
   - post
-- sondaggio
-- risultati
-- corsi di formazione
-- corso di formazione
-- devday
-- devday salerno
+  - sondaggio
+  - risultati
+  - corsi di formazione
+  - corso di formazione
+  - devday
+  - devday salerno
 header-img: "/images/devday_salerno.png"
 description: come si aggiornano gli informatici salernitani? Cosa ne pensano dei corsi
   di formazione? In questo articolo analizzeremo i risultati di un nostro sondaggio.

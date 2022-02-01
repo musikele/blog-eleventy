@@ -7,8 +7,8 @@ layout: post
 date: 2019-04-03
 tags:
   - post
-- ssh
-- tutorial
+  - ssh
+  - tutorial
 title: 'SSH cheatsheet (from zero to hero) '
 header-img: "/images/ssh-big.png"
 description: 'SSH is one of the fundamental tools you must master to become a successful

@@ -8,10 +8,10 @@ layout: post
 date: 2018-11-05
 tags:
   - post
-- zakas
-- eslint
-- people
-- javascript
+  - zakas
+  - eslint
+  - people
+  - javascript
 header-img: "/images/eslint.png"
 description: 'Usually in software engineering world we talk about programming and
   not about the people behind it. Let''s start a new path talking about Nicholas Zakas,

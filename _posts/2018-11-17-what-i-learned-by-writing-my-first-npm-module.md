@@ -8,8 +8,8 @@ layout: post
 date: 2018-11-17
 tags:
   - post
-- javascript
-- nodejs
+  - javascript
+  - nodejs
 header-img: "/images/index.png"
 description: 'I wrote a little browser npm utility just for fun, but the process from
   code to npm is not so straightforward. Let''s have a look at all my mistakes and

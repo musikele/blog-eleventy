@@ -9,29 +9,24 @@ layout: default
 			<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta
 				}}{% endif %}</p>
 			 
-			{% include tags.html %}
+			{% include './tags.html' %}
 		</header>
 
 		<section>
 			
 			{{ content }} 
 			
-			{% include social.md %}
+			{% include "./social.md" %}
 
-			{% include tags.html %}
+			{% include "./tags.html" %}
 
-			{% include related_posts.html %}
+			{% include "./related_posts.html" %}
 		</section>
 
 		<section>
-			{% if page.comments %} {% include disqus.html %} {% endif %}
+			{% if page.comments %} {% include "./disqus.html" %} {% endif %}
 		</section>
-
-		<footer>			
-			{% include next_post.html %}
-		</footer>
 
 	</article>
 
 </div>
-<script src="{{ '/js/infinite-scroll.js' | relative_url }}"></script>

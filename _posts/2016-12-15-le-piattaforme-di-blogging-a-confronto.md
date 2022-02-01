@@ -20,7 +20,7 @@ Ho iniziato la mia avventura circa 10 anni fa usando **Wordpress**, un'eccellent
 
 <img src="{{site.baseurl}}/images/blogging_platforms.png">
 
-> Per avere una visione più chiara dell'argomento *blogging for developers*, leggete anche il mio articolo precedente: [Perché un programmatore dovrebbe avere un blog]({% post_url 2016-12-12-perche-un-programmatore-dovrebbe-avere-un-blog %})
+> Per avere una visione più chiara dell'argomento *blogging for developers*, leggete anche il mio articolo precedente: [Perché un programmatore dovrebbe avere un blog](/2016/12/12/perche-un-programmatore-dovrebbe-avere-un-blog.html)
 
 Tuttavia Wordpress ha alcuni requisiti che durano da 10 anni, ossia PHP e MySql. Ciò significa che per avere un blog bisogna necessariamente comprare uno spazio di hosting da qualche parte (a dire la verità i prezzi sono anche molto bassi per piattaforme non proprio performanti). Il modello di richiesta/risposta utilizzato da worpdress (principalmente *Apache*) e il fatto che per ogni richiesta si vada sul db, l'hanno resa una delle piattaforme più lente in assoluto. 
 
@@ -40,4 +40,4 @@ Quasi tutte le piattaforme di cui vi ho parlato permettono di integrare codice e
 
 La mia scelta è ricaduta su [**Jekyll**](http://jekyllrb.com), anzi per essere precisi sull'accoppiata **Jekyll + Github**. Queste tecnologie sono alla base del blog che vedete ora, e in un prossimo articolo vi spiegherò le infinite potenzialità di questa scelta. 
 
-> Update: l'articolo su [Jekyll & Github]({% post_url 2016-12-22-jekyll-e-github-in-pratica %}) l'ho pubblicato. Check it out! 
+> Update: l'articolo su [Jekyll & Github](/2016/12/22/jekyll-e-github-in-pratica.html) l'ho pubblicato. Check it out! 

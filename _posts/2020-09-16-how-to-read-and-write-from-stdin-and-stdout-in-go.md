@@ -11,8 +11,8 @@ description: 'Using the Go programming language, i''ll explain some basic featur
 header-img: "/images/golang.png"
 tags:
   - post
-- go
-- hello world
+  - go
+  - hello world
 
 ---
 At my current job we have some projects that were realized using the **Go programming language**. The cool thing is, programmers that have used it are in love with it, and these applications never crash, not even under heavy load. This is great, for example, for applications that have to process a stream of data as fast as possible.

@@ -8,19 +8,19 @@ layout: post
 date: 2018-12-12
 tags:
   - post
-- html
-- " javascript"
-- css
-- internet explorer
-- jquery
-- chrome
-- firefox
-- edge
-- safari
-- microsoft
-- google
-- apple
-- mozilla
+  - html
+  - javascript
+  - css
+  - internet explorer
+  - jquery
+  - chrome
+  - firefox
+  - edge
+  - safari
+  - microsoft
+  - google
+  - apple
+  - mozilla
 header-img: "/images/1472784019browser-wars-over.png"
 description: 'Starting from 2006, what is changed to the web plaftorm, what we have
   now and where are we going. Should we leave all the web to only one browser? '

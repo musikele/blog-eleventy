@@ -5,16 +5,16 @@ author: musikele
 title: 'Windows non fa più così schifo: recensione Dell XPS 15" 9560 (2017)'
 category: Italiano
 layout: post
-date: 2017-10-03 00:00:00 +0000
+date: 2017-10-03 00:00:00
 tags:
   - post
-- Dell
-- XPS
-- recensione
-- computer 
-- laptop
-- mac
-- windows
+  - Dell
+  - XPS
+  - recensione
+  - computer 
+  - laptop
+  - mac
+  - windows
 ---
 
 Appena ho finito l'università ho acquistato un Macbook Air, che è durato ben 5 anni (!). All'epoca lo presi perchè, da neolaureato, non volevo chiudermi l'opzione di realizzare app per iOS, cosa che poi non è mai avvenuta. Quindi per il  lavoro di tutti i giorni ho deciso di uscire dalla comfort zone e prendere un nuovo pc: un **[Dell XPS 9560](http://www.dell.com/it/p/xps-15-9560-laptop/pd?oc=cnx95604&model_id=xps-15-9560-laptop), con schermo da 15"**. 

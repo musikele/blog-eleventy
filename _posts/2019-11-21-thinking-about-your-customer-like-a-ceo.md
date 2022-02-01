@@ -7,8 +7,8 @@ layout: post
 date: 2019-11-21
 tags:
   - post
-- customers
-- work
+  - customers
+  - work
 title: 'Thinking of customers like a CEO: lessons learned along the way'
 header-img: "/images/customer.jpg"
 description: 'customers represent the best resource of every company, but do we really

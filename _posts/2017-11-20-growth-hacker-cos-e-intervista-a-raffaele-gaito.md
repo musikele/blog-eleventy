@@ -5,7 +5,7 @@ author: musikele
 title: 'Growth Hacker: cos''è? Intervista a Raffaele Gaito'
 category: Italiano
 layout: post
-date: 2017-11-18 00:00:00 +0000
+date: 2017-11-18 00:00:00
 tags:
   - post [growth hacking, raffaele gaito, marketing,libro]
 header-img: "/images/raf_gaito.jpg"

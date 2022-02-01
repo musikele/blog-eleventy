@@ -5,11 +5,11 @@ author: musikele
 title: Come realizzare un form esterno (Es. assistenza) che manda dati a MagNews
 category: Italiano
 layout: post
-date: 2018-04-05 00:00:00 +0000
+date: 2018-04-05 00:00:00
 tags:
   - post
-- magnews
-- form submission
+  - magnews
+  - form submission
 description: 'Come inviare dati da un form esterno a MagNews? Qui una guida "a futura
   memoria". '
 header-img: "/images/logo-magnews-600x400.jpg"

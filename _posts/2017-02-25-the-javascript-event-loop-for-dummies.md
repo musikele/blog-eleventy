@@ -1,15 +1,15 @@
 ---
 title: The Javascript Event Loop for dummies
-date: '2017-02-25 11:29:00'
+date: 2017-02-25 11:29:00
 paginate: true
 comments: true
 author: musikele
 layout: post
 tags:
   - post
-- javascript
-- async
-- event loop
+  - javascript
+  - async
+  - event loop
 permalink: the-javascript-event-loop-for-dummies/
 category: English
 ---

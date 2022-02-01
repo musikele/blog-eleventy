@@ -5,11 +5,11 @@ author: musikele
 title: Things you may not know about Object Oriented Javascript (Es6)
 category: English
 layout: post
-date: 2018-09-03 00:00:00 +0200
+date: 2018-09-03 00:00:00
 tags:
   - post
-- javascript
-- es6
+  - javascript
+  - es6
 header-img: "/images/es6.jpeg"
 description: 'Features that are very handy in Object Oriended Javascript: getters
   & setters, and static methods. '

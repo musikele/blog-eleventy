@@ -5,12 +5,12 @@ author: musikele
 title: Come creare luoghi di lavoro in cui é bello recarsi
 category: Italiano
 layout: post
-date: 2018-06-20 00:00:00 +0200
+date: 2018-06-20 00:00:00
 tags:
   - post
-- lavoro
-- work
-- ufficio
+  - lavoro
+  - work
+  - ufficio
 header-img: "/images/Indoor-Garden-For-Office-Building-2013-Glass-Ceiling-With-Steel-And-Wooden-Frame-Design.jpg"
 description: 'Perchè la gente vuole lavorare da remoto? Non solo il tempo o i soldi
   sono il fattore principale; se l''ambiente di lavoro fosse accogliente, le persone

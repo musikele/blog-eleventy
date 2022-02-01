@@ -8,9 +8,9 @@ layout: post
 date: 2019-01-17
 tags:
   - post
-- lavoro
-- job
-- remote
+  - lavoro
+  - job
+  - remote
 header-img: "/images/Zurich_Hero.jpg"
 description: 'New job in Zurich! Partially remote but still flying to Zurich from
   time to time. '

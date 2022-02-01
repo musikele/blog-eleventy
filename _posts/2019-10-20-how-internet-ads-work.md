@@ -7,12 +7,12 @@ layout: post
 date: 2019-10-21
 tags:
   - post
-- ads
-- google
-- prebid
-- dfp
-- hb
-- header bidding
+  - ads
+  - google
+  - prebid
+  - dfp
+  - hb
+  - header bidding
 title: How internet ads work
 header-img: "/images/pexels-photo-802024.jpeg"
 description: 'header bidding, DFP, GAM, cpm ... welcome in the world of ads, where

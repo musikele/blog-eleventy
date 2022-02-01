@@ -11,17 +11,17 @@ description: 'For one of our latest projects we evaluated many frontend framewor
 header-img: "/images/frontend-frameworks.png"
 tags:
   - post
-- frontend
-- angular 
-- react
-- vuejs
-- preact
-- svelte
-- lit
-- webcomponents
-- ssr
-- nextjs
-- ejs
+  - frontend
+  - angular 
+  - react
+  - vuejs
+  - preact
+  - svelte
+  - lit
+  - webcomponents
+  - ssr
+  - nextjs
+  - ejs
 
 ---
 

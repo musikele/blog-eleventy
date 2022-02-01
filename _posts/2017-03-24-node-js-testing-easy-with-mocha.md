@@ -4,16 +4,16 @@ comments: true
 author: musikele
 title: Easy testing of NodeJS applications with Mocha
 layout: post
-date: 2017-03-23 18:13
+date: 2017-03-23 18:13:00
 tags:
   - post
-- Javascript
-- Nodejs
-- Testing
-- Mocha
+  - Javascript
+  - Nodejs
+  - Testing
+  - Mocha
 categories: English
 ---
-Testing in Javascript has become an immensely popular argument, but still there's a lot of people that has not clear how to do it effectively. [I was one of these]({% post_url 2016-08-30-my-very-personal-javascript-fatigue %}). There are many troubles that a young developer has to overcome in order to master Javascript testing. In this article, I'm going to explain Javascript testing with Mocha, a powerful library.
+Testing in Javascript has become an immensely popular argument, but still there's a lot of people that has not clear how to do it effectively. [I was one of these](/2016/08/my-very-personal-javascript-fatigue/). There are many troubles that a young developer has to overcome in order to master Javascript testing. In this article, I'm going to explain Javascript testing with Mocha, a powerful library.
 
 ## Why testing in Javascript
 

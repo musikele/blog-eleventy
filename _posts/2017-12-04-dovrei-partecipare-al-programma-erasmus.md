@@ -5,13 +5,13 @@ author: musikele
 title: Dovrei partecipare al programma Erasmus?
 category: Italiano
 layout: post
-date: 2017-12-04 00:00:00 +0000
+date: 2017-12-04 00:00:00
 tags:
   - post
-- erasmus
-- studio
-- life
-- università
+  - erasmus
+  - studio
+  - life
+  - università
 description: Chiunque dovrebbe fare l'Erasmus. Anche chi non va all'università. Specialmente
   chi è fidanzato/a. Specialmente chi ha paura. Tutti
 header-img: "/images/erasmus1.jpg"

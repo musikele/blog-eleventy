@@ -5,12 +5,12 @@ author: musikele
 title: 'Get the list of files blocked by a process in Linux '
 category: English
 layout: post
-date: 2018-06-19 00:00:00 +0200
+date: 2018-06-19 00:00:00
 tags:
   - post
-- linux
-- shell
-- bash
+  - linux
+  - shell
+  - bash
 header-img: "/images/find-file-linux-code_magnifying_glass_zero.png"
 description: let's find how to find files read by a linux process. It's super easy!
 ---

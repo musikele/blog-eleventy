@@ -8,9 +8,9 @@ layout: post
 date: 2018-07-22
 tags:
   - post
-- nodejs
-- configuration
-- laravel
+  - nodejs
+  - configuration
+  - laravel
 header-img: "/images/conifer-daylight-environment-454880.jpg"
 description: 'A Laravel-style configuration sytem for NodeJS. '
 
