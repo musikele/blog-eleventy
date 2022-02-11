@@ -93,17 +93,17 @@ $ docker exec -t -i daemon_dave /bin/bash
 
 ## Stopping & Deleting
 
-```console
+```shell
 $ docker stop CONTAINER 
 ```
 
-```console
+```shell
 $ docker rm CONTAINER 
 ```
 
 ## Listing docker images
 
-```console
+```shell
 $ docker images
 ```
 

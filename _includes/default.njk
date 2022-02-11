@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Michele Nasti's blog</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="/" class="blog-name">Michele Nasti's Blog - Home</a></li>
+                <li><a href="/chi-sono-michele-nasti/">About</a></li>
+                <li><a href="/talks-conferences/">Talks & Conferences</a></li>
+            </ul>
+        </nav>
+        <section class="container">
+                {{ content | safe }}
+        </section>
+    </body>
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+</html>

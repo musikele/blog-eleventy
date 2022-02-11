@@ -7,14 +7,12 @@ pagination:
   reverse: true
 ---
 
-<!-- Main -->
-<div id="main">
   <section>
     {% for post in posts  %}
       
       <header class="major">
         <a href="{{ post.url }}">
-          <h1>{{ post.data.title }}</h1>
+          <h2>{{ post.data.title }}</h2>
         </a>
         <p class="post-meta">{{ post.date }}
           {% if post.author %} 

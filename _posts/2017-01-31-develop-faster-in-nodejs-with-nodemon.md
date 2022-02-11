@@ -12,7 +12,7 @@ Are you frustrated when you hit an error in your NodeJS application because, aft
 
 When you start a NodeJS application, you usually do something like this:
 
-```console
+```shell
 $ node app.js 
 ```
 
@@ -26,13 +26,13 @@ That's what [_nodemon_](https://github.com/remy/nodemon) is for. It will restart
 
 Simply install it globally
 
-```console
+```shell
 $ npm install -g nodemon 
 ```
 
 and start your applications with nodemon:
 
-```console
+```shell
 $ nodemon app.js 
 ```
 

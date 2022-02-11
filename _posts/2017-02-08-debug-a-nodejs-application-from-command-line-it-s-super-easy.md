@@ -34,7 +34,7 @@ console.log(book);
 
 To run this file you can launch `node book.js`; however, in case you want to **debug** you just add an option:
 
-```terminal
+```bash
 $ node debug book.js 
 
 < Debugger listening on 127.0.0.1:5858
@@ -54,7 +54,7 @@ Nodejs has blocked the execution at line 1 of the file, as you can see from the 
 
 To continue to the next line, press `n`(next) and hit Enter:
 
-```terminal
+```bash
 debug> n
 break in book.js:6
   4 };
@@ -82,7 +82,7 @@ book.category = 'recipes';
 
 if we want to jump directly to the place where the `debugger` instruction is, you can just hit `c` (continue):
 
-```terminal
+```bash
 debug> c
 break in book.js:7
   5
@@ -99,7 +99,7 @@ Ok, now we know how to stop in a nodejs application, but how can we inspect the 
 
 just hit `repl`:
 
-```terminal
+```bash
 debug> repl
 Press Ctrl + C to leave debug repl
 >
@@ -107,7 +107,7 @@ Press Ctrl + C to leave debug repl
 
 Now we are in a Javascript console, like the one we have in a browser. we can execute expressions like `var a = 1+3`; the interesting thing is that we have **access to variables defined until the break point**: infact we can inspect our `book` variable and see that ...
 
-```terminal
+```bash
 > book
 { title: 'cooking with Trump', ISBN: '1234567' }
 ```

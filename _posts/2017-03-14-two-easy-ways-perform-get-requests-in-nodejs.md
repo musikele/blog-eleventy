@@ -38,7 +38,7 @@ results[0].geometry.location.lng
 
 The first library I'm going to talk is simply called [`request`](https://www.npmjs.com/package/request). Install as always:
 
-```console
+```shell
 $ npm install request --save
 ```
 
@@ -91,7 +91,7 @@ The one I use, and that is super popular, is called **[`Axios`](https://www.npmj
 
 To install:
 
-```console
+```shell
 $ npm install axios
 ```
 

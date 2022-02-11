@@ -222,7 +222,7 @@ this article doesn't really cover Jest and Typescript, but I'll only add this qu
 
 install `ts-jest`:  
 
-```basj
+```shell
 $ npm i --save-dev ts-jest
 ```
 

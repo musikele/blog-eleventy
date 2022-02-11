@@ -47,14 +47,14 @@ Go compiler will create a `hello-world` executable that we can lunch, on Linux a
 
 Some may say that it's boring to compile & launch so **Go offers the `run` mode, that will execute the two steps for you:**
 
-```console
+```shell
 $ go run hello-world.go 
 .... (program output here) 
 ```
 
 And finally: **go has an official formatting tool**. This means that you cannot decide how many spaces (or tabs), or how long your lines should be, etc. Smart IDEs like Visual Studio Code with the Go extension will automagically run the formatting tool for you at every save. But if you want to run it from the command line:
 
-```console
+```shell
 $ go fmt hello-world.go 
 ```
 

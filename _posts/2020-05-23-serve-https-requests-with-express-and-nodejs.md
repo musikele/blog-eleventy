@@ -37,7 +37,7 @@ So I needed to serve my files over https. How to do that?
 
 First of all, we need to **generate a certificate** that will be used by our https server. In the same folder of express `index.js`, run this command on mac or linux:
 
-```console
+```shell
 $ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./selfsigned.key -out selfsigned.crt
 ```
 

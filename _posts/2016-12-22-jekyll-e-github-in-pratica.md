@@ -4,7 +4,7 @@ date: 2016-12-22
 author: musikele
 layout: post
 categories:
-- Italiano
+  - Italiano
 tags:
   - post
   - github
@@ -35,14 +35,14 @@ Qualunque scelta abbiate fatto, siete già pronti per servire i vostri file. Fac
 
 1.  Create e scaricate il repository col vostro username in locale
 
-```terminal
+```bash
 $ git clone https://github.com/<username>/<username>.github.io.git
 $ cd <username>.github.io 
 ```
 
 1.  in questa directory potrete creare un simpatico file html e committarlo: sarà automaticamente servito :)
 
-```terminal
+```bash
 $ echo <h1>Hello World</h1> >> index.html
 $ git commit -am "first commit"
 $ git push 
@@ -58,7 +58,7 @@ Per prima cosa [installate Ruby](https://www.ruby-lang.org/it/), un linguggio di
 
 Una volta installato ruby, dovrete installare jekyll. Questo passo sarà facile grazie a un comando (`gem`) incluso in ruby che permette di installare script:
 
-```terminal
+```bash
 $ gem install jekyll bundler
 ```
 
@@ -68,14 +68,14 @@ Ora jekyll è installato sul vostro sistema come applicativo utilizzabile da con
 
 Assumendo di trovarci nella cartella del bog (`<username>.github.io/`), cancelliamo tutti i file precedentemente creati e creiamo la struttura di jekyll:
 
-```terminal
+```bash
 $ rm ./* # cancelliamo ogni file precedentemente creato... 
 $ jekyll new . # crea la struttura base di jekyll nella directory corrente 
 ```
 
 Verifichiamo che funziona tutto, lanciamo jekyll:
 
-```terminal
+```bash
 $ bundle exec jekyll serve 
   # => Now browse to http://localhost:4000 
   # Ctrl+C per interrompere 
@@ -83,7 +83,7 @@ $ bundle exec jekyll serve
 
 Questo è un buon momento per committare...
 
-```terminal
+```bash
 $ git commit -am "jekyll new ."
 $ git push
 ```

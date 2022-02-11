@@ -1,0 +1,30 @@
+--- 
+layout: default
+---
+
+<div id="main">
+	<article>
+		<header class="major">
+			<h1 class="post-title"><a href="{{page.url}}">{{ page.title }}</a></h1>
+			<p class="post-meta">{{ page.date }} {% if page.author %} • {{ page.author }}{% endif %} {% if page.meta %} • {{ page.meta
+				}}{% endif %}</p>
+			 
+		</header>
+
+		<section>
+			
+			{{ content }} 
+			
+			{% include "./social.md" %}
+
+		</section>
+
+		<section>
+			{% if page.comments %} 
+				{% include "./disqus.html" %} 
+			{% endif %}
+		</section>
+
+	</article>
+
+</div>

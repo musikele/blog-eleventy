@@ -10,7 +10,7 @@ tags:
 ---
 Se avete scritto uno script bash *complesso* e volete cosa accade step by step, una soluzione semplice è usare lanciare il comando così: 
 
-```console
+```shell
 $ bash -x script.sh 
 ```
 

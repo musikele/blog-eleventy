@@ -12,7 +12,7 @@ When dealing with command line arguments in NodeJS we all know that we have to e
 
 This object contains all the strings that compose our nodejs app, so for example 
 
-```terminal
+```bash
 $ node bank.js balance 
 ```
 
@@ -33,13 +33,13 @@ That's a simple case, and we know that `process.argv[2]` will contain the "comma
 
 But what if we want to accept parameters like:
 
-```terminal
+```bash
 $ node bank.js sendMoney --recipient="James" 
 ```
 
 or this:
 
-```terminal
+```bash
 $ node bank.js sendMoney --recipient "James Woods" 
 ```
  
@@ -53,7 +53,7 @@ Yargs is completely configurable, but its defaults are the best choice for you a
 
 First, let's install this module and save it in our current project: 
 
-```terminal
+```bash
 $ npm i -s yargs 
 ```
 
@@ -68,7 +68,7 @@ Now we have an object `argv` with all the properties set to the command line.
 
 Let's do a quick example: 
 
-```terminal
+```bash
 $ node bank.js sendMoney --recipient "James Woods" 
 ```
 

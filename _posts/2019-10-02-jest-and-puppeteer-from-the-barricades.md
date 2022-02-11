@@ -62,7 +62,7 @@ To install:
 
 and, for the purpose of using ES6 syntax:
 
-```console
+```shell
 npm i --save-dev babel-jest @babel/core @babel/preset-env
 ```
 
@@ -298,7 +298,7 @@ Now let's talk about... Puppeteer.
 
 [Puppeteer](https://pptr.dev/) is a node library that allows to control a Chromium instance. Let's quiclky see an example. To install:
 
-```console
+```shell
 $ npm i --save-dev puppeteer 
 ```
 
@@ -339,7 +339,7 @@ Nothing more to say, we are ready to glue together jest + puppeteer in our tests
 
 Let's instal [jest-puppeteer](https://github.com/smooth-code/jest-puppeteer), a jest plugin to remote-control puppeteer in jest:
 
-```console
+```shell
 $ npm install --save-dev jest-puppeteer
 ```
 

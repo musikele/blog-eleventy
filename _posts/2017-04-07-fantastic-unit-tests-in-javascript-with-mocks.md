@@ -64,7 +64,7 @@ To test `app.js` we need [`rewire`](https://www.npmjs.com/package/rewire), a nod
 
 To install: 
 
-```console
+```shell
 $ npm i --save-dev rewire 
 ```
 
