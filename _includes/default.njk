@@ -4,21 +4,27 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Michele Nasti's blog</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 		<link rel="stylesheet" href="css/custom.css">
     </head>
     <body>
-        <nav class="menu">
-            <ul>
-                <li><a href="/" class="blog-name">Michele Nasti's Blog - Home</a></li>
-                <li><a href="/chi-sono-michele-nasti/">About</a></li>
-                <li><a href="/talks-conferences/">Talks & Conferences</a></li>
-            </ul>
-        </nav>
-        <section class="container">
+        <header>
+            <nav>
+                
+                <a href="/" class="blog-name">Michele Nasti's Blog - Home</a>
+                <a href="/chi-sono-michele-nasti/">About</a>
+                <a href="/talks-conferences/">Talks & Conferences</a>
+                
+            </nav>
+
+            <h1>Michele Nasti's Blog</h1>
+            <p>I am a full stack developer with an eye for the web.</p>
+        </header>
+        <main>
                 {{ content | safe }}
-        </section>
+        </main>
+        <footer>
+            this is a footer
+        </footer>
     </body>
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </html>

@@ -11,21 +11,20 @@ pagination:
     {% for post in posts  %}
       
       <header class="major">
+        <img src="{{post.data["header-img"]}}">
         <a href="{{ post.url }}">
           <h2>{{ post.data.title }}</h2>
         </a>
-        <p class="post-meta">{{ post.date }}
-          {% if post.author %} 
-            • {{ post.author }}
-          {% endif %}
-          {% if page.meta %} 
-            • {{ page.meta}}
-          {% endif %}
-          </p>
       </header>
 
       <section>
-        {{ post.data.excerpt }} <a href="{{post.url}}">Read More...</a> 
+        <P>{{ post.data.description }}</P>
+        <P>{{ post.date | postDate }}</P>
+        <ul class="tags">
+        {% for tag in post.data.tags %}
+        <li>{{tag}}</li>
+        {% endfor %}
+        </ul>
       </section>
 
       <hr/>
