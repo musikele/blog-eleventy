@@ -5,12 +5,11 @@ layout: default
 <div id="main">
     <article>
         <header class="major">
-            <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | postDate }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            <h2 class="post-title">{{ title }}</h2>
         </header>
 
         <section>
-            {{ content }}
+            {{ content | safe }}
         </section>
     </article>
 
