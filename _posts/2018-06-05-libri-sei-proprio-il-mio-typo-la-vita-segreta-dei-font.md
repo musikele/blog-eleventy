@@ -10,7 +10,7 @@ tags:
   - font
   - libro
   - sei proprio il mio typo
-header-img: "/images/seproprioilmiotypo.jpg"
+headerImg: "/images/seproprioilmiotypo.jpg"
 description: Dietro ai font che utilizziamo quotidianamente c'è un mondo fatto di
   tipografi e tipografie, e una storia vecchia di 500 anni. Scopriamola con questo
   libro!

@@ -12,7 +12,7 @@ tags:
   - es6
   - nodejs
   - generators
-header-img: "/images/81TfpvWrBRL._SL1500_.jpg"
+headerImg: "/images/81TfpvWrBRL._SL1500_.jpg"
 description: 'Let''s have a look at generator functions in JS. '
 
 ---

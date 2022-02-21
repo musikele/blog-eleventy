@@ -7,7 +7,7 @@ title: 'Consigli ai junior e ai laureandi (ossia: evitate gli errori che ho fatt
 category: Italiano
 layout: post
 date: 2018-02-25 00:00:00
-header-img: "/images/0402ae2.jpg"
+headerImg: "/images/0402ae2.jpg"
 description: 'Consigli per i neolaureati: come redigere il CV, come trovare stage,
   evitando gli errori classici '
 tags:

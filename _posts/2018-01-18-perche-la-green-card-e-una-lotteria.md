@@ -15,7 +15,7 @@ tags:
 description: 'Perchè per l''asta dei diritti televisivi si usa un''asta di secondo
   prezzo? E perchè la green card è una lottera? Analizziamo questi metodi da un punto
   di vista informatico. '
-header-img: "/images/lottery.jpg"
+headerImg: "/images/lottery.jpg"
 ---
 Ho beccato un post on line in cui si chiedeva se un lavoratore da remoto può lavorare dagli USA per clienti italiani. La risposta precisa ve la potrà dare solo un avvocato esperto (o il consolato USA); semplifichiamo dicendo che se si lavora dal territorio USA bisogna pagare le tasse americane. Per lavorare legalmente in USA ci sono [molte strade](https://www.us-immigration.com/greencard/Green-Card-Lottery.html): la **Green Card** è una di queste. 
 

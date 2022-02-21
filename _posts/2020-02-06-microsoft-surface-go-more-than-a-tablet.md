@@ -13,7 +13,7 @@ tags:
   - windows
   - tablet
 title: 'Microsoft Surface GO: more than a tablet'
-header-img: "/images/microsoft_surface_go.jpg"
+headerImg: "/images/microsoft_surface_go.jpg"
 description: I sold my old 15" laptop and I bought the Microsoft Surface Go tablet.
   The conclusions are... unexpected
 

@@ -10,7 +10,7 @@ tags:
   - post
   - javascript
   - es6
-header-img: "/images/es6.jpeg"
+headerImg: "/images/es6.jpeg"
 description: 'Let''s have a look at Symbols and iterators in Javascript. '
 
 ---

@@ -11,7 +11,7 @@ tags:
   - linux
   - shell
   - bash
-header-img: "/images/find-file-linux-code_magnifying_glass_zero.png"
+headerImg: "/images/find-file-linux-code_magnifying_glass_zero.png"
 description: let's find how to find files read by a linux process. It's super easy!
 ---
 Problem: **I had a process using 90% of cpu, couldn't understand what was going on.**

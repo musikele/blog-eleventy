@@ -6,10 +6,10 @@ category: English
 layout: post
 date: 2021-09-17
 title: A better Git Log
-permalink: a-better-git-log
+permalink: a-better-git-log/
 description: 'Do you find that git log is a bit too verbose for your standards? With
   this alias you''ll see it improved! '
-header-img: "/images/schermata-2021-09-22-alle-11-43-51.png"
+headerImg: "/images/schermata-2021-09-22-alle-11-43-51.png"
 tags:
   - post
   - git

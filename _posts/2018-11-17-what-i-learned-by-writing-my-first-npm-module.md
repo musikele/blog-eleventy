@@ -10,7 +10,7 @@ tags:
   - post
   - javascript
   - nodejs
-header-img: "/images/index.png"
+headerImg: "/images/index.png"
 description: 'I wrote a little browser npm utility just for fun, but the process from
   code to npm is not so straightforward. Let''s have a look at all my mistakes and
   discoveries. '

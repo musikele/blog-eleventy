@@ -11,7 +11,7 @@ tags:
   - react
   - frontend
   - javascript
-header-img: "/images/1024px-React-icon.svg.png"
+headerImg: "/images/1024px-React-icon.svg.png"
 description: 'Impressioni su React dopo un mese di lavoro. '
 ---
 Da quando **React** è stato rilasciato da Facebook è diventato rapidamente una delle librerie più usate per la realizzazione di interfacce web. Come mai?

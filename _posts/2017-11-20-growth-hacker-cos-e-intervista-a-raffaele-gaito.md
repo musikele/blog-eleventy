@@ -8,7 +8,7 @@ layout: post
 date: 2017-11-18 00:00:00
 tags:
   - post [growth hacking, raffaele gaito, marketing,libro]
-header-img: "/images/raf_gaito.jpg"
+headerImg: "/images/raf_gaito.jpg"
 categories: Italiano
 description: "In quest'intervista Raffale ci parla del Growth Hacking e delle sue connessioni con il mondo degli sviluppatori. "
 ---

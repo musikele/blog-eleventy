@@ -10,7 +10,7 @@ tags:
   - post
   - Documentation
   - Work
-header-img: "/images/documentation.png"
+headerImg: "/images/documentation.png"
 description: 'What makes great a product? The features, the ease of use, and obviously
   all of this must be explained in a great documentation: one of my jobs. '
 ---

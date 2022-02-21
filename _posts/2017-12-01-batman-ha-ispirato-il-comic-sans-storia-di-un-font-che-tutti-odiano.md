@@ -15,7 +15,7 @@ tags:
   - microsoft
   - microsoft bob
   - design
-header-img: "/images/ComicSans.gif"
+headerImg: "/images/ComicSans.gif"
 description: 'La storia che sto per raccontarvi riguarda uno degli aspetti più mitologici
   dell''informatica intera: il Comic Sans, il carattere più odiato in assoluto, ma
   allo stesso tempo uno dei più usati al mondo.'

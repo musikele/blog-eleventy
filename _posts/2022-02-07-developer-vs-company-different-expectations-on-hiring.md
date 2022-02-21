@@ -10,13 +10,14 @@ permalink: dev-vs-company-expectation-hiring/
 description: Company tend to hire people that already knows the technologies they
   use; devs tend to stick in teams they love to work with. Is there space for fixing
   the hiring problem?
-header-img: "/images/pexels-nappy-935977.jpg"
+headerImg: "/images/pexels-nappy-935977.jpg"
 tags:
 - work
 - " hiring"
 - job
 - team
 - software development
+- post
 
 ---
 Whenever I scroll a job board, I have a feeling that the things that matter to a company are (in _their_ order of importance):

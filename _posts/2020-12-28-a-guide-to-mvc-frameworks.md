@@ -16,7 +16,7 @@ tags:
   - orm
   - documentation
 title: A gently intro to MVC Frameworks
-header-img: "/images/coding1.jpg"
+headerImg: "/images/coding1.jpg"
 description: What is a MVC Framework, why it exists, how it works.
 
 ---

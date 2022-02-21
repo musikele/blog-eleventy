@@ -12,7 +12,7 @@ tags:
   - Startup
   - Sws18
   - Mentor
-header-img: "/images/IMG_20180422_132054.jpg"
+headerImg: "/images/IMG_20180422_132054.jpg"
 description: 'Cos''é uno Startup Weekend, cosa si impara e come? Un evento che consiglio
   a tutti, in cui si impara a diventare imprenditori di sé stessi. '
 ---

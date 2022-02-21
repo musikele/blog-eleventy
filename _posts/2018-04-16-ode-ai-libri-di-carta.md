@@ -13,7 +13,7 @@ tags:
   - carta
 description: 'Da ieri sera sono tornato alla carta, con l''obiettivo di trovare una
   strategia per finire i due libri digitali e non comprarne mai più. '
-header-img: "/images/kindle-vs-books.jpg"
+headerImg: "/images/kindle-vs-books.jpg"
 ---
 ![](/images/kindle-vs-books.jpg)  
   

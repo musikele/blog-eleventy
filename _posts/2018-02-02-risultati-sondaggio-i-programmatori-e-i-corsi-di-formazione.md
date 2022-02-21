@@ -14,7 +14,7 @@ tags:
   - corso di formazione
   - devday
   - devday salerno
-header-img: "/images/devday_salerno.png"
+headerImg: "/images/devday_salerno.png"
 description: come si aggiornano gli informatici salernitani? Cosa ne pensano dei corsi
   di formazione? In questo articolo analizzeremo i risultati di un nostro sondaggio.
 ---

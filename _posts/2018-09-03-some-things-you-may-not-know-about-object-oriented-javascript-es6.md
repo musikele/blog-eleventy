@@ -10,7 +10,7 @@ tags:
   - post
   - javascript
   - es6
-header-img: "/images/es6.jpeg"
+headerImg: "/images/es6.jpeg"
 description: 'Features that are very handy in Object Oriended Javascript: getters
   & setters, and static methods. '
 

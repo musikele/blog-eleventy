@@ -12,7 +12,7 @@ tags:
   - tdd
   - testing
   - mock
-header-img: "/images/Testing_in_Progress.gif"
+headerImg: "/images/Testing_in_Progress.gif"
 description: 'Il Test Driven Development porta a un aumento della qualità del codice
   scritto, ma nella vita reale aumenta i tempi di sviluppo e porta a qualche compromesso. '
 ---

@@ -12,7 +12,7 @@ tags:
   - lavoro
   - informatico
   - programmatore
-header-img: "/images/Best Money Making Computer Fields.jpg"
+headerImg: "/images/Best Money Making Computer Fields.jpg"
 description: 'Rispondo alla domanda di un giovane studente: si può vivere di programmi
   fatti da sè? Dove trovare l''ispirazione? '
 ---

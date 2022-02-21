@@ -8,7 +8,7 @@ date: 2020-09-16
 title: How to read and write from STDIN and STDOUT in GO
 description: 'Using the Go programming language, i''ll explain some basic features
   of the language with this simple Hello World program. '
-header-img: "/images/golang.png"
+headerImg: "/images/golang.png"
 tags:
   - post
   - go

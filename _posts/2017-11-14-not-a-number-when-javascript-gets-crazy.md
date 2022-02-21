@@ -6,7 +6,7 @@ title: 'Not-A-Number: when javascript gets crazy'
 category: Italiano
 layout: post
 date: 2017-11-14 00:00:00
-header-img: "/images/not-a-number.jpg"
+headerImg: "/images/not-a-number.jpg"
 tags:
   - post []
 ---

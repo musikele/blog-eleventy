@@ -10,7 +10,7 @@ tags:
   - chaotic system
   - economics
 title: Chaotic systems
-header-img: "/images/island-during-golden-hour-and-upcoming-storm-1118873.jpg"
+headerImg: "/images/island-during-golden-hour-and-upcoming-storm-1118873.jpg"
 description: 'what is a complex system? why we study them, and what can they teach
   us? '
 

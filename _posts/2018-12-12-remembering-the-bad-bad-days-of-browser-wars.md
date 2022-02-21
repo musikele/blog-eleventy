@@ -21,7 +21,7 @@ tags:
   - google
   - apple
   - mozilla
-header-img: "/images/1472784019browser-wars-over.png"
+headerImg: "/images/1472784019browser-wars-over.png"
 description: 'Starting from 2006, what is changed to the web plaftorm, what we have
   now and where are we going. Should we leave all the web to only one browser? '
 

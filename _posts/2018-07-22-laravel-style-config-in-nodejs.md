@@ -11,7 +11,7 @@ tags:
   - nodejs
   - configuration
   - laravel
-header-img: "/images/conifer-daylight-environment-454880.jpg"
+headerImg: "/images/conifer-daylight-environment-454880.jpg"
 description: 'A Laravel-style configuration sytem for NodeJS. '
 
 ---

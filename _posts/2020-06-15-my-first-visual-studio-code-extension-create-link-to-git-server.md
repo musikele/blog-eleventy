@@ -8,7 +8,7 @@ date: 2020-06-15
 title: My first Visual Studio Code Extension, create-link-to-git-server
 description: 'I wrote my first Visual Studio Code extension out of need, and I learned
   many things along the way. '
-header-img: "/images/visual-studio-code-logo.png"
+headerImg: "/images/visual-studio-code-logo.png"
 tags:
   - post
   - visual studio code

@@ -11,15 +11,16 @@ pagination:
     {% for post in posts  %}
       
       <header class="major">
-        <img src="{{post.data["header-img"]}}">
-        <a href="{{ post.url }}">
+      <a href="{{ post.url }}">
           <h2>{{ post.data.title }}</h2>
+          <p>{{ post.date | postDate }}</p>
+          <img src="{{post.data.headerImg}}">
         </a>
       </header>
 
       <section>
         <P>{{ post.data.description }}</P>
-        <P>{{ post.date | postDate }}</P>
+        
         <ul class="tags">
         {% for tag in post.data.tags %}
         <li>{{tag}}</li>

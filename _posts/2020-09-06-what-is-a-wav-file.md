@@ -11,7 +11,7 @@ tags:
   - wave
   - nodejs
 title: What is a WAV file?
-header-img: "/images/waveform_post.png"
+headerImg: "/images/waveform_post.png"
 description: 'In the linked video, you''ll see how wave files are made and how to
   generate one from nodejs. '
 

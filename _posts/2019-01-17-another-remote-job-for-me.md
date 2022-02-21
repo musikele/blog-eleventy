@@ -11,7 +11,7 @@ tags:
   - lavoro
   - job
   - remote
-header-img: "/images/Zurich_Hero.jpg"
+headerImg: "/images/Zurich_Hero.jpg"
 description: 'New job in Zurich! Partially remote but still flying to Zurich from
   time to time. '
 

@@ -8,7 +8,7 @@ layout: post
 date: 2018-01-09 00:00:00
 description: Quali saranno i prossimi trend JS del 2018? Ripartiamo dalle buzzword
   del 2017.
-header-img: "/images/trends.jpg"
+headerImg: "/images/trends.jpg"
 tags:
   - post
   - michele risponde

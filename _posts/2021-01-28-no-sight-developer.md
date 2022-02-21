@@ -12,7 +12,7 @@ tags:
   - erasmus
 title: '"You should have been blind by now" - An interview with a developer who is
   losing his sight'
-header-img: "/images/weber-pizza.JPG"
+headerImg: "/images/weber-pizza.JPG"
 description: In this interview, Weber Amaral - from DislexiaVisual.com - explains
   the issues of being a developer with a progressive sight disease.
 

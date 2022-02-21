@@ -4,16 +4,17 @@ comments: true
 author: musikele
 category: English
 layout: post
-date: 2022-02-11
+date: 2022-02-12
 title: Going to rebuild this blog with 11ty
 permalink: rebuild-eleventy/
 description: I'm going to rebuild this blog from Jekyll to 11ty. In this article I'll
   try to explain why.
-header-img: "/images/11ty.png"
+headerImg: "/images/11ty.png"
 tags:
 - 11ty
 - jekyll
 - blog
+- post
 
 ---
 In this period I am studying a lot of concepts, some which I had forgot and others I didn't have the time to study, so a bunch of new blog posts will come, I thing weekly.

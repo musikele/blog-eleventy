@@ -6,10 +6,10 @@ category: English
 layout: post
 date: 2021-07-19
 title: Move your photos from Google Photos to Synology without losing your mind
-permalink: from-google-photos-to-synology-photos
+permalink: from-google-photos-to-synology-photos/
 description: 'In theory moving from Google Photos to Synology is easy. In practice
   it requires many steps. Here''s what worked for me. '
-header-img: "/images/all_in_one_1.png"
+headerImg: "/images/all_in_one_1.png"
 tags:
   - post
   - synology

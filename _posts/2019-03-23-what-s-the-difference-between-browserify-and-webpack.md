@@ -13,7 +13,7 @@ tags:
   - parcel
   - bundler
 title: What's the difference between Browserify and Webpack?
-header-img: "/images/bropack.png"
+headerImg: "/images/bropack.png"
 description: 'Webpack is the king of the bundlers now, but Browserify is the former
   ruler: what''s the difference? What made webpack the default choice? '
 

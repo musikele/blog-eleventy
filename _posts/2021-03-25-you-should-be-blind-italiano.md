@@ -9,7 +9,7 @@ title: '"A quest''ora avresti dovuto essere cieco" - intervista a uno sviluppato
   che sta perdendo la vista'
 description: 'Hai mai pensato di fare il tuo lavoro senza poter vedere? Un mio amico
   sta attraversando esattamente questo e voglio raccontarvi la sua storia.  '
-header-img: "/images/weber-pizza.JPG"
+headerImg: "/images/weber-pizza.JPG"
 tags:
   - post
   - work

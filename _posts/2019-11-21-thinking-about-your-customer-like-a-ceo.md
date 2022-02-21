@@ -10,7 +10,7 @@ tags:
   - customers
   - work
 title: 'Thinking of customers like a CEO: lessons learned along the way'
-header-img: "/images/customer.jpg"
+headerImg: "/images/customer.jpg"
 description: 'customers represent the best resource of every company, but do we really
   care about them? Here''s an interesting insight of my work experience. '
 

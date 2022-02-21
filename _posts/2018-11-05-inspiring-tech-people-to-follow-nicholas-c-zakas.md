@@ -12,7 +12,7 @@ tags:
   - eslint
   - people
   - javascript
-header-img: "/images/eslint.png"
+headerImg: "/images/eslint.png"
 description: 'Usually in software engineering world we talk about programming and
   not about the people behind it. Let''s start a new path talking about Nicholas Zakas,
   the author of ESLint! '

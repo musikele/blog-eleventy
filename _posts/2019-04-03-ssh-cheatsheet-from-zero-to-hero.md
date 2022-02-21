@@ -10,7 +10,7 @@ tags:
   - ssh
   - tutorial
 title: 'SSH cheatsheet (from zero to hero) '
-header-img: "/images/ssh-big.png"
+headerImg: "/images/ssh-big.png"
 description: 'SSH is one of the fundamental tools you must master to become a successful
   developer. In this article we''ll talk about using it for advanced configurations,
   like logging to remote server without password, configuring a tunnel, monitoring

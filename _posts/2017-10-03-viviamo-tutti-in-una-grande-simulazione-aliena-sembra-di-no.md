@@ -12,7 +12,7 @@ tags:
   - Elon musk
   - Scifi
 categories: Italiano
-header-img: "/images/Rick-And-Morty-Stagione-3.jpg"
+headerImg: "/images/Rick-And-Morty-Stagione-3.jpg"
 description: Scienziati di fama internazionale credono che viviamo in una simulazione,
   ma un esperimento potrebbe aver finalmente provato che non è così.
 category: Italiano

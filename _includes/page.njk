@@ -6,7 +6,7 @@ layout: default
     <article>
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+                <p class="post-meta">{{ page.date | postDate }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
         <section>

@@ -6,9 +6,9 @@ category: English
 layout: post
 date: 2022-01-02
 title: Evaluating frontend frameworks and not choosing any
-permalink: evaluating-frontend-frameworks
+permalink: evaluating-frontend-frameworks/
 description: 'For one of our latest projects we evaluated many frontend frameworks, and this discussion went on for months before taking the decision to, well, not choose a frontend framework. What happened?'
-header-img: "/images/frontend-frameworks.png"
+headerImg: "/images/frontend-frameworks.png"
 tags:
   - post
   - frontend

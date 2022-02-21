@@ -14,7 +14,7 @@ tags:
   - università
 description: Chiunque dovrebbe fare l'Erasmus. Anche chi non va all'università. Specialmente
   chi è fidanzato/a. Specialmente chi ha paura. Tutti
-header-img: "/images/erasmus1.jpg"
+headerImg: "/images/erasmus1.jpg"
 ---
 **Anche io ho partecpato al programma Erasmus**, era il 2006, l'anno dei mondiali e io ero a Siviglia. _Non avete idea di quanto sia appagante vincere un mondiale all'estero_.
 

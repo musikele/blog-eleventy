@@ -9,7 +9,7 @@ title: Want to play songs in your web app? Say no more with JS Headless Playlist
 description: 'JS Headless Playlist Player is a javascript library that implements
   the logic of a playlist player. You provide the graphics the way you want and call
   the API to play music. '
-header-img: "/images/winamp.png"
+headerImg: "/images/winamp.png"
 tags:
   - post
   - open source

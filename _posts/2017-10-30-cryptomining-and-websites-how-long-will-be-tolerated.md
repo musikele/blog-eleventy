@@ -14,11 +14,11 @@ tags:
   - google
 categories: English
 category: Italiano
-header-img: images/miners.jpeg
+headerImg: images/miners.jpeg
 ---
 A lot of stuff has happenend in the crypto-mining world: antiviruses, search engines, private miners, and more.
 
-![]({{site.baseurl}}/{{ page.header-img }})
+![]({{site.baseurl}}/{{ page.headerImg }})
 
 <!--more-->
 

@@ -11,7 +11,7 @@ tags:
   - pull request
   - remote work
 title: 'Pair Programming vs Pull Requests '
-header-img: "/images/330px-Pair_programming_1.jpg"
+headerImg: "/images/330px-Pair_programming_1.jpg"
 description: 'What is good, and what is wrong, in pair programming? And in Merge Requests
   (or Pull Requests, in github name)? '
 

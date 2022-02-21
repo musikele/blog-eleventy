@@ -7,7 +7,7 @@ layout: post
 date: 2021-04-02
 title: 'Clickhouse: a Database for your next Big Data project'
 description: Clickhouse is a very fast database for big data with some peculiar characteristics.
-header-img: "/images/clickhouselogo.png"
+headerImg: "/images/clickhouselogo.png"
 tags:
   - post
   - clickhouse

@@ -3,18 +3,26 @@ ul.tags {
     display: inline-block;
     padding-left: 0;
     line-height: 3;
-}
 
-li {
-    display: inline;
-    margin-right: 0.5rem;
-    border: 2px solid var(--border);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    font-size: 0.9rem;
-    box-sizing: border-box;
+    li {
+        display: inline;
+        margin-right: 0.5rem;
+        border: 2px solid var(--border);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        font-size: 0.9rem;
+        box-sizing: border-box;
+    }
 }
 
 img {
     background-color: var(--text);
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }

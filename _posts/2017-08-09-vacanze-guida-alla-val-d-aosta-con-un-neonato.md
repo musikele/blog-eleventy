@@ -16,7 +16,7 @@ tags:
   - vda
 title: Guida alla Val d'Aosta con un neonato
 categories: Italiano
-header-img: "/images/cogne.JPG"
+headerImg: "/images/cogne.JPG"
 description: 'Il racconto di una bellissima vacanza in Val D''Aosta con una neonata:
   non è una vacanza per pigroni'
 category: Italiano

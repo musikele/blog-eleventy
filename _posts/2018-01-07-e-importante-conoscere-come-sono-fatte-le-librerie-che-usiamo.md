@@ -16,7 +16,7 @@ tags:
 description: Rispondo alla domanda di uno studente, preoccupato perchè usa librerie
   di cui non conosce come sono fatte internamente. Dobbiamo reinventare la ruota ogni
   volta? O fare come Elon Musk?
-header-img: "/images/rinventare-la-ruota.jpg"
+headerImg: "/images/rinventare-la-ruota.jpg"
 ---
 Domanda: 
 

@@ -12,7 +12,7 @@ tags:
   - tempo libero
   - programmatore
   - riflessioni
-header-img: "/images/rtryt.jpg"
+headerImg: "/images/rtryt.jpg"
 description: Qualche considerazione sparsa sul tempo libero di un programmatore.
 ---
 Programmare è diventata una passione. 

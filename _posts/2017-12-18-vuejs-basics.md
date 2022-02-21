@@ -10,7 +10,7 @@ tags:
   - vuejs
   - javascript
   - frontend
-header-img: "/images/vuejs.png"
+headerImg: "/images/vuejs.png"
 description: 'A super brief description of what is VueJS, and how easy it is to get
   in. '
 categories: Italiano

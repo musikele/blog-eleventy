@@ -10,7 +10,7 @@ tags:
   - typescript
   - javascript
 title: 'Typescript: why so complicated?! (A list of my preferred options)'
-header-img: "/images/typescript-cover-image.jpg"
+headerImg: "/images/typescript-cover-image.jpg"
 description: Typescript does not have sane defaults and I had to experiment a lot
   before finding the right set of options for my projects. Here's a discussion about
   module, target, outDir, moduleResolution, lib, etc

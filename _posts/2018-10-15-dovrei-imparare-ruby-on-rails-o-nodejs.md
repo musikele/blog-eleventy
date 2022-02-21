@@ -11,7 +11,7 @@ tags:
   - ruby on rails
   - ruby
   - nodejs
-header-img: "/images/1 tR0ttFEBGvg9_iycnegLbw.png"
+headerImg: "/images/1 tR0ttFEBGvg9_iycnegLbw.png"
 description: 'Qual è la differenza tra Ruby on Rails e NodeJS? RoR è un framework
   per creare webapp, mentre NodeJS è principalmente un environment lato server. Ha
   senso imparare RoR oggi? '

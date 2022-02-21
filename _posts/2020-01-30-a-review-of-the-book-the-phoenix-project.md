@@ -10,7 +10,7 @@ tags:
   - books
   - devops
 title: a review of the book The Phoenix Project
-header-img: "/images/the_phoenix_project.jpg"
+headerImg: "/images/the_phoenix_project.jpg"
 description: a review of the phoenix project, and how devops saved a company enhancing
   their business.
 

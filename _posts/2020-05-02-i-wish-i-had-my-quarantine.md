@@ -10,7 +10,7 @@ tags:
   - quarantine
   - " c"
 title: I wish I had a programmers' quarantine
-header-img: "/images/coding-computer-data-depth-of-field-577585.jpg"
+headerImg: "/images/coding-computer-data-depth-of-field-577585.jpg"
 description: Trying to cover a hole in my learning on quarantine
 
 ---

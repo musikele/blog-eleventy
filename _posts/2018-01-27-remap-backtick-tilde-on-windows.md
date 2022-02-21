@@ -15,7 +15,7 @@ tags:
   - keyboard
   - mapping
   - tilde
-header-img: "/images/autohotkey.jpg"
+headerImg: "/images/autohotkey.jpg"
 description: If you own a Windows PC and writing backticks, tildes and other special
   characters is  a pain, this article si for you.
 ---

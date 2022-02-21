@@ -12,7 +12,7 @@ tags:
   - form submission
 description: 'Come inviare dati da un form esterno a MagNews? Qui una guida "a futura
   memoria". '
-header-img: "/images/logo-magnews-600x400.jpg"
+headerImg: "/images/logo-magnews-600x400.jpg"
 ---
 Questa roba l'ho dovuta fare per lavoro e, nello scoprire tutti i passaggi necessari, me li sono segnati.
 

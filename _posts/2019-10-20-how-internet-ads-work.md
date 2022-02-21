@@ -14,7 +14,7 @@ tags:
   - hb
   - header bidding
 title: How internet ads work
-header-img: "/images/pexels-photo-802024.jpeg"
+headerImg: "/images/pexels-photo-802024.jpeg"
 description: 'header bidding, DFP, GAM, cpm ... welcome in the world of ads, where
   everything is an acronym. Le me try to explain how everything works under the hood. '
 

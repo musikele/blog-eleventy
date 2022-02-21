@@ -1,8 +1,8 @@
 <!-- facebook Open Graph Metadatas -->
 
-{% if page.header-img %}
-<meta property="og:image:secure" content="{{ page.header-img }}" />
-<meta property="og:image" content="{{ page.header-img }}" />
+{% if page.headerImg %}
+<meta property="og:image:secure" content="{{ page.headerImg }}" />
+<meta property="og:image" content="{{ page.headerImg }}" />
 {% else %}
 <meta  property="og:image" content="/img/logo-high-resolution.png" />
 {% endif %}
@@ -61,6 +61,6 @@
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 
-{% if page.header-img %}
-  <meta name="twitter:image:src" content="{{ site.url }}/{{ page.header-img }}">
+{% if page.headerImg %}
+  <meta name="twitter:image:src" content="{{ site.url }}/{{ page.headerImg }}">
 {% endif %}

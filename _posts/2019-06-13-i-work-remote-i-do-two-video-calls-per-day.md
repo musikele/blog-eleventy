@@ -12,7 +12,7 @@ tags:
   - meeting
   - meetings
 title: I work remote, I do two video meetings per day
-header-img: "/images/online-3307293_1280.jpg"
+headerImg: "/images/online-3307293_1280.jpg"
 description: Do you love meetings? Probably not. However, after some time I started
   to "appreciate" them. Here's why
 

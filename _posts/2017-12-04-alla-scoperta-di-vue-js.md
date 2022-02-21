@@ -6,7 +6,7 @@ title: Alla scoperta di VueJS
 category: Italiano
 layout: post
 date: 2017-12-03 00:00:00
-header-img: "/images/vuejs.png"
+headerImg: "/images/vuejs.png"
 tags:
   - post
   - vuejs
