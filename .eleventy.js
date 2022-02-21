@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
     // Values can be static:
     eleventyConfig.addGlobalData("base", "https://michelenasti.com");
     eleventyConfig.addGlobalData("sitename", "Michele Nasti");
+    eleventyConfig.addGlobalData("twitterName", "micnasti");
 
     // Copy the `img` and `css` folders to the output
     eleventyConfig.addPassthroughCopy('images');
