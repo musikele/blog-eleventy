@@ -5,6 +5,11 @@ const sass = require("sass");
 
 
 module.exports = function (eleventyConfig) {
+
+    // Values can be static:
+    eleventyConfig.addGlobalData("base", "https://michelenasti.com");
+    eleventyConfig.addGlobalData("sitename", "Michele Nasti");
+
     // Copy the `img` and `css` folders to the output
     eleventyConfig.addPassthroughCopy('images');
     eleventyConfig.addPassthroughCopy('uploads');
