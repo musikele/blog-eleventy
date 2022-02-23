@@ -35,7 +35,7 @@ Quindi, non tutti i caratteri erano disponibili ovunque, e spesso le fonderie si
 
 La prima macchina da scrivere che permetteva di cambiare font fu la IBM Selectric, cambiando la testina. Ecco un video della Selectric all'opera:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="zCg1LX1"><a href="//imgur.com/zCg1LX1">IBM Selectric ball head typewritter </a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="zCg1LX1"><a href="https://imgur.com/zCg1LX1">IBM Selectric ball head typewritter </a></blockquote><script async src="https://s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Torniamo al libro: Oltre ai font più famosi e a curiosità tipografiche, c'è anche la storia delle persone che lo hanno realizzato, **gente che lavora per un ideale di bellezza molto diverso da quello che immaginiamo noi**. Nessuna è diventata ricca.
 

@@ -11,6 +11,8 @@ tags:
   - blogging
   - developer 
   - programmer
+
+permalink: /2016/12/12/perche-un-programmatore-dovrebbe-avere-un-blog.html
 ---
 
 E' molto probabile che se leggi questo blog sei uno sviluppatore e ti starai chiedendo se è il caso di iniziare a bloggare di informatica e programmazione. La mia risposta è senza dubbio **si**. 

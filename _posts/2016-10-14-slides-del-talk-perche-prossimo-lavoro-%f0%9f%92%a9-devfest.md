@@ -6,7 +6,6 @@ date: 2016-10-14 12:36:20
 author: musikele
 layout: post
 guid: http://michelenasti.com/?p=1026
-permalink: "/2016/10/slides-del-talk-perche-prossimo-lavoro-%f0%9f%92%a9-devfest/"
 dsq_thread_id:
 - '5222455454'
 categories:
@@ -18,6 +17,8 @@ tags:
   - gdg
   - joel
   - test
+
+permalink: /2016/10/slides-del-talk-perche-prossimo-lavoro-devfest/
 ---
 Ecco le mie slides del talk.
 

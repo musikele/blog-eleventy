@@ -33,6 +33,9 @@ pagination:
     {% endfor %}
 
     <section class="button-container">
-        <a href="archives/page2/" class="button"><< Older Posts</a> 
+        
+    
+    {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer</a>{% endif %}
+    {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older</a>{% endif %}
     </section>
   </section>

@@ -2,3 +2,7 @@
   for = "/*"
   [headers.values]
     Permissions-Policy = "interest-cohort=()"
+
+[[redirects]]
+  from = "/2016/10/slides-del-talk-perche-prossimo-lavoro-%f0%9f%92%a9-devfest/"
+  to = "/2016/10/slides-del-talk-perche-prossimo-lavoro-devfest/"

@@ -13,6 +13,7 @@ tags:
   - markdown
   - web
   - curriculum
+permalink: /2016/12/18/le-tecnologie-che-compongono-un-blog-jekyll.html
 ---
 
 Gli ingredienti segreti di questo magico calderone che é il mio blog sono: **Git**, **github**, **jekyll** (con tanto **html**, **css** & **javascript**), **markdown**. Vediamoli in dettaglio. 

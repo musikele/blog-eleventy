@@ -11,6 +11,8 @@ tags:
   - blogging
   - jekyll
   - markdown
+
+permalink: /2016/12/22/jekyll-e-github-in-pratica.html
 ---
 In questo articolo spiegheremo rapidamente come installare un blog jekyll su github.
 

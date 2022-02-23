@@ -10,7 +10,8 @@ tags:
   - post
   - javascript
 headerImg: "/images/es6.jpeg"
-description: 'A nice to know feature, good for impressing others '
+description: 'A nice to know feature, good for impressing others'
+permalink: "2018/09/19/javascript-chiamare-funzioni-senza-usare-parentesi-(what!).html"
 
 ---
 Let's dig in a not-well-publicized ES6 feature: calling functions without using parentheses.

@@ -14,6 +14,8 @@ tags:
   - linkedin pulse
   - tumblr
   - jekyll
+
+permalink: /2016/12/15/le-piattaforme-di-blogging-a-confronto.html
 ---
 
 Ho iniziato la mia avventura circa 10 anni fa usando **Wordpress**, un'eccellente piattaforma di blogging così versatile da poter diventare qualsiasi cosa: portale, sito vetrina, piattaforma di ecommerce... e anche blog, ovviamente! 

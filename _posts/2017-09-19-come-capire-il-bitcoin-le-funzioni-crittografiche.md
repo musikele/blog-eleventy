@@ -12,6 +12,7 @@ tags:
   - hash
 categories: Italiano
 category: Italiano
+permalink: 2017/09/19/come-capire-il-bitcoin-le-funzioni-crittografiche.html
 ---
 
 
