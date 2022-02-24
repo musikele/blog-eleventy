@@ -1,22 +1,21 @@
 ---
 layout: default
 pagination:
-  data: collections.post
+  data: collections.posts
   size: 10
   alias: posts
   reverse: true
+permalink: "/{% if pagination.pageNumber > 0 %}archives/page{{ pagination.pageNumber + 1}}/{% endif %}"
 ---
 
   <section>
     {% for post in posts  %}
       
-      <header class="major">
       <a href="{{ post.url }}">
           <h2>{{ post.data.title }}</h2>
           <p>{{ post.date | postDate }}</p>
           <img src="{{post.data.headerImg}}">
         </a>
-      </header>
 
       <section>
         <P>{{ post.data.description }}</P>
@@ -33,9 +32,15 @@ pagination:
     {% endfor %}
 
     <section class="button-container">
-        
-    
-    {% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer</a>{% endif %}
-    {% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older</a>{% endif %}
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">
+        <button>	&#8592; Older</button>
+      </a>
+    {% endif %}
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">
+        <button>Newer 	&#8594;</button>
+      </a>
+    {% endif %}
     </section>
   </section>
