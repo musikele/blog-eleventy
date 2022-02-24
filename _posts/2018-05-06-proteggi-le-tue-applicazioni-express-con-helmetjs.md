@@ -41,7 +41,7 @@ Quello che invece fa è aggiungere una serie di best practices a Express, alcune
 
 Un esempio di regola semplice: rimuvere il tag `X-Powered-By` che di default Express setta con nome e versione; questo rende la vita facile a un attacker che può trovare un exploit specifico per il tuo server.
 
-Altri esempi li trovate cliccando sui vari [link dei sottomoduli]() di Helmet, installabili singolarmente.
+Altri esempi li trovate cliccando sui vari [link dei sottomoduli](https://helmetjs.github.io/#reference) di Helmet, installabili singolarmente.
 
 ## Come si installa
 

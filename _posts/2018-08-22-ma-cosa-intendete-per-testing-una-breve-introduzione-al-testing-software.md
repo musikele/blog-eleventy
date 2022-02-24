@@ -40,5 +40,3 @@ Infine, controlliamo che il sistema abbia restituito l’errore. Se è accaduto,
 **I vantaggi, invece, sono un  aumento della qualità generale e un’efficienza nell’esecuzione**, anche in termini di tempo. Ad esempio, è prassi eseguire tutti i test ad ogni modifica del sistema, per assicurarsi di non aver rotto aree  dell’applicazione collegate con quella che stiamo modificando e che  difficilmente andremmo a testare “manualmente”.
 
 In questa risposta ho dato una visione molto generica del software testing; esistono tante altre sotto-aree (integration, unit, e2e…) e tecniche da conoscere, ma il senso generale è che si, **un computer può  fare dei test al posto tuo, è molto più veloce di te, e ne guadagni in qualità.**
-
-[Link alla domanda originale]()

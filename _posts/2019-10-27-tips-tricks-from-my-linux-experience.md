@@ -107,9 +107,9 @@ In the past I used heroku but now i find that platform too limiting if my requir
 
 For my terminal I use [Oh-My-Zsh](https://ohmyz.sh/), it will make your command line more beautiful and with tons of plugins you can configure autocomplete for stuff that usually is not auto-completable - like git, or docker, etc.
 
-When I have to test the communication between a client and a server I use [ngrok](), that will create an address like `<random_numbers>.ngrok.io` even with HTTPS, all of this for free. Then, you can inspect what happened during the connection. The cool thing is that you can use this tool to show to your colleagues some work, even if you're not on the same net.
+When I have to test the communication between a client and a server I use [ngrok](https://ngrok.com/), that will create an address like `<random_numbers>.ngrok.io` even with HTTPS, all of this for free. Then, you can inspect what happened during the connection. The cool thing is that you can use this tool to show to your colleagues some work, even if you're not on the same net.
 
-I wrote a nice article about [SSH, from zero to hero](https://michelenasti.com/2019/04/03/ssh-cheatsheet-from-zero-to-hero.html) and you shoul read it - it's the **basic foundation** for all the stuff you read above. 
+I wrote a nice article about [SSH, from zero to hero](https://michelenasti.com/2019/04/03/ssh-cheatsheet-from-zero-to-hero.html) and you shoul read it - it's the **basic foundation** for all the stuff you read above.
 
 ## Some notes on Dell XPS 15"
 

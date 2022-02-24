@@ -274,6 +274,6 @@ For example, we may see that our employee `mark` is connecting to the server, bu
 
 ### That's all folks
 
-This article is nothing more than a summary of what I learned by following [this excellent ssh course from Egghead](). I think they are great and deserve a paid subscription.
+This article is nothing more than a summary of what I learned by following [this excellent ssh course from Egghead](https://egghead.io/courses/ssh-for-remote-server-authentication). I think they are great and deserve a paid subscription.
 
-Tunnelling was the most difficult thing to set up. Here are [two]() [articles]() that have helped me out. about this
+
