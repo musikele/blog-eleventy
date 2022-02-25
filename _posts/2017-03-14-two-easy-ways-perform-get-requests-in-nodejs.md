@@ -4,7 +4,7 @@ comments: true
 author: musikele
 title: 'Two easy ways perform GET requests in NodeJS '
 layout: post
-date: 2017-03-13T23:07:41+00:00
+date: 2017-03-13
 tags:
   - post
   - Javascript

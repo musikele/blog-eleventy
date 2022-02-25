@@ -30,6 +30,10 @@ module.exports = function (eleventyConfig) {
             .toLocaleString(DateTime.DATE_FULL);
     });
 
+    eleventyConfig.addFilter('toISODate', (dateObj) => {
+        return DateTime.fromJSDate(dateObj).toFormat("yyyy/MM/dd");
+    });
+
     // Creates the extension for use
     eleventyConfig.addExtension("scss", {
         outputFileExtension: "css", // optional, default: "html"

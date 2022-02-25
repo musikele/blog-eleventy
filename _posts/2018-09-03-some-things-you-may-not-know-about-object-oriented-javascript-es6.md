@@ -5,7 +5,7 @@ author: musikele
 title: Things you may not know about Object Oriented Javascript (Es6)
 category: English
 layout: post
-date: 2018-09-03 00:00:00
+date: 2018-09-02
 tags:
   - post
   - javascript

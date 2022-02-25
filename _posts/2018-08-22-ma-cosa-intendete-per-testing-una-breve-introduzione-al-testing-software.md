@@ -5,7 +5,7 @@ author: musikele
 title: '"ma... cosa intendete per testing?" - una breve introduzione al testing software '
 category: Italiano
 layout: post
-date: 2018-08-22 00:00:00
+date: 2018-08-21
 tags:
   - post
   - testing

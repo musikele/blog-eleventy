@@ -5,7 +5,7 @@ author: musikele
 title: 'Get the list of files blocked by a process in Linux '
 category: English
 layout: post
-date: 2018-06-19 00:00:00
+date: 2018-06-18
 tags:
   - post
   - linux

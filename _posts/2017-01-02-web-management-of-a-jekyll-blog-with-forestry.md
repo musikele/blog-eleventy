@@ -1,6 +1,5 @@
 ---
 title: Web management of a Jekyll blog with Forestry
-date: 2017-01-02
 paginate: true
 comments: true
 author: musikele
@@ -8,9 +7,10 @@ layout: post
 tags:
   - post
 ---
+
 I have successfully moved all my blog from Wordpress to Jekyll (what you see is the proof of it!) but there was one thing I was really missing: a web console to easily manage the blog when I don't have a computer on hand.
 
-Then I found [**Forestry.io**](http://forestry.io), a cloud enviornment to manage your static site.
+Then I found [Forestry.io](http://forestry.io), a cloud enviornment to manage your static site.
 
 ## How is my blog set up
 

@@ -5,7 +5,7 @@ author: musikele
 title: Symbols & Iterators in Javascript
 category: English
 layout: post
-date: 2018-09-04 00:00:00
+date: 2018-09-04
 tags:
   - post
   - javascript

@@ -4,7 +4,7 @@ comments: true
 author: musikele
 title: "[libri] Sei proprio il mio typo: la vita segreta dei caratteri tipografici"
 layout: post
-date: 2018-06-05 22:00:00
+date: 2018-06-05
 tags:
   - post
   - font

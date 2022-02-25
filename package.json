@@ -12,10 +12,10 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@11ty/eleventy": "^1.0.0"
+        "@11ty/eleventy": "^1.0.0",
+        "@11ty/eleventy-plugin-rss": "^1.1.2"
     },
     "dependencies": {
-        "@11ty/eleventy-plugin-rss": "^1.1.2",
         "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
         "sass": "^1.49.8"
     }

@@ -5,7 +5,7 @@ author: musikele
 title: Designing the documentation for a tech product
 category: English
 layout: post
-date: 2018-07-10 00:00:00
+date: 2018-07-09
 tags:
   - post
   - Documentation

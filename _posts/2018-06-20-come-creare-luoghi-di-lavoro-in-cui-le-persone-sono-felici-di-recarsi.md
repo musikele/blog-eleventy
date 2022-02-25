@@ -5,7 +5,7 @@ author: musikele
 title: Come creare luoghi di lavoro in cui é bello recarsi
 category: Italiano
 layout: post
-date: 2018-06-20 00:00:00
+date: 2018-06-19
 tags:
   - post
   - lavoro

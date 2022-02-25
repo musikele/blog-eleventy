@@ -5,7 +5,7 @@ author: musikele
 title: 'Cambia la tua vita lavorativa! (partecipando a uno Startup Weekend) '
 category: Italiano
 layout: post
-date: 2018-04-23 00:00:00
+date: 2018-04-22
 tags:
   - post
   - Startup weekend salerno

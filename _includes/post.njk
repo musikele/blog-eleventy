@@ -1,5 +1,6 @@
 --- 
 layout: default
+permalink: "/{{ page.date | toISODate }}/{{page.fileSlug }}.html"
 ---
 
 <div id="main">
@@ -18,7 +19,7 @@ layout: default
 
 		<section>
 			{% if page.comments %} 
-				{% include "./disqus.html" %} 
+				{% include "./disqus.html" %}
 			{% endif %}
 		</section>
 
