@@ -17,7 +17,7 @@ ul.tags {
 
 .img-container {
     width: 100%;
-    display: flex; 
+    display: flex;
     justify-content: center;
     img {
         background-color: var(--text);
@@ -25,7 +25,7 @@ ul.tags {
 }
 
 p img {
-    display: block; 
+    display: block;
     margin: 0 auto;
 }
 
@@ -40,4 +40,23 @@ a {
 section.button-container {
     display: flex;
     justify-content: space-between;
+}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: thin solid #8c8c8c;
+    color: #8c8c8c;
+    text-align: center;
+    margin: 2rem auto;
+
+    &:after {
+        content: '§';
+        display: inline-block;
+        position: relative;
+        top: -0.9em;
+        font-size: 1.5em;
+        padding: 0 0.25em;
+        background: #fff;
+    }
 }
