@@ -15,8 +15,18 @@ ul.tags {
     }
 }
 
-img {
-    background-color: var(--text);
+.img-container {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    img {
+        background-color: var(--text);
+    }
+}
+
+p img {
+    display: block; 
+    margin: 0 auto;
 }
 
 a {

@@ -14,7 +14,9 @@ permalink: "/{% if pagination.pageNumber > 0 %}archives/page{{ pagination.pageNu
       <a href="{{ post.url }}">
           <h2>{{ post.data.title }}</h2>
           <p>{{ post.date | postDate }}</p>
-          <img src="{{post.data.headerImg}}">
+          <div class="img-container">
+            <img src="{{post.data.headerImg}}">
+          </div>
         </a>
 
       <section>
