@@ -6,7 +6,7 @@
     "scripts": {
         "build": "npx @11ty/eleventy",
         "start": "npx @11ty/eleventy --serve",
-        "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+        "debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve"
     },
     "keywords": [],
     "author": "",
