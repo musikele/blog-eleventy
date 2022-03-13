@@ -6,8 +6,7 @@ category: English
 layout: post
 date: 2020-01-30
 tags:
-  - post
-  - books
+  -  books
   - devops
 title: a review of the book The Phoenix Project
 headerImg: "/images/the_phoenix_project.jpg"

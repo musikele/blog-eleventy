@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  - post
-  - -50 error
+  -  -50 error
   - apple
   - imovie
 ---

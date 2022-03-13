@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-01-17 00:00:00
 tags:
-  - post
-  - green card
+  -  green card
   - usa
   - lotteria
   - michele risponde

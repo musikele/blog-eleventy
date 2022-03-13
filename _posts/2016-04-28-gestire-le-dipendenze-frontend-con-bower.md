@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - bower
+  -  bower
   - frontend
 ---
 Avete un progetto web che include molte librerie esterne (angular, moment, jquery...)? Aggiornarle, gestirle e censirle sta diventando un problema? Nel corso degli anni sono usciti molti tool per la gestione delle dipendenze, e questo vale per ogni linguaggio di programmazione esistente al mondo; per il frontend una delle soluzioni più semplici da implementare è **bower** che con pochissimo sforzo si configura anche negli ambienti più ostici.

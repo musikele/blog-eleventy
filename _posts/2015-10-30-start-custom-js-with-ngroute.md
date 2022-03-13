@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
+  
 ---
 The problem is: I took a theme for a website and now I am _angularizing_ it, mainly to use two features of this framework: the **ngImport** feature (for the footer) and **ngRoute**, to get a dynamic menu for my website. 
 

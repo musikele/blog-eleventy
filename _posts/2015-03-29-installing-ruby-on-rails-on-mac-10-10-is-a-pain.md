@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  - post
-  - howto
+  -  howto
   - mac
   - RoR
   - ruby

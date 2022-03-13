@@ -6,8 +6,7 @@ category: Italiano
 layout: post
 date: 2019-06-27
 tags:
-  - post
-  - typescript
+  -  typescript
   - babel
   - webpack
   - eslint

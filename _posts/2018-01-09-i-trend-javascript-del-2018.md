@@ -10,8 +10,7 @@ description: Quali saranno i prossimi trend JS del 2018? Ripartiamo dalle buzzwo
   del 2017.
 headerImg: "/images/trends.jpg"
 tags:
-  - post
-  - michele risponde
+  -  michele risponde
   - javascript
   - trends
   - typescript

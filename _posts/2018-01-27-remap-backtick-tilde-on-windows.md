@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-01-27 00:00:00
 tags:
-  - post
-  - windows
+  -  windows
   - dell
   - xps
   - backtick

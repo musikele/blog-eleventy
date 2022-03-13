@@ -11,8 +11,7 @@ description: 'Do you find that git log is a bit too verbose for your standards? 
   this alias you''ll see it improved! '
 headerImg: "/images/schermata-2021-09-22-alle-11-43-51.png"
 tags:
-  - post
-  - git
+  -  git
 
 ---
 Today I'll share with you a nice 1-line git config that will enhance a lot your git logs.

@@ -5,8 +5,7 @@ layout: post
 categories:
 - Italiano
 tags:
-  - post
-  - git
+  -  git
   - github
   - blogging
   - jekyll

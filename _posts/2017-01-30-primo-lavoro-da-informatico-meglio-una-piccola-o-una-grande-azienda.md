@@ -6,7 +6,7 @@ comments: true
 author: musikele
 layout: post
 tags:
-  - post
+  
 ---
 Dopo aver partecipato a una bella discussione on line su quale fosse la migliore scelta per il _primo lavoro per un programmatore_,ho deciso di ripubblicare la mia risposta anche sul blog.
 

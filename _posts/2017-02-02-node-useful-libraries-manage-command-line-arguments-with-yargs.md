@@ -6,7 +6,7 @@ comments: true
 author: musikele
 layout: post
 tags:
-  - post
+  
 ---
 When dealing with command line arguments in NodeJS we all know that we have to enquire `process.argv` object. 
 

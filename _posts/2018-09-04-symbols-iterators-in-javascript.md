@@ -7,8 +7,7 @@ category: English
 layout: post
 date: 2018-09-04
 tags:
-  - post
-  - javascript
+  -  javascript
   - es6
 headerImg: "/images/es6.jpeg"
 description: 'Let''s have a look at Symbols and iterators in Javascript. '

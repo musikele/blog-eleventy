@@ -6,8 +6,7 @@ title: VueJS basics
 layout: post
 date: 2017-12-17 01:00:00
 tags:
-  - post
-  - vuejs
+  -  vuejs
   - javascript
   - frontend
 headerImg: "/images/vuejs.png"

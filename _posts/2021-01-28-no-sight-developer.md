@@ -6,8 +6,7 @@ category: English
 layout: post
 date: 2021-01-28
 tags:
-  - post
-  - work
+  -  work
   - sight
   - erasmus
 title: '"You should have been blind by now" - An interview with a developer who is

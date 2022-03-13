@@ -6,8 +6,7 @@ title: 'Two easy ways perform GET requests in NodeJS '
 layout: post
 date: 2017-03-13
 tags:
-  - post
-  - Javascript
+  -  Javascript
   - Nodejs
   - Request
   - Axios

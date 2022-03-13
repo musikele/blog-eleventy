@@ -9,8 +9,7 @@ title: 'Clickhouse: a Database for your next Big Data project'
 description: Clickhouse is a very fast database for big data with some peculiar characteristics.
 headerImg: "/images/clickhouselogo.png"
 tags:
-  - post
-  - clickhouse
+  -  clickhouse
   - database
   - big data
   - olap

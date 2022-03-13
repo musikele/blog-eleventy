@@ -11,8 +11,7 @@ description: 'Hai mai pensato di fare il tuo lavoro senza poter vedere? Un mio a
   sta attraversando esattamente questo e voglio raccontarvi la sua storia.  '
 headerImg: "/images/weber-pizza.JPG"
 tags:
-  - post
-  - work
+  -  work
   - vista
   - erasmus
 

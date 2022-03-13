@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2017-08-18
 tags:
-  - post
-  - growth hacking
+  -  growth hacking
   - marketing
   - libro
   - luca barboni

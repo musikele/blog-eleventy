@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - comfort zone
+  -  comfort zone
   - ispirazione
   - lavoro
 ---

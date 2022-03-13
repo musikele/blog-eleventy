@@ -6,8 +6,7 @@ title: All my articles about Testing in Javascript in one post
 layout: post
 date: 2017-04-08T13:23:03+00:00
 tags:
-  - post
-  - testing
+  -  testing
   - nodejs
   - javascript
 categories: English

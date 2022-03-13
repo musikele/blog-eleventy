@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-04-05 00:00:00
 tags:
-  - post
-  - magnews
+  -  magnews
   - form submission
 description: 'Come inviare dati da un form esterno a MagNews? Qui una guida "a futura
   memoria". '

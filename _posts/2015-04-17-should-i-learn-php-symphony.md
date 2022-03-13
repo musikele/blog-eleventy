@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - php
+  -  php
   - symphony
 ---
 [<img class="alignleft wp-image-275 size-medium" src="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/04/symfony_black_01-300x103.png?fit=300%2C103" alt="symfony_black_01" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/04/symfony_black_01.png?resize=300%2C103 300w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/04/symfony_black_01.png?w=951 951w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/04/symfony_black_01.png)

@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/01/Dom_tree.png
 categories:
   - Italiano
 tags:
-  - post
-  - browser
+  -  browser
   - document object model
   - dom
   - internet explorer

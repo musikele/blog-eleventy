@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/01/logo_JavaScript-e1420667913457-825x510.png
 categories:
   - Italiano
 tags:
-  - post
-  - javascript
+  -  javascript
   - scope
 ---
 Consideriamo il seguente esempio:

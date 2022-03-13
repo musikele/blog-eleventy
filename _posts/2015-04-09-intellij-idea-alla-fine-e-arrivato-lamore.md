@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - ide
+  -  ide
   - intellij idea
   - jetbrains
   - produttività

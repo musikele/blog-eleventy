@@ -10,8 +10,7 @@ permalink: evaluating-frontend-frameworks/
 description: 'For one of our latest projects we evaluated many frontend frameworks, and this discussion went on for months before taking the decision to, well, not choose a frontend framework. What happened?'
 headerImg: "/images/frontend-frameworks.png"
 tags:
-  - post
-  - frontend
+  -  frontend
   - angular 
   - react
   - vuejs

@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
+  
 ---
 Vi ricordate che ho [cambiato lavoro](http://michelenasti.com/2016/06/cambio-lavoro-alla-scoperta-del-remote-working/)? E'giunto il momento di parlarne un po'.
 

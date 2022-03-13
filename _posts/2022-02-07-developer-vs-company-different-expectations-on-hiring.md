@@ -17,7 +17,7 @@ tags:
 - job
 - team
 - software development
-- post
+
 
 ---
 Whenever I scroll a job board, I have a feeling that the things that matter to a company are (in _their_ order of importance):

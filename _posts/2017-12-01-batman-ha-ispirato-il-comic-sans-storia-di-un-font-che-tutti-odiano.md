@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2017-12-01 00:00:00
 tags:
-  - post
-  - comic sans
+  -  comic sans
   - font
   - storia
   - vincent connaire

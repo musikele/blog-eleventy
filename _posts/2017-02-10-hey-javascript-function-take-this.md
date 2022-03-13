@@ -6,7 +6,7 @@ comments: true
 author: musikele
 layout: post
 tags:
-  - post
+  
 ---
 In this article I'm going to do a quick recap of ES5 and ES6 functions, explaining what happens to `this`.
 

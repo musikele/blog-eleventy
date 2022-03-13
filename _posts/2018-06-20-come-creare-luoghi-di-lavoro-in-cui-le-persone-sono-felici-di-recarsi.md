@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-06-19
 tags:
-  - post
-  - lavoro
+  -  lavoro
   - work
   - ufficio
 headerImg: "/images/Indoor-Garden-For-Office-Building-2013-Glass-Ceiling-With-Steel-And-Wooden-Frame-Design.jpg"

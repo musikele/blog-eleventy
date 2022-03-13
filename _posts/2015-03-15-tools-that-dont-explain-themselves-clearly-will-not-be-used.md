@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t
 categories:
   - English
 tags:
-  - post
-  - communication
+  -  communication
   - docker
   - requireJs
   - vagrant

@@ -6,8 +6,7 @@ title: 'Agile? No grazie, noi siamo Lean'
 category: Italiano
 layout: post
 tags:
-  - post
-  - agile
+  -  agile
   - Lean
   - scrum
   - metodologie

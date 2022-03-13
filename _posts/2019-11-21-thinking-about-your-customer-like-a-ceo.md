@@ -6,8 +6,7 @@ category: English
 layout: post
 date: 2019-11-21
 tags:
-  - post
-  - customers
+  -  customers
   - work
 title: 'Thinking of customers like a CEO: lessons learned along the way'
 headerImg: "/images/customer.jpg"

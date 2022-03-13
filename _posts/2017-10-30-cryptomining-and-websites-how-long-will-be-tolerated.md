@@ -6,8 +6,7 @@ title: 'Cryptomining and websites: how long will it be tolerated?'
 layout: post
 date: 2017-10-24 00:00:00
 tags:
-  - post
-  - coinhive
+  -  coinhive
   - cryptoloot
   - authedmine
   - search engines

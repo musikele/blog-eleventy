@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - async
+  -  async
   - callback
   - javascript
   - linguaggi funzionali

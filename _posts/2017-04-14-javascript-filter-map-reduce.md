@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2017-04-14 10:09:00
 tags:
-  - post
-  - javascript
+  -  javascript
   - filter
   - map
   - reduce

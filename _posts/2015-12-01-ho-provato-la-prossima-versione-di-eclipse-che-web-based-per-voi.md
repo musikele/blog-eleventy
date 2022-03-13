@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - docker
+  -  docker
   - eclipse che
 ---
 E' uscita una [nuova versione di Eclipse](https://eclipse.org/che/), denominata **Eclipse Che** (forse realizzata a Cuba?) che promette di essere un'autentica rivoluzione: non a caso, il titolo del sito è

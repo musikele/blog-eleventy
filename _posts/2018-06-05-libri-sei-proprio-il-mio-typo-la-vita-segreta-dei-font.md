@@ -6,8 +6,7 @@ title: "[libri] Sei proprio il mio typo: la vita segreta dei caratteri tipografi
 layout: post
 date: 2018-06-05
 tags:
-  - post
-  - font
+  -  font
   - libro
   - sei proprio il mio typo
 headerImg: "/images/seproprioilmiotypo.jpg"

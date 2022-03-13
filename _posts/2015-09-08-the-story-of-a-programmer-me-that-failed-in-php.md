@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  - post
-  - fail
+  -  fail
   - php
   - startup
   - time management

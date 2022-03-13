@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-04-05 00:00:00
 tags:
-  - post
-  - programming
+  -  programming
   - tempo libero
   - programmatore
   - riflessioni

@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - css
+  -  css
   - position
 ---
 Facciamo una breve deviazione sul CSS.

@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/02/650_1000_mean_stack.png
 categories:
   - Italiano
 tags:
-  - post
-  - javascript
+  -  javascript
   - MEAN
   - trend
   - webapp

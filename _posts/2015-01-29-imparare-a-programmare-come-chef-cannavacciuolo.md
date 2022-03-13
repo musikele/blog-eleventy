@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/01/cannavacciuolo-825x510.jpg
 categories:
   - Italiano
 tags:
-  - post
-  - cannavacciuolo
+  -  cannavacciuolo
   - cucine da incubo
   - passione
   - programmare divertendosi

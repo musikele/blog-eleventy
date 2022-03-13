@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - functional programming
+  -  functional programming
   - object oriented
   - programmazione funzionale
 ---

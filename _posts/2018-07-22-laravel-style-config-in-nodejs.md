@@ -7,8 +7,7 @@ category: English
 layout: post
 date: 2018-07-22
 tags:
-  - post
-  - nodejs
+  -  nodejs
   - configuration
   - laravel
 headerImg: "/images/conifer-daylight-environment-454880.jpg"

@@ -7,8 +7,7 @@ category: English
 layout: post
 date: 2018-09-02
 tags:
-  - post
-  - javascript
+  -  javascript
   - es6
 headerImg: "/images/es6.jpeg"
 description: 'Features that are very handy in Object Oriended Javascript: getters

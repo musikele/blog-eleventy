@@ -7,8 +7,7 @@ category: English
 layout: post
 date: 2018-10-25
 tags:
-  - post
-  - docker
+  -  docker
   - cheatsheet
 headerImg: "/images/Q9jiI1pL_400x400.jpg"
 description: A docker cheatsheet with stuff I learn on the job

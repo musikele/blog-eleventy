@@ -6,8 +6,7 @@ title: 'Come capire il bitcoin: le funzioni crittografiche'
 layout: post
 date: 2017-09-19 00:00:00
 tags:
-  - post
-  - bitcoin
+  -  bitcoin
   - crittografia
   - hash
 categories: Italiano

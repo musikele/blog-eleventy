@@ -3,7 +3,7 @@ title: 'Discesa in Inferno e risalita in Paradiso: le 24 ore da incubo di Gitlab
 date: 2017-02-07 11:33:49
 layout: post
 tags:
-  - post
+  
 ---
 **Il 1 febbraio 2017** è accaduto ciò che nessun'azienda al mondo si augura: un database admin, durante un'operazione di manutenzione di una macchina, lancia il comando sbagliato sul cluster sbagliato e cancella tutto il database di produzione, circa 300 gb di dati andati in fumo.
 

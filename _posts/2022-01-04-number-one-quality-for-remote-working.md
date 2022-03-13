@@ -11,7 +11,7 @@ description: 'You want to know the best skill for a remote worker? Without any d
   it''s the ability to write clearly. '
 headerImg: "/images/pexels-min-an-1448709.jpg"
 tags:
-  - post 
+   
   - remote
   - work
   - remote working

@@ -10,8 +10,7 @@ description: 'Using the Go programming language, i''ll explain some basic featur
   of the language with this simple Hello World program. '
 headerImg: "/images/golang.png"
 tags:
-  - post
-  - go
+  -  go
   - hello world
 
 ---

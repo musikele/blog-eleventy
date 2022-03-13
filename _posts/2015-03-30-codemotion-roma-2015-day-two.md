@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - codemotion
+  -  codemotion
   - codemotion 2015
   - orientdb
   - red hat

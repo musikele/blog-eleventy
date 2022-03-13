@@ -7,8 +7,7 @@ category: English
 layout: post
 date: 2018-10-29
 tags:
-  - post
-  - javascript
+  -  javascript
   - es6
   - nodejs
   - generators

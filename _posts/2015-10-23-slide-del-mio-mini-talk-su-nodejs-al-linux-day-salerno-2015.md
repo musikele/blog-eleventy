@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - linux day salerno
+  -  linux day salerno
   - nodejs
   - talk
   - unisa

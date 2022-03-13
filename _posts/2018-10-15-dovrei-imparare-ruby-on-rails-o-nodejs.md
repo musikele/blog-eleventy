@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-10-15
 tags:
-  - post
-  - ruby on rails
+  -  ruby on rails
   - ruby
   - nodejs
 headerImg: "/images/1 tR0ttFEBGvg9_iycnegLbw.png"

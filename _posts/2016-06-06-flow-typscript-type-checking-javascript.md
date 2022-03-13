@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - flow
+  -  flow
   - typescript
 ---
 ho trovato questo [interessantissimo link](http://djcordhose.github.io/flow-vs-typescript/2016_hhjs.html#/) sulla differenza tra **Flow** (di Facebook) e **Typescript** (di Microsoft). Vi consiglio di dargli uno sguardo perché sono slide che si capiscono (rarità!).

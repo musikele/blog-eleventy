@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - db
+  -  db
   - generare id
   - hibernate
   - jpa

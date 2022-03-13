@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - lavoro
+  -  lavoro
 ---
 Big news nella mia vita! Ho cambiato lavoro!
 

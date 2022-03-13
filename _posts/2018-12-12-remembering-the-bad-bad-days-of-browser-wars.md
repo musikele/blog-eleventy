@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-12-12
 tags:
-  - post
-  - html
+  -  html
   - javascript
   - css
   - internet explorer

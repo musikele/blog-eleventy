@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - lavoro
+  -  lavoro
 ---
 Inizio con un finto annuncio di lavoro. In questi giorni è rimbalzato ovunque su internet quindi è probabile che l'abbiate già letto.
 

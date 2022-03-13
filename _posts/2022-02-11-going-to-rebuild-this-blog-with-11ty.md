@@ -14,7 +14,7 @@ tags:
 - 11ty
 - jekyll
 - blog
-- post
+
 
 ---
 In this period I am studying a lot of concepts, some which I had forgot and others I didn't have the time to study, so a bunch of new blog posts will come, I thing weekly.

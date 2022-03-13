@@ -6,8 +6,7 @@ title: Viviamo tutti in una grande simulazione aliena? Sembra di no
 layout: post
 date: 2017-10-03 00:00:00
 tags:
-  - post
-  - Simulazione
+  -  Simulazione
   - Aliena
   - Elon musk
   - Scifi

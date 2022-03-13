@@ -6,8 +6,7 @@ category: English
 layout: post
 date: 2019-08-17
 tags:
-  - post
-  - Javascript
+  -  Javascript
   - Interview
   - Questions
 title: What is the difference between var, let and const in Javascript

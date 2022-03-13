@@ -4,8 +4,7 @@ comments: true
 layout: post
 paginate: true
 tags:
-  - post
-  - codice montemagno
+  -  codice montemagno
   - marco montemagno
   - libri
 title: 'Recensione del libro: Codice Montemagno'

@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
-  - aspirazioni
+  -  aspirazioni
   - asset
   - carriera
   - lavoro

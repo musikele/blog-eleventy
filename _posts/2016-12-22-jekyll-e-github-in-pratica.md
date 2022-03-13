@@ -6,8 +6,7 @@ layout: post
 categories:
   - Italiano
 tags:
-  - post
-  - github
+  -  github
   - blogging
   - jekyll
   - markdown

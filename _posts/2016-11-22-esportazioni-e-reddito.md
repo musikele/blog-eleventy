@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
+  
 ---
 > Una maggiore apertura al mercato dovrebbe ridurre la disuguaglianza nei paesi poveri, favorendo l'aumento della domanda per prodotti ad alta intensità di lavoro poco qualificato, per esempio i tessili, in cui sono di solito specializzati questi paesi. Ciò dovrebbe contribuire a far salire il livello dei salari dei lavoratori non qualificati rispetto a quelli dei lavoratori qualificati o rispetto al profitto dei capitalisti. 
 > 

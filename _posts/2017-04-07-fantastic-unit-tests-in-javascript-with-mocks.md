@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2017-04-07 00:00:00
 tags:
-  - post
-  - nodejs
+  -  nodejs
   - testing
   - rewire
   - expect

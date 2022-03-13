@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/02/angular-featured-825x468.png
 categories:
   - Italiano
 tags:
-  - post
-  - angularJs
+  -  angularJs
   - backbone
   - ember
   - javascript

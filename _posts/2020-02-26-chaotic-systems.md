@@ -6,8 +6,7 @@ category: English
 layout: post
 date: 2020-02-26
 tags:
-  - post
-  - chaotic system
+  -  chaotic system
   - economics
 title: Chaotic systems
 headerImg: "/images/island-during-golden-hour-and-upcoming-storm-1118873.jpg"

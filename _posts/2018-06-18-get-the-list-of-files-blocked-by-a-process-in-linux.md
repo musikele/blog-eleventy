@@ -7,8 +7,7 @@ category: English
 layout: post
 date: 2018-06-18
 tags:
-  - post
-  - linux
+  -  linux
   - shell
   - bash
 headerImg: "/images/find-file-linux-code_magnifying_glass_zero.png"

@@ -6,7 +6,7 @@ comments: true
 author: musikele
 layout: post
 tags:
-  - post
+  
 ---
 Are you frustrated when you hit an error in your NodeJS application because, after a crash, you have to restart it? Do you want to _immediately_ see the app restarted when you change a file? With **Nodemon** this will never be a problem again.
 

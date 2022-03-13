@@ -6,7 +6,7 @@ category: Italiano
 layout: post
 date: 2019-02-12
 tags:
-  - post []
+  - javascript
 title: 'How ads are loaded so fast: the command queue pattern'
 headerImg: "/images/command_queue_pattern-2.jpg"
 description: 'The command queue pattern allows you to give commands to your library,

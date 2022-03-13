@@ -5,7 +5,7 @@ comments: true
 author: musikele
 layout: post
 tags:
-  - post
+  
 ---
 
 I have successfully moved all my blog from Wordpress to Jekyll (what you see is the proof of it!) but there was one thing I was really missing: a web console to easily manage the blog when I don't have a computer on hand.

@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/01/netatmo-640x0.jpg
 categories:
   - Italiano
 tags:
-  - post
-  - caldaia
+  -  caldaia
   - ceraclass
   - domotica
   - hacking

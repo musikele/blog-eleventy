@@ -7,8 +7,7 @@ category: Italiano
 layout: post
 date: 2018-04-16 00:00:00
 tags:
-  - post
-  - libri
+  -  libri
   - ebook
   - carta
 description: 'Da ieri sera sono tornato alla carta, con l''obiettivo di trovare una

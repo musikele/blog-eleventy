@@ -11,8 +11,7 @@ dsq_thread_id:
 categories:
 - Italiano
 tags:
-  - post
-  - conferenza
+  -  conferenza
   - devfest
   - gdg
   - joel

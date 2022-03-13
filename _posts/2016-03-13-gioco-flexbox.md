@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  - post
+  
 ---
 Tutti abbiamo sentito parlare di **flexbox**, _spero_, è una nuova spec di css3 che permette di organizzare gli elementi di una pagina web in maniera più semplice rispetto a prima. Nonostante sia una feature per così dire _moderna_ è ben supportata da tutti i browser (anche mobile!).
 

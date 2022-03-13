@@ -12,8 +12,7 @@ image: /wp-content/uploads/2015/02/bootstrap-3-progress-bars.jpg
 categories:
   - English
 tags:
-  - post
-  - bootstrap
+  -  bootstrap
   - performance
   - progress bar
 ---
