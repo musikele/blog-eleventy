@@ -28,6 +28,12 @@ article {
     overflow:hidden;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+    .post-meta {
+        color: var(--text-light);
+        font-style: italic;
+        font-size: 0.9rem;
+    }
+
     .title-container,
     section {
         padding: 0 1rem;
