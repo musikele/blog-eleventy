@@ -14,7 +14,6 @@ tags:
   - paypal
   - reid hoffman
   - elon musk
-  - lo potevo fare anch'io
 ---
 
 
