@@ -1,16 +1,17 @@
 ---
 layout: default
 pagination:
-  data: collections.posts
-  size: 10
-  alias: posts
-  reverse: true
-permalink: "/{% if pagination.pageNumber > 0 %}archives/page{{ pagination.pageNumber + 1}}/{% endif %}"
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
 ---
 
-<section>
-  {% for post in posts %}
+<h1>Tagged “{{ tag }}”</h1> 
 
+<section>
+  {% set taglist = collections[ tag ] %}
+  {% for post in taglist | reverse %}
     <article>
       <a href="{{ post.url }}">
         <div class="img-container">
@@ -36,13 +37,13 @@ permalink: "/{% if pagination.pageNumber > 0 %}archives/page{{ pagination.pageNu
   {% endfor %}
 
   <section class="button-container">
-    {% if pagination.href.next %}
-      <a href="{{ pagination.href.next }}">
+    {% if taglist.href.next %}
+      <a href="{{ taglist.href.next }}">
         <button>	&#8592; Older</button>
       </a>
     {% endif %}
-    {% if pagination.href.previous %}
-      <a href="{{ pagination.href.previous }}">
+    {% if taglist.href.previous %}
+      <a href="{{ taglist.href.previous }}">
         <button>Newer 	&#8594;</button>
       </a>
     {% endif %}
