@@ -8,32 +8,34 @@ pagination:
 permalink: "/{% if pagination.pageNumber > 0 %}archives/page{{ pagination.pageNumber + 1}}/{% endif %}"
 ---
 
-  <section>
-    {% for post in posts  %}
-      
+<section>
+  {% for post in posts %}
+
+    <article>
       <a href="{{ post.url }}">
+        <div class="img-container">
+          <img src="{{post.data.headerImg}}">
+        </div>
+        <div class="title-container">
           <h2>{{ post.data.title }}</h2>
           <p>{{ post.date | postDate }}</p>
-          <div class="img-container">
-            <img src="{{post.data.headerImg}}">
-          </div>
-        </a>
+        </div>
+      </a>
 
       <section>
         <P>{{ post.data.description }}</P>
-        
+
         <ul class="tags">
-        {% for tag in post.data.tags %}
-        <li>{{tag}}</li>
-        {% endfor %}
+          {% for tag in post.data.tags %}
+            <li>{{tag}}</li>
+          {% endfor %}
         </ul>
       </section>
+    </article>
 
-      <hr/>
+  {% endfor %}
 
-    {% endfor %}
-
-    <section class="button-container">
+  <section class="button-container">
     {% if pagination.href.next %}
       <a href="{{ pagination.href.next }}">
         <button>	&#8592; Older</button>
@@ -44,5 +46,5 @@ permalink: "/{% if pagination.pageNumber > 0 %}archives/page{{ pagination.pageNu
         <button>Newer 	&#8594;</button>
       </a>
     {% endif %}
-    </section>
   </section>
+</section>

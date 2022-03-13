@@ -1,6 +1,90 @@
+body {
+    background: var(--accent-bg);
+}
+
+header {
+    padding-top: 10rem;
+    background: var(--accent-bg);
+    border-bottom: none;
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 768px) {
     body {
         padding: 0 1rem;
+    }
+}
+
+article {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    margin-bottom: 3rem;
+    overflow:hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .title-container,
+    section {
+        padding: 0 1rem;
+    }
+
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+            background-color: var(--text);
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 0;
+        }
+    }
+
+
+    section.major {
+        min-height: 300px;
+        display: flex;
+        flex-flow: column;
+        justify-content: end;
+        min-height:500px;
+        position: relative;
+        margin-bottom: 4rem;
+
+        .img-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index:0;
+          
+            img {
+                background-color: var(--text);
+                width: 100%;
+                max-height: 400px;
+                object-fit: cover;
+                border-radius: 0;
+                mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 10%, transparent 90%);
+            }
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+            z-index:1;
+        }
+
+        div.post-meta {
+            z-index: 1;
+        }
     }
 }
 
@@ -21,15 +105,6 @@ ul.tags {
     }
 }
 
-.img-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    img {
-        background-color: var(--text);
-    }
-}
-
 p img {
     display: block;
     margin: 0 auto;
@@ -37,10 +112,7 @@ p img {
 
 a {
     text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
+    transition: 1s;
 }
 
 section.button-container {
@@ -48,21 +120,3 @@ section.button-container {
     justify-content: space-between;
 }
 
-hr {
-    padding: 0;
-    border: none;
-    border-top: thin solid #8c8c8c;
-    color: #8c8c8c;
-    text-align: center;
-    margin: 2rem auto;
-
-    &:after {
-        content: '§';
-        display: inline-block;
-        position: relative;
-        top: -0.9em;
-        font-size: 1.5em;
-        padding: 0 0.25em;
-        background: var(--bg);
-    }
-}
