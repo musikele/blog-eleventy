@@ -6,6 +6,7 @@
         <title>Michele Nasti's blog</title>
         <link rel="stylesheet" href="https://cdn.simplecss.org/simple-v1.css">
 		<link rel="stylesheet" href="/css/custom.css">
+        <script src="https://kit.fontawesome.com/34fd8742c5.js" crossorigin="anonymous"></script>
         {% include 'metadata.html' %}
     </head>
     <body>
@@ -22,8 +23,6 @@
         <main>
                 {{ content | safe }}
         </main>
-        <footer>
-            this is a footer
-        </footer>
+        {% include 'footer.html' %}
     </body>
 </html>
