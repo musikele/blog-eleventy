@@ -18,13 +18,10 @@ permalink: "/{{ page.date | toISODate }}/{{page.fileSlug }}.html"
 			{{ content | safe }} 
 
 		</section>
-
-		<section>
-			{% if page.comments %} 
-				{% include "./disqus.html" %}
-			{% endif %}
-		</section>
-
 	</article>
+
+	<section>
+		{% include "./disqus.html" %}
+	</section>
 
 </div>

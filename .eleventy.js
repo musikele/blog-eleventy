@@ -17,6 +17,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('archives');
     eleventyConfig.addPassthroughCopy('favicon.ico');
+    eleventyConfig.addPassthroughCopy('scripts');
 
     eleventyConfig.addTemplateFormats("scss");
 

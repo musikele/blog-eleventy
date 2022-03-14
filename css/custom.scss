@@ -1,8 +1,68 @@
+body :root {
+    --bg: #fff;
+    --accent-bg: #f5f7ff;
+    --text: #212121;
+    --text-light: #585858;
+    --border: #d8dae1;
+    --accent: #0d47a1;
+    --accent-light: #90caf9;
+    --code: #d81b60;
+    --preformatted: #444;
+    --marked: #ffdd33;
+    --disabled: #efefef;
+}
+
+.dark-theme {
+    :root {
+        --bg: #0d2538;
+        --accent-bg: #0f2d44;
+        --text: #ced8de;
+        --text-light: #ababab;
+        --border: #414c50;
+        --accent: ##ffffff;
+        --accent-light: #0784b5;
+        --code: #f06292;
+        --preformatted: #ccc;
+        --disabled: #111;
+    }
+
+    article {
+        border: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .light-theme {
+        --bg: #fff;
+        --accent-bg: #f5f7ff;
+        --text: #212121;
+        --text-light: #585858;
+        --border: #d8dae1;
+        --accent: #0d47a1;
+        --accent-light: #90caf9;
+        --code: #d81b60;
+        --preformatted: #444;
+        --marked: #ffdd33;
+        --disabled: #efefef;
+    }
+}
+
+#color-switcher {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    z-index: 1;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 body {
     background: var(--accent-bg);
+    transition: color 0.6s, background-color 0.6s;
 }
 
 header {
+    transition: color 0.6s, background-color 0.6s;
     padding-top: 10rem;
     background: var(--accent-bg);
     border-bottom: none;
@@ -21,12 +81,15 @@ header img {
 }
 
 article {
-    border: 1px solid var(--border);
+    //border: 1px solid var(--border);
     border-radius: 8px;
     background: var(--bg);
+    padding-bottom: 2rem;
     margin-bottom: 3rem;
     overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+        rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+        rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
     .post-meta {
         color: var(--text-light);
@@ -36,8 +99,12 @@ article {
 
     .title-container,
     section {
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 1rem;
+    }    
 
     .img-container {
         width: 100%;
