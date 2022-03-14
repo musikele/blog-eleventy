@@ -7,7 +7,7 @@ category: English
 layout: post
 date: 2018-09-19
 tags:
-  -  javascript
+  - javascript
 headerImg: "/images/es6.jpeg"
 description: 'A nice to know feature, good for impressing others'
 permalink: "2018/09/19/javascript-chiamare-funzioni-senza-usare-parentesi-(what!).html"

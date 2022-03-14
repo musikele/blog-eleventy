@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  lavoro
+  - lavoro
   - remoto
 ---
 Prima di parlarvi di come lavoro da remoto, se non l'avete ancora fatto, leggete la prima parte: [per chi lavoro e cosa faccio](http://michelenasti.com/2016/09/come-ho-cambiato-lavoro-prequel-di-come-lavorare-da-remoto).

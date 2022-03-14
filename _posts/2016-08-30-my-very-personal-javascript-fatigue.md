@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  javascript
+  - javascript
   - testing
 ---
 Trying to write this post as a 2007 blog post: personal, not so politically correct. (I'm not involved in JS politics by the way)

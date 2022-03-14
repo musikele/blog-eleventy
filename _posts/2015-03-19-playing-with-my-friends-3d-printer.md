@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  3D printer
+  - 3D printer
   - stampante 3D
 ---
 Yesterday one of my best friends invited me to his house to see his new toy: a 3D printer, proudly bought on Internet from China. He assembled it piece from piece, and now he can print whatever he wants to.

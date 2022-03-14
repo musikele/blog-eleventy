@@ -10,7 +10,7 @@ description: 'From the creator of XKCD, a book full of science, psychology, fun,
   drawings. '
 headerImg: "/images/img_20200928_202854.jpg"
 tags:
-  -  book
+  - book
   - xkcd
   - randall munroe
   - what if

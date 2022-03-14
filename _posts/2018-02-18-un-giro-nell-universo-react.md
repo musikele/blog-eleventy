@@ -7,7 +7,7 @@ category: Italiano
 layout: post
 date: 2018-02-18 00:00:00
 tags:
-  -  react
+  - react
   - frontend
   - javascript
 headerImg: "/images/1024px-React-icon.svg.png"

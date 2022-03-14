@@ -6,7 +6,7 @@ category: Italiano
 layout: post
 date: 2019-12-09
 tags:
-  -  pair programming
+  - pair programming
   - pull request
   - remote work
 title: 'Pair Programming vs Pull Requests '

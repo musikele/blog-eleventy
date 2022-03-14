@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  best practices
+  - best practices
   - database relazionali
   - RDBMS
   - sql

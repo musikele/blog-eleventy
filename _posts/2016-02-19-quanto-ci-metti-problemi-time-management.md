@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  stima
+  - stima
   - time management
 ---
 ![](https://i2.wp.com/michelenasti.com/wp-content/uploads/2016/02/time-management.jpg) 

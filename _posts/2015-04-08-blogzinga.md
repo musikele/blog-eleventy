@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  blog
+  - blog
   - blogzinga
 ---
 [Sono su BlogZinga](http://www.blogzinga.it/#!/home)!

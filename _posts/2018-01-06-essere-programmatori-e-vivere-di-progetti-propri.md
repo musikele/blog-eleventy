@@ -7,7 +7,7 @@ category: Italiano
 layout: post
 date: 2018-01-06 00:00:00
 tags:
-  -  michele risponde
+  - michele risponde
   - lavoro
   - informatico
   - programmatore

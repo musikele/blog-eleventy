@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  coursera
+  - coursera
   - machine learning
 ---
 <a href="https://i2.wp.com/michelenasti.com/wp-content/uploads/2016/02/machine-learning-e1454919682147.png" rel="attachment wp-att-582"><img class="size-full wp-image-582 aligncenter" src="https://i2.wp.com/michelenasti.com/wp-content/uploads/2016/02/machine-learning-e1454919682147.png?fit=620%2C547" alt="machine learning" srcset="https://i2.wp.com/michelenasti.com/wp-content/uploads/2016/02/machine-learning-e1454919682147.png?w=620 620w, https://i2.wp.com/michelenasti.com/wp-content/uploads/2016/02/machine-learning-e1454919682147.png?resize=300%2C265 300w" sizes="(max-width: 620px) 100vw, 620px" data-recalc-dims="1" /></a>Ancora una volta non ho saputo resistere alla tentazione e ho iniziato lo studio di una tematica molto complessa: il **Machine learning**.

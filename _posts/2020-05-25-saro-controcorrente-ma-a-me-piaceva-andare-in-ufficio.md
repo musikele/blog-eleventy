@@ -11,10 +11,10 @@ description: Non fraintendetemi, non mi piaceva mica il traffico o il tempo pers
   con i miei colleghi.
 headerImg: "/images/top-view-photo-of-people-near-wooden-table-3183150.jpg"
 tags:
-  -  Lavoro
+  - lavoro
   - Colleghi
   - Covid
-  - Remote working
+  - remote working
   - Smart working
 
 ---

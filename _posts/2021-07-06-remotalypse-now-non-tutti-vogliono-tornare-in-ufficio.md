@@ -12,7 +12,7 @@ description: 'Dopo un anno e mezzo di pandemia, molte aziende si stanno riorgani
   working e stanno pensando di licenziarsi. '
 headerImg: "/images/pexels-jill-wellington-39853.jpg"
 tags:
-  -  remote
+  - remote
   - lavoro
 
 ---

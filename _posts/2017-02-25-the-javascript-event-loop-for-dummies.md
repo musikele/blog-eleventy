@@ -6,7 +6,7 @@ comments: true
 author: musikele
 layout: post
 tags:
-  -  javascript
+  - javascript
   - async
   - event loop
 permalink: the-javascript-event-loop-for-dummies/

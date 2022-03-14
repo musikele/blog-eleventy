@@ -10,7 +10,7 @@ description: 'Let me show how easy it is to write an https server with nodejs an
   express. '
 headerImg: "/images/person-holding-white-scroll-2292837.jpg"
 tags:
-  -  nodejs
+  - nodejs
   - express
   - https
 

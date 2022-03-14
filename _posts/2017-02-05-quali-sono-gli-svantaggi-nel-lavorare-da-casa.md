@@ -7,7 +7,7 @@ author: musikele
 layout: post
 category: Italiano
 tags:
-  -  lavoro
+  - lavoro
   - remoto
   - remote working
   - svantaggi

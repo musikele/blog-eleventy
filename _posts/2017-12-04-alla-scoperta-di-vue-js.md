@@ -8,7 +8,7 @@ layout: post
 date: 2017-12-03 00:00:00
 headerImg: "/images/vuejs.png"
 tags:
-  -  vuejs
+  - vuejs
   - javascript
   - frontend
   - angular

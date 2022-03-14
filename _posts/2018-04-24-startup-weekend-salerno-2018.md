@@ -7,8 +7,8 @@ category: Italiano
 layout: post
 date: 2018-04-22
 tags:
-  -  Startup weekend salerno
-  - Startup
+  - startup weekend salerno
+  - startup
   - Sws18
   - Mentor
 headerImg: "/images/IMG_20180422_132054.jpg"

@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  devday
+  - devday
   - napoli
   - nodejs
   - talk

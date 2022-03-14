@@ -12,7 +12,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  lavoro
+  - lavoro
   - qualità
   - team
   - team building

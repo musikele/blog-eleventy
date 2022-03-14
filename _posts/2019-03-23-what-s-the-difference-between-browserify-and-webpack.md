@@ -6,7 +6,7 @@ category: English
 layout: post
 date: 2019-03-23
 tags:
-  -  browserify
+  - browserify
   - webpack
   - rollup
   - parcel

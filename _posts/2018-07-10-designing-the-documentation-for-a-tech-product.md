@@ -7,8 +7,8 @@ category: English
 layout: post
 date: 2018-07-09
 tags:
-  -  Documentation
-  - Work
+  - documentation
+  - work
 headerImg: "/images/documentation.png"
 description: 'What makes great a product? The features, the ease of use, and obviously
   all of this must be explained in a great documentation: one of my jobs. '

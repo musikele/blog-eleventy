@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  applicationContextAware
+  - applicationContextAware
   - autowire
   - autowired
   - java

@@ -12,7 +12,7 @@ image: /wp-content/uploads/2015/11/wpid-wp-14482992317411.jpg
 categories:
   - Italiano
 tags:
-  -  actors
+  - actors
   - angular
   - codemotion
   - codemotion 2015

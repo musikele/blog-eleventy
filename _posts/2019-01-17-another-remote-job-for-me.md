@@ -7,7 +7,7 @@ category: English
 layout: post
 date: 2019-01-17
 tags:
-  -  lavoro
+  - lavoro
   - job
   - remote
 headerImg: "/images/Zurich_Hero.jpg"

@@ -6,7 +6,7 @@ category: Italiano
 layout: post
 date: 2019-10-27
 tags:
-  -  linux
+  - linux
   - ubuntu
 title: Tips & Tricks from my linux experience
 headerImg: "/images/busy-computer-keyboard-hands-2058128.jpg"

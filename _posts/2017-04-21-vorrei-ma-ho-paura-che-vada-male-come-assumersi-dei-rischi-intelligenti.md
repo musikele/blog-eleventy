@@ -6,7 +6,7 @@ title: '"Vorrei, ma ho paura che vada male"	&#58 come assumersi dei "rischi inte
 category: Italiano
 layout: post
 tags:
-  -  rischi
+  - rischi
   - lavoro
   - startup of you
 ---

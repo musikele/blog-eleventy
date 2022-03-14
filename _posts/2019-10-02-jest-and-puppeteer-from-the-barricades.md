@@ -7,7 +7,7 @@ category:
 layout: post
 date: 2019-10-02
 tags:
-  -  jest
+  - jest
   - testing
   - javascript
 title: Jest and Puppeteer from the barricades

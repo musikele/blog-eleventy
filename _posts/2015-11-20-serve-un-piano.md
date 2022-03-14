@@ -12,7 +12,7 @@ image: /wp-content/uploads/2015/11/abz.jpg
 categories:
   - Italiano
 tags:
-  -  ABZ
+  - ABZ
   - aspirazioni
   - carriera
   - planning

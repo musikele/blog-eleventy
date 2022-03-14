@@ -7,8 +7,8 @@ category: Italiano
 layout: post
 date: 2017-10-03 00:00:00
 tags:
-  -  Dell
-  - XPS
+  - dell
+  - xps
   - recensione
   - computer 
   - laptop

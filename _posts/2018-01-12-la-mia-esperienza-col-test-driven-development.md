@@ -7,7 +7,7 @@ category: Italiano
 layout: post
 date: 2018-01-12 00:00:00
 tags:
-  -  test driven development
+  - test driven development
   - tdd
   - testing
   - mock

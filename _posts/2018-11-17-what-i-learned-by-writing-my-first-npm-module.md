@@ -7,7 +7,7 @@ category: English
 layout: post
 date: 2018-11-17
 tags:
-  -  javascript
+  - javascript
   - nodejs
 headerImg: "/images/index.png"
 description: 'I wrote a little browser npm utility just for fun, but the process from

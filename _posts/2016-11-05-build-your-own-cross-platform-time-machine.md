@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  backup
+  - backup
   - rsync
 ---
 When I bought my first Apple computer, 4 years ago, I had a big problem: my data would be backed up in an encrypted and proprietary format. This meant that I could not access to my data from a linux or windows computer. I'm not a fanboy, and I happily use every possible system on earth, so this is a huge issue for me. 4 years ago I decided to overcome this problem by starting the writing **My Own Cross-Platform bash-based Time Machine**!

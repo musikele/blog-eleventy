@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  colloquio
+  - colloquio
   - facebook
   - lavoro
   - personal branding

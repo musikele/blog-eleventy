@@ -7,7 +7,7 @@ category: English
 layout: post
 date: 2017-03-12T13:06:29+00:00
 tags:
-  -  javascript
+  - javascript
   - es6
   - promises
 ---

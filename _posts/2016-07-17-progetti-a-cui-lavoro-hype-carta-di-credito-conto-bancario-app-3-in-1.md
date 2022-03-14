@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  hype
+  - hype
   - pagamenti on line
 ---
 Uno dei prodotti su cui lavora la mia azienda é **[Hype](https://www.hype.it/Hype/index.jsp)**.

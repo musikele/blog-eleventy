@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  console.time
+  - console.time
   - javascript
   - performance
 ---

@@ -9,7 +9,7 @@ title: How to integrate a django-select2 component in Django Admin
 description: 'an How To that tries to write what the official guide omits '
 headerImg: "/images/select2.png"
 tags:
-  -  python
+  - python
   - django
   - django admin
   - django-select2

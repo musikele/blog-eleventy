@@ -12,7 +12,7 @@ image: /wp-content/uploads/2015/01/Sun-Java-JDK_1.jpg
 categories:
   - Italiano
 tags:
-  -  FileOutputStream
+  - FileOutputStream
   - java
 ---
 Ok, JasperReports mi pemette di creare un report in pdf anche come array di byte, cosa utile visto che poi il report va a finire nel db. Ma per fare dei test, come faccio a trasformare l'array di byte in file?

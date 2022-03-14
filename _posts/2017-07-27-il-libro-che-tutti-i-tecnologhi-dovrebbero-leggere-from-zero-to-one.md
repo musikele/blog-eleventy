@@ -7,7 +7,7 @@ category: Italiano
 layout: post
 date: 2017-07-27 09:39:00
 tags:
-  -  peter thiel
+  - peter thiel
   - startup
   - da zero a uno
   - from zero to one

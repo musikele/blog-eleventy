@@ -10,7 +10,7 @@ description: 'I wrote my first Visual Studio Code extension out of need, and I l
   many things along the way. '
 headerImg: "/images/visual-studio-code-logo.png"
 tags:
-  -  visual studio code
+  - visual studio code
   - extension
 
 ---

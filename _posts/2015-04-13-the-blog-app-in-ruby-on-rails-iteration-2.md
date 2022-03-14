@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  howto
+  - howto
   - RoR
   - ruby
   - ruby on rails

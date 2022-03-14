@@ -7,7 +7,7 @@ category: Italiano
 layout: post
 date: 2018-01-07 00:00:00
 tags:
-  -  michele risponde
+  - michele risponde
   - programmazione
   - elon musk
   - tesla

@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  debug
+  - debug
   - gestpay
   - nusoap
   - php

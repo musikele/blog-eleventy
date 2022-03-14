@@ -6,9 +6,9 @@ title: Viviamo tutti in una grande simulazione aliena? Sembra di no
 layout: post
 date: 2017-10-03 00:00:00
 tags:
-  -  Simulazione
+  - Simulazione
   - Aliena
-  - Elon musk
+  - elon musk
   - Scifi
 categories: Italiano
 headerImg: "/images/Rick-And-Morty-Stagione-3.jpg"

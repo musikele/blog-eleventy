@@ -11,12 +11,12 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  aspirazioni
+  - aspirazioni
   - asset
   - carriera
   - lavoro
   - linkedin
-  - Reid hoffman
+  - reid hoffman
 ---
 Ovviamente non parlo secondo me, eh. Ma secondo **Reid Hoffman**, fondatore di LinkedIn, investitore in tante altre startup, e uomo anche un pò fortunello in verità (si é trovato nel posto giusto e al momento giusto più volte nella sua vita).
 

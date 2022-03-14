@@ -5,7 +5,7 @@ date: 2017-08-06 15:11:47
 layout: post
 paginate: true
 tags:
-  -  vacanze
+  - vacanze
   - valledaosta
   - cogne
   - arpy

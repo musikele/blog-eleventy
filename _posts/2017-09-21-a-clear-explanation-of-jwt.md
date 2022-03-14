@@ -5,7 +5,7 @@ author: musikele
 title: 'JWT: what is it? How does it work? Why should we use it?'
 layout: post
 tags:
-  -  authentication
+  - authentication
   - jwt
 categories: English
 date: 2017-09-21 00:00:00

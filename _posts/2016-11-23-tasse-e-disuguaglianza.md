@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  disuguaglianza
+  - disuguaglianza
   - economia
   - libri
   - reddito

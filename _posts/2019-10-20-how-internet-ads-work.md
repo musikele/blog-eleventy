@@ -6,7 +6,7 @@ category: English
 layout: post
 date: 2019-10-21
 tags:
-  -  ads
+  - ads
   - google
   - prebid
   - dfp

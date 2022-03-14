@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  google
+  - google
   - hashcode
   - hashcode2016
 ---

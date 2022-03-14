@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  big data
+  - big data
   - calderoli
   - emendamenti
   - Jacopo Notarstefano

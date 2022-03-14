@@ -6,7 +6,7 @@ layout: post
 categories:
   - Italiano
 tags:
-  -  blogging
+  - blogging
   - development
   - wordpress
   - medium

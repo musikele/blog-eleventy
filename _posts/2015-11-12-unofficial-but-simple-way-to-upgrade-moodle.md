@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  moodle
+  - moodle
   - upgrade
 ---
 [<img class="aligncenter size-full wp-image-422" src="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/11/moodle-logo.png?fit=204%2C61" alt="moodle-logo" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/11/moodle-logo.png)

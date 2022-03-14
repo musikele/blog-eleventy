@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  career
+  - career
   - pet project
   - università
 ---

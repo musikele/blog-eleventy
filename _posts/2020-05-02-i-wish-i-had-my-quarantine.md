@@ -6,7 +6,7 @@ category: English
 layout: post
 date: 2020-05-02
 tags:
-  -  quarantine
+  - quarantine
   - " c"
 title: I wish I had a programmers' quarantine
 headerImg: "/images/coding-computer-data-depth-of-field-577585.jpg"

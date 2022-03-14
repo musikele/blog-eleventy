@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  eslint
+  - eslint
   - nodejs
   - typings
   - visual studio code

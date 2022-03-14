@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  codemotion
+  - codemotion
   - codemotion 2016
   - hapi
   - node.js

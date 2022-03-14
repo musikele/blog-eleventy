@@ -12,9 +12,9 @@ image: /wp-content/uploads/2015/01/pdfmake-825x396.png
 categories:
   - Italiano
 tags:
-  -  jasperreports
+  - jasperreports
   - javascript
-  - javascript pdf
+  - pdf
   - jspdf
   - pdfmake
 ---

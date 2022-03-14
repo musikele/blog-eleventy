@@ -10,7 +10,7 @@ permalink: evaluating-frontend-frameworks/
 description: 'For one of our latest projects we evaluated many frontend frameworks, and this discussion went on for months before taking the decision to, well, not choose a frontend framework. What happened?'
 headerImg: "/images/frontend-frameworks.png"
 tags:
-  -  frontend
+  - frontend
   - angular 
   - react
   - vuejs
@@ -27,9 +27,9 @@ tags:
 For one of our latest projects we evaluated many frontend frameworks, and this discussion went on for months before taking the decision to, well, not choose a frontend framework. What happened? 
 
 Our goal was to build some "widgets" that needed to be:
--  **Served thousand times**: we'd like the smallest possible size.
--  **Developer friendly**: the framework should not impose a strict structure to follow. Future widgets may not be developed by us. 
--  **Excellent tooling**: development is easy when there's syntax check and hightlight, visual helps to understand what's going on, test utilities, etc. 
+- **Served thousand times**: we'd like the smallest possible size.
+- **Developer friendly**: the framework should not impose a strict structure to follow. Future widgets may not be developed by us. 
+- **Excellent tooling**: development is easy when there's syntax check and hightlight, visual helps to understand what's going on, test utilities, etc. 
 
 Probably the hardest constraint was the size, that we settled around **15 Kb** gzipped, widget js & css included, images excluded. We don't want to waste the network's capacity with so many bytes. Less bytes sent -> less energy used -> greener planet ! 
 
@@ -90,7 +90,7 @@ In the end, we figured out that
 - Our widgets are very simple, interaction is usually very very limited. 
 - We don't care about IE11 
 
-And our choice become... [EJS](https://ejs.co). 
+And our choice become... [EJS](https://ejs.co).
 
 If I had to give my own a real-world definition of EJS, I'd say it's a library that will allow very complex string substitutions inside javascript strings. You define a template, that usually it's HTML, and a JSON of options, then pass both to EJS, and EJS will render the HTML using the provided options. One option may be, `color: red` for the background color; another option may be `numberOfElements: 5` and EJS will iterate five times on a piece of HTML to create 5 subcomponents. 
 

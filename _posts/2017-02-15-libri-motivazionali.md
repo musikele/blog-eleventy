@@ -7,7 +7,7 @@ permalink: libri-motivazionali/
 categories:
 - Italiano
 tags:
-  -  rework
+  - rework
   - "è facile smettere di fumare se sai come farlo"
   - chi ha e chi non ha
   - miracle morning

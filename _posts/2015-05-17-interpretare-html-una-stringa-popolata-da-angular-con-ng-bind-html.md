@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  angular
+  - angular
   - ng-bind
   - ng-bind-html
 ---

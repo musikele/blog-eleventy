@@ -6,7 +6,7 @@ category: English
 layout: post
 date: 2020-09-06
 tags:
-  -  music
+  - music
   - wave
   - nodejs
 title: What is a WAV file?

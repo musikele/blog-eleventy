@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - English
 tags:
-  -  groovy
+  - groovy
   - java
   - languages
   - programming languages

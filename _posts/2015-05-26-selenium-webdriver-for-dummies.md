@@ -11,7 +11,7 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  -  selenium
+  - selenium
   - test automatici
   - webdriver
 ---
