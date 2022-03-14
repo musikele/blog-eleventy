@@ -1,15 +1,14 @@
-body :root {
-    --bg: #fff;
-    --accent-bg: #f5f7ff;
-    --text: #212121;
-    --text-light: #585858;
-    --border: #d8dae1;
-    --accent: #0d47a1;
-    --accent-light: #90caf9;
-    --code: #d81b60;
-    --preformatted: #444;
-    --marked: #ffdd33;
-    --disabled: #efefef;
+:root {
+    --bg: #0d2538;
+    --accent-bg: #0f2d44;
+    --text: #ced8de;
+    --text-light: #ababab;
+    --border: #414c50;
+    --accent: ##ffffff;
+    --accent-light: #0784b5;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
 }
 
 .dark-theme {
