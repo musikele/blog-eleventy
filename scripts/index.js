@@ -6,8 +6,10 @@ window.addEventListener('DOMContentLoaded', () => {
     const colorSwitcher = document.getElementById('color-switcher');
     colorSwitcher.onclick = () => {
         if (prefersDarkScheme.matches) {
+            document.body.classList.remove("dark-theme");
             document.body.classList.toggle("light-theme");
         } else {
+            document.body.classList.remove("light-theme");
             document.body.classList.toggle("dark-theme");
         }
         localStorage.setItem("theme", document.body.classList);
