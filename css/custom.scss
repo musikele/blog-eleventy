@@ -31,6 +31,19 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
+:root {
+    --bg: #0d2538;
+    --accent-bg: #0f2d44;
+    --text: #ced8de;
+    --text-light: #ababab;
+    --border: #414c50;
+    --accent: ##ffffff;
+    --accent-light: #0784b5;
+    --code: #f06292;
+    --preformatted: #ccc;
+    --disabled: #111;
+
     .light-theme {
         --bg: #fff;
         --accent-bg: #f5f7ff;
@@ -44,6 +57,7 @@
         --marked: #ffdd33;
         --disabled: #efefef;
     }
+}
 }
 
 #color-switcher {
