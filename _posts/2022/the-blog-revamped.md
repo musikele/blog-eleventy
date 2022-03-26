@@ -8,9 +8,9 @@ tags:
 - 11ty
 - eleventy
 - blog
-permalink: false
+permalink: ''
 draft: true
-eleventyExcludeFromCollections: ''
+eleventyExcludeFromCollections: true
 
 ---
 So, here it is! my redesigned blog is finally live.
