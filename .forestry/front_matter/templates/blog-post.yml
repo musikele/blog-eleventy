@@ -2,14 +2,14 @@
 label: blog post
 hide_body: false
 fields:
-- name: draft
+- name: eleventyExcludeFromCollections
   type: boolean
   label: draft
   default: true
 - type: text
   name: title
   label: title
-- name: eleventyExcludeFromCollections
+- name: permalink
   type: text
   config:
     required: false
