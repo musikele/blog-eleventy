@@ -28,3 +28,5 @@ fields:
     use_select: false
     source:
       type: simple
+pages:
+- _posts/2022/the-blog-revamped.md
