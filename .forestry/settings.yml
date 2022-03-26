@@ -9,6 +9,11 @@ sections:
   label: _posts
   create: all
   match: "**/*"
+- type: directory
+  path: _posts/2022
+  label: '2022'
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/images"
 front_matter_path: ''
