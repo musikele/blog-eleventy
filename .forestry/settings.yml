@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: directory
   path: _posts
-  label: posts
+  label: _posts
   create: all
   match: "**/*"
 upload_dir: uploads
