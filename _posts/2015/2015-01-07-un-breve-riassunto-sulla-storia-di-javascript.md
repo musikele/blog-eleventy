@@ -7,14 +7,15 @@ layout: post
 guid: http://michelenasti.com/?p=17
 permalink: /2015/01/un-breve-riassunto-sulla-storia-di-javascript/
 dsq_thread_id:
-  - "3958633921"
+    - '3958633921'
 image: /wp-content/uploads/2015/01/ecma.gif
 categories:
-  - Italiano
+    - Italiano
 tags:
-  - javascript
+    - javascript
 ---
-Javascript è un linguaggio ideato da [Brendan Eich](http://en.wikipedia.org/wiki/Brendan_Eich "Brendan Eich"), che all’epoca lavorava in Netscape. Il principale utilizzo di Javascript doveva essere quello di evitare rimbalzi di richeste / risposte da client a server solo per delle banali validazioni nei form. All’epoca, nel 1995, caricare una pagina poteva costare tantissimo e vedersela ritornare indietro con la scritta “devi accettare questa clausola per continuare” poteva essere moooolto costoso.
+
+Javascript è un linguaggio ideato da [Brendan Eich](http://en.wikipedia.org/wiki/Brendan_Eich 'Brendan Eich'), che all’epoca lavorava in Netscape. Il principale utilizzo di Javascript doveva essere quello di evitare rimbalzi di richeste / risposte da client a server solo per delle banali validazioni nei form. All’epoca, nel 1995, caricare una pagina poteva costare tantissimo e vedersela ritornare indietro con la scritta “devi accettare questa clausola per continuare” poteva essere moooolto costoso.
 
 All’epoca di Javascript, la connessione più diffusa nel mondo era a 28.8kbps . Diciamo che adesso navighiamo a 1Mbit con le ADSL più sfigate, il ché vuol dire almeno 40 volte più veloce di allora.
 
@@ -28,7 +29,7 @@ Tuttavia Microsoft implementò lo standard a modo proprio, e anzi uno standard n
 
 Nel 1997 era chiaro a tutti che bisognava standardizzare il linguaggio per evitare di impazzire. Fu proposta una bozza alla European Computer Manufacturers Association, che se ne uscì con Ecma-262.
 
-Quello che pochi sanno è che EcmaScript e Javascript non sono _proprio_ la stessa cosa: Javascript è molto di più. Un’implementazione Javascript è composta dal **Core (EcmaScript),** un **Document Object Model (DOM)** e un **Browser Object Model (BOM).** 
+Quello che pochi sanno è che EcmaScript e Javascript non sono _proprio_ la stessa cosa: Javascript è molto di più. Un’implementazione Javascript è composta dal **Core (EcmaScript),** un **Document Object Model (DOM)** e un **Browser Object Model (BOM).**
 
 EcmaScript infatti non è legato ai Browser. EcmaScript definisce solo la **sintassi del linguaggio** ed infatti non è specificato nessun metodo per l’input o per l’output del linguaggio. I Browser sono solo un ambiente su cui il linguaggio gira, ma altri sistemi possono usare EcmaScript e tararlo sulle loro necessità, come Adobe Flash e il suo ActionScript, o più recentemente NodeJS.
 
@@ -50,7 +51,7 @@ Insomma, per un po’ si andò avanti dicendo sia in Netscape che in Microsoft c
 
 Soltanto con Netscape Navigator 4.06 si ebbe la prima implementazione di Javascript 1.3, che era finalmente compatibile con lo standard ECMA da poco finalizzato. Dopodiché Netscape donò il suo codice sorgente a Mozilla, e iniziò una lunga riscrittura del browser per migliorarne le prestazioni (e la manutenibilità). Questa operazione è stata un po’ la fine della storia di Netscape, ma questa è un’altra storia.
 
-Nel 2008 tutti i principali browser (Internet Explorer, Firefox, Safari, Chrome e Opera) implementavano EcmaScript terza edizione.  Da allora possiamo dire che la vita degli sviluppatori si è semplificata di molto.
+Nel 2008 tutti i principali browser (Internet Explorer, Firefox, Safari, Chrome e Opera) implementavano EcmaScript terza edizione. Da allora possiamo dire che la vita degli sviluppatori si è semplificata di molto.
 
 ## Conclusioni
 
