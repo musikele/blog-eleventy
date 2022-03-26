@@ -5,13 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _posts
-  label: _posts
+  path: _posts/2022
+  label: '2022'
   create: all
   match: "**/*"
 - type: directory
-  path: _posts/2022
-  label: '2022'
+  path: _posts
+  label: _posts
   create: all
   match: "**/*"
 upload_dir: uploads
