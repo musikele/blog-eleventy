@@ -1,16 +1,18 @@
 ---
 layout: post
-date: 2022-03-25T23:00:00Z
+date: 2022-03-25T23:00:00.000+00:00
 title: The blog, revamped
 description: ''
-headerImg: '/images/blog-eleventy.png'
+headerImg: "/images/blog-eleventy.png"
 tags:
-    - 11ty
-    - eleventy
-    - blog
+- 11ty
+- eleventy
+- blog
 permalink: false
----
+draft: true
+eleventyExcludeFromCollections: ''
 
+---
 So, here it is! my redesigned blog is finally live.
 
 I think it's the right time to write a bit about the story of this "thing", that I consider my side project. Usually people does work on apps, startups, or whatever. In my case, I consider my pet projects this blog and the developer's community of my area, called DevDay. I'll talk about that in another post.
