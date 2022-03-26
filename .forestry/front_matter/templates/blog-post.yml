@@ -2,12 +2,12 @@
 label: blog post
 hide_body: false
 fields:
-- name: permalink
+- name: eleventyExcludeFromCollections
   type: text
   config:
     required: false
   label: permalink
-  default: 'false'
+  default: ''
 - type: text
   name: title
   label: title
@@ -34,5 +34,9 @@ fields:
   label: layout
   hidden: true
   default: post
+- name: draft
+  type: boolean
+  label: draft
+  default: true
 pages:
 - _posts/2022/the-blog-revamped.md
