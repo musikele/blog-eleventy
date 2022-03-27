@@ -9,7 +9,7 @@ tags:
 - 11ty
 - eleventy
 - blog
-permalink: blog-revamped
+permalink: blog-revamped/
 eleventyExcludeFromCollections: false
 
 ---
