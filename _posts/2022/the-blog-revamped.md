@@ -2,7 +2,8 @@
 layout: post
 date: 2022-03-25T23:00:00.000+00:00
 title: This blog, revamped
-description: ''
+description: After much work I redesigned and rearchitectured my blog using 11ty static
+  site generator.
 headerImg: "/images/blog-eleventy.png"
 tags:
 - wordpress
