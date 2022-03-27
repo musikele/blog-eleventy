@@ -10,7 +10,7 @@ tags:
 - eleventy
 - blog
 permalink: blog-revamped
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 
 ---
 So, here it is! my redesigned blog is finally live.
@@ -31,7 +31,7 @@ I started looking for other blogging platforms and, at the time, the most advanc
 
 Around 2015 I decided to dicth my "personal" blog because I had no interest at all in writing about myself (and being read by nobody). So I decided to buy another domain more linked with myself, and to start again with Wordpress.
 
-## Wordpress for a coder blog
+## Wordpress (\~2015) 
 
 My main goal in this phase was to **document my progress in javascript learning**. Javascript in 2015 was just being revamped and nobody in my team was able to work in it. I decided to learn this skill and use that as a competitive advantage. This was a choice that brought me a lot of returns. 
 
@@ -44,21 +44,14 @@ Wordpress is fine for a lot of use cases. For example, it is a good blog engine 
 
 You end up doing maintenance only and never writing content. That's not what I wanted to do in first place. So after a while I decided to switch to Jekyll. 
 
-## Jekyll 
+## Jekyll (\~2016)
 
 Jekyll is a static site generator. Instead of a database, you can create a file per every article. This is so cheap to achieve and to serve, that many popular services are offering static hosting for free. I decided to switch because almost all blogs I was already following were done in Jekyll, and this gave me the guarantee that I was on the right path; also, there is a nice integration with Github called Github Pages, and you can host a subdomain for free. 
 
 I learned a lot with Jekyll. At the time I used to work for an enterprise that was redesigning a bunch of their websites, I proposed (and obtained) to rewrite all of them in Jekyll, it was a huge success. They're still in Jekyll to this day. 
 
-Jekyll is fine but it has a couple of problems: 
+## 11ty (2022) 
 
-* written in Ruby, a language that I do not have direct work experience. writing, modifying or debugging Jekyll or its plugins is simply impossible for me.
-* To this day nobody knows if there's any plan for Jekyll's future. I read that Jekyll's main maintainer is passed out. 
-* Github is not supporting the project anymore; their version is stopped at jekyll version 2 I think. 
-* Jekyll takes a lot of time to compile. My blog, that is nothing special and has around 200+ articles, takes 40 seconds to render with Jekyll. 
+Welcome 11ty, then. Honestly, I felt to do the redesign because my previous website looked old. But I still plan to write what I larn, what I do, and what i discover. I hope you enjoy, 
 
-## 11ty
-
-Welcome 11ty, then. I tried many times to get involve some designers in redesigning this blog, without success. Apparently designers hate their job so much that nobody wants to be paid to redesign a blog :) So I had to do everything by myself. Hope you like it. 
-
-I did not start from zero, however. The starting point was [simple.css](https://simplecss.org/). It gives you sensible defaults that are very nice. I built on top of that. 
+What will be the next? 
