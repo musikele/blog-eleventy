@@ -9,6 +9,9 @@ fields:
 - type: text
   name: title
   label: title
+- type: textarea
+  name: description
+  label: description
 - name: permalink
   type: text
   config:
@@ -25,9 +28,6 @@ fields:
     use_select: false
     source:
       type: simple
-- type: textarea
-  name: description
-  label: description
 - name: headerImg
   type: file
   config:
