@@ -66,6 +66,10 @@
             --preformatted: #444;
             --marked: #ffdd33;
             --disabled: #efefef;
+
+            h1 a {
+                color: var(--accent);
+            }
         }
     }
 }
@@ -123,10 +127,10 @@ article {
     .title-container,
     section {
         padding: 0 2rem;
-    }
 
-    @media screen and (max-width: 768px) {
-        padding: 0 1rem;
+        @media screen and (max-width: 768px) {
+            padding: 0 1rem;
+        }
     }
 
     .img-container {
@@ -143,10 +147,9 @@ article {
     }
 
     section.major {
-        min-height: 300px;
         display: flex;
         flex-flow: column;
-        justify-content: end;
+        justify-content: flex-end;
         min-height: 500px;
         position: relative;
         margin-bottom: 4rem;
@@ -168,6 +171,11 @@ article {
                 max-height: 400px;
                 object-fit: cover;
                 border-radius: 0;
+                -webkit-mask: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 1) 10%,
+                    transparent 90%
+                );
                 mask-image: linear-gradient(
                     to bottom,
                     rgba(0, 0, 0, 1) 10%,
