@@ -13,9 +13,11 @@
     };
 
     document.addEventListener('themeChanged', function (e) {
-        if (document.readyState == 'complete') {
-            DISQUS.reset({reload: true, config: disqus_config});
-        }
+        setTimeout(() => {
+            if (document.readyState == 'complete') {
+                DISQUS.reset({reload: true, config: disqus_config});
+            }
+        }, 1000);
     });
 
     (function () { // DON'T EDIT BELOW THIS LINE
