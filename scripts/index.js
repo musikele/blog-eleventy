@@ -13,5 +13,8 @@ window.addEventListener('DOMContentLoaded', () => {
             document.body.classList.toggle("dark-theme");
         }
         localStorage.setItem("theme", document.body.classList);
+        // Create and send event
+        const event = new Event('themeChanged');
+        document.dispatchEvent(event);
     };
 });
