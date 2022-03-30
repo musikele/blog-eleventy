@@ -70,6 +70,10 @@
             h1 a {
                 color: var(--accent);
             }
+
+            img, video {
+                opacity: 1;
+            }
         }
     }
 }
