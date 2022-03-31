@@ -21,7 +21,7 @@ Ogni tanto il mondo diventa un posto migliore, e lo diventa grazie a persone com
 
 Ma come? Un progetto che si chiama come la nota casa automobilistica, recentemente coinvolta in uno scandalo sui test truccati?
 
-[<img class="aligncenter size-full wp-image-399" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/volkswagen-emission-tests-2.jpg?fit=606%2C399" alt="volkswagen-emission-tests-2" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/volkswagen-emission-tests-2.jpg?w=606 606w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/volkswagen-emission-tests-2.jpg?resize=300%2C198 300w" sizes="(max-width: 606px) 100vw, 606px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/volkswagen-emission-tests-2.jpg)
+[<img class="aligncenter size-full wp-image-399" src="https://i1.wp.com/michelenasti.com/uploads/2015/10/volkswagen-emission-tests-2.jpg?fit=606%2C399" alt="volkswagen-emission-tests-2" srcset="https://i1.wp.com/michelenasti.com/uploads/2015/10/volkswagen-emission-tests-2.jpg?w=606 606w, https://i1.wp.com/michelenasti.com/uploads/2015/10/volkswagen-emission-tests-2.jpg?resize=300%2C198 300w" sizes="(max-width: 606px) 100vw, 606px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/10/volkswagen-emission-tests-2.jpg)
 
 Ebbene si, e per motivi _assolutamente indipendenti _da quelli scritti al paragrafo precedente, [Wolkswagen](https://github.com/auchenberg/volkswagen) è una libreria che si accorge che stai eseguendo test su un server CI e li fa passare tutti.
 

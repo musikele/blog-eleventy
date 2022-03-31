@@ -17,7 +17,7 @@ tags:
   - personal branding
   - recruitment
 ---
-<a href="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/01/profilo_fb_imbarazzante.jpg" rel="attachment wp-att-575"><img class="aligncenter size-full wp-image-575" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/01/profilo_fb_imbarazzante.jpg?fit=920%2C623" alt="profilo_fb_imbarazzante" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/01/profilo_fb_imbarazzante.jpg?w=974 974w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/01/profilo_fb_imbarazzante.jpg?resize=300%2C203 300w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/01/profilo_fb_imbarazzante.jpg?resize=768%2C520 768w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/01/profilo_fb_imbarazzante.jpg?resize=700%2C474 700w" sizes="(max-width: 920px) 100vw, 920px" data-recalc-dims="1" /></a>
+<a href="https://i1.wp.com/michelenasti.com/uploads/2016/01/profilo_fb_imbarazzante.jpg" rel="attachment wp-att-575"><img class="aligncenter size-full wp-image-575" src="https://i1.wp.com/michelenasti.com/uploads/2016/01/profilo_fb_imbarazzante.jpg?fit=920%2C623" alt="profilo_fb_imbarazzante" srcset="https://i1.wp.com/michelenasti.com/uploads/2016/01/profilo_fb_imbarazzante.jpg?w=974 974w, https://i1.wp.com/michelenasti.com/uploads/2016/01/profilo_fb_imbarazzante.jpg?resize=300%2C203 300w, https://i1.wp.com/michelenasti.com/uploads/2016/01/profilo_fb_imbarazzante.jpg?resize=768%2C520 768w, https://i1.wp.com/michelenasti.com/uploads/2016/01/profilo_fb_imbarazzante.jpg?resize=700%2C474 700w" sizes="(max-width: 920px) 100vw, 920px" data-recalc-dims="1" /></a>
 
 _Storia reale, non faccio nomi, ma se ti senti ipoteticamente coinvolto potrebbe essere che stia parlando di TE._ 
 

@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=28
 permalink: /2015/01/chiamare-una-funzione-javascript-subito-dopo-averla-definita/
 dsq_thread_id:
   - "4034986557"
-image: /wp-content/uploads/2015/01/logo_JavaScript-e1420667913457-825x510.png
+image: /uploads/2015/01/logo_JavaScript-e1420667913457-825x510.png
 categories:
   - Italiano
 tags:

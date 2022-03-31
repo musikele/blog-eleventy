@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=68
 permalink: /2015/01/pdfmake-libreria-js-per-creare-pdf/
 dsq_thread_id:
   - "3966435152"
-image: /wp-content/uploads/2015/01/pdfmake-825x396.png
+image: /uploads/2015/01/pdfmake-825x396.png
 categories:
   - Italiano
 tags:
@@ -18,7 +18,7 @@ tags:
   - jspdf
   - pdfmake
 ---
-[<img class="full-width alignnone wp-image-73 size-full" src="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/pdfmake.png?fit=877%2C396" alt="pdfmake" srcset="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/pdfmake.png?w=877 877w, https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/pdfmake.png?resize=300%2C135 300w" sizes="(max-width: 877px) 100vw, 877px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/pdfmake.png)Ecco a voi il task della settimana: generare _on the fly_ un **pdf** con il contenuto di una tabella.
+[<img class="full-width alignnone wp-image-73 size-full" src="https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png?fit=877%2C396" alt="pdfmake" srcset="https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png?w=877 877w, https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png?resize=300%2C135 300w" sizes="(max-width: 877px) 100vw, 877px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png)Ecco a voi il task della settimana: generare _on the fly_ un **pdf** con il contenuto di una tabella.
 
 Quale libreria scegliere?
 

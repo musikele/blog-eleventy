@@ -24,7 +24,7 @@ So, if you simply type the code like this:
 
 this is what you get:
 
-[<img class="aligncenter wp-image-84 size-full" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/upload-no-style.png?fit=215%2C44" alt="upload-no-style" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/upload-no-style.png)The problem is: how do you style the button ( written here in Italian, "scegli file" - "choose file") to match the style of your website?
+[<img class="aligncenter wp-image-84 size-full" src="https://i1.wp.com/michelenasti.com/uploads/2015/01/upload-no-style.png?fit=215%2C44" alt="upload-no-style" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/01/upload-no-style.png)The problem is: how do you style the button ( written here in Italian, "scegli file" - "choose file") to match the style of your website?
 
 For example, in my works I use [bootstrap](http://getbootstrap.com/) like half dozen million of people of the world does. I want the style of _this_ button to match the style of the others. Also, I don't want to see the "_nessun file selezionato_" ("no file selected") written aside (it can't be styled too!).
 
@@ -41,7 +41,7 @@ This is something I have discovered on [StackOverflow](http://stackoverflow.com/
 
 This is how it is rendered by the majority of browsers:
 
-[<img class=" size-full wp-image-85 aligncenter" src="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/upload-button-styled.png?fit=162%2C121" alt="upload-button-styled" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/upload-button-styled.png)The first "this is a button" is a normal html <span class="lang:default decode:true  crayon-inline "><button></span> element. the second is the file uploader button.
+[<img class=" size-full wp-image-85 aligncenter" src="https://i0.wp.com/michelenasti.com/uploads/2015/01/upload-button-styled.png?fit=162%2C121" alt="upload-button-styled" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2015/01/upload-button-styled.png)The first "this is a button" is a normal html <span class="lang:default decode:true  crayon-inline "><button></span> element. the second is the file uploader button.
 
 ### How the hack works?
 

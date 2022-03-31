@@ -16,7 +16,7 @@ tags:
   - jetbrains
   - produttività
 ---
-Alla fine è scoccato l'amore.[<img class="alignright wp-image-252 size-medium" src="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/04/idea-300x300.png?fit=300%2C300" alt="IntelliJ Idea" srcset="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/04/idea.png?resize=300%2C300 300w, https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/04/idea.png?resize=150%2C150 150w, https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/04/idea.png?w=512 512w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/04/idea.png)
+Alla fine è scoccato l'amore.[<img class="alignright wp-image-252 size-medium" src="https://i2.wp.com/michelenasti.com/uploads/2015/04/idea-300x300.png?fit=300%2C300" alt="IntelliJ Idea" srcset="https://i2.wp.com/michelenasti.com/uploads/2015/04/idea.png?resize=300%2C300 300w, https://i2.wp.com/michelenasti.com/uploads/2015/04/idea.png?resize=150%2C150 150w, https://i2.wp.com/michelenasti.com/uploads/2015/04/idea.png?w=512 512w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/uploads/2015/04/idea.png)
 
 A lavoro non ne potevo più di Eclipse che si bloccava per ogni dieci minuti, anche per le operazioni più comuni. Certe volte bastava ridurlo a icona e Windows 8 lo swappava su disco, e ci mettevo almeno 10 minuti per riprendere possesso del PC. Per non parlare degli enormi quantitativi di RAM buttati al vento.
 

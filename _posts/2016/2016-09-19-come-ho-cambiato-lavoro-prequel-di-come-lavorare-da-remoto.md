@@ -19,7 +19,7 @@ Vi ricordate che ho [cambiato lavoro](http://michelenasti.com/2016/06/cambio-lav
 
 La mia società si chiama [Bemind](http://www.bemind.me/) e, a parte il fatto di sentirci molto fighi per il fatto di essere _Beminders_, per ora non siamo molto presenti sul web. E' una società molto giovane nata dall'idea di un CEO che un bel giorno ha detto: io non voglio fare il dipendente di nessuno. Se il CEO vuole palesarsi su questo blog, a disposizione!
 
-<img class=" size-full wp-image-1002 aligncenter" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/09/logo_bemind_grande.png?fit=848%2C264" alt="logo_bemind_grande" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/09/logo_bemind_grande.png?w=848 848w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/09/logo_bemind_grande.png?resize=300%2C93 300w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/09/logo_bemind_grande.png?resize=768%2C239 768w" sizes="(max-width: 848px) 100vw, 848px" data-recalc-dims="1" />
+<img class=" size-full wp-image-1002 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?fit=848%2C264" alt="logo_bemind_grande" srcset="https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?w=848 848w, https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?resize=300%2C93 300w, https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?resize=768%2C239 768w" sizes="(max-width: 848px) 100vw, 848px" data-recalc-dims="1" />
 
 ## Come vi siete conosciuti?
 

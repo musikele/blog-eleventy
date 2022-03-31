@@ -15,7 +15,7 @@ tags:
   - ispirazione
   - lavoro
 ---
-[<img class=" full-width alignnone wp-image-45 size-full" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg?fit=600%2C428" alt="ribot-divano-in-pelle-berto-salotti" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg?w=600 600w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg?resize=300%2C214 300w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg)
+[<img class=" full-width alignnone wp-image-45 size-full" src="https://i1.wp.com/michelenasti.com/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg?fit=600%2C428" alt="ribot-divano-in-pelle-berto-salotti" srcset="https://i1.wp.com/michelenasti.com/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg?w=600 600w, https://i1.wp.com/michelenasti.com/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg?resize=300%2C214 300w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg)
 
 Sto leggendo un libro interessantissimo su come costruire un Personal Brand, di Frédéric Harper (visitate il suo sito [outofcomfortzone.net](http://outofcomfortzone.net/)).
 
@@ -29,7 +29,7 @@ Sorpresa: non serve essere dei super esperti. E' difficile trovare superstar di 
 
 Quando nella mia azienda si è aperta la possibilità di occupare il ruolo di [Scrum Master](http://it.wikipedia.org/wiki/Scrum_%28informatica%29),  mi ci sono buttato a capofitto. Non tanto perchè lo sapessi fare (lo avevamo appena adottato!) ma l'idea di fare qualcosa di nuovo mi eccitava terribilmente. Non è stato un percorso facile, in due anni ne ho combinate di cotte e di crude, però è qualcosa che ora ho nel mio bagaglio di esperienze e se dovesse capitare un'altra occasione, non mi sentirei a disagio. E' questo che chiedo anche a voi! Appena c'è un'occasione che vi piace, proponetela al vostro manager, vedete che ne pensa di affidare quel compito proprio a VOI.
 
-[<img class=" size-medium wp-image-44 aligncenter" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/wherethemagichappens-300x182.jpg?fit=300%2C182" alt="wherethemagichappens" srcset="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/wherethemagichappens.jpg?resize=300%2C182 300w, https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/wherethemagichappens.jpg?w=650 650w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/wherethemagichappens.jpg)
+[<img class=" size-medium wp-image-44 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2015/01/wherethemagichappens-300x182.jpg?fit=300%2C182" alt="wherethemagichappens" srcset="https://i0.wp.com/michelenasti.com/uploads/2015/01/wherethemagichappens.jpg?resize=300%2C182 300w, https://i0.wp.com/michelenasti.com/uploads/2015/01/wherethemagichappens.jpg?w=650 650w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2015/01/wherethemagichappens.jpg)
 
 le cose fighe accadono proprio lì, fuori dalla nostra comfort zone. **Se facciamo sempre le solite cose, verremo pagati sempre allo stesso modo.** Se vogliamo spezzare questa catena, conviene buttarsi a capofitto!
 

@@ -15,6 +15,6 @@ tags:
   - job
   - software developer
 ---
-[<img title="wp-1453828848876" class="alignnone size-full"  alt="image" src="https://i0.wp.com/michelenasti.com/wp-content/uploads/2016/01/wp-1453828848876.jpg?w=920" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2016/01/wp-1453828848876.jpg)
+[<img title="wp-1453828848876" class="alignnone size-full"  alt="image" src="https://i0.wp.com/michelenasti.com/uploads/2016/01/wp-1453828848876.jpg?w=920" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2016/01/wp-1453828848876.jpg)
 
 Thanks [Esposi.to](http://esposi.to).

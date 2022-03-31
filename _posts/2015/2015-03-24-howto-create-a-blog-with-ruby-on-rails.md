@@ -17,7 +17,7 @@ tags:
   - ruby
   - ruby on rails
 ---
-[<img class="aligncenter wp-image-224 size-full" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/03/rubyrails.png?fit=640%2C320" alt="rubyrails" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/03/rubyrails.png?w=640 640w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/03/rubyrails.png?resize=300%2C150 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/03/rubyrails.png)
+[<img class="aligncenter wp-image-224 size-full" src="https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png?fit=640%2C320" alt="rubyrails" srcset="https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png?w=640 640w, https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png?resize=300%2C150 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png)
 
 I'm following a course on Coursera about Ruby on Rails, well the course is about [Web Architectures](https://www.coursera.org/course/webapplications "Web Application Architectures") but it uses Ruby on Rails to explain it's uses. So this is a good excuse to experiment with this new language and framework.
 

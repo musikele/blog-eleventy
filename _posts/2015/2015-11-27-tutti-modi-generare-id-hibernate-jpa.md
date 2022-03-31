@@ -18,7 +18,7 @@ tags:
   - mysql
   - oracle
 ---
-[<img class="size-full wp-image-456 alignleft" src="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/11/hibernate.jpg?fit=200%2C195" alt="Veramente brutto il logo di Hibernate, vero? " data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/11/hibernate.jpg)Siccome dovevo creare ID con alcune proprietà particolari per alcuni oggetti, ho iniziato a cercare tutti i vari modi in cui si potevano assegnare ID a oggetti JPA e Hibernate.
+[<img class="size-full wp-image-456 alignleft" src="https://i0.wp.com/michelenasti.com/uploads/2015/11/hibernate.jpg?fit=200%2C195" alt="Veramente brutto il logo di Hibernate, vero? " data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2015/11/hibernate.jpg)Siccome dovevo creare ID con alcune proprietà particolari per alcuni oggetti, ho iniziato a cercare tutti i vari modi in cui si potevano assegnare ID a oggetti JPA e Hibernate.
 
 Avevo questo articolo nelle bozze da un bel po'; f<span style="line-height: 1.5;">ondamentalmente sono un programmatore Full-Stack ma, quando una cosa non ti piace, tendi a </span><span style="line-height: 1.5;">non memorizzarla 🙂 quindi mi segno molte cose che faccio qui, sul blog, che magari poi diventano articoli. </span>
 

@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=444
 permalink: /2015/11/serve-un-piano/
 dsq_thread_id:
   - "4332140663"
-image: /wp-content/uploads/2015/11/abz.jpg
+image: /uploads/2015/11/abz.jpg
 categories:
   - Italiano
 tags:

@@ -42,7 +42,7 @@ Uhm ... we are reaching the point ...
 
 Now that's the truth, ol' boy. Let's dive into it.
 
-[<img class="aligncenter size-medium wp-image-848" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/08/testingdifficult-300x251.jpg?fit=300%2C251" alt="testingdifficult" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2016/08/testingdifficult.jpg)
+[<img class="aligncenter size-medium wp-image-848" src="https://i1.wp.com/michelenasti.com/uploads/2016/08/testingdifficult-300x251.jpg?fit=300%2C251" alt="testingdifficult" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2016/08/testingdifficult.jpg)
 
 ### My personal testing jurney
 

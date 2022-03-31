@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=20
 permalink: /2015/01/il-document-object-model-dom/
 dsq_thread_id:
   - "3979259896"
-image: /wp-content/uploads/2015/01/Dom_tree.png
+image: /uploads/2015/01/Dom_tree.png
 categories:
   - Italiano
 tags:

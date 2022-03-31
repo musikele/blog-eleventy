@@ -15,7 +15,7 @@ tags:
   - node
   - nodejs
 ---
-<a href="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/node-js-logo.png" rel="attachment wp-att-390"><img class="aligncenter size-medium wp-image-390" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/node-js-logo-300x150.png?fit=300%2C150" alt="node-js-logo" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/node-js-logo.png?resize=300%2C150 300w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/10/node-js-logo.png?w=600 600w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+<a href="https://i1.wp.com/michelenasti.com/uploads/2015/10/node-js-logo.png" rel="attachment wp-att-390"><img class="aligncenter size-medium wp-image-390" src="https://i1.wp.com/michelenasti.com/uploads/2015/10/node-js-logo-300x150.png?fit=300%2C150" alt="node-js-logo" srcset="https://i1.wp.com/michelenasti.com/uploads/2015/10/node-js-logo.png?resize=300%2C150 300w, https://i1.wp.com/michelenasti.com/uploads/2015/10/node-js-logo.png?w=600 600w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
 
 Sono stato al workshop tenuto da [Matteo Collina](https://www.linkedin.com/in/matteocollina) a Roma, che è da poco diventato uno dei Node Core Developer (tradotto: contribuisce al linguaggio e al runtime di NodeJS).
 

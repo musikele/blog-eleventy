@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=136
 permalink: "/2015/02/quando-assumere-generalisti-vs-specialisti/"
 dsq_thread_id:
 - '4108724544'
-image: "/wp-content/uploads/2015/02/vs.jpg"
+image: "/uploads/2015/02/vs.jpg"
 categories:
 - Italiano
 tags:
@@ -21,7 +21,7 @@ description: 'Siete generalisti o specialisti? In questo articolo proviamo a sco
   cosa conviene fare alle aziende in base al loro ciclo di vita. '
 
 ---
-![](https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/02/vs.jpg)
+![](https://i0.wp.com/michelenasti.com/uploads/2015/02/vs.jpg)
 
 Oggi voglio riproporre in Italiano un articolo di una persona molto skillata sulle tecnologie web, Nicolas Zakas. Zakas è autore di ESLint e ha scritto [questo libro su Javascript](http://amzn.to/2mKc6gl) che ho letto per metà e che mi ha dato le basi per capire Javascript dal di dentro, ossia tutte le sue parti più nascoste come scoping, prototyping, type system, object model, etc.
 
@@ -45,7 +45,7 @@ Non c'è bisogno di me o di Zakas per spiegare chi sono gli specialisti 🙂 Son
 
 All'inizio del ciclo di vita di un'azienda i Generalisti implementano molte soluzioni che sono "abbastanza buone"; non appena la crescita dell'azienda è diventata consistente, e ci si rende conto che le soluzioni "abbastanza buone" non sono più così buone, ed è il momento di assumere degli specialisti. Ma come?
 
-![](https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/02/SPECIALIST-vs-GENERALIST.jpg)
+![](https://i1.wp.com/michelenasti.com/uploads/2015/02/SPECIALIST-vs-GENERALIST.jpg)
 
 ## Come assumere specialisti
 

@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=32
 permalink: /2015/01/convertire-un-array-di-byte-in-un-file-java-con-fileoutputstream/
 dsq_thread_id:
   - "3974718099"
-image: /wp-content/uploads/2015/01/Sun-Java-JDK_1.jpg
+image: /uploads/2015/01/Sun-Java-JDK_1.jpg
 categories:
   - Italiano
 tags:

@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=128
 permalink: /2015/02/webapp-nel-tempo-libero-con-approccio-mean/
 dsq_thread_id:
   - "3979788260"
-image: /wp-content/uploads/2015/02/650_1000_mean_stack.png
+image: /uploads/2015/02/650_1000_mean_stack.png
 categories:
   - Italiano
 tags:
@@ -17,7 +17,7 @@ tags:
   - trend
   - webapp
 ---
-[<img class=" size-medium wp-image-130 alignright" src="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/02/650_1000_mean_stack-300x203.png?fit=300%2C203" alt="MEAN stack" srcset="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/02/650_1000_mean_stack.png?resize=300%2C203 300w, https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/02/650_1000_mean_stack.png?w=650 650w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/02/650_1000_mean_stack.png)E' una di quelle domande poste da un amico che ha letto il mio precedente articolo ([pro e contro di Angular dopo due mesi di lavoro](http://michelenasti.com/2015/02/pro-e-contro-di-angularjs-dopo-2-mesi-di-lavoro/)). Lui è un ex-collega universitario che da qualche tempo non ha più la possibilità di programmare; siccome ha voglia di aggiornarsi, ha chiesto un po' in giro quali sono gli ultimi trend.
+[<img class=" size-medium wp-image-130 alignright" src="https://i2.wp.com/michelenasti.com/uploads/2015/02/650_1000_mean_stack-300x203.png?fit=300%2C203" alt="MEAN stack" srcset="https://i2.wp.com/michelenasti.com/uploads/2015/02/650_1000_mean_stack.png?resize=300%2C203 300w, https://i2.wp.com/michelenasti.com/uploads/2015/02/650_1000_mean_stack.png?w=650 650w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/uploads/2015/02/650_1000_mean_stack.png)E' una di quelle domande poste da un amico che ha letto il mio precedente articolo ([pro e contro di Angular dopo due mesi di lavoro](http://michelenasti.com/2015/02/pro-e-contro-di-angularjs-dopo-2-mesi-di-lavoro/)). Lui è un ex-collega universitario che da qualche tempo non ha più la possibilità di programmare; siccome ha voglia di aggiornarsi, ha chiesto un po' in giro quali sono gli ultimi trend.
 
 Quel che voleva realizzare è un piccolo software per la gestione della biblioteca presso cui presta servizio. E allora sono partito con la prima domanda: _dato che vuoi approfittarne per aggiornarti, hai **molto** tempo libero? _
 

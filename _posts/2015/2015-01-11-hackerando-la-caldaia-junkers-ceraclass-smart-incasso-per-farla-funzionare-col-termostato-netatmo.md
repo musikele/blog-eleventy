@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=53
 permalink: /2015/01/hackerando-la-caldaia-junkers-ceraclass-smart-incasso-per-farla-funzionare-col-termostato-netatmo/
 dsq_thread_id:
   - "3958634016"
-image: /wp-content/uploads/2015/01/netatmo-640x0.jpg
+image: /uploads/2015/01/netatmo-640x0.jpg
 categories:
   - Italiano
 tags:
@@ -21,7 +21,7 @@ tags:
   - netatmo
   - smart
 ---
-[<img class=" full-width alignnone wp-image-54 size-full" src="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/netatmo-640x0.jpg?fit=640%2C437" alt="netatmo-640x0" srcset="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/netatmo-640x0.jpg?w=640 640w, https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/netatmo-640x0.jpg?resize=300%2C205 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/netatmo-640x0.jpg)
+[<img class=" full-width alignnone wp-image-54 size-full" src="https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg?fit=640%2C437" alt="netatmo-640x0" srcset="https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg?w=640 640w, https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg?resize=300%2C205 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg)
 
 titolo lungo, figuratevi il post 🙂
 
@@ -34,7 +34,7 @@ Ora, non appena arriva il termostato (e la caldaia) inizia la fila di tecnici e 
 La caldaia in questione, in effetti, non è una caldaia come tutte le altre, visto che tutta la configurazione interna la si fà tramite un termostato esterno che è uscito incluso con la caldaia, il TF-25 .
 
 <div id="attachment_55" style="width: 290px" class="wp-caption aligncenter">
-  <a href="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/junkers-bosch-ceraclass-smart-incasso-2.jpg"><img class="wp-image-55 size-full" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/junkers-bosch-ceraclass-smart-incasso-2.jpg?fit=280%2C210" alt="junkers-bosch-ceraclass-smart-incasso-2" data-recalc-dims="1" /></a>
+  <a href="https://i1.wp.com/michelenasti.com/uploads/2015/01/junkers-bosch-ceraclass-smart-incasso-2.jpg"><img class="wp-image-55 size-full" src="https://i1.wp.com/michelenasti.com/uploads/2015/01/junkers-bosch-ceraclass-smart-incasso-2.jpg?fit=280%2C210" alt="junkers-bosch-ceraclass-smart-incasso-2" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     la caldaia Junkers Ceraclass Smart Incasso, con il suo termostato TF25 .

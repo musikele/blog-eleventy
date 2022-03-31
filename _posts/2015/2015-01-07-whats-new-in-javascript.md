@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=13
 permalink: /2015/01/whats-new-in-javascript/
 dsq_thread_id:
     - '3959576341'
-image: /wp-content/uploads/2015/01/logo_JavaScript-e1420667913457-825x510.png
+image: /uploads/2015/01/logo_JavaScript-e1420667913457-825x510.png
 categories:
     - Italiano
 tags:

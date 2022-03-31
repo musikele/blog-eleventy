@@ -20,7 +20,7 @@ tags:
 ---
 [Ratpack](https://ratpack.io) is a lightly opinionated framework that's perfect for backends written with a RESTful specification. I am using it in a project that we are developing, and of course it's a microservice.
 
-<img class="wp-image-1122 aligncenter" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?resize=551%2C205" alt="schermata-2016-10-28-alle-15-16-51" srcset="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?w=551 551w, https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?resize=300%2C112 300w" sizes="(max-width: 551px) 100vw, 551px" data-recalc-dims="1" />
+<img class="wp-image-1122 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?resize=551%2C205" alt="schermata-2016-10-28-alle-15-16-51" srcset="https://i1.wp.com/michelenasti.com/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?w=551 551w, https://i1.wp.com/michelenasti.com/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?resize=300%2C112 300w" sizes="(max-width: 551px) 100vw, 551px" data-recalc-dims="1" />
 
 Ratpack is completely **written in Java 8**, and you can use it with Java if you like. However, it's in **Groovy** that it really shines. Groovy is a functional scripting language for the JVM, and enhances Java under many aspects.
 

@@ -14,7 +14,7 @@ tags:
   - stima
   - time management
 ---
-![](https://i2.wp.com/michelenasti.com/wp-content/uploads/2016/02/time-management.jpg) 
+![](https://i2.wp.com/michelenasti.com/uploads/2016/02/time-management.jpg) 
 
 Il boss vi spiega una funzionalità da implementare, una bella cosa che va dal front-end al db, regole di business, interazioni UI, chiamate a servizi esterni, etc. e poi la fatidica domanda: "quanto ci vuole?" e voi, candidamente e onestamente, rispondete gentili: "mah, un giorno credo..."
 

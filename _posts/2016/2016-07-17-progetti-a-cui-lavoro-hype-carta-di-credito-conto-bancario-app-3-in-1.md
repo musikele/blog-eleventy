@@ -20,7 +20,7 @@ Uno dei prodotti su cui lavora la mia azienda é **[Hype](https://www.hype.it/Hy
 
 &#8220;Tutto qui? Ce ne sono centomila come Hype!&#8221; vero, e siccome io non vivo nelle caverne e maneggio soldi e carte di credito sfortunatamente più per spendere che per incassare, ecco la mia opinione a riguardo.
 
-<img class=" size-full wp-image-831 aligncenter" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/07/hype-logo.png?fit=259%2C210" alt="hype-logo" data-recalc-dims="1" />
+<img class=" size-full wp-image-831 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2016/07/hype-logo.png?fit=259%2C210" alt="hype-logo" data-recalc-dims="1" />
 
 > Ovviamente si dovrebbe aver capito che lavoro per loro, anche se non lavoro direttamente su Hype; se non fossi stato convinto della bontà del progetto non ne avrei mai parlato spontaneamente.
 

@@ -14,7 +14,7 @@ tags:
   
 ---
 <p style="text-align: left;">
-  <a href="http://amzn.to/2nYp7mS"><img class="size-full alignleft" title="wp-1457508741600" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2016/03/wp-1457508741600-2.jpg?w=920" alt="image" data-recalc-dims="1" /></a>
+  <a href="http://amzn.to/2nYp7mS"><img class="size-full alignleft" title="wp-1457508741600" src="https://i1.wp.com/michelenasti.com/uploads/2016/03/wp-1457508741600-2.jpg?w=920" alt="image" data-recalc-dims="1" /></a>
 </p>
 
 [**Rework**](http://amzn.to/2nYp7mS) é un libro.

@@ -22,6 +22,6 @@ Ecco le slide del mio talk al Linux Day Salerno!
 
 Da vero _nerd _vi dirò che potete clonarlo/forkarlo da [github](https://github.com/musikele/nodejs_linux_day_salerno_2015).
 
-In alternativa potete [scaricare le slide in formato zip.](http://michelenasti.com/wp-content/uploads/2015/10/nodejs_linux_day_salerno_2015.zip) Dopodichè vi basterà aprire il file index.html .
+In alternativa potete [scaricare le slide in formato zip.](http://michelenasti.com/uploads/2015/10/nodejs_linux_day_salerno_2015.zip) Dopodichè vi basterà aprire il file index.html .
 
 Buona serata!

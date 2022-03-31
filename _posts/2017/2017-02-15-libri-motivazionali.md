@@ -60,7 +60,7 @@ In generale comunque non vado molto dietro a questi libri motivazionali. Ho semp
 E' normale che ti devono indorare la pillola in mille modi, ripeterti i concetti in mille salse fino a convincerti che quello che dicono è giusto; anche in questo, ad esempio, alcuni capitoli sono proprio l'identica copia di un altro, riformulato con esempi o strutturando il pensiero in ordine inverso. Alla fine si leggono velocemente proprio per questo :) 
 Vi posso dare un'altra informazione: il libro più bello che ho letto è [REWORK](https://michelenasti.com/2016/03/5-motivi-cui-rework-ti-cambiera-la-vita/) 
 
-![Rework]({{site.baseurl}}/wp-content/uploads/2016/03/wp-1457508741600-2.jpg) 
+![Rework]({{site.baseurl}}/uploads/2016/03/wp-1457508741600-2.jpg) 
 
 - **IO** - letto anch'io! 
 

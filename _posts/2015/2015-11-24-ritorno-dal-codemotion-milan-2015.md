@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=452
 permalink: /2015/11/ritorno-dal-codemotion-milan-2015/
 dsq_thread_id:
   - "4347640331"
-image: /wp-content/uploads/2015/11/wpid-wp-14482992317411.jpg
+image: /uploads/2015/11/wpid-wp-14482992317411.jpg
 categories:
   - Italiano
 tags:

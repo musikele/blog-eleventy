@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=115
 permalink: /2015/02/pro-e-contro-di-angularjs-dopo-2-mesi-di-lavoro/
 dsq_thread_id:
   - "3958633940"
-image: /wp-content/uploads/2015/02/angular-featured-825x468.png
+image: /uploads/2015/02/angular-featured-825x468.png
 categories:
   - Italiano
 tags:
@@ -20,7 +20,7 @@ tags:
   - SPA
   - webstorm
 ---
-_[<img class=" size-medium wp-image-123 alignleft" src="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/02/angular-featured-300x169.png?fit=300%2C169" alt="angular-featured" srcset="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/02/angular-featured.png?resize=300%2C169 300w, https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/02/angular-featured.png?resize=825%2C468 825w, https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/02/angular-featured.png?w=831 831w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/02/angular-featured.png)Questa è una chat tra me e il mio ex-collega/amico [Davide](https://www.linkedin.com/profile/view?id=9483864 "Davide Antelmo"), sull'esperienza fatta con [AngularJs](https://angularjs.org/). Forse anche loro svilupperanno un POC (proof of concept) e voleva un po' di info. Credo che queste "opinioni" possano servire anche ad altri. Enjoy 🙂_
+_[<img class=" size-medium wp-image-123 alignleft" src="https://i0.wp.com/michelenasti.com/uploads/2015/02/angular-featured-300x169.png?fit=300%2C169" alt="angular-featured" srcset="https://i0.wp.com/michelenasti.com/uploads/2015/02/angular-featured.png?resize=300%2C169 300w, https://i0.wp.com/michelenasti.com/uploads/2015/02/angular-featured.png?resize=825%2C468 825w, https://i0.wp.com/michelenasti.com/uploads/2015/02/angular-featured.png?w=831 831w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2015/02/angular-featured.png)Questa è una chat tra me e il mio ex-collega/amico [Davide](https://www.linkedin.com/profile/view?id=9483864 "Davide Antelmo"), sull'esperienza fatta con [AngularJs](https://angularjs.org/). Forse anche loro svilupperanno un POC (proof of concept) e voleva un po' di info. Credo che queste "opinioni" possano servire anche ad altri. Enjoy 🙂_
 
 > **D.:** Come vi state trovando con angularjs?
 
