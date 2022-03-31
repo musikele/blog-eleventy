@@ -59,7 +59,15 @@ Se il netAtmo funziona come tutti i termostati del mondo, mentre il TF25 no, dov
 
 # Dove collegare i termostati classici?
 
-Il relay del netAtmo è composto da quattro fili, due per chiudere il circuito della caldaia (e attivarla) e due per alimentare il relay. I primi due fili bisogna inserirli negli inserti superiori, come mostrato nell'immagine in basso, mentre quelli dell'alimentazione devono essere messi insieme a quelli che alimentano la caldaia. **Spegnete l'alimentazione alla caldaia altrimenti facciamo una bella frittura.**[<img class=" full-width aligncenter wp-image-59 size-large" src="https://i1.wp.com/michelenasti.com/wp-content/uploads/2015/01/fili-ceraclass-1024x768.jpg?fit=920%2C690" alt="fili-ceraclass" srcset="https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/fili-ceraclass.jpg?resize=1024%2C768 1024w, https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/fili-ceraclass.jpg?resize=300%2C225 300w, https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/fili-ceraclass.jpg?w=1840 1840w" sizes="(max-width: 920px) 100vw, 920px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/wp-content/uploads/2015/01/fili-ceraclass.jpg)Nella seconda immagine invece vedete che bisogna alzare il ponticello n.8 per attivare il circuito che abbiamo appena creato. [<img class=" full-width aligncenter wp-image-60 size-large" src="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/ceraclass-controlli-1024x768.jpg?fit=920%2C690" alt="ceraclass-controlli" srcset="https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/ceraclass-controlli.jpg?resize=1024%2C768 1024w, https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/ceraclass-controlli.jpg?resize=300%2C225 300w, https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/ceraclass-controlli.jpg?w=1840 1840w" sizes="(max-width: 920px) 100vw, 920px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/wp-content/uploads/2015/01/ceraclass-controlli.jpg)Facile no?
+Il relay del netAtmo è composto da quattro fili, due per chiudere il circuito della caldaia (e attivarla) e due per alimentare il relay. I primi due fili bisogna inserirli negli inserti superiori, come mostrato nell'immagine in basso, mentre quelli dell'alimentazione devono essere messi insieme a quelli che alimentano la caldaia. **Spegnete l'alimentazione alla caldaia altrimenti facciamo una bella frittura.**
+
+![fili-ceraclass](/uploads/2015/01/fili-ceraclass.jpg)
+
+Nella seconda immagine invece vedete che bisogna alzare il ponticello n.8 per attivare il circuito che abbiamo appena creato. 
+
+![ponticelli](/uploads/2015/01/ceraclass-controlli.jpg)
+
+Facile no?
 
 .... no! Non per me che non avevo mai messo mano a queste cose.
 
