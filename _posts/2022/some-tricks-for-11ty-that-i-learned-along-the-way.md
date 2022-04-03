@@ -1,5 +1,5 @@
 ---
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 layout: post
 title: Some tricks for 11ty that I learned along the way
 description: in this post I'll explain how to create a collection from a folder, how
