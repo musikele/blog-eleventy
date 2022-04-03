@@ -32,9 +32,7 @@ This will create a classic `collections.posts` that you can later use in your te
 
 I followed the guide [zero-maintenance tag pages](). My only change is, since I have some tags with spaces, to use the `slugify` filter: 
 
-```javascript
-//tags.njk
-
+```markdown
 ...
 permalink: /tags/{{ tag | slugify }}/
 ---
@@ -43,8 +41,10 @@ permalink: /tags/{{ tag | slugify }}/
 
 Unfortunately, this error started to appear: 
 
-```console
-11ty] > Output conflict: multiple input files are writing to `_site/tags/javascript/index.html`. Use distinct `permalink` values to resolve this conflict.
+```shell
+11ty] > Output conflict: multiple input files are writing to 
+`_site/tags/javascript/index.html`. Use distinct `permalink` 
+values to resolve this conflict.
   1. ./tags.njk
   2. ./tags.njk
 
@@ -83,7 +83,7 @@ To do that, I first had to add a new filter in 11ty to sort tags by key:
 
 Then I used this filter in my `tags_all.njk` page: 
 
-```njk
+```markdown
 ---
 layout: default
 permalink: /tags/
@@ -95,10 +95,12 @@ title: Tags
 <section>
     <article>
       <ul>
+      {% raw %}
       {% set orderedCollection = collections | sortObjectByKey  %}
       {%- for tag, posts in orderedCollection %}
         <li><a href="/tags/{{tag | slugify}}/"><strong>{{ tag }}</strong></a> - {{ posts | length }} posts</li>
-      {%- endfor %}
+      {%- endfor -%}
+      {% endraw %}
       </ul>
     </article>
 
