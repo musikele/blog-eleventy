@@ -5,6 +5,13 @@ const sass = require("sass");
 
 
 module.exports = function (eleventyConfig) {
+    const markdownIt = require("markdown-it");
+    const markdownItFootnote = require("markdown-it-footnote");
+
+    const markdownLibrary = markdownIt().use(markdownItFootnote);
+
+    eleventyConfig.setLibrary("md", markdownLibrary);
+
 
     // Values can be static:
     eleventyConfig.addGlobalData("base", "https://michelenasti.com");

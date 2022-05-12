@@ -17,6 +17,7 @@
     },
     "dependencies": {
         "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+        "markdown-it-footnote": "^3.0.3",
         "sass": "^1.49.8"
     }
 }

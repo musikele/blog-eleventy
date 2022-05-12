@@ -28,7 +28,7 @@ The resolver runs this algorithm:
 * These root nameservers are nowadays replicated in hundreds of instances so every geographic region has a lot of those servers very close to the them. These nameservers are operated by different companies to ensure indipendence, transparency and adherence to standards.
 * The root nameserver does not contain individual entries, but it contains the IPs of top domain nameservers . So, if you ask `michelenasti.com` , it will respond with `.com` nameserver.
 * the DNS Resolver now queries the `.com` nameserver and it will respond with `michelenasti.com` nameserver.
-* the DNS Resolver asks `michelenasti.com` nameserver, that in my case is currently hosted on Netlify, and it will _finally_ return the IP address of _something_\[^1\] that will return my website.
+* the DNS Resolver asks `michelenasti.com` nameserver, that in my case is currently hosted on Netlify, and it will _finally_ return the IP address of _something_ [^1] that will return my website.
 * Finally, the DNS resolver responds back to the browser with the IP address.
 
 > Note: for every step, the DNS caches every result. Also, these results have a Time-To-Live (TTL) so if these results do change, they will be refetched after the time expires.
@@ -55,8 +55,9 @@ Even though there are 13 IP addresses for root servers, in reality there are hun
 
 A description of [Anycast](https://www.imperva.com/blog/how-anycast-works/) is here.
 
-***
+
+---
 
 Hope you have enjoyed my journey back to DNS world. Is there any other question you think I should add?
 
-\[^1\]: in a very simple scenario, it's just one server that answers to requests. Nowadays there are load balancers, clusters, cloud providers that can interfere with your request. So the IP returned is usually going to point to one of those; what happens inside the cloud provider is an internal detail that may vary from company to company, and depending on the desidered level of complexity.
+[^1]: in a very simple scenario, it's just one server that answers to requests. Nowadays there are load balancers, clusters, cloud providers that can interfere with your request. So the IP returned is usually going to point to one of those; what happens inside the cloud provider is an internal detail that may vary from company to company, and depending on the desidered level of complexity.
