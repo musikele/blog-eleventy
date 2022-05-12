@@ -39,5 +39,6 @@ fields:
   hidden: true
   default: post
 pages:
+- _posts/2022/how-dns-works-a-refresh-of-the-dns-algorithm-and-architecture.md
 - _posts/2022/some-tricks-for-11ty-that-i-learned-along-the-way.md
 - _posts/2022/the-blog-revamped.md
