@@ -15,13 +15,13 @@ tags:
 headerImg: "/images/telefonbog_ubt-1.JPG"
 
 ---
-Recently I started asking questions to myself about how DNS works. It turns out I forgot almost all I learned at university, so I wrote some notes to refresh my memory. Here's the result. Enjoy!
+Recently I started asking myself questions about how DNS works. It turns out I forgot almost all I learned at university (Damn frontend development!), so I wrote some notes to refresh my memory. 
 
 ***
 
 **DNS** stands for Domain Name Server. It is used by computer to find IP addresses od domains.
 
-When a browser needs an IP it asks a **DNS #Resolver**.
+When a browser needs an IP it asks a **DNS Resolver**.
 The resolver runs this algorithm:
 
 * if it's not in cache, queries one of the 13 root nameservers. These IPs are hardcoded. The resolver will choose the fastest one.
