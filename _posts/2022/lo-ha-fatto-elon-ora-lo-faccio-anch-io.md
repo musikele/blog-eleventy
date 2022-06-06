@@ -1,7 +1,7 @@
 ---
 eleventyExcludeFromCollections: false
 layout: post
-title: Lo ha fatto Elon, ora lo faccio anch'io
+title: Lo ha fatto Elon, e ora lo faccio anch'io
 description: Ha fatto bene Musk a richiamare i dipendenti in ufficio? E soprattutto,
   dovrei copiare le sue mosse?
 permalink: elon-musk-lavoro-remoto/
