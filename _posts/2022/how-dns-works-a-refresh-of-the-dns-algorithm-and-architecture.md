@@ -43,7 +43,7 @@ This is however historical and things have changed a lot. [A description of how 
 
 ##### **Question**: Which one is chosen at any time?
 
-**BIND**, the Open Source software that is powering up DNS in almost every operating system[^3], usually contacts all root nameservers and then chooses the one with least roundtrip time. [source](https://superuser.com/questions/527116/how-does-my-browser-locate-the-nearest-dns-root-servers).
+**BIND**, the Open Source software that *was* powering up DNS in almost every operating system[^3], usually contacts all root nameservers and then chooses the one with least roundtrip time. [source](https://superuser.com/questions/527116/how-does-my-browser-locate-the-nearest-dns-root-servers).
 
 ##### **Question**: When I connect to a network, what happens exactly? Why when I am at home i use my own DNS server and when I am at work I use the network's dns server?
 
