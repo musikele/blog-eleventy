@@ -59,7 +59,7 @@ A description of [Anycast](https://www.imperva.com/blog/how-anycast-works/) is h
 
 Hope you have enjoyed my journey back to DNS world. Is there any other question you think I should add?
 
-*I want to thank [Stéphane Bortzmeyer](https://twitter.com/bortzmeyer) for suggesting some corrections to this article.
+*I want to thank [Stéphane Bortzmeyer](https://twitter.com/bortzmeyer) for suggesting some corrections to this article.*
 
 [^1]: there are many more use cases for DNS queries. For example, it can find email servers, XMPP servers, authenticating emails, validating servers, etc.
 
