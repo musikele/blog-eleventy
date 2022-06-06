@@ -5,7 +5,7 @@ title: How DNS works? A refresh of the DNS algorithm and architecture.
 description: 'Recently I started asking questions to myself about how DNS works. In
   a very slim article, I try to recap all the important details that I forgot. '
 permalink: "/how-dns-works/"
-date: 2022-05-12T00:00:00+02:00
+date: 2022-05-12T00:00:00.000+02:00
 tags:
 - resolver
 - computer science
@@ -15,20 +15,20 @@ tags:
 headerImg: "/images/telefonbog_ubt-1.JPG"
 
 ---
-Recently I started asking myself questions about how DNS works. It turns out I forgot almost all I learned at university (Damn frontend development!), so I wrote some notes to refresh my memory. 
+Recently I started asking myself questions about how DNS works. It turns out I forgot almost all I learned at university (damn frontend development!), so I wrote some notes to refresh my memory.
 
 ***
 
-**DNS** stands for Domain Name Server. It is used by computer to find IP addresses od domains.
+**DNS** stands for Domain Name Server. It is used by computer to find IP addresses of domains[^1].
 
 When a browser needs an IP it asks a **DNS Resolver**.
 The resolver runs this algorithm:
 
 * if it's not in cache, queries one of the 13 root nameservers. These IPs are hardcoded. The resolver will choose the fastest one.
 * These root nameservers are nowadays replicated in hundreds of instances so every geographic region has a lot of those servers very close to the them. These nameservers are operated by different companies to ensure indipendence, transparency and adherence to standards.
-* The root nameserver does not contain individual entries, but it contains the IPs of top domain nameservers . So, if you ask `michelenasti.com` , it will respond with `.com` nameserver.
+* The root nameserver does not contain individual entries, but it contains the IPs of top domain nameservers . So, if you ask `michelenasti.com` , it will respond with `.com` nameservers (more than one, in order to be fault-resistant).
 * the DNS Resolver now queries the `.com` nameserver and it will respond with `michelenasti.com` nameserver.
-* the DNS Resolver asks `michelenasti.com` nameserver, that in my case is currently hosted on Netlify, and it will _finally_ return the IP address of _something_ [^1] that will return my website.
+* the DNS Resolver asks `michelenasti.com` nameserver, that in my case is currently hosted on Netlify, and it will _finally_ return the IP address of _something_ [^2] that will return my website.
 * Finally, the DNS resolver responds back to the browser with the IP address.
 
 > Note: for every step, the DNS caches every result. Also, these results have a Time-To-Live (TTL) so if these results do change, they will be refetched after the time expires.
@@ -43,7 +43,7 @@ This is however historical and things have changed a lot. [A description of how 
 
 ##### **Question**: Which one is chosen at any time?
 
-**BIND**, the Open Source software that is powering up DNS in almost every operating system, usually contacts all root nameservers and then chooses the one with least roundtrip time. [source](https://superuser.com/questions/527116/how-does-my-browser-locate-the-nearest-dns-root-servers).
+**BIND**, the Open Source software that is powering up DNS in almost every operating system[^3], usually contacts all root nameservers and then chooses the one with least roundtrip time. [source](https://superuser.com/questions/527116/how-does-my-browser-locate-the-nearest-dns-root-servers).
 
 ##### **Question**: When I connect to a network, what happens exactly? Why when I am at home i use my own DNS server and when I am at work I use the network's dns server?
 
@@ -55,9 +55,13 @@ Even though there are 13 IP addresses for root servers, in reality there are hun
 
 A description of [Anycast](https://www.imperva.com/blog/how-anycast-works/) is here.
 
-
----
+***
 
 Hope you have enjoyed my journey back to DNS world. Is there any other question you think I should add?
 
-[^1]: in a very simple scenario, it's just one server that answers to requests. Nowadays there are load balancers, clusters, cloud providers that can interfere with your request. So the IP returned is usually going to point to one of those; what happens inside the cloud provider is an internal detail that may vary from company to company, and depending on the desidered level of complexity.
+[^1]: there are many more use cases for DNS queries. For example, it can find email servers, XMPP servers, authenticating emails, validating servers, etc.
+
+[^2]: in a very simple scenario, it's just one server that answers to requests. Nowadays there are load balancers, clusters, cloud providers that can interfere with your request. So the IP returned is usually going to point to one of those; what happens inside the cloud provider is an internal detail that may vary from company to company, and depending on the desidered level of complexity.
+
+[^3]: BIND is not the most famous DNS client anymore. Most small "routers" use dnsmasq, operators or local networks also use Unbound, PowerDNS recursor, Knot, etc.
+
