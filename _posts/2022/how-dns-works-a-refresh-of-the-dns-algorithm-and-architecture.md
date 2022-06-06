@@ -59,6 +59,8 @@ A description of [Anycast](https://www.imperva.com/blog/how-anycast-works/) is h
 
 Hope you have enjoyed my journey back to DNS world. Is there any other question you think I should add?
 
+*I want to thank [Stéphane Bortzmeyer](https://twitter.com/bortzmeyer) for suggesting some corrections to this article.
+
 [^1]: there are many more use cases for DNS queries. For example, it can find email servers, XMPP servers, authenticating emails, validating servers, etc.
 
 [^2]: in a very simple scenario, it's just one server that answers to requests. Nowadays there are load balancers, clusters, cloud providers that can interfere with your request. So the IP returned is usually going to point to one of those; what happens inside the cloud provider is an internal detail that may vary from company to company, and depending on the desidered level of complexity.
