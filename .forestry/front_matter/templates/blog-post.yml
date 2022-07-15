@@ -40,6 +40,7 @@ fields:
   default: post
 pages:
 - _posts/2022/how-dns-works-a-refresh-of-the-dns-algorithm-and-architecture.md
+- _posts/2022/install-samsung-ml-2165w-printer-on-newest-macs.md
 - _posts/2022/lo-ha-fatto-elon-ora-lo-faccio-anch-io.md
 - _posts/2022/some-tricks-for-11ty-that-i-learned-along-the-way.md
 - _posts/2022/the-blog-revamped.md
