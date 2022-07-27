@@ -89,3 +89,18 @@ $ cd project/library
 $ git reset --hard HEAD
 fatal: this operation must be run in a work tree 
 ```
+
+Damn: what does this error mean? Well, if you remember I said that the repo is in a "bare" state, and I have to un-bare it: 
+
+```shell
+$ cd .git
+$ git config --unset core.bare
+$ cd .. 
+$ git reset --hard HEAD 
+```
+
+And finally we've got the repo back, with the original files !
+
+## Next step: push all of these to corporate Github 
+
+
