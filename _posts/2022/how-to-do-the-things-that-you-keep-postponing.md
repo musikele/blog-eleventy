@@ -5,8 +5,8 @@ description: We all would like to read more books, exercise more or simply get b
 permalink: "/do-not-postpone/"
 date: 2022-08-23T00:00:00+02:00
 tags:
-- books
-- 7 habits of successful people
+- book
+- 7 habits of highly successful people
 - time management
 headerImg: 'images/pexels-karl-solano-2729899.jpg'
 
