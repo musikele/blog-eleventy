@@ -18,8 +18,8 @@ Everyone has a different answer, I have several: blogging, working out, caring o
 
 Turns out we can divide the "things to do" in 4 categories and put those in a matrix:
 
-## |   | Urgent  | non urgent  |
-
+|   | Urgent  | non urgent  |
+-------------------------------
 | Important |  DO   |    PLAN    |  
 | Not important |  DELEGATE     |   SCHEDULE  |
 
