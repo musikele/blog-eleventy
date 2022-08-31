@@ -1,8 +1,8 @@
 ---
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 layout: post
 title: No, i programmatori non sono hacker pazzoidi asociali strambi
-description: siamo considerati hacker, intelligenti ma allo stesso tempo stupidi,
+description: Siamo considerati hacker, intelligenti ma allo stesso tempo stupidi,
   disconnessi dalla realtà, con uno scarso uso della logica che abbiamo addirittura
   studiato, e siamo attratti da qualunque cosa abbia chip e silicone. Ma è davvero
   così?
@@ -25,7 +25,7 @@ O ancora lo sfogo di una mamma che, alla vista di una pubblicità che invogliava
 
 > Già i bambini passano tantissimo tempo con i cellulari in mano, addirittura farli diventare sviluppatori? NO!
 
-Insomma, siamo considerati hacker, intelligenti ma allo stesso tempo stupidi, disconnessi dalla realtà, con uno scarso uso della logica che abbiamo addirittura studiato, e siamo attratti da qualunque cosa abbia chip e silicone. Ma è davvero così?
+Insomma, siamo considerati **hacker, intelligenti ma allo stesso tempo stupidi, disconnessi dalla realtà, con uno scarso uso della logica** che abbiamo addirittura studiato, e siamo **attratti da qualunque cosa abbia chip e silicone**. Ma è davvero così?
 
 ## Informatica non è: utilizzo dei cellulari
 
