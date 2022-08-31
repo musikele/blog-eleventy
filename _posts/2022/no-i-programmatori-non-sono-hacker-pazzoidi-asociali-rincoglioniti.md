@@ -4,7 +4,7 @@ layout: post
 title: No, i programmatori non sono hacker pazzoidi asociali strambi
 description: Siamo considerati hacker, intelligenti ma allo stesso tempo stupidi,
   disconnessi dalla realtà, con uno scarso uso della logica che abbiamo addirittura
-  studiato, e siamo attratti da qualunque cosa abbia chip e silicone. Ma è davvero
+  studiato, e siamo attratti da qualunque cosa abbia chip e silicio. Ma è davvero
   così?
 permalink: programmatori-hacker-pazzoidi-asociali-strambi/
 date: 2022-08-31T00:00:00+02:00
@@ -25,7 +25,7 @@ O ancora lo sfogo di una mamma che, alla vista di una pubblicità che invogliava
 
 > Già i bambini passano tantissimo tempo con i cellulari in mano, addirittura farli diventare sviluppatori? NO!
 
-Insomma, siamo considerati **hacker, intelligenti ma allo stesso tempo stupidi, disconnessi dalla realtà, con uno scarso uso della logica** che abbiamo addirittura studiato, e siamo **attratti da qualunque cosa abbia chip e silicone**. Ma è davvero così?
+Insomma, siamo considerati **hacker, intelligenti ma allo stesso tempo stupidi, disconnessi dalla realtà, con uno scarso uso della logica** che abbiamo addirittura studiato, e siamo **attratti da qualunque cosa abbia chip e silicio**. Ma è davvero così?
 
 ## Informatica non è: utilizzo dei cellulari
 
@@ -41,7 +41,7 @@ Così come saper guidare un'auto non significa saperla progettare o riparare, **
 
 ## Informatica non è: altra informatica nel tempo libero
 
-Dopo un'intera giornata a computer, chi ha voglia di continuare? Sicuramente ci sono eccezioni alla regola, ma il 99% dei programmatori che conosco, una volta staccata la spina dal lavoro, hanno hobby decisamente analogici: leggere un libro, fare sport, godersi la famiglia, alcuni anche coltivare la terra... Insomma, siamo persone normali a cui piace fare cose normali. 
+Dopo un'intera giornata a computer, chi ha voglia di continuare? Sicuramente ci sono eccezioni alla regola, ma il 99% dei programmatori che conosco, una volta staccata la spina dal lavoro, hanno hobby decisamente analogici: leggere un libro, fare sport, godersi la famiglia, alcuni anche coltivare la terra... Insomma, siamo persone normali a cui piace fare cose normali.
 
 ## Informatica non è: giocare ai videogiochi
 
