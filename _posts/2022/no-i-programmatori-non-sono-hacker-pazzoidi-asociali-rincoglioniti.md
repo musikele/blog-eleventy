@@ -17,7 +17,7 @@ tags:
 headerImg: "/images/pexels-christina-morillo-1181263.jpg"
 
 ---
-Come tutti i 35+enni anche io ho un account Facebook di cui non riesco a liberarmi, nonostante le nuove generazioni abbiano messo le tende su social di cui io non riesco ad innamorarmi. Su Facebook, insomma, siamo ancora in tanti, anche se vecchietti e rincoglioniti, quindi spesso mi capita di sentire/leggere/ricevere questo tipo di critiche alla mia professione:
+Come tutti i 35+enni anche io ho un account Facebook, nonostante le nuove generazioni abbiano messo le tende su social di cui io non riesco ad innamorarmi. Su Facebook, insomma, siamo ancora in tanti, anche se vecchietti e rincoglioniti, quindi spesso mi capita di sentire/leggere/ricevere questo tipo di critiche alla mia professione:
 
 > l'informatica riduce le abilità linguistiche, ci lascia con appena 50 parole in testa, ci rende schiavi dei dispositivi
 
