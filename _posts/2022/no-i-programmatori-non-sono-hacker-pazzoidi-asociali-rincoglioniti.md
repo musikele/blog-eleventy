@@ -6,7 +6,7 @@ description: Siamo considerati hacker, intelligenti ma allo stesso tempo stupidi
   disconnessi dalla realtà, con uno scarso uso della logica che abbiamo addirittura
   studiato, e siamo attratti da qualunque cosa abbia chip e silicone. Ma è davvero
   così?
-permalink: "/programmatori-hacker-pazzoidi-asociali-strambi/"
+permalink: programmatori-hacker-pazzoidi-asociali-strambi/
 date: 2022-08-31T00:00:00+02:00
 tags:
 - cultura digitale
