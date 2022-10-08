@@ -113,7 +113,7 @@ How can we infer the price of a GAM ad ? By GAM terms of service, GAM is obliged
 
 What you've just read here is nothing more than the logic behind [PrebidJS](http://prebid.org/index.html), an **open source project born as a synergy between the SSPs community**.
 
-![]({{ site.baseurl }}/images/Schermata da 2019-10-19 11-08-37.png "Prebid.org homepage")
+![]({{ site.baseurl }}/images/Schermata-da-2019-10-19-11-08-37.png "Prebid.org homepage")
 
 Prebid will perform the auction amongst the publisher chosen set of SSPs, then will query GAM, and finally will render the ad. Prebid also contains code to display video ads, mobile ads, handle different currencies, and much more.
 
