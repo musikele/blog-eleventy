@@ -59,7 +59,7 @@ With Google acquisition, DFP also started to track users and display ads based o
 
 DFP has now been renamed in **Google Ads Manager (GAM).** I will use GAM for the rest of the article but the world is still calling DFP at the time of writing.
 
-![]({{ site.baseurl }}/images/google ad manager .png "Google Ads Manager when you setup a new account, appears like this")
+![]({{ site.baseurl }}/images/google-ad-manager.png "Google Ads Manager when you setup a new account, appears like this")
 
 ## What happens when a browser asks for an ad to GAM
 
