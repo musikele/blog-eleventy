@@ -5,7 +5,13 @@ title: "serverless & 304, Viewability in apps"
 description: 
 headerImg: '/images/pexels-lukas-574071.jpg'
 tags:
-- tags
+- serverless
+- omid
+- viewability
+- advertising
+- 304 not modified
+- http
+- caching
 permalink: serverless-304-viewability/
 eleventyExcludeFromCollections: false
 ---
