@@ -4,15 +4,15 @@ comments: true
 author: musikele
 category: Italiano
 layout: post
-date: 2019-02-12
+date: 2019-02-12 12:00:00
 tags:
   - javascript
 title: 'How ads are loaded so fast: the command queue pattern'
 headerImg: "/images/command_queue_pattern-2.jpg"
 description: 'The command queue pattern allows you to give commands to your library,
   even if it has still not been loaded. This technique is widely used in advertising. '
-
 ---
+
 Prior to work in an ads company I had no idea of how ads are actually rendered on a page. I mean, I had a vague sense of what was going on, but the actual world behind it ... well, it's huge :)
 
 Sometimes ads are loaded on a page even before you actually see any content. How? The first thing we learned at university is to wait for the DOM to have completely loaded, before doing anything to the DOM itself. This does not apply to ads, or better to say, ad companies use many tricks to load ads without blocking the DOM.

@@ -3,7 +3,6 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const { DateTime } = require('luxon');
 const sass = require("sass");
 
-
 module.exports = function (eleventyConfig) {
     const markdownIt = require("markdown-it");
     const markdownItFootnote = require("markdown-it-footnote");
@@ -17,6 +16,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addGlobalData("base", "https://michelenasti.com");
     eleventyConfig.addGlobalData("sitename", "Michele Nasti");
     eleventyConfig.addGlobalData("twitterName", "micnasti");
+
+    eleventyConfig.addGlobalData("imagePath", "https://ik.imagekit.io/xthvogziier/tr:w-1440/")
+    if (process.env.LOCAL) {
+        eleventyConfig.addGlobalData("imagePath", "")
+    }
 
     // Copy the `img` and `css` folders to the output
     eleventyConfig.addPassthroughCopy('images');

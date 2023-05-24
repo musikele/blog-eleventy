@@ -5,15 +5,15 @@ description: We all would like to read more books, exercise more or simply get b
   habits. But what is preventing us from doing them? In this article I explain how
   we can better schedule our tasks in order to fix our life.
 permalink: "/do-not-postpone/"
-date: 2022-08-23T00:00:00.000+02:00
+date: 2022-08-23T12:00:00.000+02:00
 tags:
 - book
 - 7 habits of highly successful people
 - time management
 headerImg: images/pexels-karl-solano-2729899.jpg
 eleventyExcludeFromCollections: false
-
 ---
+
 What is the single thing you're not doing, that if done would have a tremendous effect on your personal life? or your work life?
 
 Everyone has a different answer, I have several: blogging, working out, caring of the DevDay community... the kind of things that I keep postponing continously, because there are more _important_ things to do. But after reading a book (keep reading to know the name!), i started questioning myself: why i am not doing these things? What is preventing me from doing stuff that could enhance my life?
