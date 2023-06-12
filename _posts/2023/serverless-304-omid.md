@@ -1,6 +1,6 @@
 ---
 layout: post
-date: Created
+date: '2023-05-11'
 title: "serverless & 304, Viewability in apps"
 description: 
 headerImg: '/images/pexels-lukas-574071.jpg'
