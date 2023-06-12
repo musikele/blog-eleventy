@@ -8,7 +8,7 @@ tags:
 - notetaking
 - obsidian
 permalink: exploring-logseq-for-notetaking/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 I've gone through many notetaking apps in my life, expecially the open source ones. For my job, a very simple notepad is not enough. Let's compare some of them I've used along the years.
