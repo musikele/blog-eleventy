@@ -34,7 +34,7 @@ On my way back, my article on Hacker News landed in front page and people were d
 
 ## RTK.io (that no longer exists)
 
-I finally got an offer which was double than what I was used to in Italy. Now it's the moment to tell you about my impostor syndrome: the very first months I felt like I joined a spaceship to Mars, and my only background was... *Javascript*. People was used to speak english to discuss very complex problems, and I thought to be able to sustain a conversation in english, well it turns out i wasn't. Or, to be more precise, I had to to do some practice because my words couldn't come out at the same speed of my thoughts.
+I finally got an offer which was double than what I was used to in Italy. Now it's the moment to tell you about my impostor syndrome: the very first months I felt like I joined a spaceship to Mars, and my only background was... *Javascript*. People were used to speak english to discuss very complex problems, and I thought to be able to sustain a conversation in english, well it turns out i wasn't. Or, to be more precise, I had to to do some practice because my words couldn't come out at the same speed of my thoughts.
 
 About this company, that was called RTK.io, I want to highlight a few points.
 
