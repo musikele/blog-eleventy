@@ -50,7 +50,7 @@ Magnite is one of the biggest companies in the programmatic space. At the time, 
 
 Instead, many things were going to click in a positive way. For example, my manager negotiated a salary increase for us. I was, for the first time, exposed to the dynamics of a public company listed in the US stock exchange, where every business decision can lead to a stock price bump or fall. I was also exposed to RSUs (basically, stocks that the company gives to you every X months), intercontinental business trips, and a scale of doing things that I'll probably never see anymore.
 
-But, what happened with the RTK folks? We all joined this new company, but after a year of working together, almost all of them decided to pursue new experiences. I think that the real end of the RTK team was at the end of 2020, when I remained alone.
+But, what happened with the RTK folks? We all joined this new company, but after a year of working together, almost all of them decided to pursue new experiences. I think that the real end of the RTK team was at the start of 2022, when I remained alone.
 
 ---
 
