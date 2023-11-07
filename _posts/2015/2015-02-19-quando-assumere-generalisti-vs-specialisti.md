@@ -8,7 +8,6 @@ guid: http://michelenasti.com/?p=136
 permalink: "/2015/02/quando-assumere-generalisti-vs-specialisti/"
 dsq_thread_id:
 - '4108724544'
-image: "/uploads/2015/02/vs.jpg"
 categories:
 - Italiano
 tags:

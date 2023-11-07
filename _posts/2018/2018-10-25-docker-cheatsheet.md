@@ -17,8 +17,8 @@ I usually forget everything if I don't use it that much. Here is a brief list of
 
 ## Start a simple container
 
-```bash 
-$ docker run -i -t ubuntu /bin/bash
+```bash
+docker run -i -t ubuntu /bin/bash
 ```
 
 * `run` runs the `ubuntu` image
@@ -37,8 +37,8 @@ Optional commands:
 
 ## See containers status
 
-```bash 
-$ docker ps -a 
+```bash
+docker ps -a 
 ```
 
 * `ps` alone prints only the active containers
@@ -48,8 +48,8 @@ $ docker ps -a
 
 If the container is started as daemon you might want to see the output.
 
-```bash 
-$ docker logs -t -f NAME_OF_CONTAINER 
+```bash
+docker logs -t -f NAME_OF_CONTAINER 
 ```
 
 * `logs NAME_OF_CONTAINER` shows you the logs of the container. Without options you see the latest logs and then the propt gets back to your shell.
@@ -59,13 +59,13 @@ $ docker logs -t -f NAME_OF_CONTAINER
 To check container processes:
 
 ```shell
-$ docker top daemon_dave
+docker top daemon_dave
 ```
 
 To get stats about a bunch of docker containers:
 
 ```shell
-$ docker stats daemon_dave daemon_kate
+docker stats daemon_dave daemon_kate
 ```
 
 ## Running programs in a container
@@ -73,7 +73,7 @@ $ docker stats daemon_dave daemon_kate
 Daemon mode:
 
 ```shell
-$ sudo docker exec -d daemon_dave touch /etc/new_config_file
+sudo docker exec -d daemon_dave touch /etc/new_config_file
 ```
 
 * `-d` stands for daemon mode.
@@ -82,7 +82,7 @@ $ sudo docker exec -d daemon_dave touch /etc/new_config_file
 Interactive mode:
 
 ```shell
-$ docker exec -t -i daemon_dave /bin/bash
+docker exec -t -i daemon_dave /bin/bash
 ```
 
 * `-t` creates a TTY
@@ -93,22 +93,22 @@ $ docker exec -t -i daemon_dave /bin/bash
 ## Stopping & Deleting
 
 ```shell
-$ docker stop CONTAINER 
+docker stop CONTAINER 
 ```
 
 ```shell
-$ docker rm CONTAINER 
+docker rm CONTAINER 
 ```
 
 ## Listing docker images
 
 ```shell
-$ docker images
+docker images
 ```
 
-## Build a static container with my blog 
+## Build a static container with my blog
 
-create the `Dockerfile`: 
+create the `Dockerfile`:
 
 ```docker
 # Version: 0.0.1 
@@ -161,20 +161,20 @@ http {
 }
 ```
 
-Then we can build the image: 
-
-```bash 
-$ docker build -t "musikele/blog" .
-```
-
-And we can run it with: 
+Then we can build the image:
 
 ```bash
-$ docker run -d -p 80:80 --name blog musikele/blog
+docker build -t "musikele/blog" .
+```
+
+And we can run it with:
+
+```bash
+docker run -d -p 80:80 --name blog musikele/blog
 ```
 
 In case anything goes wrong, you can enter and inspect the running container with: 
 
 ```bash
-$ docker exec -i -t blog /bin/bash
+docker exec -i -t blog /bin/bash
 ```

@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=53
 permalink: /2015/01/hackerando-la-caldaia-junkers-ceraclass-smart-incasso-per-farla-funzionare-col-termostato-netatmo/
 dsq_thread_id:
   - "3958634016"
-image: /uploads/2015/01/netatmo-640x0.jpg
+headerImg: /uploads/2015/01/netatmo-640x0.jpg
 categories:
   - Italiano
 tags:
@@ -21,7 +21,6 @@ tags:
   - netatmo
   - smart
 ---
-[<img class=" full-width alignnone wp-image-54 size-full" src="https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg?fit=640%2C437" alt="netatmo-640x0" srcset="https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg?w=640 640w, https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg?resize=300%2C205 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2015/01/netatmo-640x0.jpg)
 
 titolo lungo, figuratevi il post 🙂
 
@@ -33,13 +32,7 @@ Ora, non appena arriva il termostato (e la caldaia) inizia la fila di tecnici e 
 
 La caldaia in questione, in effetti, non è una caldaia come tutte le altre, visto che tutta la configurazione interna la si fà tramite un termostato esterno che è uscito incluso con la caldaia, il TF-25 .
 
-<div id="attachment_55" style="width: 290px" class="wp-caption aligncenter">
-  <a href="https://i1.wp.com/michelenasti.com/uploads/2015/01/junkers-bosch-ceraclass-smart-incasso-2.jpg"><img class="wp-image-55 size-full" src="https://i1.wp.com/michelenasti.com/uploads/2015/01/junkers-bosch-ceraclass-smart-incasso-2.jpg?fit=280%2C210" alt="junkers-bosch-ceraclass-smart-incasso-2" data-recalc-dims="1" /></a>
-  
-  <p class="wp-caption-text">
-    la caldaia Junkers Ceraclass Smart Incasso, con il suo termostato TF25 .
-  </p>
-</div>
+![la caldaia Junkers Ceraclass Smart Incasso, con il suo termostato TF25.](/uploads/2015/01/junkers-bosch-ceraclass-smart-incasso-2.jpg)
 
 Il TF-25 è un vero e proprio minicomputer per questa caldaia, infatti permette di impostare la temperatura di mandata, la temperatura dell'acqua sanitaria, la pressione, e molto altro: praticamente tutta la gestione si fa da qui. Si può anche accendere, spegnere o programmare la caldaia in maniera temporizzata, ma non ha la comodità dello smartphone (quindi il netAtmo aveva ancora un senso).
 
@@ -57,7 +50,7 @@ il netatmo funziona come tutti i termostati normali: quando la temperatura di ca
 
 Se il netAtmo funziona come tutti i termostati del mondo, mentre il TF25 no, dove lo collego? Stavo per rivenderlo, quando un amico su Facebook (che io definisco "hacker delle caldaie") mi spiega passo passo cosa dovrei fare, manuale alla mano. E quindi ...
 
-# Dove collegare i termostati classici?
+## Dove collegare i termostati classici?
 
 Il relay del netAtmo è composto da quattro fili, due per chiudere il circuito della caldaia (e attivarla) e due per alimentare il relay. I primi due fili bisogna inserirli negli inserti superiori, come mostrato nell'immagine in basso, mentre quelli dell'alimentazione devono essere messi insieme a quelli che alimentano la caldaia. **Spegnete l'alimentazione alla caldaia altrimenti facciamo una bella frittura.**
 

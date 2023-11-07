@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=161
 permalink: /2015/02/scrivere-codice-migliore-rispondendo-a-12-semplici-domande/
 dsq_thread_id:
   - "4000455381"
-image: /uploads/2015/02/code-hero-580x230.png
+headerImg: /uploads/2015/02/code-hero-580x230.png
 categories:
   - Italiano
 tags:
@@ -16,11 +16,10 @@ tags:
   - qualità
   - questionario
 ---
-[<img class=" size-medium wp-image-164 alignleft" src="https://i2.wp.com/michelenasti.com/uploads/2015/02/code-hero-580x230-300x119.png?fit=300%2C119" alt="code-hero-580x230" srcset="https://i1.wp.com/michelenasti.com/uploads/2015/02/code-hero-580x230.png?resize=300%2C119 300w, https://i1.wp.com/michelenasti.com/uploads/2015/02/code-hero-580x230.png?resize=580%2C230 580w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/02/code-hero-580x230.png)Qualcuno (per la precisione, uno dei creatori del celeberrimo Stack Overflow) nel 2000 ha ideato un [questionario di 12 domande](http://www.joelonsoftware.com/articles/fog0000000043.html) per sapere se la vostra azienda (o il vostro progetto) sta seguendo le "buone pratiche di qualità del software", che tradotto in programmatorese, significa **codice migliore**. Questa roba non è fuffa, visto che esistono anche standard internazionali che codificano più o meno le stesse cose, solo che sono libri di 1500 pagine che non sono stati letti nemmeno da chi li ha scritti.
+
+Qualcuno (per la precisione, uno dei creatori del celeberrimo Stack Overflow) nel 2000 ha ideato un [questionario di 12 domande](http://www.joelonsoftware.com/articles/fog0000000043.html) per sapere se la vostra azienda (o il vostro progetto) sta seguendo le "buone pratiche di qualità del software", che tradotto in programmatorese, significa **codice migliore**. Questa roba non è fuffa, visto che esistono anche standard internazionali che codificano più o meno le stesse cose, solo che sono libri di 1500 pagine che non sono stati letti nemmeno da chi li ha scritti.
 
 Ecco il famigerato questionario:
-
-<!--more-->
 
   1. Usate un sistema di source control?
   2. Potete realizzare una build del sistema in un solo step?
@@ -31,9 +30,9 @@ Ecco il famigerato questionario:
   7. Avete una specifica scritta di cosa devi fare?
   8. I programmatori hanno condizioni lavorative tranquille?
   9. Usate i migliori tool che potete permettervi?
- 10. Avete tester allocati sul progetto?
- 11. I candidati al ruolo di programmatore scrivono codice durante il colloquio?
- 12. Effettuate test di usabilità minimi?
+ 1.  Avete tester allocati sul progetto?
+ 2.  I candidati al ruolo di programmatore scrivono codice durante il colloquio?
+ 3.  Effettuate test di usabilità minimi?
 
 Il bello di questo test è che è facile rispondere; altri sistemi richiedono di calcolare il numero di bug per commit e cose simili, e non sono dunque rapidi. _Ovviamente non è un test da utilizzare per testare la sicurezza di una centrale nucleare_ 🙂
 

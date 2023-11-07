@@ -14,7 +14,7 @@ description: 'customers represent the best resource of every company, but do we 
   care about them? Here''s an interesting insight of my work experience. '
 
 ---
-_The story I'm going to talk about is not related to my current job, anyway._ 
+_The story I'm going to talk about is not related to my current job, anyway._
 
 Some time ago I jumped on a brand new job, a _service oriented_ one, where we had many customers and we offered a **product as a service**.
 
@@ -32,7 +32,7 @@ I don't remember, however, what was the issue in the end. I asked a more experie
 
 ![Not me, not my coworkers]({{ site.baseurl }}/images/customer.jpg "A couple of programmers")
 
-_about the image: i work remotely, so this is not me and not my coworker, but it can be seen as a beautiful depiction of us discussing of problems :)_
+_about the headerImg: i work remotely, so this is not me and not my coworker, but it can be seen as a beautiful depiction of us discussing of problems :)_
 
 ## Lessons learned
 

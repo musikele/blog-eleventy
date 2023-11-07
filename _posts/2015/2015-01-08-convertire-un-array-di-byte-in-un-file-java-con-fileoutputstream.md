@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=32
 permalink: /2015/01/convertire-un-array-di-byte-in-un-file-java-con-fileoutputstream/
 dsq_thread_id:
   - "3974718099"
-image: /uploads/2015/01/Sun-Java-JDK_1.jpg
+headerImg: /uploads/2015/01/Sun-Java-JDK_1.jpg
 categories:
   - Italiano
 tags:
@@ -19,10 +19,12 @@ Ok, JasperReports mi pemette di creare un report in pdf anche come array di byte
 
 Voilà:
 
-<pre class="lang:default decode:true">FileOutputStream fos = new FileOutputStream("pathname");
+```java
+FileOutputStream fos = new FileOutputStream("pathname");
 fos.write(myByteArray);
 fos.close();
-</pre>
+```
+
 
 Vantaggi: non servono librerie aggiuntive per questa operazione.
 

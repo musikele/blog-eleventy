@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=173
 permalink: /2015/03/tools-that-dont-explain-themselves-clearly-will-not-be-used/
 dsq_thread_id:
   - "4105943629"
-image: /uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35.jpg
+headerImg: /uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35.jpg
 categories:
   - English
 tags:
@@ -17,7 +17,6 @@ tags:
   - requireJs
   - vagrant
 ---
-[<img class="alignleft wp-image-174 size-medium" src="https://i0.wp.com/michelenasti.com/uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35-300x225.jpg?fit=300%2C225" alt="If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35" srcset="https://i1.wp.com/michelenasti.com/uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35.jpg?resize=300%2C225 300w, https://i1.wp.com/michelenasti.com/uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35.jpg?w=480 480w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35.jpg)
 
 My life is full of stuff to do and I really have no time to update my knowledge, so I have to dig on rss feeds or conferences or ask friends for the latest tools to be aware of.
 

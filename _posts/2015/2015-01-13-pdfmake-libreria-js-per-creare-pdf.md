@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=68
 permalink: /2015/01/pdfmake-libreria-js-per-creare-pdf/
 dsq_thread_id:
   - "3966435152"
-image: /uploads/2015/01/pdfmake-825x396.png
+headerImg: /uploads/2015/01/pdfmake.png
 categories:
   - Italiano
 tags:
@@ -18,13 +18,14 @@ tags:
   - jspdf
   - pdfmake
 ---
-[<img class="full-width alignnone wp-image-73 size-full" src="https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png?fit=877%2C396" alt="pdfmake" srcset="https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png?w=877 877w, https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png?resize=300%2C135 300w" sizes="(max-width: 877px) 100vw, 877px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/uploads/2015/01/pdfmake.png)Ecco a voi il task della settimana: generare _on the fly_ un **pdf** con il contenuto di una tabella.
+
+Ecco a voi il task della settimana: generare _on the fly_ un **pdf** con il contenuto di una tabella.
 
 Quale libreria scegliere?
 
-  * [**JasperReports**](https://community.jaspersoft.com/) non è adatto allo scopo: bisognerebbe spedire il contenuto della tabella sul backend, e far stampare il report al server; ma soprattutto, se l'applicazione contiene 100.000 tabelle, c'è il rischio di dover preparare 100.000 template? (Aiuto miei cari friends della community, sinceramente non sono un super esperto di JasperReports!). In ogni caso, i dati sono in genere già disponibili sul client; possibili che non ci sono soluzioni "native" in js?
-  * [**jsPDF**](https://parall.ax/products/jspdf) è un'altra libreria presa in considerazione. E' Javascript, è frontend, è leggera. Il problema è che non è capace di renderizzare l'HTML, quindi per creare la tabella avrei dovuto disegnarla linea per linea. Non un compito banale. Ad esempio, per scrivere del testo in una certa posizione, bisogna specificare la posizione di ogni oggetto: <span class="lang:default decode:true  crayon-inline">doc.text(35, 25, "Paranyan loves jsPDF");</span> . Un delirio di numeri! E poi tutti quei problemi come spaziatura... proporzioni ... overflow del testo...  insomma è quasi una tesi di laurea! Scartato.
-  * [**Pdfmake**](http://pdfmake.org/#/) l'ho scoperto per caso. Nella pagina web di [UI-Grid](http://ui-grid.info/) (una tabella per Angular) c'era questo import, ma non trovavo nessun riferimento sul sito. Così sono andato sul sito ufficiale e ho provato a capirci di più.
+* [**JasperReports**](https://community.jaspersoft.com/) non è adatto allo scopo: bisognerebbe spedire il contenuto della tabella sul backend, e far stampare il report al server; ma soprattutto, se l'applicazione contiene 100.000 tabelle, c'è il rischio di dover preparare 100.000 template? (Aiuto miei cari friends della community, sinceramente non sono un super esperto di JasperReports!). In ogni caso, i dati sono in genere già disponibili sul client; possibili che non ci sono soluzioni "native" in js?
+* [**jsPDF**](https://parall.ax/products/jspdf) è un'altra libreria presa in considerazione. E' Javascript, è frontend, è leggera. Il problema è che non è capace di renderizzare l'HTML, quindi per creare la tabella avrei dovuto disegnarla linea per linea. Non un compito banale. Ad esempio, per scrivere del testo in una certa posizione, bisogna specificare la posizione di ogni oggetto: `doc.text(35, 25, "Paranyan loves jsPDF");`. Un delirio di numeri! E poi tutti quei problemi come spaziatura... proporzioni ... overflow del testo...  insomma è quasi una tesi di laurea! Scartato.
+* [**Pdfmake**](http://pdfmake.org/#/) l'ho scoperto per caso. Nella pagina web di [UI-Grid](http://ui-grid.info/) (una tabella per Angular) c'era questo import, ma non trovavo nessun riferimento sul sito. Così sono andato sul sito ufficiale e ho provato a capirci di più.
 
 ## pdfmake, wow
 
@@ -38,49 +39,52 @@ Ma ricordiamoci il nostro obiettivo. Noi vogliamo stampare il contenuto di una t
 
 ### test.html
 
-<pre class="lang:default decode:true " title="test.html">&lt;!doctype html&gt;
-&lt;html ng-app="app"&gt;
-&lt;head&gt;
-    &lt;script src="//code.jquery.com/jquery-2.1.3.min.js"&gt;&lt;/script&gt;
-    &lt;script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js"&gt;&lt;/script&gt;
-    &lt;script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-touch.js"&gt;&lt;/script&gt;
-    &lt;script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.js"&gt;&lt;/script&gt;
-    &lt;script src="http://ui-grid.info/docs/grunt-scripts/csv.js"&gt;&lt;/script&gt;
-    &lt;script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"&gt;&lt;/script&gt;
-    &lt;script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"&gt;&lt;/script&gt;
-    &lt;script src="http://ui-grid.info/release/ui-grid-unstable.js"&gt;&lt;/script&gt;
-    &lt;link rel="stylesheet" href="http://ui-grid.info/release/ui-grid-unstable.css" type="text/css"&gt;
-    &lt;link rel="stylesheet" href="main.css" type="text/css"&gt;
-&lt;/head&gt;
-&lt;body&gt;
+```html
+<!doctype html>
+<html ng-app="app">
+<head>
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-touch.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+    <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+    <script src="http://ui-grid.info/release/ui-grid-unstable.js"></script>
+    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid-unstable.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
 
-&lt;div ng-controller="MainCtrl"&gt;
-    &lt;div id="grid1" ui-grid="{ data: myData }" class="grid"&gt;&lt;/div&gt;
-    &lt;button ng-click="stampa()"&gt;stampiamo il pdf!&lt;/button&gt;
-&lt;/div&gt;
+<div ng-controller="MainCtrl">
+    <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
+    <button ng-click="stampa()">stampiamo il pdf!</button>
+</div>
 
-&lt;script src="app.js"&gt;&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+<script src="app.js"></script>
+</body>
+</html>
+```
 
-Una semplice pagina HTML, come potete vedere sto importando <span class="lang:default decode:true  crayon-inline ">pdfmake.js</span>  e <span class="lang:default decode:true  crayon-inline ">vfs_fonts.js</span>  , necessari per renderizzare i pdf. Inoltre abbiamo aggiunto un bottone che chiama la funzione <span class="lang:default decode:true  crayon-inline ">stampa()</span> .
+Una semplice pagina HTML, come potete vedere sto importando `pdfmake.js`  e `vfs_fonts.js`  , necessari per renderizzare i pdf. Inoltre abbiamo aggiunto un bottone che chiama la funzione `stampa()`.
 
 ### main.css
 
-<pre class="lang:default decode:true" title="main.css">.grid {
+```css
+.grid {
     width: 600px;
     height: 300px;
 }
-</pre>
+```
 
 Niente di particolare qui, stiamo semplicemente dando le definizioni della griglia.
 
 ### app.js
 
-A riga 78 viene definito il documento PDF: vi conviene partire da lì, dalla variabile <span class="lang:default decode:true  crayon-inline ">dd</span> , e poi nelle funzioni <span class="lang:default decode:true  crayon-inline ">table(data, columns)</span>  e <span class="lang:default decode:true  crayon-inline ">buildTableColumns(data, columns)</span> .
+A riga 78 viene definito il documento PDF: vi conviene partire da lì, dalla variabile `dd`, e poi nelle funzioni `table(data, columns)` e `buildTableColumns(data, columns)`.
 
-<pre class="lang:default decode:true " title="app.js">var app = angular.module('app', ['ngTouch', 'ui.grid']);
+```javascript
+var app = angular.module('app', ['ngTouch', 'ui.grid']);
 
 app.controller('MainCtrl', ['$scope', function ($scope) {
 
@@ -218,7 +222,7 @@ function getData(data) {
     var newData = [];
     for (var key in firstObject) {
         if (key !== '$$hashKey') {
-            for (var i = 0; i &lt; data.length; i++) {
+            for (var i = 0; i < data.length; i++) {
                 if (newData[i] === undefined)
                     newData[i] = [];
                 newData[i].push(data[i][key]);
@@ -229,8 +233,8 @@ function getData(data) {
     console.table(newData);
     return newData;
 }
-</pre>
+```
 
-###  Conclusioni
+### Conclusioni
 
 Questo codice è quello che ho realizzato oggi per fare una piccola demo sulle capacità di questa libreria. Non è elegante, non è chiarissimo, ma mi è costato tanta fatica (e poi funziona). Penso che in futuro ritorno su questo esempio, specialmente ora che devo realizzare la vera e propria funzionalità, per tutte le tabelle del sistema!

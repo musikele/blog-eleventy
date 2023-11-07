@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=17
 permalink: /2015/01/un-breve-riassunto-sulla-storia-di-javascript/
 dsq_thread_id:
     - '3958633921'
-image: /uploads/2015/01/ecma.gif
+headerImg: /images/ecma.gif
 categories:
     - Italiano
 tags:
