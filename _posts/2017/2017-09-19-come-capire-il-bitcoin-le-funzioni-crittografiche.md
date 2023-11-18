@@ -99,7 +99,7 @@ Nel secondo esempio, si parte con la stringa `Ice ice baby - too cold!`​ e bis
 
 Nel terzo esempio, si parte con la stringa `Who let them out?`​ e si cerca un hash che inizi con `Dog`​.
 
-<img src="{{ site.baseurl }}/images/solvingahashpuzzle.png" alt="" class="">
+![](/images/solvingahashpuzzle.png)
 
 Questa immagine l'ho presa dal sito [3583 bytes free, ready?](https://3583bytesready.net/2016/09/06/hash-puzzes-proofs-work-bitcoin/) che ha fatto il lavoro sporco per me.
 

@@ -15,8 +15,8 @@ tags:
   - linkedin
   - micnasti
   - twitter
+headerImg: /uploads/2015/10/follow_micnasti.png
 ---
-[<img class="aligncenter size-full wp-image-395" src="https://i2.wp.com/michelenasti.com/uploads/2015/10/follow_micnasti.png?fit=850%2C289" alt="follow_micnasti" srcset="https://i2.wp.com/michelenasti.com/uploads/2015/10/follow_micnasti.png?w=850 850w, https://i2.wp.com/michelenasti.com/uploads/2015/10/follow_micnasti.png?resize=300%2C102 300w, https://i2.wp.com/michelenasti.com/uploads/2015/10/follow_micnasti.png?resize=700%2C238 700w" sizes="(max-width: 850px) 100vw, 850px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/uploads/2015/10/follow_micnasti.png)
 
 Hi people, this is an info post!
 
@@ -26,6 +26,6 @@ I believe that if you are interested in tech, programming, computer science and 
 
 You can get a preview of what is my twitter timeline in the sidebar of my blog.
 
-Do it! you won't regret.[
-  
-](http://michelenasti.com/uploads/2015/10/follow_the_white_rabbit-968734.jpg)
+Do it! you won't regret.
+
+![](/uploads/2015/10/follow_the_white_rabbit-968734.jpg)

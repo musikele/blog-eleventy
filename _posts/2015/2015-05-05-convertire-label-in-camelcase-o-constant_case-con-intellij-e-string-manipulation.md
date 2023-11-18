@@ -14,8 +14,8 @@ tags:
   - camel case
   - intellij
   - string manipulation
+headerImg: /uploads/2015/05/string-manipulation.gif
 ---
-[<img class="alignleft wp-image-291 size-medium" src="https://i0.wp.com/michelenasti.com/uploads/2015/05/string-manipulation-300x139.gif?fit=300%2C139" alt="string-manipulation" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/05/string-manipulation.gif)
 
 Spesso ci impelaghiamo in task pallosi e manuali (ma purtroppo necessari) per le azioni più disparate; penso a quando bisogna bonificare dei dati per il db (e quindi rimuovere caratteri non accettati) oppure formattarli in un certo modo. Bene, per tutto questo c'è il plugin di IntelliJ String Manipulation!
 

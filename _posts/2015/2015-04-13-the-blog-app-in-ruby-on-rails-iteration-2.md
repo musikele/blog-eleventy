@@ -15,6 +15,7 @@ tags:
   - RoR
   - ruby
   - ruby on rails
+headerImg: /uploads/2015/04/rubyrails.png
 ---
 Previous Articles and tutorials about Ruby:
 

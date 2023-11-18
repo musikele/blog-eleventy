@@ -17,14 +17,13 @@ tags:
   - napoli
   - react
   - reactjs
+headerImg: /uploads/2015/11/wpid-wp-14477441614602.jpg
 ---
 Hi all,
   
 Ieri ho partecipato al primo **evento su React** organizzato a Napoli, nella sede di Rework. I due speaker **[Gianluca Esposito](http://esposi.to)** e **[Davide Cerbo](https://www.linkedin.com/in/davidecerbo)** sono stati due miei colleghi e, oltre a salutarli, sono andato anche a sentire un po' di dissertazioni sul tema della UI _the-react-way_.
 
-[<img class="alignnone size-full" title="wp-1447744161460" src="https://i2.wp.com/michelenasti.com/uploads/2015/11/wpid-wp-14477441614602.jpg?w=920" alt="image" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2015/11/wpid-wp-14477441614603.jpg)
-
-[<img class="aligncenter size-full" title="wp-1447744190064" src="https://i0.wp.com/michelenasti.com/uploads/2015/11/wpid-wp-14477441900642.jpg?w=920" alt="image" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/uploads/2015/11/wpid-wp-14477441900643.jpg)
+![](/uploads/2015/11/wpid-wp-14477441900643.jpg)
 
 I framework javascript sono diventati estremamente complessi e non si occupano più di disegnare div sullo schermo ma organizzano completamente il modo di lavorare del developer. Con le loro filosofie molto opinionate, ti insegnano qual è la _Strada_ che un bravo sviluppatore deve seguire e se sbagli paghi pegno. L'ho imparato a mie spese con Angular quindi perché non vedere lo stesso con React?
 

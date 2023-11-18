@@ -16,8 +16,8 @@ tags:
   - RoR
   - ruby
   - ruby on rails
+headerImg: /uploads/2015/03/rubyrails.png
 ---
-[<img class="aligncenter wp-image-224 size-full" src="https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png?fit=640%2C320" alt="rubyrails" srcset="https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png?w=640 640w, https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png?resize=300%2C150 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" />](https://i1.wp.com/michelenasti.com/uploads/2015/03/rubyrails.png)
 
 I'm following a course on Coursera about Ruby on Rails, well the course is about [Web Architectures](https://www.coursera.org/course/webapplications "Web Application Architectures") but it uses Ruby on Rails to explain it's uses. So this is a good excuse to experiment with this new language and framework.
 
@@ -33,31 +33,41 @@ And what about _disadvantages_? You have to learn a **new language** (Ruby), tha
 
 Assuming you have [installed Ruby on Rails](http://railsinstaller.org/en "Rails Installer"), here are the steps to produce an "iteration 1" of a blog application:
 
-<pre class="lang:default decode:true">rails new blog && cd blog</pre>
+```shell
+rails new blog && cd blog
+```
 
-this command creates a new directory named "blog" and then we "cd" into it.
+this command creates a new directory named `blog` and then we `cd` into it.
 
-<pre class="lang:default decode:true">rails generate scaffold post title:string body:text
+```shell
+rails generate scaffold post title:string body:text
 
-rails generate scaffold comment post_id:integer body:text</pre>
+rails generate scaffold comment post_id:integer body:text
+```
 
-these two lines create the "**post**" and "**comment**" entities, as well as all the **model**, **view**, **controllers**, and **tests**. We specify the actual attributes of the entities on the command line; so for example post has a <span class="lang:default decode:true  crayon-inline ">title </span> of type string, and a <span class="lang:default decode:true  crayon-inline ">body </span> of type text. One note about <span class="lang:default decode:true  crayon-inline ">post_id</span>  from the entity comment: it will be linked to the post, but in iteration 2.
+these two lines create the "**post**" and "**comment**" entities, as well as all the **model**, **view**, **controllers**, and **tests**. We specify the actual attributes of the entities on the command line; so for example post has a `title` of type string, and a `body` of type text. One note about `post_id` from the entity comment: it will be linked to the post, but in iteration 2.
 
-<pre class="lang:default decode:true">rake db:migrate</pre>
+```shell
+rake db:migrate
+```
 
-** rake** is a command that will find changes in the model and will update the database accordingly; this follows the DRY principle (I told you!). It will also version your db scripts.
+**`rake`** is a command that will find changes in the model and will update the database accordingly; this follows the DRY principle (I told you!). It will also version your db scripts.
 
-<pre class="lang:default decode:true">rake routes</pre>
+```shell
+rake routes
+```
 
 rake will create routes to the actual views. All this links are available to use.
 
-<pre class="lang:default decode:true">rails server</pre>
+```shell
+rails server
+```
 
-This command will start a server on http://localhost:3000 . You should see a welcome page by ruby on rails. Can't see it ? Install it correctly !
+This command will start a server on `http://localhost:3000` . You should see a welcome page by ruby on rails. Can't see it ? Install it correctly !
 
-If the server has started, you can then navigate to the routes outputted by <span class="lang:default decode:true  crayon-inline ">rake routes</span> , so try to go to http://localhost:3000/posts and http://localhost:3000/comments.
+If the server has started, you can then navigate to the routes outputted by `rake routes`, so try to go to `http://localhost:3000/posts` and `http://localhost:3000/comments`.
 
-I want to point out that **we didn't open any IDE ... just the console. **
+I want to point out that **we didn't open any IDE ... just the console.**
 
 What can we do with this? quite nothing, for now, but we are still in **iteration 1** !
 

@@ -14,8 +14,10 @@ tags:
   - -50 error
   - apple
   - imovie
+heaederImg: /uploads/2015/06/imovie400.jpg
 ---
-[<img class="alignleft size-full wp-image-320" src="https://i2.wp.com/michelenasti.com/uploads/2015/06/imovie400.jpg?fit=400%2C400" alt="imovie400" srcset="https://i2.wp.com/michelenasti.com/uploads/2015/06/imovie400.jpg?w=400 400w, https://i2.wp.com/michelenasti.com/uploads/2015/06/imovie400.jpg?resize=150%2C150 150w, https://i2.wp.com/michelenasti.com/uploads/2015/06/imovie400.jpg?resize=300%2C300 300w" sizes="(max-width: 400px) 100vw, 400px" data-recalc-dims="1" />](https://i2.wp.com/michelenasti.com/uploads/2015/06/imovie400.jpg)Yesterday I had to realize a quick video for a family celebration so I decided to use **iMovie** for the first time since I had bought my Mac in 2012.
+
+Yesterday I had to make a quick video for a family celebration so I decided to use **iMovie** for the first time since I had bought my Mac in 2012.
 
 iMovie is smart and it is very easy to prepare a video without being an expert of video editing. Of course it was what I was searching for, and in about 2 hours I managed to make the video.
 
