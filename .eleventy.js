@@ -17,11 +17,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addGlobalData("sitename", "Michele Nasti");
     eleventyConfig.addGlobalData("twitterName", "micnasti");
 
-    eleventyConfig.addGlobalData("imagePath", "https://ik.imagekit.io/xthvogziier/tr:w-1440/")
-    if (process.env.LOCAL) {
-        eleventyConfig.addGlobalData("imagePath", "")
-    }
-
     // Copy the `img` and `css` folders to the output
     eleventyConfig.addPassthroughCopy('images');
     eleventyConfig.addPassthroughCopy('uploads');
@@ -40,6 +35,16 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj)
             .setLocale('en')
             .toLocaleString(DateTime.DATE_FULL);
+    });
+
+    eleventyConfig.addFilter("imagePath", (path) => {
+        if (process.env.LOCAL) {
+            return path;    
+        } 
+        return `https://ik.imagekit.io/xthvogziier/tr:w-1440/${path}`;
+
+        // to use netlify: 
+        // return `https://michelenasti.com/.netlify/images?url=${path}&w=1440`;
     });
 
     eleventyConfig.addFilter('toISODate', (dateObj) => {

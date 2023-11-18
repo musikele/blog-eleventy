@@ -2,15 +2,19 @@
 <meta property="og:site_name" content="{{sitename}}" />
 <meta property="og:url" content="{{base}}/{{permalink}}" />
 <meta name="description" property="og:description" content="{{description}}" />
-<meta name="image" property="og:image" content="https://ik.imagekit.io/xthvogziier/tr:w-1440/{{headerImg}}" />
+<meta name="image" property="og:image" content="{{headerImg | imagePath}}" />
 
 <!-- Twitter cards -->
-<meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:site"    content="{{twitterName}}">
-<meta name="twitter:title"   content="{{ title }}">
-<meta name="twitter:description" content="{{ description }}">
-<meta name="twitter:image" content="https://ik.imagekit.io/xthvogziier/tr:w-1440/{{ headerImg }}">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{{twitterName}}" />
+<meta name="twitter:title" content="{{ title }}" />
+<meta name="twitter:description" content="{{ description }}" />
+<meta name="twitter:image" content="{{ headerImg | imagePath }}" />
 <!-- end of Twitter cards -->
 
-<meta name="author" content="Michele Nasti">
-<meta name="publish_date" property="og:publish_date" content="{{ date | postDate }}">
+<meta name="author" content="Michele Nasti" />
+<meta
+    name="publish_date"
+    property="og:publish_date"
+    content="{{ date | postDate }}"
+/>
