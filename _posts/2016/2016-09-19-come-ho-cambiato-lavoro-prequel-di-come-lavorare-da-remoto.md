@@ -25,9 +25,9 @@ La mia società si chiama [Bemind](http://www.bemind.me/) e, a parte il fatto di
 
 Questo è un argomento sottovalutato da molti, eppure secondo me è fondamentale. Circa un anno fa ho trovato un loro annuncio non sui soliti siti noiosi, ma su posti interessanti come _Stack Overflow_ e _LinkedIn_ (primo punto a loro favore).
 
-**L'annuncio** **non era il solito listone di competenze da possedere**, bensì spiegava per sommi capi che tipo di persona cercavano, quindi un &#8220;search by personality&#8221;; Mi ha colpito il fatto che **non mi è stato richiesto di inviare un curriculum, bensì una lista dei tre libri tecnici più interessanti che avessi letto**, oltre a una breve descrizione del perchè li avessi trovato interessanti. Poi è seguita una call in cui ci siamo effettivamente conosciuti.
+**L'annuncio** **non era il solito listone di competenze da possedere**, bensì spiegava per sommi capi che tipo di persona cercavano, quindi un "search by personality"; Mi ha colpito il fatto che **non mi è stato richiesto di inviare un curriculum, bensì una lista dei tre libri tecnici più interessanti che avessi letto**, oltre a una breve descrizione del perchè li avessi trovato interessanti. Poi è seguita una call in cui ci siamo effettivamente conosciuti.
 
-Purtroppo in quella occasione cercavano una figura più &#8220;part time&#8221;, visto che il progetto che stavano realizzando era ad alto rischio, e non avevano garanzie che prendesse piede (spoiler: ha preso piede). Così mi chiesero di risentirci più in là nel tempo.
+Purtroppo in quella occasione cercavano una figura più "part time", visto che il progetto che stavano realizzando era ad alto rischio, e non avevano garanzie che prendesse piede (spoiler: ha preso piede). Così mi chiesero di risentirci più in là nel tempo.
 
 Una persona normale avrebbe dimenticato l'episodio e sarebbe andato avanti, ma io ho avuto un presentimento molto positivo dopo quella call. Periodicamente li ho scritti chiedendo info dal punto di vista tecnico, specialmente sui microservizi (su cui ci siamo scambiati feedback e libri) e su altri eventi tecnici nazionali. Ad esempio, ho sentito parlare di un framework per microservizi chiamato [Apollo](https://github.com/spotify/apollo) (di Spotify) e loro mi hanno risposto con un progetto con una filosofia molto simile, [Spark](http://sparkjava.com/).
 

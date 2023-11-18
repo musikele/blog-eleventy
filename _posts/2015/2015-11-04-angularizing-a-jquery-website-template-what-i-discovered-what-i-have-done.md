@@ -19,12 +19,12 @@ In my [last post](http://michelenasti.com/2015/10/start-custom-js-with-ngroute/)
 
  
 
-Let's remember my problem. The template I have chosen has a jQuery function that starts it's events with <span class="lang:default decode:true crayon-inline">$(document).ready(...)</span> . When the homepage (that consists only of the header buttons of the page!) starts, angular is loaded. at this point, before ngRoute decides what to do, the &#8220;ready&#8221; jQuery event is fired; when the partial.html is finally loaded (for example, the about.html page) no jQuery is fired.
+Let's remember my problem. The template I have chosen has a jQuery function that starts it's events with <span class="lang:default decode:true crayon-inline">$(document).ready(...)</span> . When the homepage (that consists only of the header buttons of the page!) starts, angular is loaded. at this point, before ngRoute decides what to do, the "ready" jQuery event is fired; when the partial.html is finally loaded (for example, the about.html page) no jQuery is fired.
 
 My solution:
 
   1. change the jQuery function in <span class="lang:js decode:true crayon-inline">$(document).ajaxComplete(...) </span> . This way, everytime you get an ajax call, the code is re-executed. But... how can jQuery understand if an ajax call has been executed? expecially if it is not fired by jQuery?
-  2. in every controller of every page (I only have 3 fortunately), I do a &#8220;fake&#8221; ajax call that calls an empty file that I have on my server: something like <span class="lang:js decode:true crayon-inline">jQuery.ajax( &#8216;fakeFile.tmp' )</span>
+  2. in every controller of every page (I only have 3 fortunately), I do a "fake" ajax call that calls an empty file that I have on my server: something like <span class="lang:js decode:true crayon-inline">jQuery.ajax( &#8216;fakeFile.tmp' )</span>
 
 This way jQuery could understand to re-execute the code inside the &#8216;ajaxComplete' event. And this could be done inside AngularJs.
 

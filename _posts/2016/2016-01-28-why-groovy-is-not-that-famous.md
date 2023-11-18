@@ -33,7 +33,7 @@ If you understand Italian, my last two articles were about integrating Groovy in
 
 #### Disdvantages
 
-  * **During the first years of its life Groovy's performances were poor**. Very poor. This was mainly due to a feature of the JVM that was blocking dynamic languages. From Java7 a new feature called _invokeDynamic_ greatly improves dynamic code execution; the compiled groovy classes usually share the same execution time of Java (kind of). However, Groovy is still seen as the &#8220;slow&#8221; JVM language. Let's change opinion!
+  * **During the first years of its life Groovy's performances were poor**. Very poor. This was mainly due to a feature of the JVM that was blocking dynamic languages. From Java7 a new feature called _invokeDynamic_ greatly improves dynamic code execution; the compiled groovy classes usually share the same execution time of Java (kind of). However, Groovy is still seen as the "slow" JVM language. Let's change opinion!
   * **People coming from iterative Java will not understand functional paradigms** and will say that Groovy is too difficoult or crazy.
   * Many are asking, now that **Java8** is here and **supports lambda expressions** (aka _functional paradigm_), do we still need Groovy? Well, if you also need a dynamic _scripting_ language the answer is yes.
 

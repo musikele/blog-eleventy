@@ -20,7 +20,7 @@ When I bought my first Apple computer, 4 years ago, I had a big problem: my data
 
   * **incremental backups -** the first backup is a specular copy of your hard drive (well, in my case, of my home directory); the next backups will only transfer changed files.
   * **Space-efficient** - using [hard links](https://en.wikipedia.org/wiki/Hard_link), I can do as many backups I want (every hour, every day...), non-changed files will be linked, not copied. No extra space is involved in this operation 😉
-  * **Snapshot view /File Versioning - **every directory is named after a timestamp, like &#8220;20161210-1359&#8221;, so I know that this backup started at 13:59 the 10th of december of 2016.
+  * **Snapshot view /File Versioning - **every directory is named after a timestamp, like "20161210-1359", so I know that this backup started at 13:59 the 10th of december of 2016.
   * **Work with my private NAS** - I bought a NAS System by Synology, so my data is safely stored in my house.
   * **Work on different networks** - When I'm far from home, I want to backup as well. This means I can backup from everywhere - as long there's a free internet connection 😉
   * **Possibility to be launched from every system** - since it is a bash script, compatibility with Linux and Mac is assured. Some testing is required on Windows, but since Bash is now available on the platform, this should not be a big issue anymore.
@@ -48,7 +48,7 @@ A hard link is a pointer to a file. If you create a hard link to a file, you can
 
   * The project is very simple and **open source**! Feel free to understand how does it work.
   * I'm still developing a system to **schedule backups** on Mac. Next I'll move on other platforms. This means that now you have to launch the script by hand with <span class="lang:default decode:true crayon-inline">./start.sh</span> .
-  * I also want to **add some toast messages** to say &#8220;hey! I'm going to backup everything. Click here if you don't want to&#8221; (for example, when you are under a mobile connection).
+  * I also want to **add some toast messages** to say "hey! I'm going to backup everything. Click here if you don't want to" (for example, when you are under a mobile connection).
   * I also want to **implement a solution that deletes unnecessary backups**: it keeps 1 backup for every year, 1 backup for every month of the last 12 months, 1 backup per day for the last week, and one backup per hour for the last day.
 
 ## WHERE IS THE SOURCE!!!

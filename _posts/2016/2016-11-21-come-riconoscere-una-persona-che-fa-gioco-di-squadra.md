@@ -1,6 +1,6 @@
 ---
 id: 1140
-title: 'Come riconoscere (e perché assumere) un buon &#8220;giocatore di squadra&#8221; '
+title: 'Come riconoscere (e perché assumere) un buon "giocatore di squadra" '
 date: 2016-11-21T09:30:00+00:00
 author: musikele
 excerpt: 'Le qualità del buon giocatore di squadra sono:'
@@ -17,15 +17,15 @@ tags:
   - team
   - team building
 ---
-> Un buon &#8220;giocatore di squadra&#8221; ha queste qualità:
+> Un buon "giocatore di squadra" ha queste qualità:
 > 
 >   * Voglia di superarsi, fare più del dovuto per quell'extra che fa la differenza
->   * La capacità di essere una persona che fa &#8220;gruppo&#8221;, che sa stare con gli altri e sa comunicare
+>   * La capacità di essere una persona che fa "gruppo", che sa stare con gli altri e sa comunicare
 >   * L'umiltà di mettere da parte l'ego per il bene del gruppo. 
 > 
 > Se manca una sola di queste tre qualità, il team intero ne risentirà. 
 
-Questo é un sunto del libro &#8220;[The Ideal Good Player](http://blnk.to/e7821b80)&#8220;, ma potrei anche dire che é un sunto della mia esperienza lavorativa. Avendo lavorato con tante persone, sia più junior che senior di me, ho visto centinaia di casi umani da manuale: 
+Questo é un sunto del libro "[The Ideal Good Player](http://blnk.to/e7821b80)", ma potrei anche dire che é un sunto della mia esperienza lavorativa. Avendo lavorato con tante persone, sia più junior che senior di me, ho visto centinaia di casi umani da manuale: 
 
   * La persona che senza neanche presentarsi ti definisce bugiardo / incapace / you know it... 
   * La persona che _pretende_ il tuo aiuto 

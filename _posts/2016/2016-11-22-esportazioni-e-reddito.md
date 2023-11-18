@@ -17,4 +17,4 @@ tags:
 > 
 > Nei paesi ricchi, l'apertura al commercio produrrebbe l'effetto opposto. Poiché questi paesi tendono a esportare prodotti ad alta tecnologia, la loro produzione richiede personale qualificato, per esempio ingegneri e tecnici; in tal modo il salario di chi ha compiuto studi superiori cresce rispetto a chi ha solo un'astrazione di base e la disuguaglianza, di conseguenza, aumenta. 
 
-_(da &#8220;Chi ha e chi non ha&#8221;, Branko Milanovic) _
+_(da "Chi ha e chi non ha", Branko Milanovic) _

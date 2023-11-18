@@ -35,7 +35,7 @@ then, my checklist:
   1. upload latest moodle.zip.
   2. maintenance mode.
   3. access via ftp with Filezilla.
-  4. create a new folder called &#8220;moodle_old&#8221;.
+  4. create a new folder called "moodle_old".
   5. copy all content of http root into moodle_old.
   6. uncompress latest moodle.zip. You get a /moodle directory.
   7. move the content of /moodle in the http root.

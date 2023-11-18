@@ -19,7 +19,7 @@ After 2-3 hours of playing, I almost gave up.
 
 This template is built in a very classical way, so all js libraries are just JS files that are imported in each page. We are talking of libraries like jquery, parallax, and others. 
 
-My &#8220;angularization&#8221; of the website started like this: from the home page, divide the toolbar (it will be my index) from the content. 
+My "angularization" of the website started like this: from the home page, divide the toolbar (it will be my index) from the content. 
 
 At this step I already had problems: jquery was not firing its events on the content page. 
 

@@ -46,7 +46,7 @@ Contemporaneamente lo stesso collega mi ha detto che alcuni snippet sono stati u
 
 Io non ho sviluppato la piattaforma NodeJs, anzi sono un semplice appassionato che per lavoro fa altro, quindi con NodeJS ho addirittura poca esperienza sul campo. Eppure preparare un talk ti fa scendere in molti dettagli obbligandoti a capire cose che non avresti mai pensato di dover capire. E che poi bisogna spiegare.
 
-La mia paura è sempre stata quella di trovare persone che a fine talk vengono e mi dicono: &#8220;cosa ne pensi di X? e di Y?&#8221; e io, a malincuore, sono costretto a dire che non ne so nulla di questi argomenti. Mi è capitato ieri, a fine talk un ragazzo mi ha chiesto di Electron (framework per creare native apps in nodejs) e io, francamente, non ne so nulla. Anzi lui lo aveva provato e ne sapeva più di me. Complimenti! Stringetegli la mano e aggiungetelo su Facebook.
+La mia paura è sempre stata quella di trovare persone che a fine talk vengono e mi dicono: "cosa ne pensi di X? e di Y?" e io, a malincuore, sono costretto a dire che non ne so nulla di questi argomenti. Mi è capitato ieri, a fine talk un ragazzo mi ha chiesto di Electron (framework per creare native apps in nodejs) e io, francamente, non ne so nulla. Anzi lui lo aveva provato e ne sapeva più di me. Complimenti! Stringetegli la mano e aggiungetelo su Facebook.
 
 ### Chiedete Feedback onesti dopo il talk
 
@@ -56,13 +56,13 @@ Mi raccomando, accettate le loro critiche, ma non commettete l'errore di pensare
 
 ### Public Speaking non è per tutti
 
-Ho visto talk veramente imbarazzanti e noiosissimi, e altri invece fantastici e divertenti. Il segreto? Lo speaker. Tuttavia se non ce l'avete nel sangue non posso dirvi di lasciare perdere. **Dovete comunque provarci**. Scoprirete quanto è difficile essere &#8220;dall'altra parte&#8221; e, soprattutto, ne guadagnerete in visibilità. I meetup o le conferenze poco affollate sono perfette per iniziare.
+Ho visto talk veramente imbarazzanti e noiosissimi, e altri invece fantastici e divertenti. Il segreto? Lo speaker. Tuttavia se non ce l'avete nel sangue non posso dirvi di lasciare perdere. **Dovete comunque provarci**. Scoprirete quanto è difficile essere "dall'altra parte" e, soprattutto, ne guadagnerete in visibilità. I meetup o le conferenze poco affollate sono perfette per iniziare.
 
 ### La visibilità
 
-Il primo step atteso è di essere riconosciuti come &#8220;conoscitori&#8221; dell'argomento presentato. Conosco un tizio che ha scritto un libro su Laravel, anzi ha scritto un libro su come lui usa Laravel; egli non si considera un esperto eppure il mondo lo incensa e lo celebra. Nel giro di un paio d'anni dovreste iniziare a vedere anche qualche beneficio &#8220;economico&#8221;: aziende vi contattano per lavorare con loro come guru/esperto. Insomma, conoscere bene una cosa non basta, bisogna dimostrare di conoscere bene una cosa e le conferenze sono un ottimo modo per farsi notare.
+Il primo step atteso è di essere riconosciuti come "conoscitori" dell'argomento presentato. Conosco un tizio che ha scritto un libro su Laravel, anzi ha scritto un libro su come lui usa Laravel; egli non si considera un esperto eppure il mondo lo incensa e lo celebra. Nel giro di un paio d'anni dovreste iniziare a vedere anche qualche beneficio "economico": aziende vi contattano per lavorare con loro come guru/esperto. Insomma, conoscere bene una cosa non basta, bisogna dimostrare di conoscere bene una cosa e le conferenze sono un ottimo modo per farsi notare.
 
-### &#8220;C'erano solo X persone&#8221;
+### "C'erano solo X persone"
 
 Non importa quante persone vi ascolteranno. Per ora ho tenuto due talk, uno davanti a 15 persone e un altro davanti a 50. In entrambi i casi vedrete i seguenti personaggi: quello che si fa i fatti suoi, quello che dorme, quello che gioca col telefonino, quello che vi ascolta attentamente. Ignorate i primi e parlate per questi ultimi, sono loro quelli veramente interessati.
 

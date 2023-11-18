@@ -14,8 +14,8 @@ tags:
   - groovy
   - java
   - scripting
+headerImg: /uploads/2016/01/2000px-Groovy-logo.svg_.png
 ---
-<a href="https://i2.wp.com/michelenasti.com/uploads/2016/01/2000px-Groovy-logo.svg_.png" rel="attachment wp-att-526"><img class="size-medium wp-image-526 alignleft" src="https://i0.wp.com/michelenasti.com/uploads/2016/01/2000px-Groovy-logo.svg_-300x149.png?fit=300%2C149" alt="2000px-Groovy-logo.svg" srcset="https://i2.wp.com/michelenasti.com/uploads/2016/01/2000px-Groovy-logo.svg_.png?resize=300%2C149 300w, https://i2.wp.com/michelenasti.com/uploads/2016/01/2000px-Groovy-logo.svg_.png?resize=768%2C380 768w, https://i2.wp.com/michelenasti.com/uploads/2016/01/2000px-Groovy-logo.svg_.png?resize=1024%2C507 1024w, https://i2.wp.com/michelenasti.com/uploads/2016/01/2000px-Groovy-logo.svg_.png?resize=700%2C347 700w, https://i2.wp.com/michelenasti.com/uploads/2016/01/2000px-Groovy-logo.svg_.png?w=1840 1840w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
 
 Alla Webapp a cui stiamo lavorando abbiamo dovuto integrare un motore di scripting per aiutare gli specialisti che dovranno interfacciarsi con gli strumenti di laboratorio.
 
@@ -23,34 +23,34 @@ Nella precedente versione dell'applicazione, realizzata in Visual Basic, questi 
 
 Così tra ieri e oggi mi sono messo a cercare un po' di info su quale fosse il miglior linguaggio scriptabile e integrabile con Java, che avesse le seguenti caratteristiche:
 
-  * deve poter accedere al database e &#8220;vivere&#8221; nella stessa transazione del chiamante
-  * deve poter chiamare i servizi Java già creati (solitamente creati come bean spring)
-  * i servizi Java devono poter chiamare questi eventuali script
-  * devono poter essere sostituiti &#8220;on-the-fly&#8221;, senza spegnere e accendere il software.
+* deve poter accedere al database e "vivere" nella stessa transazione del chiamante
+* deve poter chiamare i servizi Java già creati (solitamente creati come bean spring)
+* i servizi Java devono poter chiamare questi eventuali script
+* devono poter essere sostituiti "on-the-fly", senza spegnere e accendere il software.
 
 Il management aveva individuato [Drools](http://www.drools.org/) come uno dei possibili tools che il team già conosce, che non risponde però a tutti i requisiti. Il mio compito era di continuare a investigare per trovare altre alternative.
 
-#### let me google &#8220;Java Scripting&#8221; for you
+#### let me google "Java Scripting" for you
 
 Fin dall'inizio ho pensato a Groovy ma da qualche parte ho letto che Spring supporta altri due linguaggi, che ho dovuto scartare:
 
-  * [**BeanShell**](https://github.com/beanshell/beanshell). Purtroppo i siti web a riguardo non sono molto aggiornati, e sembra che il progetto sia ospitato su github ora. Il sito ufficiale è in disuso dal 2005, github non viene aggiornato da 4 mesi e comunque c'è stato un solo avanzamento di versione in 10 anni. Ci sono dubbi sulla compatibilità con Java8 e, da una mia prova, non riesce a chiamare bean autowired di spring.
-  * [JRuby](http://jruby.org/). Ruby è un grande linguaggio e sulla JVM diventa incredibilmente potente, portabile, veloce. Peccato che la sua sintassi sia estremamente complicata per uno _scripter_ alle prime armi.
+* [**BeanShell**](https://github.com/beanshell/beanshell). Purtroppo i siti web a riguardo non sono molto aggiornati, e sembra che il progetto sia ospitato su github ora. Il sito ufficiale è in disuso dal 2005, github non viene aggiornato da 4 mesi e comunque c'è stato un solo avanzamento di versione in 10 anni. Ci sono dubbi sulla compatibilità con Java8 e, da una mia prova, non riesce a chiamare bean autowired di spring.
+* [JRuby](http://jruby.org/). Ruby è un grande linguaggio e sulla JVM diventa incredibilmente potente, portabile, veloce. Peccato che la sua sintassi sia estremamente complicata per uno _scripter_ alle prime armi.
 
 Così siamo arrivati a [Groovy](http://www.groovy-lang.org/). Andate sul sito web se volete leggere le caratteristiche, ma la cosa che ci importava è che
 
-  * supporta una grande parte della sintassi Java (e si possono chiamare classi Java come String, Integer, Boolean...)
-  * è sponsorizzato da SpringSource
-  * esiste da una decina d'anni (e aveva le clojures dalla prima versione!)
-  * Ad oggi è molto utilizzato come framework per lo sviluppo web, ad esempio col framework [Grails](https://grails.org/).
+* supporta una grande parte della sintassi Java (e si possono chiamare classi Java come String, Integer, Boolean...)
+* è sponsorizzato da SpringSource
+* esiste da una decina d'anni (e aveva le clojures dalla prima versione!)
+* Ad oggi è molto utilizzato come framework per lo sviluppo web, ad esempio col framework [Grails](https://grails.org/).
 
 Il problema delle transazioni l'ho risolto grazie a [questo articolo](http://sadalage.com/blog/2013/01/14/transactions_using_groovysql/), come potete vedere il data source e il transaction manager vengono definiti in Hibernate e poi passati all'oggetto SQL di Groovy.
 
-La possibilità di _Autowirizzare_ i bean Groovy e di utilizzare i bean Spring è stata un'altra cosa spiegata &#8220;abbastanza&#8221; bene nel [capitolo 34 della guida di Spring](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/dynamic-language.html).
+La possibilità di _Autowirizzare_ i bean Groovy e di utilizzare i bean Spring è stata un'altra cosa spiegata "abbastanza" bene nel [capitolo 34 della guida di Spring](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/dynamic-language.html).
 
-#### Show me the code!
+#### Show me the code
 
-Come prima cosa ho creato un'interfaccia <span class="lang:default decode:true crayon-inline">GroovyScripterInterface</span> in JAVA:
+Come prima cosa ho creato un'interfaccia `GroovyScripterInterface` in JAVA:
 
 ```java
 /**
@@ -123,7 +123,7 @@ E infine ecco l'XML in cui sono definiti i due bean (Java e Groovy):
 </beans>
 ```
 
-Da notare che il parametro <span class="lang:default decode:true crayon-inline ">refresh-check-delay</span>  serve a Spring per verificare se il file è stato aggiornato. il valore 5000, espresso in millisecondi, significa &#8220;verifica ogni 5 secondi se il file è stato aggiornato&#8221;. script-source invece è il path (non il package, per questo ci vogliono gli slash).
+Da notare che il parametro `refresh-check-delay` serve a Spring per verificare se il file è stato aggiornato. il valore 5000, espresso in millisecondi, significa "verifica ogni 5 secondi se il file è stato aggiornato". script-source invece è il path (non il package, per questo ci vogliono gli slash).
 
 Per concludere un bel test JUnit, quindi da Java chiamiamo il bean Groovy (che chiama un altro bean Java) :
 

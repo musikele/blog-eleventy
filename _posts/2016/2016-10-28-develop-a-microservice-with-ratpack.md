@@ -51,7 +51,7 @@ Want more? **Ratpack is implemented using [Netty](http://netty.io)**, <span clas
 
 **Testing is a breeze**. I have done only functional tests, but I'm confident that the application works exactly like I am expecting. Ratpack encourages to use Spock, but I'm using JUnit and I'm not regretting it.
 
-And finally, **in development mode** (launching it with &#8220;gradle -t run&#8221;) **it will auto-reload the server everytime there's a change on filesystem**. If you have ever worked with tomcat, you know how much time this can save you.
+And finally, **in development mode** (launching it with "gradle -t run") **it will auto-reload the server everytime there's a change on filesystem**. If you have ever worked with tomcat, you know how much time this can save you.
 
 ## How to learn?
 

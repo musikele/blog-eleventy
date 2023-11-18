@@ -44,9 +44,9 @@ Se invece vogliamo installare una versione specifica, possiamo scrivere
 
 <pre class="lang:default decode:true ">bower install bootstrap#2.2</pre>
 
-### Usare Bower like a &#8220;pro&#8221;
+### Usare Bower like a "pro"
 
-Quello che abbiamo visto fino ad ora riguarda dipendenze &#8220;one shot&#8221;; di solito noi vorremmo poter catalogare tutte le dipendenze della nostra webapp così da condividere con i colleghi solo il file delle dipendenze. Insomma, piuttosto che intasare SVN o Git con migliaia di file esterni, identici ad altri già presenti on line, scambiamo solo il file <span class="lang:default decode:true crayon-inline">bower.json</span> e chiediamo a bower di scaricare le dipendenze per noi.
+Quello che abbiamo visto fino ad ora riguarda dipendenze "one shot"; di solito noi vorremmo poter catalogare tutte le dipendenze della nostra webapp così da condividere con i colleghi solo il file delle dipendenze. Insomma, piuttosto che intasare SVN o Git con migliaia di file esterni, identici ad altri già presenti on line, scambiamo solo il file <span class="lang:default decode:true crayon-inline">bower.json</span> e chiediamo a bower di scaricare le dipendenze per noi.
 
 Se vogliamo seguire questo approccio, lanciamo il comando <span class="lang:default decode:true crayon-inline">bower init</span>  all’interno della cartella che contiene il nostro progetto, rispondiamo alle domande che bower ci fa (nome del package, autore..) e successivamente avremo uno scheletro di file bower bello e creato.
 
@@ -58,9 +58,9 @@ che oltre a scaricare angular all'ultima versione disponibile, lo inserisce anch
 
 ## Un caso pratico
 
-A lavoro ho creato un progetto &#8220;base&#8221; che dovrà servire come punto di inizio per le prossime webapp che andremo a sviluppare. Contiene principalmente angular, jquery e qualche altra libreria creata da noi (quindi è interessante vedere come integrare in bower librerie aziendali, private).
+A lavoro ho creato un progetto "base" che dovrà servire come punto di inizio per le prossime webapp che andremo a sviluppare. Contiene principalmente angular, jquery e qualche altra libreria creata da noi (quindi è interessante vedere come integrare in bower librerie aziendali, private).
 
-Per creare questo progetto ho per prima cosa creato un file di configurazione che si chiama <span class="lang:default decode:true crayon-inline ">.bowerrc</span> (notate il punto all'inizio). Serve a dare istruzioni di carattere &#8220;generale&#8221; a bower. Non è obbligatorio se vi stanno bene le configurazioni di default.  Eccolo:
+Per creare questo progetto ho per prima cosa creato un file di configurazione che si chiama <span class="lang:default decode:true crayon-inline ">.bowerrc</span> (notate il punto all'inizio). Serve a dare istruzioni di carattere "generale" a bower. Non è obbligatorio se vi stanno bene le configurazioni di default.  Eccolo:
 
 <pre class="lang:js decode:true " title=".bowerrc">{
   "directory": "lib",
@@ -76,7 +76,7 @@ Queste impostazioni sono tipiche in una realtà _enterprise_ dove c'è un proxy 
   * **directory**: specifica in quale directory andare a scaricare le dipendenze esterne. Ad esempio, se importiamo angular, la troveremo in lib/angular .
   * **proxy** e **https-proxy**: se avete qualche proxy impostato per accedere a internet, cosa assolutamente normale in ambienti aziendali, li configurate così.
   * **no-proxy**: se ci sono host da raggiungere che fanno parte della rete locale, e che dunque non devono passare per il proxy, si possono specificare qui.
-  * **strict-ssl**: se il vostro SVN o Git privato è raggiunto in modalità https, è molto probabile che il certificato non sia validato da un'autorità riconosciuta. settando questo flag a &#8220;false&#8221;, bower ignora i controlli di validità sul certificato.
+  * **strict-ssl**: se il vostro SVN o Git privato è raggiunto in modalità https, è molto probabile che il certificato non sia validato da un'autorità riconosciuta. settando questo flag a "false", bower ignora i controlli di validità sul certificato.
 
 Questo file <span class="lang:default decode:true crayon-inline ">.bowerrc</span>  può andare sia nella home dell’utente sia nella home del progetto, dato che sono impostazioni globali. Bower quando va sui repo cerca il file <span class="lang:default decode:true crayon-inline ">.bowerrc</span>  più vicino andando a vedere prima nella directory corrente, poi in quella superiore, etc. fino alla home utente.
 

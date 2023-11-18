@@ -27,7 +27,7 @@ Ieri ho partecipato al primo **evento su React** organizzato a Napoli, nella sed
 
 I framework javascript sono diventati estremamente complessi e non si occupano più di disegnare div sullo schermo ma organizzano completamente il modo di lavorare del developer. Con le loro filosofie molto opinionate, ti insegnano qual è la _Strada_ che un bravo sviluppatore deve seguire e se sbagli paghi pegno. L'ho imparato a mie spese con Angular quindi perché non vedere lo stesso con React?
 
-Un'altra considerazione che faccio è che passo tutto il giorno a lavoro (8 ore! Un'eternità) e sebbene possa imparare queste cose &#8220;da me&#8221; a casa, avere una persona che ha già vissuto i problemi del novizio e che si è già posto le domande prima di me è di un aiuto incredibile. Questi eventi sono dunque un ottimo punto di inizio. Ora potrei iniziare a sperimentare con React in maniera più coscienziosa!
+Un'altra considerazione che faccio è che passo tutto il giorno a lavoro (8 ore! Un'eternità) e sebbene possa imparare queste cose "da me" a casa, avere una persona che ha già vissuto i problemi del novizio e che si è già posto le domande prima di me è di un aiuto incredibile. Questi eventi sono dunque un ottimo punto di inizio. Ora potrei iniziare a sperimentare con React in maniera più coscienziosa!
 
 ### Qual è l'obiettivo di React?
 

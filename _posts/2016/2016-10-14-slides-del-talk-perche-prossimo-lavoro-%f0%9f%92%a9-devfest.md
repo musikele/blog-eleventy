@@ -1,6 +1,6 @@
 ---
 id: 1026
-title: "Slides del talk &#8220;Perchè il tuo prossimo lavoro è una \U0001F4A9&#8220;
+title: "Slides del talk "Perchè il tuo prossimo lavoro è una \U0001F4A9"
   @ DevFest"
 date: 2016-10-14 12:36:20
 author: musikele

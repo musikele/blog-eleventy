@@ -16,9 +16,9 @@ tags:
   - hapi
   - node.js
 ---
-Anche quest'anno parteciperò al [Codemotion 2016](http://rome2016.codemotionworld.com/) di Roma, che per distanza geografica è anche la più facile da raggiungere. Quest'anno una tiratina di orecchie va proprio allo staff, che ha messo il biglietto &#8220;starter&#8221; al doppio dell'anno scorso. Maledetti!
+Anche quest'anno parteciperò al [Codemotion 2016](http://rome2016.codemotionworld.com/) di Roma, che per distanza geografica è anche la più facile da raggiungere. Quest'anno una tiratina di orecchie va proprio allo staff, che ha messo il biglietto "starter" al doppio dell'anno scorso. Maledetti!
 
-Nonostante questo ho deciso di partecipare anche a un [workshop](http://rome2016.codemotionworld.com/workshop/developing-rest-apis-with-node-js-and-hapi/), ossia un evento &#8220;hands-on&#8221; in cui mi sporcherò le mani con node.js e un framework, HAPI, di cui non sospettavo nemmeno l'esistenza.
+Nonostante questo ho deciso di partecipare anche a un [workshop](http://rome2016.codemotionworld.com/workshop/developing-rest-apis-with-node-js-and-hapi/), ossia un evento "hands-on" in cui mi sporcherò le mani con node.js e un framework, HAPI, di cui non sospettavo nemmeno l'esistenza.
 
 Sarò sincero, il workshop lo vorrei usare anche per **spronarmi a studiare più node.js**. Inoltre poter parlare con altre persone che sviluppano costantemente in Node mi permetterà di vedere il loro modus operandi, ossia che tool usano, che struttura per le directory e per i file, che IDE, che filosofia, etc.. _Dedicare 8 ore delle mie ferie a questo mi fa sentire un cretino_, ma poi penso che lo sto facendo per il mio bene.
 

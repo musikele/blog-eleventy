@@ -18,7 +18,7 @@ Uno dei prodotti su cui lavora la mia azienda é **[Hype](https://www.hype.it/Hy
 
 **Hype** é molte cose: una carta di credito con IBAN, quindi é anche un conto bancario, e si gestisce tramite un'app che ha delle funzionalità avanzate.
 
-&#8220;Tutto qui? Ce ne sono centomila come Hype!&#8221; vero, e siccome io non vivo nelle caverne e maneggio soldi e carte di credito sfortunatamente più per spendere che per incassare, ecco la mia opinione a riguardo.
+"Tutto qui? Ce ne sono centomila come Hype!" vero, e siccome io non vivo nelle caverne e maneggio soldi e carte di credito sfortunatamente più per spendere che per incassare, ecco la mia opinione a riguardo.
 
 <img class=" size-full wp-image-831 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2016/07/hype-logo.png?fit=259%2C210" alt="hype-logo" data-recalc-dims="1" />
 
@@ -48,13 +48,13 @@ Potete fare bonifici, pagare on line, o nei negozi, come se fosse una normale ca
 
 ## Killer Features!
 
-Con &#8220;killer features&#8221; si intendono quelle funzionalità che, una volta provate, diventano irrinunciabili.
+Con "killer features" si intendono quelle funzionalità che, una volta provate, diventano irrinunciabili.
 
 Potete **trasferire soldi tra carte Hype in maniera istantanea e senza costi**, e i soldi vengono ricevuti istantaneamente (un bonifico con gli steroidi!). Immaginate ora quando andate in pizzeria e dovete dividere la spesa con la vostra comitiva... Non sarà più un incubo.
 
 > Postepay, ad esempio, è uscita adesso con questa funzionalità che noi avevamo già da un anno. E a noi è gratis.
 
-Un'altra funzionalità indispensabile, per lo meno per me che sono uno spendaccione, sono gli **obiettivi**. E' possibile impostare un'obiettivo (Es. assicurazione dell'auto) e una data di scadenza (es. gennaio 2017), un importo, e Hype **provvederà a &#8220;nascondere&#8221; una parte del credito**, ad esempio 2,5€ al giorno, così da arrivare all'obiettivo coi soldi risparmiati senza sforzi.
+Un'altra funzionalità indispensabile, per lo meno per me che sono uno spendaccione, sono gli **obiettivi**. E' possibile impostare un'obiettivo (Es. assicurazione dell'auto) e una data di scadenza (es. gennaio 2017), un importo, e Hype **provvederà a "nascondere" una parte del credito**, ad esempio 2,5€ al giorno, così da arrivare all'obiettivo coi soldi risparmiati senza sforzi.
 
 > Che ve lo dico a fare .... ci hanno copiato anche questa funzionalità!
 

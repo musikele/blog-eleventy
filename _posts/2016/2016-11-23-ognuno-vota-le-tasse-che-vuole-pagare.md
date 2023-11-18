@@ -23,4 +23,4 @@ tags:
 > 
 > Ora, una tassazione alta riduce gli incentivi a investire e a lavorare sodo, e ciò riduce il tasso di crescita dell'economia. 
 
-Da "Chi ha e chi non ha&#8221;, Branko Milanovic 
+Da "Chi ha e chi non ha", Branko Milanovic 

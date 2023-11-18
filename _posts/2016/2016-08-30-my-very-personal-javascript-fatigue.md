@@ -56,7 +56,7 @@ I also run my unit tests everytime I hit <span class="lang:default decode:true c
 
 ### How do you write unit tests in Javascript?
 
-It would be great to just say, &#8220;use this!&#8221; and we're happy. In Javascript there are many libraries that are competing in the same space that there is no clear winner. I had to choose something that was well supported, well documented and used. I don't know if they are the best for every scenario, but since my time is limited, I am using these because <del>they were the first result on Google </del>they worked at the first attempt.
+It would be great to just say, "use this!" and we're happy. In Javascript there are many libraries that are competing in the same space that there is no clear winner. I had to choose something that was well supported, well documented and used. I don't know if they are the best for every scenario, but since my time is limited, I am using these because <del>they were the first result on Google </del>they worked at the first attempt.
 
 One library? NO! In JS, at least for browser testing, you need:
 
@@ -70,7 +70,7 @@ These 3 pieces of software still don't have many years of maturity on their shou
 
 Once you understand how to use these three libraries, then you have to actually write tests for your application: I don't have words to describe how difficult is to test a function that uses multiple <span class="lang:default decode:true crayon-inline">setTimeout()</span>  in the code (it's an audio player, and deals with timing...). And now my next step in this journey is to mock stuff.
 
-Another discovery I want to share with you (well, it's not a discovery, since it's on <span class="lang:default decode:true crayon-inline ">chai</span> &#8216;s web page): you can check the test correctness in two ways, the <span class="lang:default decode:true crayon-inline">assert</span> way (like the one used in JUnit), or via a &#8220;behavioural&#8221; testing definition, something like &#8220;<span class="lang:default decode:true crayon-inline ">expect(this).to.be.greaterThan(that)</span> &#8220;. two syntaxes for the same thing.
+Another discovery I want to share with you (well, it's not a discovery, since it's on <span class="lang:default decode:true crayon-inline ">chai</span> &#8216;s web page): you can check the test correctness in two ways, the <span class="lang:default decode:true crayon-inline">assert</span> way (like the one used in JUnit), or via a "behavioural" testing definition, something like "<span class="lang:default decode:true crayon-inline ">expect(this).to.be.greaterThan(that)</span> ". two syntaxes for the same thing.
 
 ### Moral of this <del>story</del> rant
 
