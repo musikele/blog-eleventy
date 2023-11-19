@@ -103,7 +103,7 @@ resources :posts do
    resources :comments
 end
 ```
- 
+
 Launch again `rake routes` in the console and now you'll see new routes, exactly as we wanted.
 
 If we start the Webserver (Rails server) we can try these new urls, however they actually break something in the view, something that we will fix soon.
