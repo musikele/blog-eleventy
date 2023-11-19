@@ -13,6 +13,7 @@ categories:
 tags:
   - javascript
   - testing
+headerImg: /uploads/2016/08/js-fatigue.jpg
 ---
 Trying to write this post as a 2007 blog post: personal, not so politically correct. (I'm not involved in JS politics by the way)
 
@@ -26,29 +27,29 @@ I have worked with a lot of javascript till now, I have also started a [Javascri
 
 It's very easy to say that **testing is important**, it's just three words nonetheless. I have heard this a thousand times, from a bazillion of people. However, when I have asked to talk to me honestly about javascript testing, the answer was more or less:
 
-> _nobody really does testing _
+> _nobody really does testing_
 
 **WTF?** I have heard this from people that I respect, and at many companies where I was interviewed. Why?!
 
-> _Our apps are not so big that you can't test them manually _
+> _Our apps are not so big that you can't test them manually_
 
 Well, this can be an explanation, but not a great one.
 
-> _I can't find any resources about testing in javascript _
+> _I can't find any resources about testing in javascript_
 
 Uhm ... we are reaching the point ...
 
-> **Testing in javascript is f\***ing difficult **
+> **Testing in javascript is f\*\*\*ing difficult
 
 Now that's the truth, ol' boy. Let's dive into it.
 
-[<img class="aligncenter size-medium wp-image-848" src="https://i1.wp.com/michelenasti.com/uploads/2016/08/testingdifficult-300x251.jpg?fit=300%2C251" alt="testingdifficult" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2016/08/testingdifficult.jpg)
+[Testing is difficult](https://i0.wp.com/michelenasti.com/uploads/2016/08/testingdifficult.jpg)
 
 ### My personal testing jurney
 
 I decided to revamp a very old project, written in Java and Swing (yes, it was a standalone application, that's how computers worked in 2010). In 2016, since browsers can do better things than before, I have decided to rewrite everything in javascript and to write the frontend in something that is more mantainable.
 
-I decided to write my stuff in angular 1 (I know it very well and since I have no spare time this was the only option for me). As a build tool, i have decided to use [Gulp](http://gulpjs.com/) + [Browserify](http://browserify.org/). For those who don't know what Browserify is, well, it's a JS library that lets you import other javascript modules exactly like NodeJs (so, you would use <span class="lang:default decode:true crayon-inline">require(&#8216;./TimerService')</span>  to import it in your file). This has given me the ability to decouple angular from the actual JS code. Another advantage is that I can test it better, since it's only Javascript.
+I decided to write my stuff in angular 1 (I know it very well and since I have no spare time this was the only option for me). As a build tool, i have decided to use [Gulp](http://gulpjs.com/) + [Browserify](http://browserify.org/). For those who don't know what Browserify is, well, it's a JS library that lets you import other javascript modules exactly like NodeJs (so, you would use <span class="lang:default decode:true crayon-inline">require('./TimerService')</span>  to import it in your file). This has given me the ability to decouple angular from the actual JS code. Another advantage is that I can test it better, since it's only Javascript.
 
 What about Gulp? Gulp is a build tool that can do a lot of stuff for you. I use it to trigger actions everytime I save a file, like running a syntax checker and convert my ES6 code to more <del>archaic</del> compatible ES5.
 
@@ -60,9 +61,9 @@ It would be great to just say, "use this!" and we're happy. In Javascript there 
 
 One library? NO! In JS, at least for browser testing, you need:
 
-  * a test runner, like [<span class="lang:default decode:true crayon-inline">karma</span>](https://karma-runner.github.io/1.0/index.html)
-  * a library to actually write the tests, like [<span class="lang:default decode:true crayon-inline">mocha</span>](https://mochajs.org/)
-  * an assertion library, like [<span class="lang:default decode:true crayon-inline">chai</span>](http://chaijs.com/)
+* a test runner, like [<span class="lang:default decode:true crayon-inline">karma</span>](https://karma-runner.github.io/1.0/index.html)
+* a library to actually write the tests, like [<span class="lang:default decode:true crayon-inline">mocha</span>](https://mochajs.org/)
+* an assertion library, like [<span class="lang:default decode:true crayon-inline">chai</span>](http://chaijs.com/)
 
 WTF, again? 3 libraries to do something that <span class="lang:default decode:true crayon-inline ">JUnit</span>  (for Java) does alone ?? This is an **example of the over-populated, github-based, quality-variegated NPM package manager**.
 
@@ -70,7 +71,7 @@ These 3 pieces of software still don't have many years of maturity on their shou
 
 Once you understand how to use these three libraries, then you have to actually write tests for your application: I don't have words to describe how difficult is to test a function that uses multiple <span class="lang:default decode:true crayon-inline">setTimeout()</span>  in the code (it's an audio player, and deals with timing...). And now my next step in this journey is to mock stuff.
 
-Another discovery I want to share with you (well, it's not a discovery, since it's on <span class="lang:default decode:true crayon-inline ">chai</span> &#8216;s web page): you can check the test correctness in two ways, the <span class="lang:default decode:true crayon-inline">assert</span> way (like the one used in JUnit), or via a "behavioural" testing definition, something like "<span class="lang:default decode:true crayon-inline ">expect(this).to.be.greaterThan(that)</span> ". two syntaxes for the same thing.
+Another discovery I want to share with you (well, it's not a discovery, since it's on <span class="lang:default decode:true crayon-inline ">chai</span> 's web page): you can check the test correctness in two ways, the <span class="lang:default decode:true crayon-inline">assert</span> way (like the one used in JUnit), or via a "behavioural" testing definition, something like "<span class="lang:default decode:true crayon-inline ">expect(this).to.be.greaterThan(that)</span> ". two syntaxes for the same thing.
 
 ### Moral of this <del>story</del> rant
 
@@ -82,4 +83,4 @@ At some point in the future, testing JS will be easy like every other language i
 
 So, if you believe that your application will be refactored some time in the future, if you don't want to become crazy, test it. _Test it now_. Run tests every <span class="lang:default decode:true crayon-inline">Ctrl+S</span> . This is the only way to be sure that things will not break up. Js is a dynamic language, it's not statically typed, and IDEs do not do type checking for you. Help yourself with testing.
 
-And finally, **when testing will be cool again, you can say you were already doing it when stuff was being developed. **You can talk like a good, ol' Testing Granpa.
+And finally, **when testing will be cool again, you can say you were already doing it when stuff was being developed.**You can talk like a good, ol' Testing Granpa.

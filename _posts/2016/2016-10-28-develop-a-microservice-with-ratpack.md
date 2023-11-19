@@ -17,10 +17,9 @@ tags:
   - java 8
   - microservices
   - ratpack
+headerImg: /uploads/2016/10/ratpack.png
 ---
 [Ratpack](https://ratpack.io) is a lightly opinionated framework that's perfect for backends written with a RESTful specification. I am using it in a project that we are developing, and of course it's a microservice.
-
-<img class="wp-image-1122 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?resize=551%2C205" alt="schermata-2016-10-28-alle-15-16-51" srcset="https://i1.wp.com/michelenasti.com/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?w=551 551w, https://i1.wp.com/michelenasti.com/uploads/2016/10/Schermata-2016-10-28-alle-15.16.51.png?resize=300%2C112 300w" sizes="(max-width: 551px) 100vw, 551px" data-recalc-dims="1" />
 
 Ratpack is completely **written in Java 8**, and you can use it with Java if you like. However, it's in **Groovy** that it really shines. Groovy is a functional scripting language for the JVM, and enhances Java under many aspects.
 
@@ -47,7 +46,7 @@ Guice is the default **dependency injection**, but you can go on with Spring if 
 
 The class that responds to a http call is a **Handler**, that you have to imagine **like a java servlet that intercepts a request**.  You can, for example, log all requests in a handler, then pass the control to the next that will extract data from headers, and according to that data it will call the right handler for you. You can also pass data between handlers so that it's very easy to work with it.
 
-Want more? **Ratpack is implemented using [Netty](http://netty.io)**, <span class="s1"><i>an asynchronous event-driven network application framework. </i>Does this definition say anything to you? <strong>It's the same philosophy taken by NodeJS</strong>. So you can expect to handle a lot of connections. (This power comes at a cost. Develop responsibly)</span>
+Want more? **Ratpack is implemented using [Netty](http://netty.io)**, an asynchronous event-driven network application framework. Does this definition say anything to you? **It's the same philosophy taken by NodeJS**. So you can expect to handle a lot of connections. (This power comes at a cost. Develop responsibly)
 
 **Testing is a breeze**. I have done only functional tests, but I'm confident that the application works exactly like I am expecting. Ratpack encourages to use Spock, but I'm using JUnit and I'm not regretting it.
 

@@ -13,12 +13,11 @@ categories:
 tags:
   - flow
   - typescript
+headerImg: /uploads/2016/06/flow-hero-logo.png
 ---
 ho trovato questo [interessantissimo link](http://djcordhose.github.io/flow-vs-typescript/2016_hhjs.html#/) sulla differenza tra **Flow** (di Facebook) e **Typescript** (di Microsoft). Vi consiglio di dargli uno sguardo perché sono slide che si capiscono (rarità!).
 
 Entrambi sono ottimi tool che permettono di portare il vostro codice JS a un altro livello.
-
-[<img class="aligncenter size-medium wp-image-691" src="https://i0.wp.com/michelenasti.com/uploads/2016/06/flow-hero-logo-300x123.png?fit=300%2C123" alt="flow-hero-logo" srcset="https://i0.wp.com/michelenasti.com/uploads/2016/06/flow-hero-logo.png?resize=300%2C123 300w, https://i0.wp.com/michelenasti.com/uploads/2016/06/flow-hero-logo.png?resize=720%2C294 720w, https://i0.wp.com/michelenasti.com/uploads/2016/06/flow-hero-logo.png?w=734 734w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i0.wp.com/michelenasti.com/uploads/2016/06/flow-hero-logo.png)
 
 _Flow_ è un type checker "offline", nel senso che è un tool da linea di comando che controlla se avete commesso errori di tipo (es. assegnare un numero a una stringa). Ovviamente esistono plugin per i migliori editor, e tante altre facilities (babel,, webpack...)
 

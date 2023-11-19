@@ -14,18 +14,17 @@ tags:
   - paypal
   - reid hoffman
   - elon musk
+headerImg: /images/da-zero-a-uno.jpg
 ---
 
 
 Negli ultimi (in realtà anche *primi*) 5 anni di carriera lavorativa, quante volte avrò detto "**dai ragazzi, ci basta pensare a una bella idea e faremo soldi a palate**"? Ecco, se siamo ancora tutti *povery* ci sarà un motivo. E il libro [From Zero to One](https://www.amazon.it/segreti-startup-ovvero-costruisce-futuro/dp/8817080462/ref=as_li_ss_tl?ie=UTF8&qid=1501144633&sr=8-1&keywords=da+zero+a+uno&linkCode=ll1&tag=ilblodimicnas-21&linkId=7e1eada6bd03b1ae3cd088013adf3372) (da me linkato nella versione italiana, *Da Zero a Uno*) prova a spiegarci qual è.
 
-<img src="/images/da-zero-a-uno.jpg" class=" forestry--none forestry--none" style="float: none;">
-
 ## Chi è Peter Thiel
 
 Peter Thiel, autore del libro, è uno dei **fondatori di Paypal**. Quella cricca di personaggi che all'epoca l'ha venduto a Ebay è oggi una delle *gang* di miliardari più potenti del mondo. E il bello è che sono tutti *imprenditori seriali*, quindi tutti si sono lanciati in altre aziende, chi come CEO chi come investitore.
 
-<img src="/images/Peter_Thiel_flag.jpeg.jpeg" class=" forestry--none forestry--none" style="float: none;">
+![Peter Thiel](/images/Peter_Thiel_flag.jpeg.jpeg)
 
 La fortuna di noi informatici e non solo è che possiamo apprendere tanto da loro, visto che hanno scritto libri interessantissimi e di forte impatto: sul mio blog ho già parlato dei [libri di Reid Hoffman](https://michelenasti.com/2015/11/i-tre-pilastri-per-migliorare-la-propria-carriera/) e della [vita di Elon Musk](https://michelenasti.com/2017/06/29/caspiterina-quanto-e-complicato-essere-elon-musk.html), altri membri della gang.
 

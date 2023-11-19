@@ -11,13 +11,11 @@ title: 'Recensione del libro: Codice Montemagno'
 categories: Italiano
 date: 2017-07-17 00:00:00
 headerImg: "/images/codice_montemagno.jpg"
-description: 'Codice Montemagno, un libro di Marco Monty Montemagno, ci parla di come
-  è cambiato il mondo della comunicazione e come sopravvivere al cambiamento. '
+description: Codice Montemagno, un libro di Marco Monty Montemagno, ci parla di come è cambiato il mondo della comunicazione e come sopravvivere al cambiamento.
 category: Italiano
 ---
-Il libro di cui vi parlo oggi è [Codice Montemagno](http://amzn.to/2uqzV4j).
 
-<img src="{{ site.baseurl }}/images/codice_montemagno.jpg" class=" forestry--none forestry--none forestry--none" style="float: none;">
+Il libro di cui vi parlo oggi è [Codice Montemagno](http://amzn.to/2uqzV4j).
 
 **Marco _Monty_ Montemagno** è un esperto di social media e di comunicazione  italiano. Da circa 15-20 anni si occupa di tutto ciò che è tecnologia & comunicazione. Ha fondato la piattaforma Blogo nel 2005, che poi ha venduto, e ora diciamo che lavora _in proprio_.
 

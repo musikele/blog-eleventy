@@ -13,6 +13,7 @@ categories:
 tags:
   - hype
   - pagamenti on line
+headerImg: /uploads/2016/07/hype-logo.png
 ---
 Uno dei prodotti su cui lavora la mia azienda é **[Hype](https://www.hype.it/Hype/index.jsp)**.
 
@@ -20,11 +21,9 @@ Uno dei prodotti su cui lavora la mia azienda é **[Hype](https://www.hype.it/Hy
 
 "Tutto qui? Ce ne sono centomila come Hype!" vero, e siccome io non vivo nelle caverne e maneggio soldi e carte di credito sfortunatamente più per spendere che per incassare, ecco la mia opinione a riguardo.
 
-<img class=" size-full wp-image-831 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2016/07/hype-logo.png?fit=259%2C210" alt="hype-logo" data-recalc-dims="1" />
-
 > Ovviamente si dovrebbe aver capito che lavoro per loro, anche se non lavoro direttamente su Hype; se non fossi stato convinto della bontà del progetto non ne avrei mai parlato spontaneamente.
 
-Hype é un progetto in cui crediamo molto, <span class="s1">nato da una collaborazione tra <strong>Banca Sella</strong> e noi di <strong>Bemind</strong>.</span>
+Hype é un progetto in cui crediamo molto, nato da una collaborazione tra **Banca Sella** e noi di **Bemind**.
 
 Innanzitutto é **totalmente gratuito**, nella sua versione _starter_.
 
@@ -46,7 +45,7 @@ Stando ai foglietti promozionali, **sono gratuiti anche i prelievi dai Postamat*
 
 Potete fare bonifici, pagare on line, o nei negozi, come se fosse una normale carta di credito prepagata.
 
-## Killer Features!
+## Killer Features
 
 Con "killer features" si intendono quelle funzionalità che, una volta provate, diventano irrinunciabili.
 
@@ -69,11 +68,3 @@ Assolutamente no! Con l'appoggio di Banca Sella, sarà possibile pagare con hype
 Spero di avervi convinto. **La carta è perfetta per quei giovani che hanno bisogno di una carta per gestire i loro risparmi e le loro vacanze**, ma anche per chi ha bisogno di **trasferire soldi** con i propri familiari e amici.
 
 Attivare la carta è questione di minuti e, considerato che è gratuita, conviene farlo!
-
- 
-
- 
-
- 
-
- 

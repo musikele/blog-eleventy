@@ -22,7 +22,7 @@ Ogni tanto il mondo diventa un posto migliore, e lo diventa grazie a persone com
 
 Ma come? Un progetto che si chiama come la nota casa automobilistica, recentemente coinvolta in uno scandalo sui test truccati?
 
-Ebbene si, e per motivi _assolutamente indipendenti _da quelli scritti al paragrafo precedente, [Wolkswagen](https://github.com/auchenberg/volkswagen) è una libreria che si accorge che stai eseguendo test su un server CI e li fa passare tutti.
+Ebbene si, e per motivi _assolutamente indipendenti_da quelli scritti al paragrafo precedente, [Wolkswagen](https://github.com/auchenberg/volkswagen) è una libreria che si accorge che stai eseguendo test su un server CI e li fa passare tutti.
 
 Cito dalla pagina ufficiale del progetto: "Questo ti  permetterà di spendere _meno_ tempo a preoccuparti del testing e _più_ tempo a goderti la vita come sviluppatore software affidabile".
 

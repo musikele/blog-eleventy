@@ -11,15 +11,13 @@ dsq_thread_id:
 categories:
   - Italiano
 tags:
-  
+headerImg: /uploads/2016/09/remote-working.jpg
 ---
 Vi ricordate che ho [cambiato lavoro](http://michelenasti.com/2016/06/cambio-lavoro-alla-scoperta-del-remote-working/)? E'giunto il momento di parlarne un po'.
 
 ## Per chi lavori?
 
 La mia società si chiama [Bemind](http://www.bemind.me/) e, a parte il fatto di sentirci molto fighi per il fatto di essere _Beminders_, per ora non siamo molto presenti sul web. E' una società molto giovane nata dall'idea di un CEO che un bel giorno ha detto: io non voglio fare il dipendente di nessuno. Se il CEO vuole palesarsi su questo blog, a disposizione!
-
-<img class=" size-full wp-image-1002 aligncenter" src="https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?fit=848%2C264" alt="logo_bemind_grande" srcset="https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?w=848 848w, https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?resize=300%2C93 300w, https://i1.wp.com/michelenasti.com/uploads/2016/09/logo_bemind_grande.png?resize=768%2C239 768w" sizes="(max-width: 848px) 100vw, 848px" data-recalc-dims="1" />
 
 ## Come vi siete conosciuti?
 
@@ -37,4 +35,4 @@ Dopo circa 6 mesi in cui ci siamo sporadicamente scritti, principalmente scambia
 
 Il mio ruolo principale è lavorare alla diffusione di **[Gestpay](https://www.gestpay.it/gestpay/index.jsp) di Banca Sella**, il gateway italiano per i pagamenti. Se avete un e-commerce, una startup, o rivendete servizi e avete bisogno di accettare pagamenti dai vostri utenti, Gestpay è LA soluzione, che stiamo completamente rinnovando. (Ne esistono anche altre: di sicuro conoscerete Paypal, e noi siamo loro partner nel senso che potete accettare pagamenti anche attraverso di loro, oltre che con le carte di credito, e ricevere i soldi nella stessa dashboard).
 
-Nei prossimi giorni pubblicherò l'articolo che ho già scritto: _[com'è lavorare da remoto](http://michelenasti.com/2016/09/come-lavorare-da-remoto/)? _
+Nei prossimi giorni pubblicherò l'articolo che ho già scritto: _[com'è lavorare da remoto](http://michelenasti.com/2016/09/come-lavorare-da-remoto/)?_
