@@ -13,11 +13,14 @@
     "license": "ISC",
     "devDependencies": {
         "@11ty/eleventy": "^2.0.1",
-        "@11ty/eleventy-plugin-rss": "^1.1.2"
+        "@11ty/eleventy-plugin-rss": "^1.1.2",
+        "@tinacms/cli": "^1.5.39",
+        "@types/node": "^20.10.4"
     },
     "dependencies": {
         "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
         "markdown-it-footnote": "^3.0.3",
-        "sass": "^1.49.8"
+        "sass": "^1.49.8",
+        "tinacms": "^1.5.28"
     }
 }
