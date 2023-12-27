@@ -15,7 +15,7 @@
         "@11ty/eleventy": "^2.0.1",
         "@11ty/eleventy-plugin-rss": "^1.1.2",
         "@tinacms/cli": "^1.5.39",
-        "@types/node": "^20.10.4"
+        "@types/node": "^20.10.5"
     },
     "dependencies": {
         "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
