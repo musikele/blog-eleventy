@@ -48,4 +48,4 @@ Creating an app is a matter of clicking "+ New", and then you're redirected to a
 
 One of the first steps you'll have to do is configuring a data source. Appsmith can connect with a wide variety of sources, including a bunch of popular SQL databases, or REST APIs, GraphQL, and so on.
 
-!\[list of Appsmith datasources]\([https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot](https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot) 2024-01-14 alle 13.35.06.png)
+!\[list of Appsmith datasources]\([https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot](https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot)]\([https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot](https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot) 2024-01-14 alle 13.35.06.png)
