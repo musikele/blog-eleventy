@@ -29,19 +29,19 @@ Il **Document Object Model (DOM)** è una API per l’XML che è stata estesa pe
 
 ```html
 <html>
-	<head>
-		<title>This is a title!</title>
-	</head>
-	<body>
-		Hello World!
-	</body>
+ <head>
+  <title>This is a title!</title>
+ </head>
+ <body>
+  Hello World!
+ </body>
 </html>
 ```
 
 Questo documento viene rappresentato come un albero la cui radice è il nodo `<html>`, i figli di `<html>` sono `<head>` e `<body>`, e così via.
 
 ## il DOM è necessario?
- 
+
 A partire da Internet Explorer 4 e Netscape Navigator 4 (ragazzi, stiamo parlando del giurassico) questi browser iniziarono a supportare delle forme di Dynamic Html (DHTML), grazie al quale potevano modificare il contenuto di una pagina senza ricaricarla. Fu un enorme passo avanti per il web, ma anche un grande problema per gli sviluppatori: i due browser implementavano specifiche diverse, e a farne le spese spesso erano gli utenti. (I problemi non si risolvevano dicendo "vabbè, ora scarico l’altro browser e vedo come si vede la pagina"... Internet era leeeeentiiiiisssiiiiiimooooooo). Siccome non si poteva attendere che uno dei due browser vincesse sull’altro, e per preservare la natura "aperta" del web, il W3C (ente che sovrintende le regole del web) decise di standardizzare il DOM.
 
 ## DOM levels

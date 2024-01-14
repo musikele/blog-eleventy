@@ -25,7 +25,6 @@ fos.write(myByteArray);
 fos.close();
 ```
 
-
 Vantaggi: non servono librerie aggiuntive per questa operazione.
 
 Svantaggi: qualcuno dice che [Apache Commons](http://commons.apache.org/proper/commons-io/apidocs/org/apache/commons/io/FileUtils.html#writeByteArrayToFile%28java.io.File,%20byte%5B%5D%29) si fa tutto con una istruzione.

@@ -56,7 +56,7 @@ Il relay del netAtmo è composto da quattro fili, due per chiudere il circuito d
 
 ![fili-ceraclass](/uploads/2015/01/fili-ceraclass.jpg)
 
-Nella seconda immagine invece vedete che bisogna alzare il ponticello n.8 per attivare il circuito che abbiamo appena creato. 
+Nella seconda immagine invece vedete che bisogna alzare il ponticello n.8 per attivare il circuito che abbiamo appena creato.
 
 ![ponticelli](/uploads/2015/01/ceraclass-controlli.jpg)
 

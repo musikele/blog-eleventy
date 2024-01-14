@@ -30,9 +30,9 @@ Ecco il famigerato questionario:
   7. Avete una specifica scritta di cosa devi fare?
   8. I programmatori hanno condizioni lavorative tranquille?
   9. Usate i migliori tool che potete permettervi?
- 1.  Avete tester allocati sul progetto?
- 2.  I candidati al ruolo di programmatore scrivono codice durante il colloquio?
- 3.  Effettuate test di usabilità minimi?
+  10. Avete tester allocati sul progetto?
+  11. I candidati al ruolo di programmatore scrivono codice durante il colloquio?
+  12. Effettuate test di usabilità minimi?
 
 Il bello di questo test è che è facile rispondere; altri sistemi richiedono di calcolare il numero di bug per commit e cose simili, e non sono dunque rapidi. _Ovviamente non è un test da utilizzare per testare la sicurezza di una centrale nucleare_ 🙂
 
