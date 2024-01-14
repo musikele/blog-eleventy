@@ -45,3 +45,5 @@ Creating an app is a matter of clicking "+ New", and then you're redirected to a
 ![Appsmith new app page](/images/appsmith_new_app.png)
 
 ## The Appsmith way of writing apps
+
+How is Appsmith 
