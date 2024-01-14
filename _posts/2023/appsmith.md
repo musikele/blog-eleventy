@@ -31,8 +31,8 @@ If you are a developer like me, I know what you're thinking: *there's NO WAAYYY 
 * They are suitable for a limit set of appliations, but for those types, they offer an extremely fast development experience.
 * You don't have to think about a lot of stuff - styling, bundling, deploying... other people has already taken those choices for you.
 
-> **No-code or Low-code? **\
-> Since writing an app with no code is impossible, some in the industry have been starting naming these concepts as "low code", because you don't have to write everything, just a few bits of it. 
+> \*\*No-code or Low-code?\*\*\
+> Since writing an app with no code is impossible, some in the industry have been starting naming these concepts as "low code", because you don't have to write everything, just a few bits of it.
 
 ### But what exactly is Appsmith?
 
@@ -46,4 +46,4 @@ Creating an app is a matter of clicking "+ New", and then you're redirected to a
 
 ## The Appsmith way of writing apps
 
-How is Appsmith 
+How is Appsmith
