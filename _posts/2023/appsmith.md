@@ -31,7 +31,7 @@ If you are a developer like me, I know what you're thinking: *there's NO WAAYYY 
 * They are suitable for a limit set of appliations, but for those types, they offer an extremely fast development experience.
 * You don't have to think about a lot of stuff - styling, bundling, deploying... other people has already taken those choices for you.
 
-> \*\*No-code or Low-code?\*\*\
+> **No-code or Low-code?**
 > Since writing an app with no code is impossible, some in the industry have been starting naming these concepts as "low code", because you don't have to write everything, just a few bits of it.
 
 ### But what exactly is Appsmith?
@@ -45,3 +45,7 @@ Creating an app is a matter of clicking "+ New", and then you're redirected to a
 ![Appsmith new app page](/images/appsmith_new_app.png)
 
 ## The Appsmith way of writing apps
+
+One of the first steps you'll have to do is configuring a data source. Appsmith can connect with a wide variety of sources, including a bunch of popular SQL databases, or REST APIs, GraphQL, and so on.
+
+!\[list of Appsmith datasources]\([https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot](https://assets.tina.io/6d2954f7-0f84-4c0b-a88c-5922f55395dc/Screenshot) 2024-01-14 alle 13.35.06.png)
