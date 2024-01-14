@@ -15,11 +15,11 @@ permalink: appsmith/
 eleventyExcludeFromCollections: true
 ---
 
-Fullstack developers are always looking for tools that can help us build applications faster. Appsmith is a tool that allows to do exactly that, and after three months of trying, I think there's nothing that can go faster than that. With a huge set of limitations, of course, but nonetheless it's still valuable for a lot of situations. Let's dive in.
+Fullstack developers are always looking for tools that can help build applications faster. [Appsmith](https://www.appsmith.com/ "Appsmith") is a tool that allows to do exactly that, and after three months of trying, I think there's nothing that can be faster than that. With a huge set of limitations, of course, but nonetheless it's still valuable for a lot of situations. Let's dive in.
 
 ## What is Appsmith?
 
-Appsmith is a no-code, open-source platform that allows to build applications using a drag-and-drop interface. The focus is around APIs and data (you have to provide the data somehow), but I think the level of customization is enough for most use cases.
+Appsmith is a **no-code**, **open-source platform** that allows to build applications using a drag-and-drop interface. The focus is around APIs and data (you have to provide the data somehow), but I think the level of customization is enough for most use cases.
 
 ### Wait, what is no-code?
 
@@ -30,6 +30,9 @@ If you are a developer like me, I know what you're thinking: *there's NO WAAYYY 
 * They allow non-technical people to create UIs that work. By inference, they allow not-so-good developers to make stuff that works, with a decent quality.
 * They are suitable for a limit set of appliations, but for those types, they offer an extremely fast development experience.
 * You don't have to think about a lot of stuff - styling, bundling, deploying... other people has already taken those choices for you.
+
+> **No-code or Low-code? **\
+> Since writing an app with no code is impossible, some in the industry have been starting naming these concepts as "low code", because you don't have to write everything, just a few bits of it. 
 
 ### But what exactly is Appsmith?
 
