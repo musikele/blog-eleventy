@@ -25,10 +25,10 @@ Sulla carta era la scelta migliore per gli utenti-tester: permette di memorizzar
   
 I problemi riscontrati sono stati i seguenti:
 
-  * **alta instabilità** del sistema con il nostro applicativo, dovuto all'elevato numero di componenti caricati e agli iframe ; ciò causava crash e stalli del browser;
-  * il sistema "punta e clicca" spesso **non riconosce le azioni dell'utente**
-  * per riuscire a far funzionare casi di test anche molto semplici era necessario **intervenire manualmente sul codice prodotto**;
-  * **scarso supporto alle webapp moderne** che usano tecnologie come AJAX, per caricare pezzi di pagine dinamicamente.
+* **alta instabilità** del sistema con il nostro applicativo, dovuto all'elevato numero di componenti caricati e agli iframe ; ciò causava crash e stalli del browser;
+* il sistema "punta e clicca" spesso **non riconosce le azioni dell'utente**
+* per riuscire a far funzionare casi di test anche molto semplici era necessario **intervenire manualmente sul codice prodotto**;
+* **scarso supporto alle webapp moderne** che usano tecnologie come AJAX, per caricare pezzi di pagine dinamicamente.
 
 ### Selenium WebDriver
 
@@ -36,12 +36,12 @@ I problemi riscontrati sono stati i seguenti:
 
 Per semplificare l'approccio alla scrittura dei casi di test ho pensato di creare una classe Java che semplifica le operazioni più comuni dei tester. Alcune funzionalità messe a disposizione sono:
 
-  * **apertura e chiusura del browser**
-  * **navigazione** verso un indirizzo specifico
-  * **login** e **logout**
-  * possibilità di **recuperare un oggetto dalla pagina** (per poterlo poi utilizzare, ad esempio per simulare un click, o inviare testo, etc)
-  * possibilità di **navigare all'interno dei frame**, cosa che con Selenium IDE è risultata particolarmente difficile;
-  * possibilità di **eseguire i test in batteria**, su un server remoto con accesso a un browser, e di ottenere un report dei casi di test che falliscono
+* **apertura e chiusura del browser**
+* **navigazione** verso un indirizzo specifico
+* **login** e **logout**
+* possibilità di **recuperare un oggetto dalla pagina** (per poterlo poi utilizzare, ad esempio per simulare un click, o inviare testo, etc)
+* possibilità di **navigare all'interno dei frame**, cosa che con Selenium IDE è risultata particolarmente difficile;
+* possibilità di **eseguire i test in batteria**, su un server remoto con accesso a un browser, e di ottenere un report dei casi di test che falliscono
 
 Una delle funzioni più complesse che abbiamo dovuto realizzare, nell'ottica delle webapp asincrone, è di **aspettare che un componente venisse caricato e mostrato all'interno della pagina**. Il nostro approccio permette di aspettare (per un tempo prefissato) che un componente sia caricato e mostrato all'utente, e solo dopo renderlo disponibile al test. _Se non si seguisse questo approccio, si correrebbe il rischio di usare componenti non ancora caricati, o cliccare su elementi nascosti._
 
@@ -51,11 +51,12 @@ Tutto ciò che è stato descritto in questo semplice documento è in teoria poss
 
 riporto la classe che abbiamo scritto per i nostri test. Questa classe va ereditata dai vostri test junit e i suoi metodi pubblici sono ciò che potrebbero servirvi di più.
 
-Il metodo più utile, per noi, è <span class="lang:java decode:true crayon-inline">waitAndReturnTheObject</span> che aspetta che l'elemento venga creato nel DOM e mostrato all'utente, e una volta recuperato lo restituisce. Gli altri metodi hanno un javadoc che potreste trovare utile.
+Il metodo più utile, per noi, è `waitAndReturnTheObject` che aspetta che l'elemento venga creato nel DOM e mostrato all'utente, e una volta recuperato lo restituisce. Gli altri metodi hanno un javadoc che potreste trovare utile.
 
 Essendo un JUnit non dovreste avere troppi problemi a eseguire i problemi con un tool come Maven.
 
-<pre class="lang:java decode:true" title="SeleniumWebDriverBaseTest">package utils;
+```java
+package utils;
 
 import static org.junit.Assert.fail;
 
@@ -160,7 +161,7 @@ public class SeleniumWebDriverBaseTest {
     public void waitForLoadedAndDisplayed(final By by) {
         LOGGER.info("waiting for " + by.toString());
 
-        final Future&lt;Void&gt; future = service.submit(new Callable&lt;Void&gt;() {
+        final Future<Void> future = service.submit(new Callable<Void>() {
 
             public Void call() throws Exception {
                 while (true) {
@@ -188,7 +189,7 @@ public class SeleniumWebDriverBaseTest {
     public void switchToFrame(String url) {
         driver.switchTo().defaultContent();
         LOGGER.info("Switchig to frame " + url);
-        List&lt;WebElement&gt; framesList = driver.findElements(By.xpath("//iframe"));
+        List<WebElement> framesList = driver.findElements(By.xpath("//iframe"));
 
         WebElement selectedFrame = null;
 
@@ -224,25 +225,27 @@ public class SeleniumWebDriverBaseTest {
         return element;
     }
 }
-</pre>
+```
 
 ### Dipendenze Maven
 
 Queste sono le dipendenze necessarie:
 
-<pre class="lang:xhtml decode:true" title="maven dependencies ">&lt;dependency&gt;
-    &lt;groupId&gt;org.seleniumhq.selenium&lt;/groupId&gt;
-    &lt;artifactId&gt;selenium-java&lt;/artifactId&gt;
-    &lt;version&gt;2.45.0&lt;/version&gt;
-&lt;/dependency&gt;
-&lt;dependency&gt;
-    &lt;groupId&gt;junit&lt;/groupId&gt;
-    &lt;artifactId&gt;junit&lt;/artifactId&gt;
-    &lt;version&gt;4.12&lt;/version&gt;
-&lt;/dependency&gt;</pre>
+```xml
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>2.45.0</version>
+</dependency>
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+</dependency></pre>
+```
 
 ### Cosa manca?
 
-  * sostituire la classe di logging con una più seria
-  * caricare un progetto di esempio e un esempio di utilizzo
-  * scrivere questa pagina in inglese
+* sostituire la classe di logging con una più seria
+* caricare un progetto di esempio e un esempio di utilizzo
+* scrivere questa pagina in inglese

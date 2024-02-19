@@ -19,17 +19,21 @@ Lo sapevate che non potevate inserire del testo html all'interno di una variabil
 
 Facciamo l'esempio: in un controller dichiariamo una variabile così:
 
-<pre class="lang:default decode:true ">$scope.errorMessage = 'this is not good! &lt;br&gt; it won't work!'</pre>
+```javascript
+$scope.errorMessage = 'this is not good! <br>; it won\'t work!'
+```
 
 e nell'HTML, a un certo punto, vogliamo mostrare questo messaggio in un div:
 
-<pre class="lang:default decode:true ">&lt;div ng-controller="..."&gt;{{errorMessage}}&lt;/div&gt;</pre>
+```html
+<div ng-controller="...">{{errorMessage}}</div></pre>
+```
 
-il <br> sarà interpretato come "a capo"? o vedremo scritto proprio <span class="lang:default decode:true  crayon-inline "><br></span> ?
+il `<br>` sarà interpretato come "a capo"? o vedremo scritto proprio `<br>`?
 
-....Vedremo scritto proprio <span class="lang:default decode:true  crayon-inline "><br></span> . Motivo per cui ci sono io a spiegarvi perchè e come aggirare il problema 🙂
+....Vedremo scritto proprio `<br>`. Motivo per cui ci sono io a spiegarvi perchè e come aggirare il problema 🙂
 
-Pochi sanno che quando scriviamo <span class="lang:default decode:true  crayon-inline "><p>{{variabile}}</p></span>  in realtà per Angular stiamo scrivendo <span class="lang:default decode:true  crayon-inline"><p ng-bind="variabile"></p></span>; insomma il famosissimo _two way binding_ di Angular è una direttiva bella e buona! I creatori di Angular hanno pensato che è decisamente più chiaro scrivere con le parentesi graffe, in modo che anche un non-programmatore possa capire il contenuto dell'html. Angular stesso poi tradurrà le <span class="lang:default decode:true  crayon-inline ">{% raw %}{{...}} {% endraw %} </span>  in <span class="lang:default decode:true  crayon-inline ">ng-bind="..."</span>  , e infine la variabile in testo.
+Pochi sanno che quando scriviamo `<p>{{variabile}}</p>` in realtà per Angular stiamo scrivendo `<p ng-bind="variabile"></p>`; insomma il famosissimo _two way binding_ di Angular è una direttiva bella e buona! I creatori di Angular hanno pensato che è decisamente più chiaro scrivere con le parentesi graffe, in modo che anche un non-programmatore possa capire il contenuto dell'html. Angular stesso poi tradurrà le `{% raw %} {{...}} {% endraw %}`  in `ng-bind="..."`, e infine la variabile in testo.
 
 ### Un buon motivo per usare ng-bind
 
@@ -41,8 +45,8 @@ La soluzione a questo problema è data proprio da [ng-bind](https://docs.angular
 
 ### ng-bind-html, un nuovo amico
 
-Ma torniamo alla domanda iniziale. Come facciamo a mostrare l'html all'interno di una variabile _angularizzata_? La direttiva da chiamare stavolta è [**ng-bind-html**](https://docs.angularjs.org/api/ng/directive/ngBindHtml), che sfortunatamente non ha corrispettivi con un'altra sintassi (niente doppie o triple parentesi qui). Il motivo per cui è meno nota (e dovrebbe essere usata con cura!) è che non bisognerebbe mai lasciare la responsabilità della formattazione del testo a un js, quindi non bisognerebbe inserire un <span class="lang:default decode:true  crayon-inline "><br></span>  o qualsiasi altro tag in un messaggio. Inoltre sorgono dei problemi di sicurezza: che succede se un utente malevolo carica un tag <span class="lang:default decode:true  crayon-inline "><script></span> ?
+Ma torniamo alla domanda iniziale. Come facciamo a mostrare l'html all'interno di una variabile _angularizzata_? La direttiva da chiamare stavolta è [**ng-bind-html**](https://docs.angularjs.org/api/ng/directive/ngBindHtml), che sfortunatamente non ha corrispettivi con un'altra sintassi (niente doppie o triple parentesi qui). Il motivo per cui è meno nota (e dovrebbe essere usata con cura!) è che non bisognerebbe mai lasciare la responsabilità della formattazione del testo a un js, quindi non bisognerebbe inserire un `<br>`  o qualsiasi altro tag in un messaggio. Inoltre sorgono dei problemi di sicurezza: che succede se un utente malevolo carica un tag `<script>` ?
 
 Almeno per questo Angular ci mette in guardia, e infatti specifica chiaramente nella guida che per usare ng-bind-html bisogna iniettare **$sanitize** di angular, così da eliminare eventuali tag scomodi. Senza l'import di $sanitize non dovrebbe proprio funzionare, questo per farvi capire quanto è importante ripulire codice che potrebbe essere compromesso.
 
-Morale: usate <span class="lang:default decode:true  crayon-inline ">ng-bind-html</span>  con coscienza, ma utilizzatelo solo in pochi punti ben documentati dell'applicazione, altrimenti in futuro potreste essere anche vittima di attacchi. Nel mio caso, l'ho usato per una fix rapida su un messaggio di errore che arrivava dal server (ove risiedeva il famigerato <span class="lang:default decode:true  crayon-inline "><br></span> ). Quando ci sono rilasci non si può ragionare troppo 🙂
+Morale: usate `ng-bind-html`  con coscienza, ma utilizzatelo solo in pochi punti ben documentati dell'applicazione, altrimenti in futuro potreste essere anche vittima di attacchi. Nel mio caso, l'ho usato per una fix rapida su un messaggio di errore che arrivava dal server (ove risiedeva il famigerato `<br>` ). Quando ci sono rilasci non si può ragionare troppo 🙂
