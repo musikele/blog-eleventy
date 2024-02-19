@@ -49,31 +49,31 @@ Now that's the truth, ol' boy. Let's dive into it.
 
 I decided to revamp a very old project, written in Java and Swing (yes, it was a standalone application, that's how computers worked in 2010). In 2016, since browsers can do better things than before, I have decided to rewrite everything in javascript and to write the frontend in something that is more mantainable.
 
-I decided to write my stuff in angular 1 (I know it very well and since I have no spare time this was the only option for me). As a build tool, i have decided to use [Gulp](http://gulpjs.com/) + [Browserify](http://browserify.org/). For those who don't know what Browserify is, well, it's a JS library that lets you import other javascript modules exactly like NodeJs (so, you would use <span class="lang:default decode:true crayon-inline">require('./TimerService')</span>  to import it in your file). This has given me the ability to decouple angular from the actual JS code. Another advantage is that I can test it better, since it's only Javascript.
+I decided to write my stuff in angular 1 (I know it very well and since I have no spare time this was the only option for me). As a build tool, i have decided to use [Gulp](http://gulpjs.com/) + [Browserify](http://browserify.org/). For those who don't know what Browserify is, well, it's a JS library that lets you import other javascript modules exactly like NodeJs (so, you would use `require('./TimerService')`  to import it in your file). This has given me the ability to decouple angular from the actual JS code. Another advantage is that I can test it better, since it's only Javascript.
 
-What about Gulp? Gulp is a build tool that can do a lot of stuff for you. I use it to trigger actions everytime I save a file, like running a syntax checker and convert my ES6 code to more <del>archaic</del> compatible ES5.
+What about Gulp? Gulp is a build tool that can do a lot of stuff for you. I use it to trigger actions everytime I save a file, like running a syntax checker and convert my ES6 code to more ~~archaic~~ compatible ES5.
 
-I also run my unit tests everytime I hit <span class="lang:default decode:true crayon-inline">Ctrl+S</span>  (save).
+I also run my unit tests everytime I hit `Ctrl+S`  (save).
 
 ### How do you write unit tests in Javascript?
 
-It would be great to just say, "use this!" and we're happy. In Javascript there are many libraries that are competing in the same space that there is no clear winner. I had to choose something that was well supported, well documented and used. I don't know if they are the best for every scenario, but since my time is limited, I am using these because <del>they were the first result on Google </del>they worked at the first attempt.
+It would be great to just say, "use this!" and we're happy. In Javascript there are many libraries that are competing in the same space that there is no clear winner. I had to choose something that was well supported, well documented and used. I don't know if they are the best for every scenario, but since my time is limited, I am using these because ~~they were the first result on Google~~ they worked at the first attempt.
 
 One library? NO! In JS, at least for browser testing, you need:
 
-* a test runner, like [<span class="lang:default decode:true crayon-inline">karma</span>](https://karma-runner.github.io/1.0/index.html)
-* a library to actually write the tests, like [<span class="lang:default decode:true crayon-inline">mocha</span>](https://mochajs.org/)
-* an assertion library, like [<span class="lang:default decode:true crayon-inline">chai</span>](http://chaijs.com/)
+* a test runner, like [`karma`](https://karma-runner.github.io/1.0/index.html)
+* a library to actually write the tests, like [`mocha`](https://mochajs.org/)
+* an assertion library, like [`chai`](http://chaijs.com/)
 
-WTF, again? 3 libraries to do something that <span class="lang:default decode:true crayon-inline ">JUnit</span>  (for Java) does alone ?? This is an **example of the over-populated, github-based, quality-variegated NPM package manager**.
+WTF, again? 3 libraries to do something that `JUnit` (for Java) does alone ?? This is an **example of the over-populated, github-based, quality-variegated NPM package manager**.
 
 These 3 pieces of software still don't have many years of maturity on their shoulders, and are not immune to bugs (which are promptly resolved, however). I have found one in mocha, for example, and I could not figure out until I upgraded.
 
-Once you understand how to use these three libraries, then you have to actually write tests for your application: I don't have words to describe how difficult is to test a function that uses multiple <span class="lang:default decode:true crayon-inline">setTimeout()</span>  in the code (it's an audio player, and deals with timing...). And now my next step in this journey is to mock stuff.
+Once you understand how to use these three libraries, then you have to actually write tests for your application: I don't have words to describe how difficult is to test a function that uses multiple `setTimeout()`  in the code (it's an audio player, and deals with timing...). And now my next step in this journey is to mock stuff.
 
-Another discovery I want to share with you (well, it's not a discovery, since it's on <span class="lang:default decode:true crayon-inline ">chai</span> 's web page): you can check the test correctness in two ways, the <span class="lang:default decode:true crayon-inline">assert</span> way (like the one used in JUnit), or via a "behavioural" testing definition, something like "<span class="lang:default decode:true crayon-inline ">expect(this).to.be.greaterThan(that)</span> ". two syntaxes for the same thing.
+Another discovery I want to share with you (well, it's not a discovery, since it's on `chai` 's web page): you can check the test correctness in two ways, the `assert` way (like the one used in JUnit), or via a "behavioural" testing definition, something like "`expect(this).to.be.greaterThan(that)` ". two syntaxes for the same thing.
 
-### Moral of this <del>story</del> rant
+### Moral of this ~~story~~ rant
 
 Do we really need testing in Javascript? I believe that yes, **testing is fundamental as the application grows**, and expecially if you want to do some refactoring that has some sense.
 
@@ -81,6 +81,6 @@ Do we really need testing in Javascript? I believe that yes, **testing is fundam
 
 At some point in the future, testing JS will be easy like every other language in the programming world. Modern languages born with testing capabilities built in, and Javascript is so old that testing was just not cool to think about it.
 
-So, if you believe that your application will be refactored some time in the future, if you don't want to become crazy, test it. _Test it now_. Run tests every <span class="lang:default decode:true crayon-inline">Ctrl+S</span> . This is the only way to be sure that things will not break up. Js is a dynamic language, it's not statically typed, and IDEs do not do type checking for you. Help yourself with testing.
+So, if you believe that your application will be refactored some time in the future, if you don't want to become crazy, test it. _Test it now_. Run tests every `Ctrl+S` . This is the only way to be sure that things will not break up. Js is a dynamic language, it's not statically typed, and IDEs do not do type checking for you. Help yourself with testing.
 
 And finally, **when testing will be cool again, you can say you were already doing it when stuff was being developed.**You can talk like a good, ol' Testing Granpa.

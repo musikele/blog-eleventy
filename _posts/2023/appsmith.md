@@ -15,7 +15,7 @@ permalink: appsmith/
 eleventyExcludeFromCollections: true
 ---
 
-Fullstack developers are always looking for tools that can help build applications faster. [Appsmith](https://www.appsmith.com/ "Appsmith") is a tool that allows to do exactly that, and after three months of trying, I think there's nothing that can be faster than that. With a huge set of limitations, of course, but nonetheless it's still valuable for a lot of situations. Let's dive in.
+Fullstack developers are always looking for tools that can help build applications faster. [Appsmith](https://www.appsmith.com/ "Appsmith") is a tool that allows to do exactly that, and after three months of trying, I think there's nothing that can be faster than that. With a huge set of limitations, of course, but nonetheless it's still valuable in many situations. Let's dive in.
 
 ## What is Appsmith?
 

@@ -32,13 +32,16 @@ Ci ho messo un po' a capire questa proprietà dei linguaggi funzionali. In prati
 
 Possiamo assegnare una funzione a una variabile:
 
-<pre class="lang:default decode:true">var saluta = function() {
+```javascript
+var saluta = function() {
    console.log("ciao"); 
-}</pre>
+}
+```
 
 possiamo passare una funzione in input a un'altra funzione:
 
-<pre class="lang:default decode:true">var salutaColCiao = function() {
+```javascript
+var salutaColCiao = function() {
    return "ciao";  
 };
 
@@ -51,23 +54,25 @@ var salutaConNome = function(saluto, nome) {
 
 //scriverà "ciao Michele" 
 salutaConNome(salutaColCiao , "Michele"); 
-
-</pre>
+```
 
 ### 2. Callback
 
 Una Callback è una funzione che viene "chiamata dopo". Ad esempio, fate una query al DB, quando questa finisce processate i dati. In un linguaggio come Java scrivereste qualcosa così:
 
-<pre class="lang:java decode:true">//codice JAVA
+```java
+//codice JAVA
 ...
 List&lt;Paziente&gt; pazienteList = PazienteDAO.getAll(); 
 processPazienti(pazienteList); 
 ... 
-</pre>
+
+```
 
 E se l'operazione successiva la dovremmo decidere a runtime, in base al punto in cui ci troviamo dell'applicazione? Sempre in JAVA ci conviene scrivere un'interfaccia e passarla al metodo getAll ....
 
-<pre class="lang:java decode:true">//codice JAVA
+```java
+//codice JAVA
 
 public interface Callback {
     public void executeOperation(Object result); 
@@ -83,11 +88,13 @@ public class PazienteDAO {
       //quando ho fatto chiamo la callback: 
       callback.executeOperation(pazienteList); 
       }
-}</pre>
+}
+```
 
 Adesso, siccome getAll non restituisce più nulla, per elaborare il dato in uscita dobbiamo implementare la funzione executeOperation per processare l'output:
 
-<pre class="lang:default decode:true">... // codice JAVA 
+```javascript
+... // codice JAVA 
 pazienteDAO.getAll(new Callback() {
   
   @Override
@@ -96,24 +103,29 @@ pazienteDAO.getAll(new Callback() {
     process(pazienteList); 
   }
 
-});</pre>
+});
+```
 
 Ecco, questa è una callback in Java. In JS è moooolto più semplice, visto che si possono passare le funzioni e quindi non dobbiamo scrivere codice in più (bloat-code):
 
-<pre class="lang:default decode:true ">patientDAO.getAll(function(patientList) {
+```java
+patientDAO.getAll(function(patientList) {
    //tutte le operazioni che servono 
    process(patientList); 
-});</pre>
+});
+```
 
 O ancora più semplicemente:
 
-<pre class="lang:default decode:true">patientDAO.getAll(process(patientList));</pre>
+```javascript
+patientDAO.getAll(process(patientList));
+```
 
 ### 3. tutto è in un solo thread (e basta!)
 
 Questa è difficile da spiegare, perchè non è davvero così. Il thread che analizza il codice javascript e lo traduce in codice macchina è uno solo. Ma tutte le operazione di sistema, come quelle di I/O (su disco, su rete...) vengono eseguite su un thread a parte. L'idea è che, quando chiamiamo un'operazione di IO come una lettura su disco, il sistema operativo si occupa di leggere il file e lo fa in maniera _asincrona_, così che Node può passare subito all'istruzione successiva. Quando il sistema operativo ha terminato la lettura del file chiama la callback, che viene schedulata da Node per essere eseguita nel famoso unico thread.
 
-![](/uploads/2015/10/threading_node.png)
+![una spiegazione visibile di come funziona l'event loop di javascript](/uploads/2015/10/threading_node.png)
 
 E la scalabilità? L'approccio asincrono permette di gestire migliaia di richieste contemporanee con un singolo thread (Provate a farlo fare ad Apache!).
 
@@ -125,30 +137,36 @@ Per ricapitolare: _tutto ciò che fa parte di una libreria base viene eseguito i
 
 Questa non è troppo difficile da capire ma l'ho messa qui perchè, rispetto ai vari linguaggioni business etc, penso che sia una cosa fantastica.  Per creare un oggetto in JS è sufficiente questo :
 
-<pre class="lang:default decode:true">var human = {}; //oggetto istanziato ma vuoto</pre>
+```javascript
+var human = {}; //oggetto istanziato ma vuoto
+```
 
 se voglio creare una property all'interno dell'oggetto posso fare così:
 
-<pre class="lang:js decode:true">var human = {
+```javascript
+var human = {
   height: 170, 
   weight: 80
-};</pre>
+};
+```
 
-e ora potrete accedere alle varie proprietà dell'oggetto con <span class="lang:default decode:true crayon-inline ">human.weight</span> o <span class="lang:default decode:true crayon-inline">human.height</span>.
+e ora potrete accedere alle varie proprietà dell'oggetto con `human.weight` o `human.height`.
 
 Potete mettere le funzioni negli oggetti nello stesso modo delle proprietà:
 
-<pre class="lang:default decode:true">var human = {
+```javascript
+var human = {
   height: 170, 
   weight: 80, 
   calculateDensity : function(height, weight) {
      return height/weight; 
   }
-};</pre>
+};
+```
 
 La cosa da capire è che la funzione così definita non va ad agire sulle property dell'oggetto (perchè è stateless!) ma bisogna passargliele di volta in volta.
 
-Ciò significa che se istanzio 100 human avrò 100 funzioni istanziate? SI. Ed è qui che entrano in gioco i Prototype (ossia, istanzio la funzione una volta, e me la ritrovo sempre). Però non ne voglio parlare in questo articolo perchè diventerebbe un casino. Sappiate solo che ogni oggetto in js può essere liberamente modificato successivamente, quindi posso aggiungere property a human facendo cose tipo <span class="lang:default decode:true crayon-inline ">human.numberOfEars = 2</span> , o cancellare property esistenti con <span class="lang:default decode:true crayon-inline">delete human.height</span> .
+Ciò significa che se istanzio 100 human avrò 100 funzioni istanziate? SI. Ed è qui che entrano in gioco i Prototype (ossia, istanzio la funzione una volta, e me la ritrovo sempre). Però non ne voglio parlare in questo articolo perchè diventerebbe un casino. Sappiate solo che ogni oggetto in js può essere liberamente modificato successivamente, quindi posso aggiungere property a human facendo cose tipo `human.numberOfEars = 2` , o cancellare property esistenti con `delete human.height` .
 
 ### Concludendo
 

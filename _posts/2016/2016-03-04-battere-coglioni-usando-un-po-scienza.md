@@ -27,12 +27,12 @@ Dunque molti emendamenti sono simili. Come fare a capire quali sono stati genera
 
 Ecco il procedimento utilizzato da Jacopo, spiegato a chi di informatica capisce poco o niente:
 
-  * Il primo passo è di scaricare tutti gli emendamenti dalla pagina del senato.
-  * Il problema da risolvere è un classico problema di Data Science, ossia trovare tutti i "cluster" (gruppi) di articoli "omogenei" (simili).
-  * Come capire quali articoli sono simili tra loro? Usando una metrica semplice: dati due emendamenti, calcola quanto è grande la sottostringa uguale (una porzione di testo) più grande. E' abbastanza chiaro che se la sottostringa è grande, i due articoli sono molto simili.
-  * Grazie a questa metrica è possibile lanciare un algoritmo, chiamato "Hierarchical Clustering", che mostra un grafico somigliante a un tabellone dei mondiali disegnato da un ubriaco. Se lo guardate attentamente, però, i colori sono diversi: bene, l'algoritmo ha colorato allo stesso modo gli emendamenti che secondo lui sono simili. Nell'articolo viene mostrato anche praticamente, ispezionando gli esempi.
+* Il primo passo è di scaricare tutti gli emendamenti dalla pagina del senato.
+* Il problema da risolvere è un classico problema di Data Science, ossia trovare tutti i "cluster" (gruppi) di articoli "omogenei" (simili).
+* Come capire quali articoli sono simili tra loro? Usando una metrica semplice: dati due emendamenti, calcola quanto è grande la sottostringa uguale (una porzione di testo) più grande. E' abbastanza chiaro che se la sottostringa è grande, i due articoli sono molto simili.
+* Grazie a questa metrica è possibile lanciare un algoritmo, chiamato "Hierarchical Clustering", che mostra un grafico somigliante a un tabellone dei mondiali disegnato da un ubriaco. Se lo guardate attentamente, però, i colori sono diversi: bene, l'algoritmo ha colorato allo stesso modo gli emendamenti che secondo lui sono simili. Nell'articolo viene mostrato anche praticamente, ispezionando gli esempi.
 
-#### Calderoli, prendi questo !
+### Calderoli, prendi questo
 
 L'approccio qui spiegato è molto simile a quello che fanno giornalmente i filtri anti-spam dei nostri account di posta, per filtrare le mail indesiderate. Spiace dirlo ma un milione di emendamenti di Calderoli (o di chiunque altro) non è che spam, fuffa, e come tale va buttato. Un senatore (pagato da noi) spammer.
 
@@ -50,7 +50,7 @@ Mi conferma che anche **dalle istituzioni politiche non è arrivato nessun segna
 
 Altra domanda, **quante persone ti hanno contattato in questi giorni per chiederti interviste** e chiarimenti sull'articolo? "Chiunque 🙂 sono un po' indietro con le interviste sebbene stia saltando la pausa pranzo da martedì per farle... Mi sono stati chiesti i dettagli tecnici dell'articolo, ma in genere sono sempre stati tagliati dagli articoli, quindi non li devo aver spiegati granché bene."
 
-A questo punto, curiosità personale: **come si fa a lavorare per il CERN**? Risposta più facile di quel che pensavo: "Applichi a uno dei (tanti) bandi che escono durante l'anno. A seconda del tipo della posizione hai requisiti diversi sulle qualifiche che devi avere e gli step che devi superare. Quello per una posizione come la mia è appena scaduto: <a class="twitter-timeline-link" dir="ltr" title="https://jobs.web.cern.ch/join-us/fellowship-programme" href="https://t.co/wkZ8oQXj2g" target="_blank" rel="nofollow" data-expanded-url="https://jobs.web.cern.ch/join-us/fellowship-programme"><span class="invisible">https://</span><span class="js-display-url">jobs.web.cern.ch/join-us/fellow</span><span class="invisible">ship-programme</span><span class="tco-ellipsis"><span class="invisible"> </span>…</span></a>".
+A questo punto, curiosità personale: **come si fa a lavorare per il CERN**? Risposta più facile di quel che pensavo: "Applichi a uno dei (tanti) bandi che escono durante l'anno. A seconda del tipo della posizione hai requisiti diversi sulle qualifiche che devi avere e gli step che devi superare. Ad esempio a [questo indirizzo](https://jobs.web.cern.ch/join-us/fellowship-programme).
 
 Non resta che salutarci, è una persona davvero squisita, risponde a tutte le mie domande senza troppi problemi. Gli auguro il meglio, e mi riprometto di far arrivare il suo lavoro più in alto possibile (chi lo sa, magari ai presidenti di Camera e Senato?).
 

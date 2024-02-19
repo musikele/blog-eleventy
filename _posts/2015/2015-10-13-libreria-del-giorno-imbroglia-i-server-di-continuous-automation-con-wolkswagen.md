@@ -26,4 +26,4 @@ Ebbene si, e per motivi _assolutamente indipendenti_da quelli scritti al paragra
 
 Cito dalla pagina ufficiale del progetto: "Questo ti  permetterà di spendere _meno_ tempo a preoccuparti del testing e _più_ tempo a goderti la vita come sviluppatore software affidabile".
 
-Cosa dovevo fare oggi? Ah niente, testing... <span class="lang:js decode:true crayon-inline">require(&#8216;volkswagen')</span>  e ho tutto il pomeriggio libero 😉
+Cosa dovevo fare oggi? Ah niente, testing... `require("volkswagen")` e ho tutto il pomeriggio libero 😉

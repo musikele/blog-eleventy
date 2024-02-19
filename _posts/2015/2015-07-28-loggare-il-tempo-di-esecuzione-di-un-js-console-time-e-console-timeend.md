@@ -19,9 +19,10 @@ Ogni browser moderno dispone di avanzatissimi strumenti di sviluppo, Firefox è 
 
 Se leggete questo blog significa che sapete aprire una di queste console e probabilmente lo fate ogni giorno per lavoro. Ma come misurare che il codice JS che stiamo scrivendo sia effettivamente veloce? O meglio, come valutarlo in relazione ad altre soluzioni alternative?
 
-un tool estremamente utile è <span class="lang:default decode:true  crayon-inline ">console.time()</span> . Tutto il codice racchiuso tra <span class="lang:default decode:true  crayon-inline ">console.time()</span>  e <span class="lang:default decode:true  crayon-inline ">console.timeEnd()</span>  viene misurato in console. Per identificare il blocco di codice valutato possiamo (e secondo me dobbiamo) dare una stringa come label. Vediamo un esempio:
+un tool estremamente utile è `console.time()` . Tutto il codice racchiuso tra `console.time()`  e `console.timeEnd()`  viene misurato in console. Per identificare il blocco di codice valutato possiamo (e secondo me dobbiamo) dare una stringa come label. Vediamo un esempio:
 
-<pre class="lang:js decode:true">console.time("test del for"); 
+```javascript
+console.time("test del for"); 
 
 var i, arr = []; 
 for(i=0; i&lt;100000; i++) { 
@@ -29,13 +30,15 @@ for(i=0; i&lt;100000; i++) {
 } 
 arr.sort(); 
 
-console.timeEnd("test del for");</pre>
+console.timeEnd("test del for");
+```
 
-Nel caso precedente creiamo un array di 100.000 posizioni, e inseriamo ogni nuovo elemento all'inizio. Dunque gli elementi sono disposti in odine decrescente. Poi lo ordiniamo con sort(). In console leggiamo: <span class="lang:default decode:true  crayon-inline ">test del for: 1041.271ms</span> .
+Nel caso precedente creiamo un array di 100.000 posizioni, e inseriamo ogni nuovo elemento all'inizio. Dunque gli elementi sono disposti in odine decrescente. Poi lo ordiniamo con sort(). In console leggiamo: `test del for: 1041.271ms` .
 
 Vediamo una variante che ci aspettiamo più semplice:
 
-<pre class="lang:js decode:true">console.time("test del for"); 
+```javascript
+console.time("test del for"); 
 
 var i, arr = []; 
 for(i=0; i&lt;100000; i++) { 
@@ -43,14 +46,11 @@ for(i=0; i&lt;100000; i++) {
 } 
 arr.sort(); 
 
-console.timeEnd("test del for");</pre>
+console.timeEnd("test del for");
+```
 
-In questo altro caso invece creiamo l'array inserendo gli elementi nell'ordine naturale. Dopo l'operazione di ordinamento viene loggato <span class="lang:default decode:true  crayon-inline ">test del for: 187.685ms</span> .
+In questo altro caso invece creiamo l'array inserendo gli elementi nell'ordine naturale. Dopo l'operazione di ordinamento viene loggato `test del for: 187.685ms` .
 
 Cosa abbiamo dunque scoperto? che conviene ordinare array già ordinati 🙂 e che console.time(LABEL) e console.timeEnd(LABEL) sono una comoda funzione per verificare quanto tempo viene impiegato dal nostro codice javascript.
 
-Esercizio per casa: conviene usare document.getElementById(<span class="highVAL">"body"</span>)
-     
-.**createElement()** o document.getElementById(<span class="highVAL">"body"</span>)
-    
-.**innerHtml()  **? A voi la scoperta !
+Esercizio per casa: conviene usare `document.getElementById("body").**createElement()` o `document.getElementById("body").innerHtml()`? A voi la scoperta!

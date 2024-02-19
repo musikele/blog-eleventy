@@ -21,7 +21,8 @@ Sembra banale alla luce di quanto già scritto nell'[articolo precedente](http:/
 
 Grazie a queste pochissime righe possiamo superare il problema e goderci i nostri bean _spring_ati:
 
-<pre class="lang:java decode:true" title="istanziare un bean groovy che contiene annotations di spring">package interoperability.groovy
+```groovy
+package interoperability.groovy
 
 import interoperability.GroovyScripterInterface
 import org.springframework.beans.factory.annotation.Autowired
@@ -57,18 +58,18 @@ class GroovyBeanService implements IGroovyBeanService {
         return instance
     }
 }
-</pre>
+```
 
-Il bean <span class="lang:default decode:true  crayon-inline ">GroovyBeanService </span> viene esplicitamente inizializzato da Spring, motivo per cui implementa l'interfaccia <span class="lang:default decode:true  crayon-inline ">IGroovyBeanService</span> .
+Il bean `GroovyBeanService` viene esplicitamente inizializzato da Spring, motivo per cui implementa l'interfaccia `IGroovyBeanService` .
 
 A riga 21 leggo il contenuto dello script e lo trasformo in una grande stringa.
 
-Attraverso il <span class="lang:default decode:true  crayon-inline">GroovyClassLoader</span>  (riga 24-25) possiamo istanziare la classe appena caricata e poi istanziarla a riga 28.
+Attraverso il `GroovyClassLoader`  (riga 24-25) possiamo istanziare la classe appena caricata e poi istanziarla a riga 28.
 
 L'oggetto però ottenuto fino a questo passo conterrà variabili istanza null; tramite l'applicationContext riusciamo a colmare anche questa lacuna. Dopodichè si tratta solo di chiamare i suoi metodi e utilizzarlo.
 
 ### Attenti ai MemoryLeak
 
-<span class="lang:default decode:true  crayon-inline ">GroovyClassLoader </span> può prendere in input sia una <span class="lang:default decode:true  crayon-inline ">String</span>  sia un <span class="lang:default decode:true  crayon-inline ">File</span> . Quando prende una stringa, circostanza a cui noi per esigenze strutturali non possiamo rinunciare, GroovyClassLoader non riesce a _cache_are la classe e gli oggetti appena creati non saranno cancellati dalla memoria. Tutto questo non accade se invece l'input è un file. Occorre quindi implementare un meccanismo di cache artigianale (ve lo dovete fare voi!) per evitare di reistanziare milioni di volte lo stesso bean.
+`GroovyClassLoader` può prendere in input sia una `String`  sia un `File` . Quando prende una stringa, circostanza a cui noi per esigenze strutturali non possiamo rinunciare, GroovyClassLoader non riesce a _cache_are la classe e gli oggetti appena creati non saranno cancellati dalla memoria. Tutto questo non accade se invece l'input è un file. Occorre quindi implementare un meccanismo di cache artigianale (ve lo dovete fare voi!) per evitare di reistanziare milioni di volte lo stesso bean.
 
 Buon Groovy!

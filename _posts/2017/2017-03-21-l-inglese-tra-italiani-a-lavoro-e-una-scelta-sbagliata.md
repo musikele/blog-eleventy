@@ -21,8 +21,6 @@ Ora che lavoro da remoto, e interazione "sincrona" con i colleghi è molto scars
 
 ![]({{ site.baseurl }}/images/pexels-photo-119689%20(1).jpeg)
 
-
-
 *it's time for a cup of tea!*
 
 Chi vi scrive ha un inglese decente, complice il papà professore di Inglese che si è sbattuto per insegnarglielo fin da piccolo. Ovvio che non sono madrelingua ma non faccio pena, anzi mi sento tranquillamente a mio agio a parlare il mio fantastico *English* con accento napoletano.
@@ -32,8 +30,9 @@ Ebbene, **trovo questa idea di sforzarsi a parlare inglese, tra italiani, una ca
 ## I tipi di comunicazione
 
 Faccio solo un rapido e semplice excursus sul tipo di comunicazioni possibili in un ambiente di lavoro:
-* <p><strong>Comunicazione Sincrona</strong> - è quel tipo di comunicazione che prevede due o più persone impegnate nello stesso momento. Esempi: la classica chiacchierata face-2-face, la telefonata, una videocall (skype...) etc. Qui è importante l'immediatezza e la chiarezza dei concetti espressi.</p>
-* <p><strong>Comunicazione Asincrona</strong> - Le comunicazioni che non prevedono una risposta immediata tra gli interlocutori. Tra questi tipi di comunicazione ci sono chat, mail, blog post, commenti a un wiki, documentazione, documenti word... Qui invece è desiderabile ottenere una comunicazione non ambigua e chiara anche a distanza di mesi.</p>
+
+* **Comunicazione Sincrona** - è quel tipo di comunicazione che prevede due o più persone impegnate nello stesso momento. Esempi: la classica chiacchierata face-2-face, la telefonata, una videocall (skype...) etc. Qui è importante l'immediatezza e la chiarezza dei concetti espressi.
+* **Comunicazione Asincrona** - Le comunicazioni che non prevedono una risposta immediata tra gli interlocutori. Tra questi tipi di comunicazione ci sono chat, mail, blog post, commenti a un wiki, documentazione, documenti word... Qui invece è desiderabile ottenere una comunicazione non ambigua e chiara anche a distanza di mesi.
 
 Aspettarsi una risposta istantanea a una chat è da stupidi, così come vi sembrerebbe piuttosto strano se un interlocutore fisico (con cui state conversando al distributore) smetta di rispondervi all'improvviso.
 
@@ -42,17 +41,19 @@ Bene, avete appena completato il primo corso base di comunicazione aziendale :)
 ## Perché parlare in inglese tra italiani è una cagata pazzesca
 
 Ho sentito molti motivi per cui le aziende vogliono introdurre l'inglese aggressivo tra i propri dipendenti. Smontiamoli uno ad uno.
-* <p><strong>"Così possiamo attrarre talenti stranieri".</strong>&nbsp;Cazzata. I talenti stranieri non vengono perché in Italia si parla inglese, anzi si aspettano che con loro parliate in inglese (che li avete chiamati a fare?). Per attrarre talenti stranieri servono <strong>idee sfidanti</strong>, <strong>stipendi alti</strong>, e un&nbsp;<strong>ecosistema dinamico.</strong></p>
-* <p><strong>"Così i dipendenti migliorano l'inglese".</strong> Mi dispiace davvero che qualcuno pensi che, se due persone che non conoscono l'inglese iniziano improvvisamente a parlarlo (sotto tortura), poi lo imparano. Anche questa è una <em>cazzata</em>. Se volete imparare l'inglese esiste una sola strada: un bel corso di lingue in cui si parla molto (e in cui la grammatica non è trascurata).</p>
-* <p><strong>"Così ci sentiamo più internazionali"</strong>. Equivale a misurarsi il pene col righello senza mai confrontare le misure con gli altri. L'unica metrica che dovrebbe interessarvi è il FATTURATO.</p>
 
-<span style="font-size: 18px;">Aggiungo, per completezza, che sul luogo di lavoro è importante che la comunicazione sia <strong>efficace, semplice e chiara</strong>. <em>Ogni sovrastruttura, impedimento, legaccio, costrizione finirà col logorare il vostro lavoro.</em> Io ad esempio non sopporto quando devo parlare con qualcuno e mi si risponde "mandami una mail che sono SEMPRE impegnato" (non riesci neanche a trovare 10 minuti per me?). Anche questo è un esempio di costrizione che non migliora il problem solving.&nbsp;</span>
+* **"Così possiamo attrarre talenti stranieri"**. Cazzata. I talenti stranieri non vengono perché in Italia si parla inglese, anzi si aspettano che con loro parliate in inglese (che li avete chiamati a fare?). Per attrarre talenti stranieri servono **idee sfidanti**, **stipendi alti**, e un **ecosistema dinamico.**
+* **"Così i dipendenti migliorano l'inglese".** Mi dispiace davvero che qualcuno pensi che, se due persone che non conoscono l'inglese iniziano improvvisamente a parlarlo (sotto tortura), poi lo imparano. Anche questa è una **cazzata**. Se volete imparare l'inglese esiste una sola strada: un bel corso di lingue in cui si parla molto (e in cui la grammatica non è trascurata).
+* **"Così ci sentiamo più internazionali"**. Equivale a misurarsi il pene col righello senza mai confrontare le misure con gli altri. L'unica metrica che dovrebbe interessarvi è il FATTURATO.
+
+Aggiungo, per completezza, che sul luogo di lavoro è importante che la comunicazione sia **efficace, semplice e chiara**. **Ogni sovrastruttura, impedimento, legaccio, costrizione finirà col logorare il vostro lavoro.** Io ad esempio non sopporto quando devo parlare con qualcuno e mi si risponde "mandami una mail che sono SEMPRE impegnato" (non riesci neanche a trovare 10 minuti per me?). Anche questo è un esempio di costrizione che non migliora il problem solving.
 
 ## L'estremo opposto: only Italian, please
 
 Siccome sono un programmatore (e se siete su questa pagina dovreste averlo intuito) posso già dirvi che il 99% dei libri su cui ho studiato, gli articoli on line che ho letto (e scritto) , le guide tecniche e i siti delle aziende più importanti sono in inglese.
 
 Questo vuol dire sostanzialmente due cose:
+
 * **La documentazione dei vostri software e dei vostri processi di business non può essere in italiano**. Anche se oggi siete tutti italiani sul progetto, un bel giorno potreste trovarvi ad assumere degli stranieri, o delocalizzare lo sviluppo in qualche paese asiatico, e l'unico modo che avete per comunicare con loro sarà l'inglese. Siate future-proof e usate l'inglese come fa il resto del mondo.
 * **Il vostro codice sorgente deve essere in inglese.** Il motivo è lo stesso del punto precedente, con l'aggravante che `checkIfCodiceFiscaleIsValid()` non si può sentire.
 

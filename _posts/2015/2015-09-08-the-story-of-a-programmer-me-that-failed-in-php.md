@@ -38,7 +38,7 @@ When he asked me to join him and help I had some concerns:
 
 I managed to resolve the second problem: since I have to travel 45 minutes to go to work, I would work in the bus. It's about 1,5 hrs of work everyday.
 
-But I found myself having to study symfony for everything I wanted to do. the shift from Java to Php is not so great but annoying; syntax glitches like <span class="lang:default decode:true crayon-inline">$object.method()</span>  and <span class="lang:default decode:true crayon-inline">$object->method()</span>  (just to say the first!) have made to loose many hours in debug time. (both the expressions are legal in php so you don't get errors!)
+But I found myself having to study symfony for everything I wanted to do. the shift from Java to Php is not so great but annoying; syntax glitches like `$object.method()`  and `$object->method()`  (just to say the first!) have made to loose many hours in debug time. (both the expressions are legal in php so you don't get errors!)
 
 I've spent many hours studying Symfony documentation without studying enough PHP (newest) syntax.
 
@@ -54,7 +54,7 @@ Lessons learned:
 
 First, **if you want to _startup _you should code in a language that you feel comfortable**. My language is Java (not because it's the best, but because I already know how to do everything!) and I have never thought to learn PHP. I have experimented  in Node, Ruby, Python... but not PHP. this language was not a priority for me and day after day I ended up hating it.
 
-Second, **if you don't have time to do things, and you also have to learn before you do, you are going to hit your head against a hard wall. **I say this because I think of myself as an average (==> good!) programmer, and I believe that I can learn everything (==> I'm a [generalist](http://michelenasti.com/2015/02/quando-assumere-generalisti-vs-specialisti/)) _given the right amount of time_. And I don't have time. So ... It was hard to say, but I cannot work to side projects that demand high availability.
+Second, **if you don't have time to do things, and you also have to learn before you do, you are going to hit your head against a hard wall.** I say this because I think of myself as an average (==> good!) programmer, and I believe that I can learn everything (==> I'm a [generalist](http://michelenasti.com/2015/02/quando-assumere-generalisti-vs-specialisti/)) _given the right amount of time_. And I don't have time. So ... It was hard to say, but I cannot work to side projects that demand high availability.
 
 This was harder to accept for me than for my friend.
 

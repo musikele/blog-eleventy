@@ -17,16 +17,14 @@ tags:
 ---
 In my [last post](http://michelenasti.com/2015/10/start-custom-js-with-ngroute/) I talked about angularizing a jQuery template for a new website I am developing.
 
- 
-
-Let's remember my problem. The template I have chosen has a jQuery function that starts it's events with <span class="lang:default decode:true crayon-inline">$(document).ready(...)</span> . When the homepage (that consists only of the header buttons of the page!) starts, angular is loaded. at this point, before ngRoute decides what to do, the "ready" jQuery event is fired; when the partial.html is finally loaded (for example, the about.html page) no jQuery is fired.
+Let's remember my problem. The template I have chosen has a jQuery function that starts it's events with `$(document).ready(...)`. When the homepage (that consists only of the header buttons of the page!) starts, angular is loaded. at this point, before ngRoute decides what to do, the "ready" jQuery event is fired; when the partial.html is finally loaded (for example, the about.html page) no jQuery is fired.
 
 My solution:
 
-  1. change the jQuery function in <span class="lang:js decode:true crayon-inline">$(document).ajaxComplete(...) </span> . This way, everytime you get an ajax call, the code is re-executed. But... how can jQuery understand if an ajax call has been executed? expecially if it is not fired by jQuery?
-  2. in every controller of every page (I only have 3 fortunately), I do a "fake" ajax call that calls an empty file that I have on my server: something like <span class="lang:js decode:true crayon-inline">jQuery.ajax( &#8216;fakeFile.tmp' )</span>
+  1. change the jQuery function in `$(document).ajaxComplete(...)`. This way, everytime you get an ajax call, the code is re-executed. But... how can jQuery understand if an ajax call has been executed? expecially if it is not fired by jQuery?
+  2. in every controller of every page (I only have 3 fortunately), I do a "fake" ajax call that calls an empty file that I have on my server: something like `jQuery.ajax( 'fakeFile.tmp' )`
 
-This way jQuery could understand to re-execute the code inside the &#8216;ajaxComplete' event. And this could be done inside AngularJs.
+This way jQuery could understand to re-execute the code inside the 'ajaxComplete' event. And this could be done inside AngularJs.
 
 ### Is this the right way to do this?
 
@@ -36,4 +34,4 @@ Well, no. Usually if you start with angular, you should stick with Angular. If y
 
 In my last post I was suggesting to myself to use requireJs to lazy load the dependencies every time we change page. Unfortunately this is not the right approach. At the end I did not do this.
 
-In the meantime, I asked some friends about my problem and they suggested me to NOT use requireJs; since I am using angular, a better idea might be to use [ocLazyLoad](https://oclazyload.readme.io/). The advantage is that it can be completely integrated in an Angular App at whatever level you like &#8212; in the router, in the controller, etc etc. However I don't need this too 😉
+In the meantime, I asked some friends about my problem and they suggested me to NOT use requireJs; since I am using angular, a better idea might be to use [ocLazyLoad](https://oclazyload.readme.io/). The advantage is that it can be completely integrated in an Angular App at whatever level you like - in the router, in the controller, etc etc. However I don't need this too 😉
