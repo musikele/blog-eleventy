@@ -4,7 +4,6 @@ title: Selenium WebDriver for dummies
 date: 2015-05-26T08:58:58+00:00
 author: musikele
 layout: post
-guid: http://michelenasti.com/?p=306
 permalink: /2015/05/selenium-webdriver-for-dummies/
 dsq_thread_id:
   - "4071409600"
@@ -14,6 +13,7 @@ tags:
   - selenium
   - test automatici
   - webdriver
+headerImg: /images/selenium.png
 ---
 Esistono tool che permettono di scrivere i casi di test che simulano il comportamento dell'utente e di eseguirli all'infinito, cosa utile per individuare eventuali regressioni durante lo sviluppo.
 
