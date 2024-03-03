@@ -57,11 +57,13 @@ Then you'll probably start putting widgets on page. Appsmith comes bundled with 
 
 And finally the most complex part: adding interaction and state management to the UI. In Appsmith world, this is done with reactively.
 
-So, imagine you have to get a list of customers from DB. You write a query and save it in Appsmith (let's call the query `getCustomers`):
+So, imagine you have to get a list of users from DB. You write a query and save it in Appsmith (let's call the query `getUsers`):
 
 ```sql
-select * from customers;
+select * from "users";
 ```
+
+![query in appsmith](/images/appsmith_query.png)
 
 Then, you add a table component and "bind" the content of the table to the query. Voilà! The table gets populated with data, and you only have to customize columns.
 
@@ -70,13 +72,20 @@ Imagine you want to do filtering server side. This means that we will add a new 
 Then we change the query to get this value:
 
 ```sql
-{% raw %} select * from customers where name = "{{inputFilter.value}}";
+{% raw %}SELECT * 
+FROM "users" 
+where (
+  {{inputFilter.text.length}} = 0 
+  or name like {{"%" + inputFilter.text + "%"}}
+);
 {% endraw %}
 ```
 
-Appsmith will reexecute the query each time the value of `inputFilter.value` changes (in a smart way; not firing at every character). (*Doesn't this look similar to the very, first, AngularJS?*)
+![complex query in appsmith](/images/appsmith_query_2.png)
 
-And there's much more. Even Javascript classes can be data sources. This means you have the ability to do processing on the data, before sending the query, or after. Appsmith detects if there's a dependency and will trigger the right query/function based on user input!
+Note that this query contains some javascript inside curly braces. The `where` clause is the important part. The first condition checks if the `inputFilter` input field is empty; in such case it will return true and the query will return all values. If `inputFilter.text.length > 0` then the second part of the query is executed, and as you can see we use javascript inside curly braces, to compose our `like` clause.
+
+And there's much more. Even Javascript classes can be data sources. This means you have the ability to process the data, before sending the query, or after.
 
 ## This is cool, but are there any downsides?
 
