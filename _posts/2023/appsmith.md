@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-12-09T23:00:00.000Z
+date: 2024-03-03T23:00:00.000Z
 title: No-code development with Appsmith
 description: >
   Fullstack developers are always looking for tools that can help us build
