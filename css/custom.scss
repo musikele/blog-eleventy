@@ -76,6 +76,9 @@
             }
         }
     }
+    img, video {
+        opacity: 0.9;
+    }
 }
 
 #color-switcher {
@@ -248,3 +251,5 @@ section.button-container {
         list-style-type: none;
     }
 }
+
+

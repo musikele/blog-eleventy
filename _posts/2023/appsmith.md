@@ -12,10 +12,11 @@ tags:
   - no-code
   - appsmith
 permalink: appsmith/
-eleventyExcludeFromCollections: true
 ---
 
 Fullstack developers are always looking for tools that can help build applications faster. [Appsmith](https://www.appsmith.com/ "Appsmith") is a tool that allows to do exactly that, and after three months of trying, I think there's nothing that can be faster than that. With a huge set of limitations, of course, but nonetheless it's still valuable in many situations. Let's dive in.
+
+> Note: I didn't try Retool, ToolJet and all the other competitors out there. I am sure they have their own set of strenghts and weaknesses, too, but my experience has been with Appsmith only and I can only talk with confidence about this one.
 
 ## What is Appsmith?
 
@@ -69,27 +70,30 @@ Imagine you want to do filtering server side. This means that we will add a new 
 Then we change the query to get this value:
 
 ```sql
-select * from customers where name = "{{inputFilter.value}}";
+{% raw %} select * from customers where name = "{{inputFilter.value}}";
+{% endraw %}
 ```
 
-Appsmith will reexecute the query each time the value of `inputFilter.value` changes (in a smart way; not firing at every character). (*Doesn't this look similar to the very, first, AngularJS? Yes to me!*)
+Appsmith will reexecute the query each time the value of `inputFilter.value` changes (in a smart way; not firing at every character). (*Doesn't this look similar to the very, first, AngularJS?*)
 
 And there's much more. Even Javascript classes can be data sources. This means you have the ability to do processing on the data, before sending the query, or after. Appsmith detects if there's a dependency and will trigger the right query/function based on user input!
 
 ## This is cool, but are there any downsides?
 
-There are downsides. I'll try to tell the ones we hit after three months with it.
+Definitely there are downsides. I'll try to tell the ones we hit after three months.
 
 * There's no way to customize the look & feel. This is ok for most CRUD, Internal apps, but if your customer is more demanding, personalizing Appsmith can only go that far.
-* Performance: don't expect appsmith apps to be top-notch. Since state management is reactive, each time you change something the UI has to recalculate what to trigger and what to change. This comes at a cost.
-* Git integration is not really useful. When you add git to your project, you discover that the whole app is *just* a big json of keywords that make sense to them. All your queries and functions become stringified, meaning you cannot even check if there's something that is not right. And the biggest problem is that two people cannot collaborate on the same app: merging is impossible because you have to figure out conflicts on json keys. In order to solve this problem, we try to merge PRs as soon as possible, sometimes disrupting the flow of other developers that have to review PRs in a hurry to avoid merge conflicts.
-* Reviewing PRs is very limited. For example, you cannot inspect the code for bad things. The only thing you can do is execute the app and check that everything still works. But nailing down if the query is ok, if there are no wastes in memory or inefficient code, is complicated because everything is stringified.
+* Apps must have the structure Appsmith has defined. For example, you cannot move the pages menu.
+* Performance: don't expect appsmith apps to be top-notch. Since state management is reactive, at every change the UI has to recalculate what to trigger and what to change. This comes at a cost.
+* Git integration is not really useful. When you add git to your project, you discover that the whole app is *just* a big json of keywords that only makes sense to them. All your queries and functions become stringified, meaning you cannot even check if there's something wrong. The biggest problem is that two people cannot collaborate on the same app: merging is impossible because you have to figure out conflicts on json keys. In order to solve this problem, we try to merge PRs as soon as possible, sometimes disrupting the flow of other developers that have to review PRs in a hurry to avoid merge conflicts.
+* Reviewing PRs is also very limited. For example, you cannot inspect the code for bad things. The only thing you can do is execute the app and check that everything still works. But: nailing down if the query is ok, or if there are no wastes in memory or inefficient code, it's complicated because everything is stringified.
 * Debugging is another pain point. Apps that become big enough tend to have bugs in the data, for example in queries. Appsmith has a debugging panel that allows you to inspect things, like the return value of a query, or to write console logs, but you cannot stop and debug javascript like you're used to.
 * It's impossible to reuse components and data sources across apps.
 * In the eventuality you need a component not provided by Appsmith, you can write your own in an iFrame. This brings in a whole new set of problems, like sending data to and from the iframe, which would require another blog post (that has been my biggest pain point recently).
+* As a non-coder colleague said, after starting to work on an Appsmith app: "this tool is supposed to be drag n' drop but all I am doing is fixing and writing code everywhere!". That's what happens when your application becomes a Frankenstein made of custom components, iframes, and weird logic.
 
 ## Conclusions
 
-So, how's gone with Appsmith so far? My company has decided to keep it as a prototyping tool, because it really makes development super-fast. However, we've also reached the point where the features we want to implement deserve a fully fledged SPA written in real code; so in the next months we'll be developing the same apps in React. In the meantime, if there'll be new features to validate with the customer, we'll implement in Appsmith first.
+So, how's gone with Appsmith so far? The company I worked for has decided to keep it as a prototyping tool, because it really makes development fast. However, we've also reached the point where the features we wanted to implement deserved a fully fledged SPA written in real code. So, in the next months they'll develop the same app in React. In the meantime, if there'll be new features to validate with the customer, these will be implemented in Appsmith first.
 
-Anyway, apart from my specific work case, I think there's room for appsmith development out there. I get asked a lot to make "apps" to store informations, like users, customers, etc - appsmith is just the perfect tool for that. Small apps with very limited features: if that's the case, no need to set up a complex react stack, appsmith will just do the job.
+Anyway, apart from my specific work case, I think there's room for appsmith development out there. I get asked a lot to make "apps" to store informations, like users, customers, etc - Appsmith is just nice for that. Small apps with very limited features: if that's the case, no need to set up a complex react stack, appsmith will just do the job.
