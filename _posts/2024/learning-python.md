@@ -33,10 +33,19 @@ Probably, later will come a moment where I want to solidify my knowledge, and us
 
 There are many similarities between Python and Javascript, of course there are also many differences. Here's a very short and idiotic list of what is similar and what is different.
 
-* in Python there are many ways to define a string, with single quotes, double quotes, with triple-single quotes, with triple-double quotes, with `f'...'`, with `r'...'` and I am sure i've seen also `u'...'`. This is a bit confusing. Javascript has only `'...'`, `"..."`, and `` `...` ``.
+* in Python there are many ways to define **strings**, with single quotes, double quotes, with triple-single quotes, with triple-double quotes, with `f'...'`, with `r'...'` and I am sure i've seen also `u'...'`. This is a bit confusing. Javascript has only `'...'`, `"..."`, and `` `...` ``.
 * Python has the concept of **Tuples**, which probably exists in a similar way only in Typescript. Basically, a tuple is an immutable collection of things, that can also be of different types. You may think that a Javascript array is exactly this, with the distinction that it is not immutable. So, what are tuples used for? Sometimes you want to specify that a collection must be exactly of x elements, not less not more, and a tuple is exactly good for that. A common example of such thing is a database record.
-* Javascript has becomed a better language with ES6, and one of such improvements was the destructuring operator ( ...array ). Python has something similar, it's called unpacking, and it's used in another differently based on what you are unpacking.
+* Javascript has becomed a better language with ES6, and one of such improvements was the destructuring operator ( ...array ). Python has something similar, it's called **unpacking**, and it's used in another differently based on what you are unpacking.
   * if it's a tuple, just assign it: (word1, word2, word3) = tuple
-  * if it's an array, use asterisk: range(\*\[3, 6]) (Range accepts two arguments) 
-  *  And finally, if it's a dictionary, use two asterisks: \*\*dict this will return all key-values.
-*
+  * if it's an array, use asterisk: range(\*\[3, 6]) (Range accepts two arguments)
+  * And finally, if it's a dictionary, use two asterisks: \*\*dict this will return all key-values.
+* Creating variables is just less confusing in Python. you give it a name, put an equal sign at the right, and that's it. In javascript you have var, let, const . I hope you're not using var anymore in your projects if you don't want to mess up with scoping. 
+* Functions. Easy, simple, clean functions are defined with def. But, if you want to pass around functions, you have to study the concept of lambda , which is a keyword that allows you to create one-line(-only?) functions. Other things that are worth noting:
+  * to document functions, python devs have thought of docstrings, which I find terrible, but that's it. 
+  * functions can get arguments both positionally and by keyword. You can also pass a variable number of positional and keyoword arguments. You can decide if you want to bind your function to just one, or the other, or both. I think it's very expressive. To get the same in javascript you have to adapt destructuring, like myFunction({arg1, arg2}) which means that the only argument is an object that contains those keys.
+  * To get a tuple with all additional positional arguments, you can add an argument that starts with an asterisk: \*arguments
+  * to get a dictionary with all keyword arguments, you can add an argument with two asterisks: \*\*keywords
+* Data structures 
+  * The most used is the list for sure, which behaves like an array in JS, but there are also dictionaries (javascript objects), and sets, and many more, you name it, you get it. 
+  * The feature that i probably like more is the list comprehension. Basically you can create a list by specifying the properties you want in it. This looks like math and it's very expressive.
+  *
