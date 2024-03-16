@@ -1,6 +1,6 @@
 ---
 layout: post
-date: Created
+date: 
 title: Demo page
 description: Here goes a description
 headerImg: '/images/blog-eleventy.png'
