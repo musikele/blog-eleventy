@@ -1,7 +1,7 @@
 ---
 layout: post
-date: Created
-title: 2023-09-26
+date: 2023-09-26
+title: Come To Code 2023
 description: Il sogno erotico di qualunque persona del Sud è di mettere sulla mappa il proprio paesino di provenienza, ad esempio realizzando qualcosa di grosso. A Pignola (Potenza) ci sono riusciti.
 headerImg: '/images/come-to-code-2023.png'
 category: Italiano
