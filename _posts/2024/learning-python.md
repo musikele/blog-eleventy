@@ -33,6 +33,10 @@ Probably, later will come a moment where I want to solidify my knowledge, and us
 
 There are many similarities between Python and Javascript, of course there are also many differences. Here's a very short and idiotic list of what is similar and what is different.
 
-* in Python there are many ways to define a string, with single quotes, double quotes, with triple-single quotes, with triple-double quotes, with `f'...'`, with `r'...'` and I am sure i've seen also `u'...'`. This is a bit confusing. Javascript has only `'...'`, `"..."`, and `` `...` ``. 
+* in Python there are many ways to define a string, with single quotes, double quotes, with triple-single quotes, with triple-double quotes, with `f'...'`, with `r'...'` and I am sure i've seen also `u'...'`. This is a bit confusing. Javascript has only `'...'`, `"..."`, and `` `...` ``.
 * Python has the concept of **Tuples**, which probably exists in a similar way only in Typescript. Basically, a tuple is an immutable collection of things, that can also be of different types. You may think that a Javascript array is exactly this, with the distinction that it is not immutable. So, what are tuples used for? Sometimes you want to specify that a collection must be exactly of x elements, not less not more, and a tuple is exactly good for that. A common example of such thing is a database record.
+* Javascript has becomed a better language with ES6, and one of such improvements was the destructuring operator ( ...array ). Python has something similar, it's called unpacking, and it's used in another differently based on what you are unpacking.
+  * if it's a tuple, just assign it: (word1, word2, word3) = tuple
+  * if it's an array, use asterisk: range(\*\[3, 6]) (Range accepts two arguments) 
+  *  And finally, if it's a dictionary, use two asterisks: \*\*dict this will return all key-values.
 *
