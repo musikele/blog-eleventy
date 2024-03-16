@@ -1,6 +1,6 @@
 ---
 layout: post
-date: Created
+date: 2023-09-01
 title: Bye advertising industry!
 description: My last four years have been incredible, on a professional side. I think it's the right time to recap what happened and how it went.
 headerImg: '/images/new-york.jpeg'
