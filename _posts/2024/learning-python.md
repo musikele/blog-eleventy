@@ -39,13 +39,14 @@ There are many similarities between Python and Javascript, of course there are a
   * if it's a tuple, just assign it: (word1, word2, word3) = tuple
   * if it's an array, use asterisk: range(\*\[3, 6]) (Range accepts two arguments)
   * And finally, if it's a dictionary, use two asterisks: \*\*dict this will return all key-values.
-* Creating variables is just less confusing in Python. you give it a name, put an equal sign at the right, and that's it. In javascript you have var, let, const . I hope you're not using var anymore in your projects if you don't want to mess up with scoping. 
-* Functions. Easy, simple, clean functions are defined with def. But, if you want to pass around functions, you have to study the concept of lambda , which is a keyword that allows you to create one-line(-only?) functions. Other things that are worth noting:
-  * to document functions, python devs have thought of docstrings, which I find terrible, but that's it. 
+* Creating **variables** is just less confusing in Python. you give it a name, put an equal sign at the right, and that's it. In javascript you have var, let, const . I hope you're not using var anymore in your projects if you don't want to mess up with scoping.
+* **Functions**. Easy, simple, clean functions are defined with def. But, if you want to pass around functions, you have to study the concept of lambda , which is a keyword that allows you to create one-line(-only?) functions. Other things that are worth noting:
+  * to document functions, python devs have thought of *docstrings*, which I find a terrible idea, but that's it.
   * functions can get arguments both positionally and by keyword. You can also pass a variable number of positional and keyoword arguments. You can decide if you want to bind your function to just one, or the other, or both. I think it's very expressive. To get the same in javascript you have to adapt destructuring, like myFunction({arg1, arg2}) which means that the only argument is an object that contains those keys.
   * To get a tuple with all additional positional arguments, you can add an argument that starts with an asterisk: \*arguments
   * to get a dictionary with all keyword arguments, you can add an argument with two asterisks: \*\*keywords
-* Data structures 
-  * The most used is the list for sure, which behaves like an array in JS, but there are also dictionaries (javascript objects), and sets, and many more, you name it, you get it. 
-  * The feature that i probably like more is the list comprehension. Basically you can create a list by specifying the properties you want in it. This looks like math and it's very expressive.
-  *
+* **Data structures**
+  * The most used is the *list* for sure, which behaves like an array in JS, but there are also dictionaries (javascript objects), and sets, and many more, you name it, you get it.
+  * The feature that i probably like more is the list comprehension. Basically you can create a list by specifying the properties you want in it. This looks like math notation and it's very expressive.
+* Every modern programming language should provide a way to declare modules and python makes no difference. Every file in Python is a module. It seems that you can literaly import everything from a file, there is no concept of public/private. The similarity with javascript is in the \_\_init\_\_.py file, which looks like index.js when found in a folder. If you import a folder, and that folder has a \_\_init\_\_.py in it, this will be evaluated to determine what to export and what to import. If you want to export just a subset of items, you can assign those to the variable \_\_all\_\_ which is an array of ...strings. 
+*
