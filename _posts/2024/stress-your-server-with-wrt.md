@@ -2,7 +2,10 @@
 layout: post
 date: 2024-04-10T22:00:00.000Z
 title: Stress your server with WRT
-description: ''
+description: >
+  wrk is a stress test tool: with very few configuration options you can stress
+  test your server against a high load. In the article i describe how i used it
+  to simulate a bug that appeared only on high loads.
 headerImg: /images/server-emitting-smoke.jpg
 tags:
   - wrt
