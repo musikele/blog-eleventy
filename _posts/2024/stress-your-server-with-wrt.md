@@ -26,7 +26,7 @@ The tool we choose for the job is called [wrk](https://github.com/wg/wrk "wrk gi
 
 To install on mac:
 
-```shell
+```bash
 $ brew install wrk
 ```
 
