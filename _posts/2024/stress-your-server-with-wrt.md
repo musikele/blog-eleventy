@@ -40,7 +40,7 @@ Let's see a classic example:
 $ wrk -t20 -c300 -d30 http://localhost:8080
 ```
 
-* -t specifies the number of threads to use. The best thing to do is to use between half and all the number of CPU cores. So, if your CPU has 20 cores, use a number between 10 and 20. More would just clog the system. In the example, 20 threads. 
+* -t specifies the number of threads to use. The best thing to do is to use between half and all the number of CPU cores. So, if your CPU has 20 cores, use a number between 10 and 20. More would just clog the system. In the example, 20 threads.
 * -c is the number of connections every thread will keep open. In the example, 300 connections per thread. 
 * -d is the duration of the test, in seconds. In the example, 30 seconds. 
 * [http://localhost:8080](http://localhost:8080) is the url to hit. The request will be a simple GET. 
