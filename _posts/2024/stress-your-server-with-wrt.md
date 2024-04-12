@@ -65,7 +65,35 @@ $ wrk -t4 -c30 -d10 ...
 
 Apparently, this is the maximum load that my machine can handle before becoming unresponsive. But yes, now around 10% of connections time out, not all of them!
 
+An example of a "good" response from wrk:
+
+```shell
+  3 threads and 30 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   857.73ms  392.03ms   1.93s    65.47%
+    Req/Sec    12.52      9.85    80.00     89.89%
+  293 requests in 10.04s, 101.29KB read
+  Socket errors: connect 0, read 0, write 0, timeout 15
+```
+
+Only 15 timeouts after 293 requests.
+
 Why in the 20-threads, 300-connections scenario my server is running out? Basically there are so many resources involved in handling the load, that server A does not find any CPU cicles to even start the request to server B!
+
+An example of a 100% timed out responses:
+
+```shell
+20 threads and 400 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.00us    0.00us   0.00us     nan%
+    Req/Sec    10.67     24.25   100.00     87.22%
+  462 requests in 30.03s, 159.71KB read
+  Socket errors: connect 0, read 390, write 0, timeout 462
+Requests/sec:     15.38
+Transfer/sec:      5.32KB
+```
+
+You can see 462 requests, 462 timeouts!
 
 So, not all machines are equal, numbers need to be adjusted based on what you have and what you want to do. Blasting the server with too many connections will stop every server on earth, and does not provide any value.
 
