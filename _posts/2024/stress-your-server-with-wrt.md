@@ -20,7 +20,7 @@ Lately I was exploring **a bug where the communication between two servers goes 
 
 One may think that B is designed in a way that cannot handle such a big load: this is not the case, we know by a fact that B can handle thousands of connections, only being limited by the size of the machine. So we needed to find the culprit and before everything else we need to replicate the bug on our local.
 
-This type of tests falls under the name of stress tests, or load tests. Basically, you must throw at the server a big number of incoming requests in order to see how the server - or the cluster - behaves.
+This type of tests falls under the name of **stress tests**, or **load tests**. Basically, you must throw at the server a big number of incoming requests in order to see how the server - or the cluster - behaves.
 
 The tool we choose for the job is called [wrk](https://github.com/wg/wrk "wrk github homepage"). It's a command-line app that, in it's most basic form, is already very useful for stress testing. 
 
