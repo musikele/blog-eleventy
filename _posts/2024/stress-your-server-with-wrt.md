@@ -27,7 +27,7 @@ The tool we choose for the job is called [wrk](https://github.com/wg/wrk "wrk gi
 To install on mac:
 
 ```shell
-$ brew install wrk
+brew install wrk
 ```
 
 On every other system, the official reccomended path is to clone the repo, run make, and use the binary directly.
@@ -37,7 +37,7 @@ On every other system, the official reccomended path is to clone the repo, run m
 Let's see a classic example:
 
 ```shell
-$ wrk -t20 -c300 -d30 http://localhost:8080
+wrk -t20 -c300 -d30 http://localhost:8080
 ```
 
 * `-t` specifies the number of threads to use. The best thing to do is to use between half and all the number of CPU cores. So, if your CPU has 20 cores, use a number between 10 and 20. More would just clog the system. In the example, 20 threads.
@@ -54,13 +54,13 @@ The friend that gave me the command to run was on a ARM machine with 24-core CPU
 So, in order to test that things are right, i started very soft:
 
 ```shell
-$ wrk -t1 -c1 -d10 ...
+wrk -t1 -c1 -d10 ...
 ```
 
 One thread, one connection, 10 seconds, and finally i don't see the timeout. A good assessment that the server is working. After that, i started to increase the number of cores and connections, until i reached the form that could replicate the bug:
 
 ```shell
-$ wrk -t4 -c30 -d10 ...
+wrk -t4 -c30 -d10 ...
 ```
 
 Apparently, this is the maximum load that my machine can handle before becoming unresponsive. But yes, now around 10% of connections time out, not all of them!
