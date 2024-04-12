@@ -16,7 +16,7 @@ permalink: /stress-test-wrk/
 eleventyExcludeFromCollections: true
 ---
 
-Lately I was exploring a bug where the communication between two servers goes on timeout under heavy load. Let me explain this better: a huge number of incoming HTTP connections hits server A, that needs to call server B, and a big percentage of the calls between A and B goes on timeout. The weird thing? A and B live on the same host, so basically A is calling localhost!
+Lately I was exploring **a bug where the communication between two servers goes on timeout under heavy load**. Let me explain this better: a huge number of incoming HTTP connections hits server A, that needs to call server B, and a big percentage of the calls between A and B goes on timeout. The weird thing? A and B live on the same host, so basically A is calling localhost!
 
 One may think that B is designed in a way that cannot handle such a big load: this is not the case, we know by a fact that B can handle thousands of connections, only being limited by the size of the machine. So we needed to find the culprit and before everything else we need to replicate the bug on our local.
 
