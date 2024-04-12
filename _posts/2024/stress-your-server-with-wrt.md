@@ -9,7 +9,7 @@ tags:
   - load test
   - testing
   - stress test
-permalink: /stress-test-wrt/
+permalink: /stress-test-wrk/
 eleventyExcludeFromCollections: true
 ---
 
