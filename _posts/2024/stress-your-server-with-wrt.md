@@ -3,9 +3,9 @@ layout: post
 date: 2024-04-10T22:00:00.000Z
 title: Stress your server with WRT
 description: >
-  wrk is a stress test tool: with very few configuration options you can stress
-  test your server against a high load. In the article i describe how i used it
-  to simulate a bug that appeared only on high loads.
+  WRK is a stress test tool: with few configuration options, you can stress test
+  your server against a high load. In this article I describe how I used it to
+  simulate a bug that appeared only on high loads.
 headerImg: /images/server-emitting-smoke.jpg
 tags:
   - wrt
@@ -16,21 +16,21 @@ permalink: /stress-test-wrk/
 eleventyExcludeFromCollections: false
 ---
 
-Lately I was exploring **a bug where the communication between two servers goes on timeout under heavy load**. Let me explain this better: a huge number of incoming HTTP connections hits server A, that needs to call server B, and a big percentage of the calls between A and B goes on timeout. The weird thing? A and B live on the same host, so basically A is calling localhost!
+Lately, I have been exploring **a bug where the communication between two servers goes on timeout under heavy load**. Let me explain this better: a huge number of incoming HTTP connections hits server A, which needs to call server B, and a relevant percentage of the calls between A and B go on timeout. The weird thing? A and B live on the same host, so basically A is calling localhost! 
 
-One may think that B is designed in a way that cannot handle such a big load: this is not the case, we know by a fact that B can handle thousands of connections, only being limited by the size of the machine. So we needed to find the culprit and before everything else we need to replicate the bug on our local.
+One may think that B is designed in a way that cannot handle such a big load: but this is not the case, we know for a fact that B can handle thousands of connections, only being limited by the size of the machine. So we needed to find the culprit and before everything else we needed to replicate the bug on our local. 
 
-This type of tests falls under the name of **stress tests**, or **load tests**. Basically, you must throw at the server a big number of incoming requests in order to see how the server - or the cluster - behaves.
+This type of test falls under the name of **stress tests**, or **load tests**. You must throw at the server a large number of incoming requests to see how the server - or the cluster - behaves. 
 
-The tool we choose for the job is called [wrk](https://github.com/wg/wrk "wrk github homepage"). It's a command-line app that, in it's most basic form, is already very useful for stress testing.
+The tool we chose for the job is called [wrk](https://github.com/wg/wrk "wrk github homepage"). It's a command-line app that, in its most basic form, is already very useful for stress testing. 
 
-To install on mac:
+To install on Mac:
 
 ```shell
 brew install wrk
 ```
 
-On every other system, the official reccomended path is to clone the repo, run make, and use the binary directly.
+On every other system, the officially recommended path is to clone the repo, run make, and use the binary directly. 
 
 ## How to use the binary
 
