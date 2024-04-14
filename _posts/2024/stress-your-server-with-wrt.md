@@ -30,7 +30,7 @@ To install on Mac:
 brew install wrk
 ```
 
-On every other system, the officially recommended path is to clone the repo, run make, and use the binary directly. 
+On every other system, the officially recommended path is to clone the repo, run `make`, and use the binary directly. 
 
 ## How to use the binary
 
@@ -47,7 +47,7 @@ wrk -t20 -c300 -d30 http://localhost:8080
 
 ## Tips and Tricks
 
-When I first started to run this command, i got that server A was always timing out. At first I thought it was the bug, but no, the bug was that only a small percentage was timing out, not all of them. So, what's going on?
+When I first started to run this command, i got that server A was always timing out. At first I thought it was the bug, but no, the bug was that only a relevant percentage was timing out, not all of them. So, what's going on?
 
 The friend that gave me the command to run was on a ARM machine with 24-core CPU, and he could replicate the same behaviour in production. Me, on an intel with just 6 cores, had to lower the number until I found the right combination of it.
 
@@ -57,7 +57,7 @@ So, in order to test that things are right, i started very soft:
 wrk -t1 -c1 -d10 ...
 ```
 
-One thread, one connection, 10 seconds, and finally i don't see the timeout. A good assessment that the server is working. After that, i started to increase the number of cores and connections, until i reached the form that could replicate the bug:
+One thread, one connection, 10 seconds, and finally i don't see the timeout. A good assessment that the server is working. After that, i started to increase the number of cores and connections, until i reached the options that replicate the bug:
 
 ```shell
 wrk -t4 -c30 -d10 ...
@@ -78,7 +78,7 @@ An example of a "good" response from wrk:
 
 Only 15 timeouts after 293 requests.
 
-Why in the 20-threads, 300-connections scenario my server is running out? Basically there are so many resources involved in handling the load, that server A does not find any CPU cicles to even start the request to server B!
+Why in the 20-threads, 300-connections scenario my server is running out? Basically there are so many resources involved in handling the load, that server A does not find any CPU cicles to even start the request to server B! 
 
 An example of a 100% timed out responses:
 
