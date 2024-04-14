@@ -13,7 +13,7 @@ tags:
   - testing
   - stress test
 permalink: /stress-test-wrk/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 Lately I was exploring **a bug where the communication between two servers goes on timeout under heavy load**. Let me explain this better: a huge number of incoming HTTP connections hits server A, that needs to call server B, and a big percentage of the calls between A and B goes on timeout. The weird thing? A and B live on the same host, so basically A is calling localhost!
@@ -97,6 +97,6 @@ You can see 462 requests, 462 timeouts!
 
 So, not all machines are equal, numbers need to be adjusted based on what you have and what you want to do. Blasting the server with too many connections will stop every server on earth, and does not provide any value.
 
-## And what was the bug?
+## But what was the bug?
 
 My colleague noticed that we are creating a new instance of `httpx` client at every request, and this slowed down everything. `httpx` is a python library to make http requests, and it's considered the spiritual (faster) successor of request. To solve the bug, we created just one instance of the client, so that the connections are not dropped after the request. With this new setup, timeouts decreased to a non-significant number.
