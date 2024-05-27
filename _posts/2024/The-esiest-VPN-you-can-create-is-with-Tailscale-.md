@@ -14,7 +14,7 @@ permalink: /2024/tailscale/
 eleventyExcludeFromCollections: true
 ---
 
-I own a [NAS](https://michelenasti.com/2019/10/27/tips-tricks-from-my-linux-experience.html), sitting in my basement, connected to my ISP router. And, as a NAS owner, I've gone through a lot of configuration just to do basic things, like *exposing some services to the internet*, while keeping others private and accessible only behind a VPN.
+I own a [NAS](https://michelenasti.com/2019/10/27/tips-tricks-from-my-linux-experience.html), sitting in my basement, connected to my ISP router. And, as a NAS owner, I've gone through a lot of configuration just to do basic things, like *exposing some services to the internet*, while keeping others private and accessible only behind a VPN. 
 
 But wait: what is a VPN? it stands for **Virtual Private Network**, and basically it's a software layer built on top of physical networks to let a bunch of devices appear to be on the same physical network. There are many VPN types, we'll dive into that in a few moments, but the basic approach is the same: when the OS detects that a packet has to be sent to a destination that is in the VPN, the packet gets "wrapped" in another packet that contains the real addresses of the destination.
 
@@ -28,6 +28,11 @@ The flow of a packet is more or less this:
 * the destination VPN will read the content of the packet, and route it to the right server, using it's own IP as source.
 
 \## Types of VPNs
+
+You may be surpised to find out that there are many competing VPN protocols. Some of them are also proprietary, which IMHO is not a good thing, so I'll try to enumerat the ones I've used (and understood) along the way. 
+
+* Point to Point Tunneling Protocol (PPTP): the easiest protocol to reason about, and also the oldest. It relies on a very old algorithm for encription, which means that anybody can crack and see the content of your communication. So, the only feature it can offer is that it's the fastest around.
+*  Layer 2 Tunneling Protocol (L2TP): 
 
 \## Wireguard
 
