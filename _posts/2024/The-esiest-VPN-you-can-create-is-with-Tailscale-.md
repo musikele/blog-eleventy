@@ -40,3 +40,14 @@ Then you may want to connect all other devices in your network. You simply add t
 Once you're in, each device gets a private IP (starting with 100.x.x.x) and a custom hostname like musikele720.XXXXXX.ts.net , which works exactly as you would imagine, chosing the best path to deliver packets and not going to an external server all the time. 
 
 ![The administration panel of Tailscale](</images/Screenshot 2024-05-28 alle 09.01.37.png>)
+
+Some other features were of particular interest for me.
+
+* I configured my NAS to be the exit node of the network. Usually this feature is turned off, so only the traffic between my devices is routed through Tailscale, but from time to time - for example, when I am on a public unprotected wifi - I want my VPN to cover my back. Configuring the NAS to have this configurations is super easy. Then, when I want my device to use the exit node, I simply open the app and select "use exit node". 
+* Accessing the subnets is another cool feature. I have many devices at home that are not exposed on the web, and I cannot install tailscale on them: printers, security cameras, robot mower... when I am connected to tailscale, which is all the time, I can control them from outside. 
+* At the moment I am the only user of this network but Tailscale encourages to invite people and give them different access rights. The Free Tier is very generous: 3 users and 100 devices per user, which is more than enough for a home setup like mine. I think their targeted customers are small and medium enterprises that want to share private resources with their employees, and this makes perfect sense. 
+* Tailscale is very easy to use but it also has a great documentation and a configuration page which I never needed to use, to configure things like permissions, groups of devices, etc. 
+
+## But how Tailscale works
+
+Under the hood, everything is routed through the Wireguard VPN protocol. 
