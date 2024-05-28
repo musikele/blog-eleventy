@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-05-14T22:00:00.000Z
+date: 2024-05-27T22:00:00.000Z
 title: 'The esiest VPN you can create is with Tailscale '
 description: >
   If you need to connect a bunch of devices in the same virtual network,
@@ -11,7 +11,7 @@ tags:
   - tailscale
   - vpn
 permalink: /2024/tailscale/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 I am amazed by the semplicity of setting up a VPN using [Tailscale](https://tailscale.com/ "Tailscale"), so here I am describing how it works and why I think it's one of the best around.
@@ -50,4 +50,10 @@ Some other features were of particular interest for me.
 
 ## But how Tailscale works
 
-Under the hood, everything is routed through the Wireguard VPN protocol. 
+Under the hood, everything is routed through the [Wireguard](https://en.wikipedia.org/wiki/WireGuard) VPN protocol. Wireguard is a modern, open source protocol that uses very strong cryptography algorithms, UDP to send packets (to avoid TCP-over-TCP which can bring to hyper saturation of the channel), IPv6 ready, and more. Usually configuring Wireguard in your network means that you have to pre-share configuration files between the server host and the client, and if you want to connect more hosts, and if these hosts need to communicate between each other, the number of configurations to set up grows exponentially. 
+
+Tailscale will do all of this for you (probably the only point of centralization of the system). [All of this is explained very well in their docs](https://tailscale.com/compare/wireguard "Wireguard vs Tailscale").
+
+## So how's it going? 
+
+After a month I can say, the best "set and forget" moment of my life. My computer is backing up with Time Machine no matter where I am in the world. My phone is backing up photos on my NAS without issues. I can print on my home printer from anywhere in the world. What else?! 
