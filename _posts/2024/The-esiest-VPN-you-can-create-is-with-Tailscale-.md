@@ -14,28 +14,29 @@ permalink: /2024/tailscale/
 eleventyExcludeFromCollections: true
 ---
 
-I own a [NAS](https://michelenasti.com/2019/10/27/tips-tricks-from-my-linux-experience.html), sitting in my basement, connected to my ISP router. And, as a NAS owner, I've gone through a lot of configuration just to do basic things, like *exposing some services to the internet*, while keeping others private and accessible only behind a VPN. 
+I am amazed by the semplicity of setting up a VPN using [Tailscale](https://tailscale.com/ "Tailscale"), so here I am describing how it works and why I think it's one of the best around.
 
-But wait: what is a VPN? it stands for **Virtual Private Network**, and basically it's a software layer built on top of physical networks to let a bunch of devices appear to be on the same physical network. There are many VPN types, we'll dive into that in a few moments, but the basic approach is the same: when the OS detects that a packet has to be sent to a destination that is in the VPN, the packet gets "wrapped" in another packet that contains the real addresses of the destination.
+I own a [NAS](https://michelenasti.com/2019/10/27/tips-tricks-from-my-linux-experience.html), sitting in my basement, connected to my ISP router. And, as a NAS owner, I've gone through a lot of configurations just to do basic things, like *exposing some services to the internet*, while keeping others private and accessible only behind a VPN. 
 
-The flow of a packet is more or less this:
+Over the years I've tried different protocols: 
 
-* your app asks the TCP layer to send the packet.
-* the TCP layer breaks down the stream of packets into IP packets.
-* the IP packet is sent to a VPN tunnel.
-* the VPN tunnel (which lives on the same machine) will wrap the IP packet in another packet, so basically there will be another source IP and another destination IP, and the data of the current packet is the previous, original packet.
-* the VPN packet is then routed through internet and arrives to the destination VPN server.
-* the destination VPN will read the content of the packet, and route it to the right server, using it's own IP as source.
+* **L2TP/IPSec**, which requires to exchange a pre-shared key among all partecipants to the network, has a very good compatibility with MacOS but not with Android devices; 
+* **OpenVPN, **one of the best protocols around, which requires to exchange a configuration file containing the public key of the server plus a bunch of other settings; this one requires to install software on every device, so I had to install Tunnelblick on MacOS, and OpenVPN apps on Android and iOS. 
 
-\## Types of VPNs
+Apart from this, there are other configurations I needed to do in order to make these protocols work: 
 
-You may be surpised to find out that there are many competing VPN protocols. Some of them are also proprietary, which IMHO is not a good thing, so I'll try to enumerat the ones I've used (and understood) along the way. 
+* **open the right ports** on all network equipments I control
+* **set up a domain** that points to my home network, with a dynamic IP
+* set up a DNS to route packets differently if I am outside or inside the network.
 
-* Point to Point Tunneling Protocol (PPTP): the easiest protocol to reason about, and also the oldest. It relies on a very old algorithm for encription, which means that anybody can crack and see the content of your communication. So, the only feature it can offer is that it's the fastest around.
-*  Layer 2 Tunneling Protocol (L2TP): 
+Every piece is a new point of failure that I introduced, considering that at the time I set up all this stuff I was basically ignorant and learning how all these pieces work together. After being locked out of my network many times, I can say I have learned a lot.
 
-\## Wireguard
+## Then I met Tailscale
 
-\## and finally, Tailscale
+Tailscale was simply showing up in the available Synology NAS apps. In a moment that I was willing to try new things, I decided to give it a try. Installing it is just one click. Then you create an account and boom! you have a VPN (with just one node). 
 
-\### route only internal traffic or all traffic?
+Then you may want to connect all other devices in your network. You simply add the app (for MacOS, for iOS) and login. Boom! you have added two new devices to the network. 
+
+Once you're in, each device gets a private IP (starting with 100.x.x.x) and a custom hostname like musikele720.XXXXXX.ts.net , which works exactly as you would imagine, chosing the best path to deliver packets and not going to an external server all the time. 
+
+![The administration panel of Tailscale](</images/Screenshot 2024-05-28 alle 09.01.37.png>)
