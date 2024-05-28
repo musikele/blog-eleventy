@@ -21,15 +21,15 @@ I own a [NAS](https://michelenasti.com/2019/10/27/tips-tricks-from-my-linux-expe
 Over the years I've tried different protocols:
 
 * **L2TP/IPSec**, which requires to exchange a pre-shared key among all partecipants to the network, has a very good compatibility with MacOS but not with Android devices;
-* \*\*OpenVPN, \*\*one of the best protocols around, which requires to exchange a configuration file containing the public key of the server plus a bunch of other settings; this one requires to install software on every device, so I had to install Tunnelblick on MacOS, and OpenVPN apps on Android and iOS.
+* **OpenVPN**, one of the best protocols around, which requires to exchange a configuration file containing the public key of the server plus a bunch of other settings; this one requires to install software on every device, so I had to install Tunnelblick on MacOS, and OpenVPN apps on Android and iOS.
 
 Apart from this, there are other configurations I needed to do in order to make these protocols work:
 
 * **open the right ports** on all network equipments I control
 * **set up a domain** that points to my home network, with a dynamic IP
-* set up a DNS to route packets differently if I am outside or inside the network.
+* **set up a DNS** to route packets differently if I am outside or inside the network.
 
-Every piece is a new point of failure that I introduced, considering that at the time I set up all this stuff I was basically ignorant and learning how all these pieces work together. After being locked out of my network many times, I can say I have learned a lot.
+Every piece I introduced is a new probable point of failure, considering that at the time I set up all this stuff I was basically ignorant and learning how all these pieces work together. After being locked out of my network many times, I can say I have learned a lot.
 
 ## Then I met Tailscale
 
