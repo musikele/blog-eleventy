@@ -42,10 +42,10 @@ module.exports = function (eleventyConfig) {
         if (process.env.LOCAL) {
             return path;    
         } 
-        return `https://ik.imagekit.io/xthvogziier/tr:w-1440/${path}`;
+        return `https://ik.imagekit.io/xthvogziier/tr:w-720/${path}`;
 
         // to use netlify: 
-        // return `https://michelenasti.com/.netlify/images?url=${path}&w=1440`;
+        // return `https://michelenasti.com/.netlify/images?url=${path}&w=720`;
     });
 
     eleventyConfig.addFilter('toISODate', (dateObj) => {
