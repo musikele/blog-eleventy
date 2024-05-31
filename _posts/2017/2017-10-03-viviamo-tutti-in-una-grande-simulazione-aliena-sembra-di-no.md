@@ -36,7 +36,7 @@ A metterlo nero su bianco sono due scienziati, [Zohar Ringel e Dmitry Kovrizhi](
 
 Senza scendere nei dettagli, che richiedono più di un dottorato in fisica quantistica, l'idea è questa: se esiste un fenomeno in natura che obbedisce a delle leggi, che noi abbiamo "più o meno" capito, potremmo inserire queste leggi in un computer e simularlo. E' come programmare al pc le leggi che governano il moto di un'auto, o il calcio di un giocatore di PES a un pallone.
 
-La "scoperta", per questi scienziati, è che questo particolare fenomeno sembra essere irrealizzabile all'interno di un computer. In particolare, se ne riescono a calcolare gli effetti finchè gli elettroni (e gli atomi) in gioco sono pochissimi, ma non appena diventano qualcosa come 2-300 (stiamo parlando di elettroni!) un computer richiederebbe tempo esponenziale per calcolare un risultato. E come disse una volta un mio prof, 2^300 (_due alla duecento_) è più o meno il numero di atomi presenti nell'universo!
+La "scoperta", per questi scienziati, è che questo particolare fenomeno sembra essere irrealizzabile all'interno di un computer. In particolare, se ne riescono a calcolare gli effetti finchè gli elettroni (e gli atomi) in gioco sono pochissimi, ma non appena diventano qualcosa come 2-300 (stiamo parlando di elettroni!) un computer richiederebbe tempo esponenziale per calcolare un risultato. E come disse una volta un mio prof, 2^200 (_due alla duecento_) è più o meno il numero di atomi presenti nell'universo!
 
 ## E se si fossero sbagliati?
 
