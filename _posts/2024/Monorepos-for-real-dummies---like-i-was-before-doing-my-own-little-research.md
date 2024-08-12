@@ -3,7 +3,7 @@ layout: post
 date: 2024-08-10T22:00:00.000Z
 title: What I got so far about monorepos
 description: >
-  **Monorepos **have been gaining a lot of traction recently, mostly because
+  Monorepos have been gaining a lot of traction recently, mostly because
   people at uber-massive companies are using it, like Google and Amazon. But,
   can this concept be applied to small startups? Why? And most importantly, what
   are monorepos? Let's try to answer all these questions.
