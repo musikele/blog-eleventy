@@ -83,7 +83,7 @@ Github allows that type of control by using a specific instruction ([CODEOWNERS]
 
 ## So, is it better
 
-The last 10 years everybody became obsessed with microsevices and some think this should come with microrepositories. I have seen how this is hard to reason about, when you have to git checkout on 10 different repos. I think monorepos gives companies a mental model to re-think their set of projects, microservices or monolites, the price to pay is:
+The last 10 years everybody became obsessed with microsevices and some think this should come with microrepositories. I have seen how this is hard when you have to checkout on 10 different repos. I think monorepos gives companies a mental model to re-think their set of projects, microservices or monolites, the price to pay is:
 
 * doing the migration of all projects into one monorepo (during this period nobody should commit on anything)
 * reconfiguring many CI/CD jobs to get the data from a new source
