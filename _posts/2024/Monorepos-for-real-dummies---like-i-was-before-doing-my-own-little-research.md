@@ -12,7 +12,7 @@ tags:
   - monorepos
   - monorepo
 permalink: 2024/monorepos/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 **Monorepos** have been gaining a lot of traction recently, mostly because people at uber-massive companies are using it, like Google and Amazon. But, can this concept be applied to small startups? Why? And most importantly, what are monorepos? Let's try to answer all these questions.
