@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-08-10T22:00:00.000Z
-title: Monorepos for dummies
+title: What I got so far about monorepos
 description: >
   **Monorepos **have been gaining a lot of traction recently, mostly because
   people at uber-massive companies are using it, like Google and Amazon. But,
@@ -69,21 +69,21 @@ root
 
 What's the difference between apps and libs? My rule of thumb is that **Apps can execute and will be deployed**, while **Libs are just imported by apps**. This is exactly the situation I have at work :D
 
-As i said, we can have a Makefile to do the classic things we are used to: install dependencies, run tests, execute... but NX allows us to define all these things using a file, called project.json , that lives in each directory proj1, proj2, lib1, an d lib2.
+As i said, we can have a Makefile to do the classic things we are used to: install dependencies, run tests, execute... but NX allows us to do much more. 
 
-So, nx will understand that a project is a project if it contains a file called project.json. In this file there'll be a bunch of informations, but most notably, there will also be embodied the dependencies between tasks and projects. Suppose we want to run proj1, but to do so we must also "install“ lib1 and lib2. Nx will detect this dependency and will run the appropriate command if it detects that files have changed in these projects, too. (It's interesting that if files have not changed the execution is also cached, thus it's very fast!)
+Nx will understand that a project is a project if it contains a file called `project.json`. In this file there'll be a bunch of informations, but most notably, there will also be embodied the dependencies between tasks and projects. Suppose we want to run `proj1`, but to do so we must also "install“ `lib1` and `lib2`. Nx will detect this dependency and will run the appropriate commands if it detects that files have changed in these projects, too. (It's interesting that if files have not changed the execution is also cached, thus it's very fast!) You can see the [whole list of nx features](https://nx.dev) on their website. 
 
 ### What about dependencies?
 
-Usually big corps want to have all projects to use the same version of the library X, mainly because this version is what they consider stable, and they have also plans to update those libraries regularly. With a tool like NX you can specify a root-level project.json and put all dependencies there, but you are also free to have each project to install their own versions of their library. It all boils down to how much pain you want to feel, with one approach or the other :)
+Usually big corps want to have all projects to use the same version of the library X, mainly because this version is what they consider stable, and they have also plans to update those libraries regularly. You can specify a root-level project.json and put all dependencies there, but you are also free to have each project to install their own versions of any library. It all boils down on how much *pain* you want to feel, with one approach or the other :)
 
 ### I don't want \<random\_person> to commit on my project!
 
 Github allows that type of control by using a specific instruction ([CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)) in the project repo.
 
-## So, is it better
+## So, is it better?
 
-The last 10 years everybody became obsessed with microsevices and some think this should come with microrepositories. I have seen how this is hard when you have to checkout on 10 different repos. I think monorepos gives companies a mental model to re-think their set of projects, microservices or monolites, the price to pay is:
+The last 10 years everybody became obsessed with microsevices and some think this should come with microrepositories. I have seen how this is hard when you have to checkout on 10 different repos. **I think monorepos gives companies a mental model to re-think their set of projects, microservices or monolites**. The price to pay is:
 
 * doing the migration of all projects into one monorepo (during this period nobody should commit on anything)
 * reconfiguring many CI/CD jobs to get the data from a new source
@@ -93,4 +93,3 @@ This task can be performed iteratively, by adding a new project at a time.
 ## Interesting resources
 
 * [monorepo.tools](https://monorepo.tools/ "monorepo tools")
-* [NX](https://nx.dev/ "NX")
