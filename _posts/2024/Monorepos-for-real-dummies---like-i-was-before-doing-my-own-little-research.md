@@ -67,7 +67,7 @@ root
       |- lib2
 ```
 
-What's the difference between apps and libs? My rule of thumb is that **Apps can execute and will be deployed**, while **Libs are just imported by apps**. this is exactly the situation I have at work :D
+What's the difference between apps and libs? My rule of thumb is that **Apps can execute and will be deployed**, while **Libs are just imported by apps**. This is exactly the situation I have at work :D
 
 As i said, we can have a Makefile to do the classic things we are used to: install dependencies, run tests, execute... but NX allows us to define all these things using a file, called project.json , that lives in each directory proj1, proj2, lib1, an d lib2.
 
