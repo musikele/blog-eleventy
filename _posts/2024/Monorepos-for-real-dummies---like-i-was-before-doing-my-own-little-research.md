@@ -79,7 +79,7 @@ Usually big corps want to have all projects to use the same version of the libra
 
 ### I don't want \<random\_person> to commit on my project!
 
-Github allows that type of control by using a specific instruction in the project repo.
+Github allows that type of control by using a specific instruction ([CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)) in the project repo.
 
 ## So, is it better
 
