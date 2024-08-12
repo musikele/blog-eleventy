@@ -25,7 +25,7 @@ So, what are monorepos? Can they solve one of these problems? Or are a totally d
 
 ## Folders vs Projects
 
-The first thing you and I think when referring to monorepos are: *a huge folder with all repos in it*. You probably already have this on your local disk: a folder named {company\_name} with all repos in it. You're not that far from reality, but it's not just this.
+The first thing you and I think when referring to monorepos are: *a huge folder with all repos in it*. You probably already have this on your local disk: a folder named `{company_name}` with all repos in it. You're not that far from reality, but it's not just this.
 
 * What is a **repository**? It's *a bunch of files stored on a version control system*.
 * What is a **directory**? *A bunch of files grouped together*.
