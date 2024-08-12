@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-08-10T22:00:00.000Z
-title: Monorepos for real dummies - like i was before this article
+title: Monorepos for dummies
 description: >
   **Monorepos **have been gaining a lot of traction recently, mostly because
   people at uber-massive companies are using it, like Google and Amazon. But,
