@@ -77,7 +77,7 @@ So, nx will understand that a project is a project if it contains a file called 
 
 Usually big corps want to have all projects to use the same version of the library X, mainly because this version is what they consider stable, and they have also plans to update those libraries regularly. With a tool like NX you can specify a root-level project.json and put all dependencies there, but you are also free to have each project to install their own versions of their library. It all boils down to how much pain you want to feel, with one approach or the other :)
 
-### I don't want \<people> to commit on my project!
+### I don't want \<random\_person> to commit on my project!
 
 Github allows that type of control by using a specific instruction in the project repo.
 
