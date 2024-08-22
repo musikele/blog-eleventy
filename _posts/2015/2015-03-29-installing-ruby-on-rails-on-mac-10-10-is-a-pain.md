@@ -16,6 +16,8 @@ tags:
   - RoR
   - ruby
   - ruby on rails
+headerImg: '/uploads/2015/03/rubyrails.png'
+
 ---
 I've tried many "howto install Ruby" and "how to install Rails", at the end the only installation method that works on Mac 10.10 (Yosemite) is this: [Setup Ruby On Rails on Mac OS X 10.10 Yosemite](https://gorails.com/setup/osx/10.10-yosemite)
 
@@ -23,18 +25,24 @@ What to say? Installation went "ok" on Windows (this is not very true since I ac
 
 Then I had a lot of warnings that I'm trying to fix, and mostly I go on Stack Overflow to understand what's happening. One of this errors is:
 
-<pre class="lang:sh decode:true">/usr/local/rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.9.1/lib/bundler/shared_helpers.rb:83: 
-warning: Insecure world writable dir /usr/local in PATH, mode 040777</pre>
+```bash
+/usr/local/rvm/gems/ruby-1.9.3-p194@global/gems/bundler-1.9.1/lib/bundler/shared_helpers.rb:83: 
+warning: Insecure world writable dir /usr/local in PATH, mode 040777
+```
 
 For what I understood, you have this problem because anyone can write in /usr/local . So the fix was to digit the following command:
 
-<pre class="lang:sh decode:true">chmod go-w /usr/local</pre>
+```bash
+chmod go-w /usr/local
+```
 
 **You can also have the same error referred to other directories, just launch this command with the appropriate path.**
 
 And now I'm having this other problem, unfortunately Stack Overflow does not have any ideas on how to solve it:
 
-<pre class="lang:default decode:true">/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/values/time_zone.rb:270: 
-warning: circular argument reference - now</pre>
+```shell
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/values/time_zone.rb:270: 
+warning: circular argument reference - now
+```
 
 Can anybody help me?
