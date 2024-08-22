@@ -61,7 +61,7 @@ Dovendo lavorare con qualcuno per lanciare un'azienda, con l'ansia costante di f
 
 Una coppia di sposi [litiga in media 321 volte in un anno](http://fundersandfounders.com/startup-dirty-laundry-conflicts-that-kill-partnerships/) (Statistiche USA eh, io e mia moglie litighiamo molto meno 😂) eppure nel migliore dei casi restano insieme per tutta la vita; Tra fondatori di una startup deve esserci un grado di alchimia più forte, visto che in questo caso non c'è amore ma ambizione.
 
-E qui andiamo a finire su un'altra fissa dei founder: **sono così convinto che debba funzionare, che funzionerà**. Purtroppo non funziona così. Lo startupper eccellente fa esperimenti continui, verifica con i numeri che le sue ipotesi erano corrette, e se sono sbagliate, cambia modello di business.
+E qui andiamo a finire su un'altra fissa dei founder: **sono così convinto che debba funzionare, che funzionerà**. Purtroppo non funziona così. Lo startupper eccellente fa esperimenti continui, verifica con i numeri che le sue ipotesi siano corrette, e se sono sbagliate, cambia modello di business.
 
 ## Perchè non riesco a trovare sviluppatori per la mia startup?
 
