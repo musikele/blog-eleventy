@@ -24,5 +24,6 @@
       "language": "markdown",
       "scheme": "file"
     }
-  ]
+  ],
+  "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
 }
