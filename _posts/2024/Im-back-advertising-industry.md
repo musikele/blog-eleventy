@@ -15,7 +15,7 @@ So I got out of Advertising Industry, as [I wrote last year]({{site.baseurl}}/by
 
 Well, it happened that I came back. In the industry, not in the previous company!
 
-The long story short is that I tried another gig and it didn't went well. There won't be a long story.
+The long story short is that I tried another gig and it didn't go well. There won't be a long story.
 
 Luckily, when things started to get dumpy, I spread the voice that I was open to opportunity and in a matter of minutes I got a few interviews by old friends. That's the power of networking, amplified by the amazing coworkers I've had in the past. I am so grateful for the people I've met, they truly make the difference.
 
