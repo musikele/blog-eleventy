@@ -16,6 +16,41 @@ Now that I am working with Python, I am getting familiar with mocks and test fra
 
 But, in this article, I wanted to show a class that I wrote. I called it the **ObjectMock**.
 
+##  The problem
+
+In Javascript, you may know that you can do this:
+
+```javascript
+const obj = {} 
+obj.prop1 = 33 
+obj.["prop1"] = 44 
+```
+
+We have two different notations to access and set the same properties.
+
+In Python this is not the case. You can define a new class and access the values, like this:
+
+```python
+class myObj():
+    prop = 33
+
+my_obj = myObj()
+print(my_obj.prop)
+```
+
+Or, you can use a `dict` :
+
+```python
+my_dict = {}
+my_dict["prop"] = 44
+```
+
+The two syntaxes cannot be mixed.
+
+## The code
+
+That's why I decided to create a class that could be used with both syntaxes.
+
 - it's small, coincise, you can copy paste everywhere you need it.
 - It behaves like a dict and like an object. So you can use this class either like `obj.property` or `obj["property“]`. It may be handy to have this tool when you have to mock something that behaves in this very strange way.
 
