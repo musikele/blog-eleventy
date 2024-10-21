@@ -23,7 +23,7 @@ In Javascript, you may know that you can do this:
 ```javascript
 const obj = {} 
 obj.prop1 = 33 
-obj.["prop1"] = 44 
+obj["prop1"] = 44 
 ```
 
 We have two different notations to access and set the same properties.
