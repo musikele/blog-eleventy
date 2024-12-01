@@ -45,4 +45,4 @@ It took me a good 3 weeks effort, but think that in those 3 weeks i also had to 
 * I know much more about Docker, too.
 * ChatGPT has given me a lot of help, and from time to time I thought, **why blogging anymore if you have ChatGPT**?
 
-Now, we only have to wait 16-17 minutes to run the pipeline, then the code is releasable. Still a lot, but there are 9000 tests to run, A docker image to build, and a big number of checks. And we simplified the developer experience a lot (1 PR with everything). A huge win for all!
+Now, we only have to wait 16-17 minutes to run the pipeline, then the code is releasable. Still a lot, but there are 9000 tests to run, A docker image to build, and a big number of checks. And we simplified the developer and devops experience (1 PR with everything). A huge win for all!
