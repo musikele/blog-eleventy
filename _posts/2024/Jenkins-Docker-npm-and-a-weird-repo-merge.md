@@ -5,6 +5,7 @@ title: 'Jenkins, Docker, npm and a weird repo merge'
 headerImg: /images/pexels-joshsorenson-1714208.jpg
 description: ''
 tags:
+  - continuous integration
   - build
   - docker
   - pre-commit
