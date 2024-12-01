@@ -3,7 +3,11 @@ layout: post
 date: 2024-11-30T23:00:00.000Z
 title: 'Jenkins, Docker, npm and a weird repo merge'
 headerImg: /images/pexels-joshsorenson-1714208.jpg
-description: ''
+description: >
+  I've been dealing with a huuuge task in the last 3 weeks, that has nearly
+  taken all my time. The quest was: let's try to shrink the release time of a
+  particular project to *something deterministic*. How to do that? We need to
+  understand the process in order to get to the bottom of it.
 tags:
   - continuous integration
   - build
@@ -33,7 +37,7 @@ There were many things to adjust to do that. We had a lot of automation that mus
 * We wanted one Jenkins job for both projects. All tests (frontend, backend) must run in parallel. All checks should continue to happen in the right folders (bad idea to run python formatter into node\_modules, trust me). 
 * I had to unify pre-commit checks. I had to add all missing frontend pre-commit steps like Prettier, Eslint to the backend project. 
 * The git history must be preserved. [This article by Graham F. Scott](https://gfscott.com/blog/merge-git-repos-and-keep-commit-history/) was the basis for this task. It worked effortlessly. 
-* We wanted to create just one docker image instead of two. In the process of doing this, We've also optimized it with multi-stage builds.
+* We wanted to create just one docker image instead of two. In the process of doing this, We've also optimized it with multi-stage builds. 
 
 It took me a good 3 weeks effort, but think that in those 3 weeks i also had to do reviews for my team, attend to meetings, etc. In the end, I am still unifying a lot of stuff, deleting duplicate checks, but I gained a lot of knowledge:
 
