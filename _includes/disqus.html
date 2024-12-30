@@ -1,32 +1,55 @@
 <div id="disqus_thread"></div>
 <script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
+  const tagetElement = document.querySelector('#disqus_thread');
+  const observerCallback = (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+         */
 
-    var disqus_config = function () {
-        //var disqus_identifier = '{{ site.siteurl }}{{ site.baseurl }}{{ include.posturl }}';
-        //var disqus_url = '{{include.posturl }}';
-        var disqus_url = '{{ site.url }}{{ page.url }}';
-        var disqus_identifier = '{{ site.url }}{{ page.url }}';
-    };
+        var disqus_config = function () {
+          //var disqus_identifier = '{{ site.siteurl }}{{ site.baseurl }}{{ include.posturl }}';
+          //var disqus_url = '{{include.posturl }}';
+          var disqus_url = '{{ site.url }}{{ page.url }}';
+          var disqus_identifier = '{{ site.url }}{{ page.url }}';
+        };
 
-    document.addEventListener('themeChanged', function (e) {
-        setTimeout(() => {
+        document.addEventListener('themeChanged', function (e) {
+          setTimeout(() => {
             if (document.readyState == 'complete') {
-                DISQUS.reset({reload: true, config: disqus_config});
+              DISQUS.reset({ reload: true, config: disqus_config });
             }
-        }, 500);
-    });
+          }, 500);
+        });
 
-    (setTimeout(function () { // DON'T EDIT BELOW THIS LINE
-        var d = document,
+        (function () {
+          // DON'T EDIT BELOW THIS LINE
+          var d = document,
             s = d.createElement('script');
-        s.src = '//michele-nastis-blog.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', + new Date());
-        (d.head || d.body).appendChild(s);
-    })(), 500);
+          s.src = 'https://michele-nastis-blog.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+
+        observer.unobserve(entry.target);
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(observerCallback, {
+    root: null, // Root element, null means the browser viewport
+    rootMargin: '0px',
+    threshold: 1.0, // Trigger the callback when 100% of the target is visible
+  });
+
+  // Start observing the target element
+  observer.observe(tagetElement);
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript" rel="nofollow"
+    >comments powered by Disqus.</a
+  >
 </noscript>
