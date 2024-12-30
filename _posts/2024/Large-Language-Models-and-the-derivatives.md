@@ -22,6 +22,6 @@ I am getting all of what I am studying, except the *why*. Luckily this is math t
 
 Let's go back to the *why*. I have the feeling that *derivatives*, the *chain rule*, the *backpropagation* are the tools that we'll use through the course to achieve the Neural Network knowledge. However, I've not yet seen how we're going to apply this knowledge. I am sure that another post in the future will show the "a-ha!".
 
-So, I have the feeling that I should've finished the first lesson instead of writing this post, but I was so excited to be part of the AI movement, that I couldn't resist in shouting to the world. **I don't want to be one that only uses the AI, I want to understand how it works and why**.
+So, I have the feeling that I should've finished the first lesson instead of writing this post, but I was so excited to be part of the AI movement, that I couldn't resist in shouting to the world. **I don't want to be an AI user only; I want to understand how it works and why**.
 
 If you want to join the group that studies the subject, let me know.
