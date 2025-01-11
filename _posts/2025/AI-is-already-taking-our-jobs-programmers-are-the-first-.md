@@ -7,7 +7,7 @@ description: >
   Many AI evangelists have been warning us that AI will take our jobs, but I
   never thought this could impact us, the programmers.
 tags:
-  - AI
+  - ai
   - work
 permalink: /ai-already-taking-our-jobs
 ---
