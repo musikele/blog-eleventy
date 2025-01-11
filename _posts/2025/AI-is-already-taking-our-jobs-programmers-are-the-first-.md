@@ -9,7 +9,7 @@ description: >
 tags:
   - ai
   - work
-permalink: /ai-already-taking-our-jobs
+permalink: /ai-already-taking-our-jobs/
 ---
 
 It's in the news that [Salesforce will freeze hiring programers for 2025](https://www.salesforceben.com/salesforce-will-hire-no-more-software-engineers-in-2025-says-marc-benioff/), basically because AI is improving the speed and the quality of the programmers they already have, and AI costs less than hiring new people.
