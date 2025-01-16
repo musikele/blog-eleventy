@@ -11,7 +11,8 @@ permalink: talks-conferences/
 
 In this page I'll try to keep track of my public speaking activity.
 
-* [Come to Code 2023](https://www.cometocode.it) - Pignola (PZ) - "[How Internet Ads Work](/2019/10/21/how-internet-ads-work.html)". [Summary of the conf here](/come-to-code-2023/).
+* [Come to Code 2024](https://2024.cometocode.it) - Pignola (PZ) - "[Appsmith - why yes and why no](/appsmith/)"
+* [Come to Code 2023](https://2023.cometocode.it/) - Pignola (PZ) - "[How Internet Ads Work](/2019/10/21/how-internet-ads-work.html)". [Summary of the conf here](/come-to-code-2023/).
 * [Linux Day Avellino](https://www.facebook.com/IrLUG/photos/a.618775241498618/2581958275180295/?type=3&theater), 26/11/2019, Avellino - [Tips and Tricks from my Linux experience](https://michelenasti.com/2019/10/27/tips-tricks-from-my-linux-experience.html)
 * How to test your webapp with Jest & Puppeteer - [DevFest, Centro commerciale Campania](https://www.facebook.com/GDGCampania/photos/a.1557683971125127/2701031753457004/?type=3&__xts__%5B0%5D=68.ARDuwXLBpW49P5R6HbzqqiwgVEj3XtRMwfXrZ0RTfiQTblii_Gv7li1bwAd2WG04jl7IxgL2Sm5ZzzENUg4fgzNlAXguOm-9-RQEHgf3Tn7P_4_QXi79DjR21_egA96eIPA3Da4CKg3HGRGjgbrcWxdwKX47MWVCYL5oUL9Y1lJ5ZSTmmu6oqgoOrEyZz8yHVB0nMLnJRl3k6BI7RI1In_O7ArYyNju9Xh4RmfapQPmFAfmuj1Dh8MaTfn69goDNamFTC_mY0IOvBKXyD8kq68BgC0diDA6B9YZ86CejSdRAjdC-m0hKj58DZyDSEYaX1pqAADHSyJ-BoBdtsGuniqxdZl9r&__tn__=-R), 5 october 2019 - [article](https://michelenasti.com/2019/10/02/jest-and-puppeteer-from-the-barricades.html), [code](https://github.com/musikele/jest-puppeteer-tutorial), [slides](https://docs.google.com/presentation/d/1eWNTYXp-luxkW4htKnvR_aJ6TvcPr8VgjxC76ozviu0/edit) - since this event was in a shopping mall, slides are in italian
 * an [Interview on remote working](http://www.radiompa.com/new/verbo-lavoro-17/) for Verbo Lavoro, on Radio MPA (podcast - italian) - 8 october 2019
