@@ -27,13 +27,13 @@ This project is using Poetry to manage its dependencies. Poetry does many things
 
 * it creates a virtual env with the right python verison (usually with `poetry install`)
 * installs the specified dependencies (same command as before)
-* if some of these dependencies are runnable commands, it will allow you to run them using the right python and dependencies version (this is done with `poetry run ...`). 
+* if some of these dependencies are runnable commands, it will allow you to run them using the right python and dependencies version (this is done with `poetry run ...`).
 
-In my case, this problem was due to the fact that VSCode was using the global python version, not the virtualenv one. So, how to fix this? 
+In my case, this problem was due to the fact that VSCode was using the global python version, not the virtualenv one. So, how to fix this?
 
-To fix this issue you have to do a couple of things. 
+To fix this issue you have to do a couple of things.
 
-run poetry env info to get the path to the virtualenv python executable: 
+run poetry env info to get the path to the virtualenv python executable:
 
 ```shell
 $ poetry env info
@@ -53,21 +53,20 @@ Path:       /Users/michelenasti/.asdf/installs/python/3.11.9
 Executable: /Users/michelenasti/.asdf/installs/python/3.11.9/bin/python3.11
 ```
 
-Copy the executable path for the virtualenv. It will be needed at next step. 
+Copy the executable path for the virtualenv. It will be needed at next step.
 
-Then, click this little menu at the bottom down of VSCode, the one where you see the python version:![](</images/Screenshot 2025-02-13 alle 09.58.36.png>)If you have more than one project in the workspace, you'll see a menu where you can select the right project to fix. Select it. 
+Then, click this little menu at the bottom down of VSCode, the one where you see the python version:![](</images/Screenshot 2025-02-13 alle 09.58.36.png>)If you have more than one project in the workspace, you'll see a menu where you can select the right project to fix. Select it.
 
-Then, a new menu will show where you can select the right python version. There'll be many: all the system ones, plus the virtual env ones. If the virtualenv one doesn't show up, click "insert the interpreter path" (sorry for the translation) and put the path you saw previously. 
+Then, a new menu will show where you can select the right python version. There'll be many: all the system ones, plus the virtual env ones. If the virtualenv one doesn't show up, click "insert the interpreter path" (sorry for the translation) and put the path you saw previously.
 
-...and BAM! no more import errors for you. 
+...and BAM! no more import errors for you.
 
 ### Bonus points: fixing black and isort
 
-If you use the black formatter and isort to sort python imports, usually you may want to set them to run on save. After some digging, i found the settings that are working for me. I'll show you the snippets for the settings.json file, because it's easier to copy/paste them, instead of showing screenshots of the settings UI. 
+If you use the black formatter and isort to sort python imports, usually you may want to set them to run on save. After some digging, i found the settings that are working for me. I'll show you the snippets for the settings.json file, because it's easier to copy/paste them, instead of showing screenshots of the settings UI.
 
 ```json
 {
-  ...
   "[python]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "ms-python.black-formatter",
@@ -75,7 +74,6 @@ If you use the black formatter and isort to sort python imports, usually you may
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
     },
-  ...,
   "black-formatter.path": [
     "poetry",
     "run",
@@ -89,4 +87,4 @@ If you use the black formatter and isort to sort python imports, usually you may
 }
 ```
 
-This way the exact same versions of black and isort that you have specified in your poetry configuration are run. 
+This way the exact same versions of black and isort that you have specified in your poetry configuration are run.

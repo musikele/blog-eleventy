@@ -1,4 +1,6 @@
 {
+  "peacock.color": "#f1b34c",
+  "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#f5c77b",
     "activityBar.background": "#f5c77b",
@@ -17,13 +19,5 @@
     "titleBar.activeForeground": "#15202b",
     "titleBar.inactiveBackground": "#f1b34c99",
     "titleBar.inactiveForeground": "#15202b99"
-  },
-  "peacock.color": "#f1b34c",
-  "grammarly.selectors": [
-    {
-      "language": "markdown",
-      "scheme": "file"
-    }
-  ],
-  "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
 }
