@@ -88,7 +88,7 @@ export default defineConfig({
           {
             name: 'eleventyExcludeFromCollections',
             type: 'boolean',
-            list: true,
+            list: false,
             label: 'Draft',
             required: false,
           },
