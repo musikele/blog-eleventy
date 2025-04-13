@@ -34,7 +34,34 @@ Vast contains, in the simplest form, the classical elements you'd expect from it
 * an Impression tracker, which is, a url the player should call to notify that the video has started reproducing
 * many other event trackers: endpoints for errors, for when we are at 25%, 50%, 75% of the ad, or when the ad has been fully completed, etc
 
-Here's an [example VAST](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Inline_Simple.xml).
+Here's an example VAST [(link)](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Inline_Simple.xml)
+
+```
+<VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
+  <Ad id="20001" >
+    <InLine>
+      ...
+      <Impression id="Impression-ID"><![CDATA[https://example.com/track/impression]]></Impression>
+      <Creatives>
+        <Creative id="5480" sequence="1" adId="2447226">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start" ><![CDATA[https://example.com/tracking/start]]></Tracking>
+              ...
+            </TrackingEvents>
+            <Duration>00:00:16</Duration>
+            <MediaFiles>
+              <MediaFile id="5241" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="H.264">
+                <![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
+```
 
 ## Ad-providers calling other ad-providers
 
