@@ -3,12 +3,16 @@ layout: post
 date: 2025-03-25T23:00:00.000Z
 title: A dive into the world of Video Ads
 headerImg: /images/1d8b80ef-b910-4e39-a15f-8c0d6da2a743.webp
-description: ''
+description: >
+  Many websites, or apps, are free because they run ads. No surprise that we
+  went from banner ads to videos, because videos better capture the attention
+  span of a viewer. And they pay more. But... how they work exactly?
 tags:
   - vast
   - adtech
   - advertisment
   - video ads
+permalink: /video-advertisement/
 eleventyExcludeFromCollections: true
 ---
 
@@ -34,7 +38,7 @@ Vast contains, in the simplest form, the classical elements you'd expect from it
 * an Impression tracker, which is, a url the player should call to notify that the video has started reproducing
 * many other event trackers: endpoints for errors, for when we are at 25%, 50%, 75% of the ad, or when the ad has been fully completed, etc
 
-Here's an example VAST [(link)](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Inline_Simple.xml)
+Here's an example VAST [(link)](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Inline_Simple.xml). I tried to highlight the most important parts in the following example.
 
 ```
 <VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
@@ -77,9 +81,9 @@ An ad is considered payable (i.e. the publisher expects the money) when the ad h
 
 ## Wrapping Vasts
 
-We said that some companies call other companies to show an ad. In doing so the "wrap" the response in a "wrapping vast".
+We said that some companies call other companies to show an ad. In doing so the "wrap" the response in a "wrapping vast". These are the vast majority of VASTs we receive.
 
-To explain this: The ad is in the form
+To explain this: The ad is an XML that points to another VAST. You can get the sense here, full exmaple at this [link](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Wrapper_Tag-test.xml).
 
 ```xml
 <VAST version="4.2" xmlns="http://www.iab.com/VAST">
@@ -96,6 +100,16 @@ To explain this: The ad is in the form
 </VAST>
 ```
 
+It's very easy to unwrap 6-7 layers before getting to a VAST with an `<InLine>` element.
+
+Can we unwrap these VASTs on the server, before serving to the player? Unfortunately, bidders recognize this and they ultimately answer with a No Ad. so you unwrap for nothing.
+
 ## VPAID or not-VPAID
 
-## Web vs CTV
+For the past few years there was another standard on top of VAST, called VPAID. VPAID allows the VAST to return some javascript in the response. This javascript is executed in the user's device. Many companies return, for example, a bunch of javascript to load a player, to set up impression trackers, or do anti-fraud recognition. When possible, companies send VPAID so they can load a player that is known to have the maximum compatibility with their ads.
+
+However, VPAID has its own issues. Some bidders may inject malicious code and many publishers are reluctant to have third parties inject unprotected code on their pages. Also, VPAID is not practical in all non-browser traffic. And finally, with the latest specs VPAID is being deprecated, even though I think this will never happen.
+
+## Summary
+
+Did you enjoy this deep dive in video advertising? Not the most interesting field of knowledge, I know. I bet people gets interested in rocket science more than this. But still, understanding how it works makes all the difference in this field. this article is a summary of what i wish I had known before moving to the video.
