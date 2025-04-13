@@ -71,13 +71,13 @@ Here's an example VAST [(link to full example)](https://github.com/InteractiveAd
 
 Now we start to wet our toes in the deep, obscure parts.
 
-Suppose you have a contract with publisher A to provide you with ads. A may not have all the inventory necessary to fulfill the request. So, usually it will start an auction with B, C and D. It may happen that B has the same problem, and it will call C, which in turn can call D, and in turn, can call B. Luckily, there is a way to stop the infinite-loop-of-requests, by simply checking if you've already seen the transaction ID, but don't think this is a special case, it happens all the time.
+Suppose you have a contract with publisher `A` to provide you with ads. `A` may not have all the inventory necessary to fulfill the request. So, usually it will start an auction with `B`, `C` and `D`. It may happen that `B` has the same problem, and it will call `C`, which in turn can call `D`, and in turn, can call `B`. Luckily, there is a way to stop the infinite-loop-of-requests, by checking if you've already seen the transaction ID, but don't think this is a special case, what I just described here is normality.
 
-A funny thing: D may be contacted directly and respond with no ads; but when reached out from B, it will respond with an ad. At this point, every intermediary takes a cut on the bid.
+A funny thing: `D` may be contacted directly and respond with no ads; but when reached out from `B`, they will respond with an ad. At this point, every intermediary (`A` - `B` - `D`) takes a cut on the bid.
 
 ## When are video ads considered "payable"?
 
-An ad is considered payable (i.e. the publisher expects the money) when the ad has been playing in the viewport. So, if an ad loads and starts outside the viewport, ad is not paid. If an ad is in the viewport but does not start, it is not paid.
+An ad is considered payable (i.e. the publisher expects the money) when the ad is playing in the viewport. So, if an ad loads and starts outside the viewport, it is not considered payable until it's in viewport. If an ad is in the viewport but has not started, it is not paid too.
 
 ## Wrapping Vasts
 
