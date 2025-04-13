@@ -34,21 +34,40 @@ Vast contains, in the simplest form, the classical elements you'd expect from it
 * an Impression tracker, which is, a url the player should call to notify that the video has started reproducing
 * many other event trackers: endpoints for errors, for when we are at 25%, 50%, 75% of the ad, or when the ad has been fully completed, etc
 
+Here's an [example VAST](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Inline_Simple.xml).
+
 ## Ad-providers calling other ad-providers
 
-One thing that is not well known of this world, is the amount of providers that call other providers.
+One thing that surprised me is is the amount of providers that call other providers.
 
 Suppose you have a contract with publisher A to provide you with ads. A may not have all the inventory necessary to fulfill the request. So, usually it will start an auction with B, C and D. It may happen that B has the same problem, and it will call C, which in turn can call D, and in turn, can call B. Luckily, there is a way to stop the infinite-loop-of-requests, by simply checking if you've already seen the transaction ID, but don't think this is a special case, it happens all the time.
 
 A funny thing: D may be contacted directly and respond with no ads; but when reached out from B, it will respond with an ad. At this point, every intermediary takes a cut on the bid.
 
-## When are bids paid?
+## When are video ads considered "payable"?
 
-Bids are
+An ad is considered payable (i.e. the publisher expects the money) when the ad has been playing in the viewport. So, if an ad loads and starts outside the viewport, ad is not paid. If an ad is in the viewport but does not start, it is not paid.
 
 ## Wrapping Vasts
 
-One thing is not immediately
+We said that some companies call other companies to show an ad. In doing so the "wrap" the response in a "wrapping vast".
+
+To explain this: The ad is in the form
+
+```xml
+<VAST version="4.2" xmlns="http://www.iab.com/VAST">
+  <Ad id="20011" sequence="1" >
+    <Wrapper followAdditionalWrappers="0" allowMultipleAds="1" fallbackOnNoAd="0">
+      <Error><![CDATA[https://example.com/error]]></Error>
+      <Impression id="Impression-ID"><![CDATA[https://example.com/track/impression]]></Impression>
+      ...
+      <VASTAdTagURI>
+        <![CDATA[https://raw.githubusercontent.com/InteractiveAdvertisingBureau/VAST_Samples/master/VAST%204.2%20Samples/Inline_Companion_Tag-test.xml]]>
+      </VASTAdTagURI>
+    </Wrapper>
+  </Ad>
+</VAST>
+```
 
 ## VPAID or not-VPAID
 
