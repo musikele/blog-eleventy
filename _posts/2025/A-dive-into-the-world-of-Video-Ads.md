@@ -69,7 +69,7 @@ Here's an example VAST [(link to full example)](https://github.com/InteractiveAd
 
 ## Ad-providers calling other ad-providers
 
-Now we start to wet our toes in the wild parts.
+Now we start to wet our toes in the deep, obscure parts.
 
 Suppose you have a contract with publisher A to provide you with ads. A may not have all the inventory necessary to fulfill the request. So, usually it will start an auction with B, C and D. It may happen that B has the same problem, and it will call C, which in turn can call D, and in turn, can call B. Luckily, there is a way to stop the infinite-loop-of-requests, by simply checking if you've already seen the transaction ID, but don't think this is a special case, it happens all the time.
 
