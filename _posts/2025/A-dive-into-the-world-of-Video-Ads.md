@@ -40,7 +40,7 @@ Vast contains, in the simplest form, the obvious elements you'd expect from it:
 
 Here's an example VAST [(link)](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Inline_Simple.xml). I tried to highlight the most important parts in the following example.
 
-```
+```xml
 <VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
   <Ad id="20001" >
     <InLine>
