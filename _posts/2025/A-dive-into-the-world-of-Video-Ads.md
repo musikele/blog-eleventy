@@ -28,7 +28,7 @@ So, the role of these 3rd party companies is to provide the infrastructure to de
 
 ## A "video ad exchange" standard: the VAST protocol
 
-Suppose you - the publisher - have multiple sources of ads, but your player is always the same. You don't want to change the player code everytime you integrate with a new ads provider. That's why many video advertisement companies all over the world have adpoted to the [VAST standard](https://iabtechlab.com/standards/vast/), which stands dor **Video Ad Serving Template**. This standard is maintained by the **Internet Advertising Bureau**, an organization composed of many advertising companies that have decided to unify the efforts to speak the same language covering all the use cases of the various actiors involved.
+Suppose you - the publisher - have multiple sources of ads, but your player is always the same. You don't want to change the player code everytime you integrate with a new ads provider. That's why many video advertisement companies all over the world have adpoted the [VAST standard](https://iabtechlab.com/standards/vast/), which stands dor **Video Ad Serving Template**. This standard is maintained by the **Internet Advertising Bureau**, an organization composed of many advertising companies that have decided to unify the efforts to speak the same language covering all the use cases of the various actiors involved.
 
 VAST is based on XML, and this should give you a sense of how "old" it is. Nonetheless, it is updated frequently, and at the time of this writing we're at version 4.3.
 
