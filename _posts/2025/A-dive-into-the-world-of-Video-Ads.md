@@ -106,10 +106,10 @@ Can we unwrap these VASTs on the server, before serving to the player? Unfortuna
 
 ## VPAID or not-VPAID
 
-For the past few years there was another standard on top of VAST, called VPAID. VPAID allows the VAST to return some javascript in the response. This javascript is executed in the user's device. Many companies return, for example, a bunch of javascript to load a player, to set up impression trackers, or do anti-fraud recognition. When possible, companies send VPAID so they can load a player that is known to have the maximum compatibility with their ads.
+VAST support exentions, and the most important is VPAID. VPAID allows the VAST to return some javascript in the response. This javascript is executed in the user's device. Many companies return, for example, a bunch of javascript to load a player, to set up impression trackers, or do anti-fraud recognition. When possible, companies send VPAID so they can load a player that is known to have the maximum compatibility with their ads.
 
-However, VPAID has its own issues. Some bidders may inject malicious code and many publishers are reluctant to have third parties inject unprotected code on their pages. Also, VPAID is not practical in all non-browser traffic. And finally, with the latest specs VPAID is being deprecated, even though I think this will never happen.
+However, VPAID has its own issues. Some bidders may inject malicious code and many publishers are reluctant to have third parties inject unprotected code on their pages. Also, VPAID does not work in all non-browser traffic, like CTVs. And finally, with the latest specs VPAID is being deprecated, even though I think this will never happen.
 
 ## Summary
 
-Did you enjoy this deep dive in video advertising? Not the most interesting field of knowledge, I know. I bet people gets interested in rocket science more than this. But still, understanding how it works makes all the difference in this field. this article is a summary of what i wish I had known before moving to the video.
+Did you enjoy this deep dive in video advertising? I bet people gets interested in rocket science more than this, but still, understanding how this works makes all the difference in this field. this article is a summary of what i wish I knew before moving to the video sector.
