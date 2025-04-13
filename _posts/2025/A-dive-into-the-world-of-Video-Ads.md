@@ -42,7 +42,7 @@ Here's an example VAST [(link)](https://github.com/InteractiveAdvertisingBureau/
 
 ```xml
 <VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
-  <Ad id="20001" >
+  <Ad id="20001">
     <InLine>
       ...
       <Impression id="Impression-ID"><![CDATA[https://example.com/track/impression]]></Impression>
