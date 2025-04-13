@@ -12,7 +12,7 @@ tags:
   - adtech
   - advertisment
   - video ads
-permalink: /video-advertisement/
+permalink: /video-advertisement-vast/
 eleventyExcludeFromCollections: false
 ---
 
