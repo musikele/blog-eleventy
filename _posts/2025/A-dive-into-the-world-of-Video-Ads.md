@@ -13,7 +13,7 @@ tags:
   - advertisment
   - video ads
 permalink: /video-advertisement/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 Many websites, or apps, are free because they run ads. No surprise that we went from banner ads ([covered in this article](https://michelenasti.com/2019/10/21/how-internet-ads-work "How internet ads work")) to videos, because videos better capture the attention span of a viewer. And they pay more. But... how they work exactly?
