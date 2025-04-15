@@ -32,7 +32,7 @@ Suppose you - the publisher - have multiple sources of ads, but your player is a
 
 **VAST is based on XML**, and this should give you a sense of how "old" it is. Nonetheless, it is updated frequently, and at the time of this writing we're at version 4.3.
 
-Vast contains, in the simplest form, the obvious elements you'd expect from it:
+Vast contains, in its simplest form, the obvious elements you'd expect from it:
 
 * the video file url to play
 * an Impression tracker, which is, a url the player should call to notify that the video is being seen
