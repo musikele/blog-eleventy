@@ -108,7 +108,7 @@ Can we unwrap these VASTs on the server, before serving to the player? Unfortuna
 
 VAST supports some exentions, and the most important is VPAID. VPAID allows the VAST to return some javascript in the response. This javascript is executed in the user's device. Many companies return, for example, a bunch of javascript to load a player, to set up impression trackers, or do anti-fraud recognition. When possible, companies send VPAID so they can load a player that is known to have the maximum compatibility with their ads.
 
-However, VPAID has its own issues. Some bidders may inject malicious code and many publishers are reluctant to have third parties inject unprotected code on their pages. Also, VPAID does not work in all non-browser traffic, like CTVs. And finally, with the latest specs VPAID is being deprecated, even though I think this will never happen.
+However, VPAID has its own issues. Many publishers are reluctant to have third parties inject code on their pages. Also, VPAID does not work in non-browser traffic, like Connected TVs. And finally, with the latest specs VPAID is being deprecated, even though I think this will never happen.
 
 ## Summary
 
