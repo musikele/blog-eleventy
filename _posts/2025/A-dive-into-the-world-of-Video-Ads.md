@@ -36,7 +36,7 @@ Vast contains, in its simplest form, the obvious elements you'd expect from it:
 
 * the video file url to play
 * an Impression tracker, which is, a url the player should call to notify that the video is being seen
-* many other event trackers: errors, 25%, 50%, 75% of the ad, or when the ad has been fully completed, etc
+* many other event trackers: errors, 25%, 50%, 75% of the ad, or when the ad has fully completed, etc
 
 Here's an example VAST [(link to full example)](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Inline_Simple.xml). I tried to highlight the most important parts in the following example.
 
