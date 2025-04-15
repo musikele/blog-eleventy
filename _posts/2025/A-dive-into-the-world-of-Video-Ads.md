@@ -83,7 +83,7 @@ An ad is considered payable (i.e. the publisher expects the money) when the ad i
 
 We said that some companies call other companies to show an ad. In doing so the "wrap" the response in a "wrapping vast". These are the vast majority of VASTs we see passing.
 
-To explain this: The ad is an XML that points to another VAST. Here's a snippet; full exmaple at this [link](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Wrapper_Tag-test.xml).
+To explain this: The ad is an XML that points to another VAST. Here's a snippet; full example at this [link](https://github.com/InteractiveAdvertisingBureau/VAST_Samples/blob/master/VAST%204.2%20Samples/Wrapper_Tag-test.xml).
 
 ```xml
 <VAST version="4.2" xmlns="http://www.iab.com/VAST">
