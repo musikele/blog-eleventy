@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-09-03T22:00:00.000Z
-title: So you may not be an imposter
+title: You may really be an imposter
 headerImg: /images/imposter-syndrome.png
 description: >
   How many times, during school, my teachers said to my parents: "he's gifted,
