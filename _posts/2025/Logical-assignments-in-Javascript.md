@@ -12,7 +12,7 @@ permalink: /logical-assignment-operators/
 
 I just recently found out that a new syntax - well, 3 new syntaxes have been added to Javascript. Also, they are already supported by all relevant browsers. So, let's dive in!
 
-## Operator `&&=`
+## Operator &&=
 
 Suppose you have this snippet:
 
