@@ -4,7 +4,7 @@ date: 2025-09-26T22:00:00.000Z
 title: Logical assignments in Javascript
 headerImg: /images/04cd7f8e-bd22-42dc-9b4a-c7677cde534a.png
 description: |
-  Let's discover three logical assignment operators: `&&=`, `||=`, `??=`.
+  Let's discover three logical assignment operators: &&=, ||=, ??=.
 tags:
   - javascript
 permalink: /logical-assignment-operators/
