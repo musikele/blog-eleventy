@@ -35,11 +35,11 @@ Now it's time to put this into practice. In this post, I'll try to outline what 
 
 ## The plan
 
-### Step 1 - create React Native app
+### Step 1 - create React Native app ✅
 
 The RN app must have just one button that, when clicked, allows to photograph an invoice and send the photo to a server.
 
-### Step 2 - create NodeJS server
+### Step 2 - create NodeJS server ✅
 
 The server will expose just one endpoint, /extract, that will:
 
@@ -47,7 +47,7 @@ The server will expose just one endpoint, /extract, that will:
 * send it to OpenAI
 * retrieve a JSON containing all the objects with their estimate expiry date.
 
-### Step 3 - display the list on the RN app
+### Step 3 - display the list on the RN app ✅
 
 Once you have the objects, make them appear in the UI.
 
