@@ -53,32 +53,30 @@ Once you have the objects, make them appear in the UI.
 
 > Note: at this point I have connected the most important parts. All the next steps are all UX, cosmetic, and usability tricks to make this app be actually useful and used by real users.
 
-### Step 4 - add a Database to the mix
+### Step 4 - add a Database to the mix ✅
 
 we want to be able to retrieve the list of scanned objects without taking pictures at every test
 
-### Step 5 - Display items in a meaningful way
+### Step 5 - Display items in a meaningful way ✅
 
 The items that are close to their expiry date must be shown in high impact colors, at the top of the list.
 
 We can implement a mechanism (swipe? checkbox?) to make the items disappear if we consume them, or if they have expired without we could do anything.
 
-### Step 6 - avoid duplication
-
-We can use the invoice's number to avoid double uploads.
-
-### Step 7 - add notifications
+### Step 6 - add notifications
 
 We want the system to remind you, every day, if there's some item that is close to expiry.
 
-### Step 8 - allow users to change expiry dates
+### Step 7 - allow users to change expiry dates
 
 AI isn't perfect, the estimation is, infact, an estimation. So we have to provide a way to modify expiry dates.
 
-## there's more!
+## At this point, I only have to use the app in real life
 
-Once I validate the use case with me & my wife, i want to move over and:
+I will for sure validate my theories and follow up with you what happens once this app is on my family's phone. While developing, I've already found some improving points. The developer's experience - and the vibe coding - deserves a blog post, too. Once I validate the use case with me & my wife, i want to move over and:
 
 * add authentication and authorization
 * Add groups
-* Monetize from the project, if possible - AI it's not free! 
+* Monetize from the project, if possible - AI it's not free!
+
+Stay tuned! 
