@@ -13,7 +13,7 @@ description: >
 tags:
   - app idea
 permalink: /quando-scade-app-idea/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 ---
 
 There are problems and hard problems. For problems, we can find solutions that are good and work incredibly fine (think of polinomial algorithms). Then there are hard problems, which you can't easily find an easy solution, if it exists (Think of NP problems). \\
@@ -84,4 +84,4 @@ I will for sure validate my theories and follow up with you what happens once th
 * Add groups
 * Monetize from the project, if possible - AI it's not free!
 
-Stay tuned! 
+Stay tuned!
