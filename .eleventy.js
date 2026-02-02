@@ -2,7 +2,11 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const { DateTime } = require('luxon');
 const sass = require("sass");
+const path = require("path");
 
+/**
+ * @param {import("@11ty/eleventy").UserConfig} eleventyConfig
+ */
 module.exports = function (eleventyConfig) {
     const markdownIt = require("markdown-it");
     const markdownItFootnote = require("markdown-it-footnote");
@@ -32,27 +36,60 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
-    eleventyConfig.addFilter('postDate', (dateObj) => {
+    /**
+     * 
+     * @param {Date} dateObj 
+     * @returns 
+     */
+    const postDateFilter = (dateObj) => {
         return DateTime.fromJSDate(dateObj)
             .setLocale('en')
             .toLocaleString(DateTime.DATE_FULL);
-    });
+    };
 
-    eleventyConfig.addFilter("imagePath", (path) => {
+    eleventyConfig.addFilter('postDate', postDateFilter);
+
+    /**
+     * 
+     * @param {string} path 
+     * @returns 
+     */
+    const imagePathFilter = (path) => {
         if (process.env.LOCAL) {
-            return path;    
-        } 
+            return path;
+        }
         return `https://ik.imagekit.io/xthvogziier/tr:w-720/${path}`;
 
-        // to use netlify: 
-        // return `https://michelenasti.com/.netlify/images?url=${path}&w=720`;
-    });
+    };
+    eleventyConfig.addFilter("imagePath", imagePathFilter);
 
-    eleventyConfig.addFilter('toISODate', (dateObj) => {
+    /**
+     * 
+     * @param {Date} dateObj 
+     * @returns 
+     */
+    const toIsoDateFilter = (dateObj) => {
         return DateTime.fromJSDate(dateObj).toFormat("yyyy/MM/dd");
-    });
+    };
+    eleventyConfig.addFilter('toISODate', toIsoDateFilter);
 
-    eleventyConfig.addFilter('sortObjectByKey', (collection) => {
+    /**
+     * Estrae il nome del file senza estensione da inputPath
+     * es: "./_posts/2025-11-21-Hobby-project.md" -> "2025-11-21-Hobby-project"
+     * @param {string} inputPath - The full input path of the file
+     * @returns {string} - The file name without extension
+     */
+    const fileNameFilter = (inputPath) => {
+        return path.basename(inputPath, path.extname(inputPath));
+    };
+    eleventyConfig.addFilter('fileName', fileNameFilter);
+
+    /**
+     * 
+     * @param {Object} collection 
+     * @returns 
+     */
+    const sortObjectByKeyFilter = (collection) => {
         const entries = Object.entries(collection);
         const toReturn = entries.sort((entry1, entry2) => {
             if (entry1[0] <= entry2[0]) return -1;
@@ -60,26 +97,31 @@ module.exports = function (eleventyConfig) {
 
         });
         return toReturn;
-    });
+    };
+    eleventyConfig.addFilter('sortObjectByKey', sortObjectByKeyFilter);
 
+    /**
+     * 
+     * @param {string} inputContent 
+     * @returns 
+     */
+    const compileScss = async function (inputContent) {
+        let result = sass.compileString(inputContent);
+
+        // This is the render function, `data` is the full data cascade
+        return async (data) => {
+            return result.css;
+        };
+    };
     // Creates the extension for use
     eleventyConfig.addExtension("scss", {
         outputFileExtension: "css", // optional, default: "html"
 
         // `compile` is called once per .scss file in the input directory
-        compile: async function (inputContent) {
-            let result = sass.compileString(inputContent);
-
-            // This is the render function, `data` is the full data cascade
-            return async (data) => {
-                return result.css;
-            };
-        }
+        compile: compileScss
     });
 
-    eleventyConfig.addCollection("posts", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("_posts/**/*.md");
-    });
+    eleventyConfig.addCollection("posts", (collectionApi) => collectionApi.getFilteredByGlob("_posts/**/*.md"));
 
     return {
         // Control which files Eleventy will process

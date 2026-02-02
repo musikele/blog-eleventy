@@ -20,11 +20,12 @@ permalink: "/{{ page.date | toISODate }}/{{page.fileSlug }}.html"
 		</section>
 	</article>
 
+	<section class="edit-link">
+		<a href="/admin/#/collections/posts/entries/{{ page.inputPath | fileName }}" target="_blank" rel="noopener">Edit this article</a>
+	</section>
+
 	<section>
 		{% include "./disqus.html" %}
-	</section>
-	<section class="edit-link">
-		<a href="/admin/#/collections/posts/entries/{{ page.fileSlug }}" target="_blank" rel="noopener">Edit this article</a>
 	</section>
 
 </div>
