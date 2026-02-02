@@ -10,6 +10,7 @@ Questo file contiene informazioni sulla struttura del blog per facilitare il lav
 - **Hosting**: Netlify (vedi `netlify.toml`)
 - **Syntax Highlighting**: Prism (plugin `@11ty/eleventy-plugin-syntaxhighlight`)
 - **RSS Feed**: plugin `@11ty/eleventy-plugin-rss`
+- **Code Formatter**: Prettier (configurazione in `.prettierrc`)
 
 ## Struttura delle Cartelle
 
@@ -87,16 +88,20 @@ Il file `/admin/config.yml` definisce:
 
 ### URL di editing
 
-Per editare un articolo: `/admin/#/collections/posts/entries/<fileSlug>`
+Per editare un articolo: `/admin/#/collections/posts/entries/<fileName>`
 
-Il `fileSlug` corrisponde al nome del file senza estensione (es. `2026-02-02-mio-articolo`).
+Il `fileName` corrisponde al nome del file senza estensione (es. `2026-02-02-mio-articolo`).
+
+**ATTENZIONE**: Non usare `page.fileSlug` perché rimuove il prefisso data! Usare invece `{{ page.inputPath | fileName }}`.
 
 ## Comandi NPM
 
 ```bash
-npm start       # Avvia server di sviluppo (http://localhost:8080)
-npm run build   # Build per produzione
-npm run debug   # Build con debug Eleventy
+npm start          # Avvia server di sviluppo (http://localhost:8080)
+npm run build      # Build per produzione
+npm run debug      # Build con debug Eleventy
+npm run format     # Formatta tutti i file con Prettier
+npm run format:check  # Verifica formattazione senza modificare
 ```
 
 ## Layout e Template
@@ -113,18 +118,31 @@ npm run debug   # Build con debug Eleventy
 - `content` - Contenuto renderizzato
 - `page.url` - URL della pagina
 - `page.date` - Data del post
-- `page.fileSlug` - Slug del file (nome senza estensione)
+- `page.fileSlug` - Slug del file (**ATTENZIONE**: rimuove il prefisso data, es. `2025-01-01-mio-articolo.md` → `mio-articolo`)
+- `page.inputPath` - Percorso completo del file sorgente (es. `./_posts/2025-01-01-mio-articolo.md`)
 - `site.*` - Dati da `_data/site.json`
 - `tags` - Array di tag
 - `headerImg` - Immagine header
 
 ## Filtri Custom
 
-Verificare in `.eleventy.js` (o `eleventy.config.js`) per filtri custom come:
+Definiti in `.eleventy.js` con JSDoc types per autocomplete:
 
-- `postDate` - Formatta date per i post
-- `toISODate` - Converte data in formato ISO
-- `imagePath` - Gestisce percorsi immagini
+- `postDate` - Formatta date per i post (es. `January 7, 2015`)
+- `toISODate` - Converte data in formato ISO (es. `2025/01/07`)
+- `imagePath` - Gestisce percorsi immagini (usa ImageKit in produzione)
+- `fileName` - Estrae il nome del file senza estensione da `page.inputPath` (es. `./_posts/2025-01-01-mio-articolo.md` → `2025-01-01-mio-articolo`)
+- `sortObjectByKey` - Ordina un oggetto per chiave
+
+### Uso del filtro fileName
+
+Per ottenere il nome completo del file (con prefisso data) usa:
+
+```nunjucks
+{{ page.inputPath | fileName }}
+```
+
+Questo è necessario per i link a Sveltia CMS, dove l'URL richiede il nome file completo senza estensione.
 
 ## Note Importanti
 
