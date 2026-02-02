@@ -1,7 +1,7 @@
 ---
 title: 'Hobby project: Quando scade, an app to avoid food expiration'
 date: 2025-11-21T23:00:00.000Z
-description: '**"Quando Scade?"**, in italian, means *"when does it expire?"*. The purpose of the project is to get an estimation of expire dates of all the perishable stuff you buy at the supermarket. The idea is that, **knowing that something is getting closer to the expiry date, you try to consume it and avoid to throw away.**'
+description: '"Quando Scade?", in italian, means "when does it expire?". The purpose of the project is to get an estimation of expire dates of all the perishable stuff you buy at the supermarket. The idea is that, knowing that something is getting closer to the expiry date, you try to consume it and avoid to throw away.'
 permalink: /quando-scade-app-idea/
 eleventyExcludeFromCollections: false
 tags:
