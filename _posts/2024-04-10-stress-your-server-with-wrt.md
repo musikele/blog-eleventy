@@ -1,19 +1,16 @@
 ---
-layout: post
+title: Stress your server with WRK
 date: 2024-04-10T22:00:00.000Z
-title: Stress your server with WRT
-description: >
-  WRK is a stress test tool: with few configuration options, you can stress test
-  your server against a high load. In this article, I describe how I used it to
-  simulate a bug that appeared only on high loads.
-headerImg: /images/server-emitting-smoke.jpg
+description: 'WRK is a stress test tool: with few configuration options, you can stress test your server against a high load. In this article, I describe how I used it to simulate a bug that appeared only on high loads.'
+permalink: /stress-test-wrk/
+eleventyExcludeFromCollections: false
 tags:
   - wrt
   - load test
   - testing
   - stress test
-permalink: /stress-test-wrk/
-eleventyExcludeFromCollections: false
+headerImg: /images/server-emitting-smoke.jpg
+layout: post
 ---
 
 Lately, I have been exploring **a bug where the communication between two servers goes on timeout under heavy load**. Let me explain this better: a huge number of incoming HTTP connections hits server A, which needs to call server B, and a relevant percentage of the calls between A and B go on timeout. The weird thing? A and B live on the same host, so basically A is calling localhost!
