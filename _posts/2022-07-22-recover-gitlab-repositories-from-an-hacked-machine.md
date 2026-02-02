@@ -1,10 +1,10 @@
 ---
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 layout: post
 title: Recover gitlab repositories from an hacked machine
 description: ''
 permalink: ''
-date: 
+date: "2022-07-22"
 tags: []
 headerImg: ''
 
@@ -49,7 +49,7 @@ then, DigitalOcean provides a recovery options for droplets that are hacked. It 
 After that, copying files from a remote machine is also a very easy task, using `scp`:
 
 ```shell
-$ scp root@123.123.123.123:var/opt/gitlab/git-data/repositories.tar.gz .
+scp root@123.123.123.123:var/opt/gitlab/git-data/repositories.tar.gz .
 ```
 
 Now it's just a matter of extracting:
@@ -58,9 +58,9 @@ Now it's just a matter of extracting:
 tar -xzf repositories.tar.gz
 ```
 
-Once extracted, I found the repositories are in a "bare" format. What does it mean? Well, all directories have this naming formatting: `<project>/<library>.git/` that should be familiar if you have used git in the past: it's essentially the path of a git repo if you use the ssh address. 
+Once extracted, I found the repositories are in a "bare" format. What does it mean? Well, all directories have this naming formatting: `<project>/<library>.git/` that should be familiar if you have used git in the past: it's essentially the path of a git repo if you use the ssh address.
 
-Anyway, a git repository in a “bare“ format has this directory structure: 
+Anyway, a git repository in a “bare“ format has this directory structure:
 
 ```shell
 $ cd project/library.git
@@ -80,7 +80,7 @@ drwxr-xr-x  37 mnasti  staff   1184 27 Apr  2020 objects
 drwxr-xr-x   8 mnasti  staff    256 25 Gen  2019 refs
 ```
 
-Doesn't look like a normal repo with normal files. In fact, this looks like the content of  the .git folder that every git repository has. So I decided to try it to force it to become a _real_ git repo: 
+Doesn't look like a normal repo with normal files. In fact, this looks like the content of  the .git folder that every git repository has. So I decided to try it to force it to become a _real_ git repo:
 
 ```shell
 $ mkdir project/library
@@ -90,17 +90,15 @@ $ git reset --hard HEAD
 fatal: this operation must be run in a work tree 
 ```
 
-Damn: what does this error mean? Well, if you remember I said that the repo is in a "bare" state, and I have to un-bare it: 
+Damn: what does this error mean? Well, if you remember I said that the repo is in a "bare" state, and I have to un-bare it:
 
 ```shell
-$ cd .git
-$ git config --unset core.bare
-$ cd .. 
-$ git reset --hard HEAD 
+cd .git
+git config --unset core.bare
+cd .. 
+git reset --hard HEAD 
 ```
 
 And finally we've got the repo back, with the original files !
 
-## Next step: push all of these to corporate Github 
-
-
+## Next step: push all of these to corporate Github

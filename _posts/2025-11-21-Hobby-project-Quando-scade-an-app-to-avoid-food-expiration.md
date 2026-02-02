@@ -1,28 +1,22 @@
 ---
-layout: post
-date: 2025-11-21T23:00:00.000Z
 title: 'Hobby project: Quando scade, an app to avoid food expiration'
-headerImg: >-
-  /images/receipts_receipt_pay_shopping_wealth_supermarket_currency_finance-1410366.jpg
-description: >
-  **"Quando Scade?"**, in italian, means *"when does it expire?"*. The purpose
-  of the project is to get an estimation of expire dates of all the perishable
-  stuff you buy at the supermarket. The idea is that, **knowing that something
-  is getting closer to the expiry date, you try to consume it and avoid to throw
-  away.**
-tags:
-  - app idea
+date: 2025-11-21T23:00:00.000Z
+description: '**"Quando Scade?"**, in italian, means *"when does it expire?"*. The purpose of the project is to get an estimation of expire dates of all the perishable stuff you buy at the supermarket. The idea is that, **knowing that something is getting closer to the expiry date, you try to consume it and avoid to throw away.**'
 permalink: /quando-scade-app-idea/
 eleventyExcludeFromCollections: false
+tags:
+  - app idea
+headerImg: /images/receipts_receipt_pay_shopping_wealth_supermarket_currency_finance-1410366.jpg
+layout: post
 ---
 
-There are problems and hard problems. For problems, we can find solutions that are good and work incredibly fine (think of polinomial algorithms). Then there are hard problems, which you can't easily find an easy solution, if it exists (Think of NP problems). \\
+There are problems and hard problems. For problems, we can find solutions that are good and work incredibly fine (think of polinomial algorithms). Then there are hard problems, which you can't easily find an easy solution, if it exists (Think of NP problems). \
 
-Surprisingly, we don't always need the perfect solution. Sometimes we can *approximate* with a solution that is *good enough*. That's what I wanted to explore with this project I'd like to build. The name is...
+Surprisingly, we don't always need the perfect solution. Sometimes we can _approximate_ with a solution that is _good enough_. That's what I wanted to explore with this project I'd like to build. The name is...
 
 ## Quando Scade
 
-**"Quando Scade?"**, in italian, means *"when does it expire?"*. The purpose of the project is to get an estimation of expire dates of all the perishable stuff you buy at the supermarket. The idea is that, **knowing that something is getting closer to the expiry date, you try to consume it and avoid to throw away.**
+**"Quando Scade?"**, in italian, means _"when does it expire?"_. The purpose of the project is to get an estimation of expire dates of all the perishable stuff you buy at the supermarket. The idea is that, **knowing that something is getting closer to the expiry date, you try to consume it and avoid to throw away.**
 
 ### How to make it badly
 
@@ -68,11 +62,11 @@ The items that are close to their expiry date must be shown in high impact color
 
 We can implement a mechanism (swipe? checkbox?) to make the items disappear if we consume them, or if they have expired without we could do anything.
 
-### Step 6 - add notifications
+### Step 6 - add notifications ✅
 
 We want the system to remind you, every day, if there's some item that is close to expiry.
 
-### Step 7 - allow users to change expiry dates
+### Step 7 - allow users to change expiry dates ✅
 
 AI isn't perfect, the estimation is, infact, an estimation. So we have to provide a way to modify expiry dates.
 
