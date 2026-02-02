@@ -9,11 +9,11 @@ tags:
   - chaotic system
   - economics
 title: Chaotic systems
-headerImg: "/images/island-during-golden-hour-and-upcoming-storm-1118873.jpg"
+headerImg: '/images/island-during-golden-hour-and-upcoming-storm-1118873.jpg'
 description: 'what is a complex system? why we study them, and what can they teach
   us? '
-
 ---
+
 a **chaotic system** is a system composed of many simpler systems, that are interconnected in a way such that the final result is impossible to connect to the subsystem forces.
 
 ![]({{ site.baseurl }}/images/island-during-golden-hour-and-upcoming-storm-1118873.jpg)
@@ -36,6 +36,6 @@ Another example of a second level complex system is **history**. We may study ca
 
 Let's suppose we know that next year a massive insurrection will happen, and sell this prediction to our (benevolent, but suspicious) dictator. He'll say, _ok, let's create some incentives to stimulate economics, let's open up on some civil rights, (but let's also prepare the army just in case)_. Next year arrives and no insurrection happens. The dictator calls and says: you bastard, you took my money and I believed you! Give me the money back and, by the way, you'll be executed tomorrow".
 
-***
+---
 
-These and other kind of stories like this are in the book [Sapiens - a brief history of humankind](https://amzn.to/3a5hB1T "Sapiens - a brief history of humankind"), that I truly recomend. Very inspiring, full of theories that try to understand the past in a non-linear way.
+These and other kind of stories like this are in the book [Sapiens - a brief history of humankind](https://amzn.to/3a5hB1T 'Sapiens - a brief history of humankind'), that I truly recomend. Very inspiring, full of theories that try to understand the past in a non-linear way.

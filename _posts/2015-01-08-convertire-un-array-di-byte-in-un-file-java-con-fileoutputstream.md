@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=32
 permalink: /2015/01/convertire-un-array-di-byte-in-un-file-java-con-fileoutputstream/
 dsq_thread_id:
-  - "3974718099"
+  - '3974718099'
 headerImg: /uploads/2015/01/Sun-Java-JDK_1.jpg
 categories:
   - Italiano
@@ -15,6 +15,7 @@ tags:
   - FileOutputStream
   - java
 ---
+
 Ok, JasperReports mi pemette di creare un report in pdf anche come array di byte, cosa utile visto che poi il report va a finire nel db. Ma per fare dei test, come faccio a trasformare l'array di byte in file?
 
 Voilà:

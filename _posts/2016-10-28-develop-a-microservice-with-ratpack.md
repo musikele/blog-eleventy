@@ -8,7 +8,7 @@ layout: post
 guid: http://michelenasti.com/?p=1030
 permalink: /2016/10/develop-a-microservice-with-ratpack/
 dsq_thread_id:
-  - "5260298458"
+  - '5260298458'
 categories:
   - Italiano
 tags:
@@ -19,6 +19,7 @@ tags:
   - ratpack
 headerImg: /uploads/2016/10/ratpack.png
 ---
+
 [Ratpack](https://ratpack.io) is a lightly opinionated framework that's perfect for backends written with a RESTful specification. I am using it in a project that we are developing, and of course it's a microservice.
 
 Ratpack is completely **written in Java 8**, and you can use it with Java if you like. However, it's in **Groovy** that it really shines. Groovy is a functional scripting language for the JVM, and enhances Java under many aspects.
@@ -44,7 +45,7 @@ It has native **support for headers, status codes, Exceptions, query parameters,
 
 Guice is the default **dependency injection**, but you can go on with Spring if you want.
 
-The class that responds to a http call is a **Handler**, that you have to imagine **like a java servlet that intercepts a request**.  You can, for example, log all requests in a handler, then pass the control to the next that will extract data from headers, and according to that data it will call the right handler for you. You can also pass data between handlers so that it's very easy to work with it.
+The class that responds to a http call is a **Handler**, that you have to imagine **like a java servlet that intercepts a request**. You can, for example, log all requests in a handler, then pass the control to the next that will extract data from headers, and according to that data it will call the right handler for you. You can also pass data between handlers so that it's very easy to work with it.
 
 Want more? **Ratpack is implemented using [Netty](http://netty.io)**, an asynchronous event-driven network application framework. Does this definition say anything to you? **It's the same philosophy taken by NodeJS**. So you can expect to handle a lot of connections. (This power comes at a cost. Develop responsibly)
 

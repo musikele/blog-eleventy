@@ -1,25 +1,24 @@
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const { DateTime } = require('luxon');
-const sass = require("sass");
-const path = require("path");
+const sass = require('sass');
+const path = require('path');
 
 /**
  * @param {import("@11ty/eleventy").UserConfig} eleventyConfig
  */
 module.exports = function (eleventyConfig) {
-    const markdownIt = require("markdown-it");
-    const markdownItFootnote = require("markdown-it-footnote");
+    const markdownIt = require('markdown-it');
+    const markdownItFootnote = require('markdown-it-footnote');
 
     const markdownLibrary = markdownIt().use(markdownItFootnote);
 
-    eleventyConfig.setLibrary("md", markdownLibrary);
-
+    eleventyConfig.setLibrary('md', markdownLibrary);
 
     // Values can be static:
-    eleventyConfig.addGlobalData("base", "https://michelenasti.com");
-    eleventyConfig.addGlobalData("sitename", "Michele Nasti");
-    eleventyConfig.addGlobalData("twitterName", "micnasti");
+    eleventyConfig.addGlobalData('base', 'https://michelenasti.com');
+    eleventyConfig.addGlobalData('sitename', 'Michele Nasti');
+    eleventyConfig.addGlobalData('twitterName', 'micnasti');
 
     // Copy the `img` and `css` folders to the output
     eleventyConfig.addPassthroughCopy('images');
@@ -30,46 +29,43 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('scripts');
     eleventyConfig.addPassthroughCopy('admin');
 
-    eleventyConfig.addTemplateFormats("scss");
+    eleventyConfig.addTemplateFormats('scss');
 
     // Add plugins
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
     /**
-     * 
-     * @param {Date} dateObj 
-     * @returns 
+     *
+     * @param {Date} dateObj
+     * @returns
      */
     const postDateFilter = (dateObj) => {
-        return DateTime.fromJSDate(dateObj)
-            .setLocale('en')
-            .toLocaleString(DateTime.DATE_FULL);
+        return DateTime.fromJSDate(dateObj).setLocale('en').toLocaleString(DateTime.DATE_FULL);
     };
 
     eleventyConfig.addFilter('postDate', postDateFilter);
 
     /**
-     * 
-     * @param {string} path 
-     * @returns 
+     *
+     * @param {string} path
+     * @returns
      */
     const imagePathFilter = (path) => {
         if (process.env.LOCAL) {
             return path;
         }
         return `https://ik.imagekit.io/xthvogziier/tr:w-720/${path}`;
-
     };
-    eleventyConfig.addFilter("imagePath", imagePathFilter);
+    eleventyConfig.addFilter('imagePath', imagePathFilter);
 
     /**
-     * 
-     * @param {Date} dateObj 
-     * @returns 
+     *
+     * @param {Date} dateObj
+     * @returns
      */
     const toIsoDateFilter = (dateObj) => {
-        return DateTime.fromJSDate(dateObj).toFormat("yyyy/MM/dd");
+        return DateTime.fromJSDate(dateObj).toFormat('yyyy/MM/dd');
     };
     eleventyConfig.addFilter('toISODate', toIsoDateFilter);
 
@@ -85,43 +81,43 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter('fileName', fileNameFilter);
 
     /**
-     * 
-     * @param {Object} collection 
-     * @returns 
+     *
+     * @param {Object} collection
+     * @returns
      */
     const sortObjectByKeyFilter = (collection) => {
         const entries = Object.entries(collection);
         const toReturn = entries.sort((entry1, entry2) => {
             if (entry1[0] <= entry2[0]) return -1;
             else return 1;
-
         });
         return toReturn;
     };
     eleventyConfig.addFilter('sortObjectByKey', sortObjectByKeyFilter);
 
     /**
-     * 
-     * @param {string} inputContent 
-     * @returns 
+     * @param {string} inputContent
+     * @returns {Promise<(data: Record<string, unknown>) => Promise<string>>}
      */
     const compileScss = async function (inputContent) {
         let result = sass.compileString(inputContent);
 
         // This is the render function, `data` is the full data cascade
-        return async (data) => {
+        return async (/** @type {Record<string, unknown>} */ data) => {
             return result.css;
         };
     };
     // Creates the extension for use
-    eleventyConfig.addExtension("scss", {
-        outputFileExtension: "css", // optional, default: "html"
+    eleventyConfig.addExtension('scss', {
+        outputFileExtension: 'css', // optional, default: "html"
 
         // `compile` is called once per .scss file in the input directory
-        compile: compileScss
+        compile: compileScss,
     });
 
-    eleventyConfig.addCollection("posts", (collectionApi) => collectionApi.getFilteredByGlob("_posts/**/*.md"));
+    eleventyConfig.addCollection('posts', (/** @type {any} */ collectionApi) =>
+        collectionApi.getFilteredByGlob('_posts/**/*.md')
+    );
 
     return {
         // Control which files Eleventy will process

@@ -1,4 +1,3 @@
-
 <ul class="share-buttons">
   <li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent({{site.url}}{{page.url}}) + '&t=' + encodeURIComponent(document.title)); return false;"><img alt="Share on Facebook" src="/images/icons/Facebook.svg"></a></li>
   <li><a href="https://twitter.com/intent/tweet?source={{site.url}}{{page.url}}&text={{page.title}}:%20{{site.url}}{{page.url}}&via=micnasti" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent({{page.title}}) + ':%20'  + encodeURIComponent({{site.url}}{{page.url}})); return false;"><img alt="Tweet" src="/images/icons/Twitter.svg"></a></li>

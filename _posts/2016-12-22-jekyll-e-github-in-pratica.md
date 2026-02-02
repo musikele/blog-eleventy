@@ -13,6 +13,7 @@ tags:
 
 permalink: /2016/12/22/jekyll-e-github-in-pratica.html
 ---
+
 In questo articolo spiegheremo rapidamente come installare un blog jekyll su github.
 
 ![]({{ site.baseurl }}/images/jekyll_logo.png)
@@ -27,8 +28,8 @@ Per prima cosa, [aprite un account su Github](https://github.com/join?source=log
 
 La funzione di github che vi permette di pubblicare siti statici si chiama **Github Pages**. Potete scegliere se attivare le github pages per:
 
-*   **un progetto** - ad esempio, se avete un repository git chiamato `blog` all'indirizzo `http://github.com/musikele/blog`), potreste servire i file contenuti all'indirizzo `http://musikele.github.io/blog`.
-*   **il vostro nome utente (o organizzazione)** - se create un repository chiamato `musikele.github.io` (quindi `http://github.com/musikele/musikele.github.io`), i file html saranno serviti direttamente da `http://musikele.github.com`.
+- **un progetto** - ad esempio, se avete un repository git chiamato `blog` all'indirizzo `http://github.com/musikele/blog`), potreste servire i file contenuti all'indirizzo `http://musikele.github.io/blog`.
+- **il vostro nome utente (o organizzazione)** - se create un repository chiamato `musikele.github.io` (quindi `http://github.com/musikele/musikele.github.io`), i file html saranno serviti direttamente da `http://musikele.github.com`.
 
 Quale sia la vostra scelta dipende da voi; per un blog personale è meglio un sito che non contiene sottopath, mentre per documentare un progetto è meglio il primo sistema.
 
@@ -38,7 +39,7 @@ Qualunque scelta abbiate fatto, siete già pronti per servire i vostri file. Fac
 
 ```bash
 $ git clone https://github.com/<username>/<username>.github.io.git
-$ cd <username>.github.io 
+$ cd <username>.github.io
 ```
 
 1.  in questa directory potrete creare un simpatico file html e committarlo: sarà automaticamente servito :)
@@ -46,7 +47,7 @@ $ cd <username>.github.io
 ```bash
 $ echo <h1>Hello World</h1> >> index.html
 $ git commit -am "first commit"
-$ git push 
+$ git push
 ```
 
 1.  puntate il browser a `http://<username>.github.io` e gustatevi il risultato.
@@ -70,16 +71,16 @@ Ora jekyll è installato sul vostro sistema come applicativo utilizzabile da con
 Assumendo di trovarci nella cartella del bog (`<username>.github.io/`), cancelliamo tutti i file precedentemente creati e creiamo la struttura di jekyll:
 
 ```bash
-$ rm ./* # cancelliamo ogni file precedentemente creato... 
-$ jekyll new . # crea la struttura base di jekyll nella directory corrente 
+$ rm ./* # cancelliamo ogni file precedentemente creato...
+$ jekyll new . # crea la struttura base di jekyll nella directory corrente
 ```
 
 Verifichiamo che funziona tutto, lanciamo jekyll:
 
 ```bash
-$ bundle exec jekyll serve 
-  # => Now browse to http://localhost:4000 
-  # Ctrl+C per interrompere 
+$ bundle exec jekyll serve
+  # => Now browse to http://localhost:4000
+  # Ctrl+C per interrompere
 ```
 
 Questo è un buon momento per committare...

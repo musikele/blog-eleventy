@@ -6,8 +6,8 @@ comments: true
 author: musikele
 layout: post
 tags:
-  
 ---
+
 In this article I'm going to do a quick recap of ES5 and ES6 functions, explaining what happens to `this`.
 
 ![]({{ site.baseurl }}/images/this.jpg)\
@@ -18,7 +18,7 @@ As you know, in javascript you can define a function in many ways. The standard,
 
 ```javascript
 function sayHello() {
-   console.log("hello!") 
+  console.log('hello!');
 }
 ```
 
@@ -26,22 +26,22 @@ This kind of functions will be "hoisted", this means that the function will be r
 
 ```javascript
 // no error: this is executed later
-sayHello(); 
+sayHello();
 
-//this is read and hoisted first 
+//this is read and hoisted first
 function sayHello() {
-   console.log("hello!") 
+  console.log('hello!');
 }
 ```
 
 If you find this behaviour too strange (at first glance, it is!), you can **assign a function to a variable**. In this case the function will be read and executed only when used:
 
 ```javascript
-//sayHello();  if called here, like before, ERROR! 
+//sayHello();  if called here, like before, ERROR!
 
 var sayHello = function () {
-   console.log("Hello!") 
-}
+  console.log('Hello!');
+};
 
 sayHello(); // no error because it is used after the definition
 ```
@@ -51,9 +51,9 @@ sayHello(); // no error because it is used after the definition
 Now we can have a quick look to new kind of functions introduced in ES6\. Here is the first example:
 
 ```javascript
-var sayHello = (name) => { 
-   console.log("Hello, " + name);
-}
+var sayHello = (name) => {
+  console.log('Hello, ' + name);
+};
 
 sayHello('Michele');
 ```
@@ -72,10 +72,10 @@ var user = {
   sayHi: () => {
     console.log(`Hi. I'm ${this.name}`);
   },
-  sayHiAlt () {
+  sayHiAlt() {
     console.log(`Hi. I'm ${this.name}`);
-  }
-}
+  },
+};
 
 user.sayHi(); // "Hi. I'm undefined"
 user.sayHiAlt(); // "Hi. I'm Michele"
@@ -89,32 +89,32 @@ This is a template string in Javascript. this translates in `"Hi. I\'m " + this.
 
 ### Why the first `sayHi` returns undefined?
 
-because `this` is not bound to the context! 
+because `this` is not bound to the context!
 
 ### What is happening at the last function, `sayHiAlt` ?!
 
-This is ES6 at all of it's power. First, we are assigning a function to a variable, like we saw in the third example of this article; then, we are using another ES6 to assign the function to a property with the same name. 
+This is ES6 at all of it's power. First, we are assigning a function to a variable, like we saw in the third example of this article; then, we are using another ES6 to assign the function to a property with the same name.
 
-Thanks to [babel online REPL](https://babeljs.io/repl/) (a place where you can past ES6 code and see it in ES5), the previous snippet becomes this:  
+Thanks to [babel online REPL](https://babeljs.io/repl/) (a place where you can past ES6 code and see it in ES5), the previous snippet becomes this:
 
 ```javascript
 'use strict';
 
 var user = {
-    name: 'Michele',
-    sayHi: function sayHi() {
-        console.log('Hi. I\'m ' + undefined.name);
-    },
-    sayHiAlt: function sayHiAlt() {
-        console.log('Hi. I\'m ' + this.name);
-    }
+  name: 'Michele',
+  sayHi: function sayHi() {
+    console.log("Hi. I'm " + undefined.name);
+  },
+  sayHiAlt: function sayHiAlt() {
+    console.log("Hi. I'm " + this.name);
+  },
 };
 ```
 
 ## What should I use?
 
-Use `() => {}` always, because it's simpler; usually you don't need `this` to work. 
+Use `() => {}` always, because it's simpler; usually you don't need `this` to work.
 
-But if you need `this`, ... you know what to do. 
+But if you need `this`, ... you know what to do.
 
-After writing `this` article, I can finally say: ES6 doesn't care about `this`, but you should. 
+After writing `this` article, I can finally say: ES6 doesn't care about `this`, but you should.

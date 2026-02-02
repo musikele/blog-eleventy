@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=676
 permalink: /2016/05/visual-studio-code-leditor-mancava/
 dsq_thread_id:
-  - "4861423055"
+  - '4861423055'
 categories:
   - Italiano
 tags:
@@ -17,6 +17,7 @@ tags:
   - visual studio code
 headerImg: /uploads/2016/05/visual-studio-code.png
 ---
+
 **Visual Studio Code** **è l'editor/IDE Javascript definitivo**. Lo so, mi sto sbilanciando, la concorrenza è tanta, ma ha alcune _feature_ essenziali a costo quasi zero. E pensare che è sviluppato e sponsorizzato da Microsoft ! Chi l'avrebbe mai detto 5 anni fa?
 
 Ecco una guida su come installarlo per le mie esigenze:
@@ -31,7 +32,7 @@ Installare [EsLint](http://eslint.org) e il suo plugin per VS. EsLint è un un s
 
 ```shell
 npm install eslint --global
- ```
+```
 
 A questo punto recatevi presso la directory del vostro progetto su cui volete eseguire EsLint e lanciate il comando
 

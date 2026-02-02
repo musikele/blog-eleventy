@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=28
 permalink: /2015/01/chiamare-una-funzione-javascript-subito-dopo-averla-definita/
 dsq_thread_id:
-  - "4034986557"
+  - '4034986557'
 headerImg: /uploads/2015/01/logo_JavaScript-e1420667913457-825x510.png
 categories:
   - Italiano
@@ -15,23 +15,24 @@ tags:
   - javascript
   - scope
 ---
+
 Consideriamo il seguente esempio:
 
 ```javascript
-(function() {
+(function () {
   var clickCount = 0;
-  $('button#mybutton').click(function() {
-    clickCount ++;
+  $('button#mybutton').click(function () {
+    clickCount++;
     alert('Clicked ' + clickCount + ' times.');
   });
-}());
+})();
 ```
 
 Questa è la semplice definizione di una funzione (anonima) che, quando viene cliccato su un bottone, aumenta un contatore. Ma in grassetto ho evidenziato due parentesi tonde: questa è una sintassi comoda e rapida per indicare che la funzione, una volta definita, deve essere anche subito eseguita. Ricapitoliamo:
 
 ```javascript
 function() {
-  ... 
+  ...
 } () ;
 ```
 

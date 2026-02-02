@@ -9,11 +9,11 @@ tags:
   - customers
   - work
 title: 'Thinking of customers like a CEO: lessons learned along the way'
-headerImg: "/images/customer.jpg"
-description: 'customers represent the best resource of every company, but do we really
-  care about them? Here''s an interesting insight of my work experience. '
-
+headerImg: '/images/customer.jpg'
+description: "customers represent the best resource of every company, but do we really
+  care about them? Here's an interesting insight of my work experience. "
 ---
+
 _The story I'm going to talk about is not related to my current job, anyway._
 
 Some time ago I jumped on a brand new job, a _service oriented_ one, where we had many customers and we offered a **product as a service**.
@@ -36,8 +36,8 @@ _about the headerImg: i work remotely, so this is not me and not my coworker, bu
 
 ## Lessons learned
 
-* In every company (and more importantly in a startup) **customers are the most valuable asset**. "_This is the best way to see customers go to competitors_" - I think this will stick in my head for a long time.  
+- In every company (and more importantly in a startup) **customers are the most valuable asset**. "_This is the best way to see customers go to competitors_" - I think this will stick in my head for a long time.  
   Try to open a complain to Google, or Facebook. Your experience may tell that it's very rare that you'll have to deal with their customer care, given that their products are almost bug free from day zero. However, shit happens and if it happens to you, you'll discover that reaching out to some human and talk about your problem can be impossible.
-* Not really in target with the title of the post, but ... **I used to feel ashamed if I had to ask for the help of a senior colleague, but now I think that was the right thing to do.** Honestly, we (as programmers - debuggers) should not spend more than 2-3 hours on a problem, or without hypothesis to test. I pretend to be smart and to solve every possible mistery in code, but in reality I sometimes focus on details while the problem is in the bigger picture, or the inverse. Asking help to somebody with experience is not like saying "_I give up_" or "_I'm not good enough for this job_". It's more like "_I need another point of view to reason on this problem_".
+- Not really in target with the title of the post, but ... **I used to feel ashamed if I had to ask for the help of a senior colleague, but now I think that was the right thing to do.** Honestly, we (as programmers - debuggers) should not spend more than 2-3 hours on a problem, or without hypothesis to test. I pretend to be smart and to solve every possible mistery in code, but in reality I sometimes focus on details while the problem is in the bigger picture, or the inverse. Asking help to somebody with experience is not like saying "_I give up_" or "_I'm not good enough for this job_". It's more like "_I need another point of view to reason on this problem_".
 
 Hope you find these lessons useful.

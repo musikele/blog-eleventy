@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=619
 permalink: /2016/03/5-motivi-cui-rework-ti-cambiera-la-vita/
 dsq_thread_id:
-  - "4648297127"
+  - '4648297127'
 categories:
   - Italiano
 tags:
@@ -37,13 +37,13 @@ Tutti a fare startup, ora che va di moda. Ma oltre alla startup, dove si scommet
 ### Rework Rifiuta il marketing convenzionale
 
 Cosa pensiamo quando guardiamo una pubblicità? E quando una voce registrata dice "ci dispiace per l'attesa, il tempo medio di risposta é di 16 minuti"? Queste sono cose che fanno tutti, specialmente le aziende più grandi dove hanno un reparto marketing dedicato, e per un'azienda nascente non é pensabile entrare in competizione con loro.
-  
+
 Il libro propone molte rivoluzioni:
 
-  1. Il prodotto che state realizzando non deve essere per forza completo; ma quello che fa lo deve fare bene e facilmente.
-  2. Il vostro reparto marketing siete tutti voi del team.
-  3. Inutile copiare le cose che fanno gli altri, vi faranno apparire come gli altri.
-  4. Una cosa che le grandi aziende non fanno, e che voi potreste fare, é **insegnare**.
+1. Il prodotto che state realizzando non deve essere per forza completo; ma quello che fa lo deve fare bene e facilmente.
+2. Il vostro reparto marketing siete tutti voi del team.
+3. Inutile copiare le cose che fanno gli altri, vi faranno apparire come gli altri.
+4. Una cosa che le grandi aziende non fanno, e che voi potreste fare, é **insegnare**.
 
 ### "piccolo" ti sembrerà la giusta dimensione
 

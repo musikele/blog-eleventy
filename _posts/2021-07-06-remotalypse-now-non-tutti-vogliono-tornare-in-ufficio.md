@@ -10,12 +10,12 @@ permalink: remotalipse-now-non-tutti-vogliono-tornare-in-ufficio/
 description: 'Dopo un anno e mezzo di pandemia, molte aziende si stanno riorganizzando
   per ritornare in ufficio. Ma molti dipendenti non vogliono rinunciare al remote
   working e stanno pensando di licenziarsi. '
-headerImg: "/images/pexels-jill-wellington-39853.jpg"
+headerImg: '/images/pexels-jill-wellington-39853.jpg'
 tags:
   - remote
   - lavoro
-
 ---
+
 _Questo è un messaggio che ho mandato in mailing list_ [_DevDay Salerno_](https://www.meetup.com/it-IT/devday-salerno/)_, a cui vi consiglio di iscrivervi se siete della zona._
 
 Dopo un anno e mezzo di pandemia e di remote working, molte aziende si stanno riorganizzando per ritornare in ufficio a settembre 2021. Tuttavia, dopo aver assaporato la libertà di poter lavorare da casa, molti dipendenti non vogliono più tornare a occupare le vecchie scrivanie. In tanti si sono chiesti se andare fisicamente in un posto, la mattina, fosse davvero indispensabile per poter svolgere i propri compiti. Soprattutto, molti hanno riscoperto che la vita è molto più dell’ufficio, potendo assistere alla crescita dei propri figli o praticando hobby e sport che altrimenti non avrebbero potuto praticare. Molti altri si sono trasferiti da San Francisco (dove la vita è carissima) alla loro città natale, toccando con mano quanti soldi vanno letteralmente in fumo per affitto e servizi che in altre parti del mondo costano meno della metà.
@@ -38,6 +38,6 @@ Caro lettore, è il momento di tornare a studiare **l'inglese**. Non so come and
 
 Fonti:
 
-* [34% of WFH (work from home) workers say they’d rather quit than return to full-time office work](https://www.psychnewsdaily.com/a-third-of-wfh-employees-say-theyd-rather-quit-than-return-to-full-time-office-work/)
-* [Nearly a third of workers don’t want to ever return to the office](https://fortune.com/2020/12/06/offices-covid-workers-returning-never-want-to-stats-data-2/)
-* ["Great resignation" wave coming for companies](https://www.axios.com/resignations-companies-e279fcfc-c8e7-4955-8a9b-47562490ee55.html)
+- [34% of WFH (work from home) workers say they’d rather quit than return to full-time office work](https://www.psychnewsdaily.com/a-third-of-wfh-employees-say-theyd-rather-quit-than-return-to-full-time-office-work/)
+- [Nearly a third of workers don’t want to ever return to the office](https://fortune.com/2020/12/06/offices-covid-workers-returning-never-want-to-stats-data-2/)
+- ["Great resignation" wave coming for companies](https://www.axios.com/resignations-companies-e279fcfc-c8e7-4955-8a9b-47562490ee55.html)

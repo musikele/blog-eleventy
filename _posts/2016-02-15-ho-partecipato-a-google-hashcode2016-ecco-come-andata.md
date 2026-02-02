@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=587
 permalink: /2016/02/ho-partecipato-a-google-hashcode2016-ecco-come-andata/
 dsq_thread_id:
-  - "4582091882"
+  - '4582091882'
 categories:
   - Italiano
 tags:
@@ -16,6 +16,7 @@ tags:
   - hashcode2016
 headerImg: /uploads/2016/02/2016-02-11-19.47.12.jpg
 ---
+
 Qualche sera fa io e altri amici abbiamo deciso di partecipare al **Google HashCode 2016**, una gara di programmazione distribuita ideata da Google per team da 2 a 4 persone. Il mio non era proprio un team di _scemi_, siamo tutti usciti dall'università da qualche anno (...) ma avevamo ancora voglia di rockeggiare. Avevamo **4 ore di tempo** per presentare una soluzione a un problema comune e potevamo usare **qualsiasi linguaggio** di programmazione avessimo bisogno.
 
 ## il problema
@@ -37,7 +38,7 @@ Per rimanere il più agnostici possibile dal linguaggio di programmazione, gli i
 ## Il nostro algoritmo
 
 All'inizio volevamo arrivare il più presto possibile nel judge system quindi abbiamo provato a scrivere l'algoritmo più semplice che ci venisse in mente: ogni drone porta max 1 oggetto (dunque ordini grandi avrebbero richiesto più viaggi).
-  
+
 Questo algoritmo si é preso 3 ore per rispettare tutti i constraint e, comunque, _non funzionava a dovere._
 
 ## Idee per l'anno prossimo

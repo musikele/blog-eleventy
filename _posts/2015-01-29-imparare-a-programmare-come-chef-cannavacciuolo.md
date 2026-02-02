@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=109
 permalink: /2015/01/imparare-a-programmare-come-chef-cannavacciuolo/
 dsq_thread_id:
-  - "3958634072"
+  - '3958634072'
 headerImg: /uploads/2015/01/cannavacciuolo-825x510.jpg
 categories:
   - Italiano

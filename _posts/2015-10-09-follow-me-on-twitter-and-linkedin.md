@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=393
 permalink: /2015/10/follow-me-on-twitter-and-linkedin/
 dsq_thread_id:
-  - "4209922188"
+  - '4209922188'
 categories:
   - English
 tags:

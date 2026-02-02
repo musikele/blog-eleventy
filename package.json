@@ -1,24 +1,27 @@
 {
-  "name": "blog-eleventy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "@types/node": "^20.10.5"
-  },
-  "dependencies": {
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "markdown-it-footnote": "^3.0.3",
-    "sass": "^1.49.8"
-  }
+    "name": "blog-eleventy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx @11ty/eleventy",
+        "start": "npx @11ty/eleventy --serve",
+        "debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.1",
+        "@11ty/eleventy-plugin-rss": "^1.1.2",
+        "@types/node": "^20.10.5",
+        "prettier": "^3.8.1"
+    },
+    "dependencies": {
+        "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+        "markdown-it-footnote": "^3.0.3",
+        "sass": "^1.49.8"
+    }
 }

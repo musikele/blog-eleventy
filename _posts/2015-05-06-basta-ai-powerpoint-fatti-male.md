@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=294
 permalink: /2015/05/basta-ai-powerpoint-fatti-male/
 dsq_thread_id:
-  - "3992912031"
+  - '3992912031'
 categories:
   - Italiano
 tags:
@@ -21,9 +21,9 @@ Questo articolo l'ho riadattato nel 2009 su un vecchio articolo di Paolo Attivis
 ---
 
 Visto che in questa benedetta laurea specialistica ci stanno _abboffando_ di progetti che consistono, spesso, in una relazione finale con tanto di **presentazione <del>_pauerpoint_</del>powerpoint**, ho trovato un bellissimo _elenco puntato_ con i punti più importanti da tenere a mente quando si realizza una presentazione.
-  
+
 L’articolo originale parla del [programma PowerPoint](http://attivissimo.blogspot.com/2009/08/25-anni-di-powerpoint.html), che in origine era solo per Mac.
-    
+
 - **Non voltate le spalle al pubblico.** Il pubblico è lì per ascoltare voi, per sentirvi parlare dal vivo, non per guardare le slide. Trovate la maniera di tenere sotto controllo cosa c’è realmente sullo schermo dietro di voi senza voltarvi e mantenete il più possibile il contatto visivo con il pubblico.
 - **Evitate fiumi di testo.** Le slide non devono essere come pagine di libro. Se lo sono, la gente farà fatica a leggerle e a seguire contemporaneamente quello che state dicendo. Devono contenere poche parole essenziali: il discorso articolato dovete farlo voi.
 - **Non leggete le slide**. Chi legge mentalmente va molto più veloce di chi legge ad alta voce, per cui ripetere pari pari il contenuto delle slide è mortalmente noioso.

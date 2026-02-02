@@ -6,7 +6,7 @@ title: Proteggi le tue applicazioni Express con HelmetJs
 category: Italiano
 layout: post
 date: 2018-05-05
-headerImg: "/images/testuggine-8.jpg"
+headerImg: '/images/testuggine-8.jpg'
 tags:
   - express
   - helmetjs
@@ -16,6 +16,7 @@ tags:
 description: 'Helmet è un middleware che agganci ad Express e la tua app è immediatamente
   più sicura. '
 ---
+
 Quanto ne capisci di sicurezza informatica? Io molto poco, anzi a dire il vero trovo l'argomento addirittura noioso. Questo non vuol dire che lo sottovaluto: è una di quelle cose che sì, è una palla, ma sì, bisogna trattare l'argomento _seriamente_.
 
 ![Testuggine romana]({{ site.baseurl }}/images/testuggine-8.jpg "Metti questi tizi a proteggere il tuo server ")
@@ -47,18 +48,18 @@ Altri esempi li trovate cliccando sui vari [link dei sottomoduli](https://helmet
 niente di più semplice, e a me le soluzioni semplici piacciono.
 
 ```shell
-$ npm install helmet --save 
+$ npm install helmet --save
 ```
 
 Dopodichè si tratta solo di istanziare Helmet nel vostro server e usare il middleware il più in alto possibile:
 
 ```javascript
-var express = require('express')
-var helmet = require('helmet')
+var express = require('express');
+var helmet = require('helmet');
 
-var app = express()
+var app = express();
 
-app.use(helmet())
+app.use(helmet());
 
 // ...
 ```
@@ -71,8 +72,8 @@ Però bisogna riconoscere che Helmet è un progetto semplice che fa quelle cose 
 
 Vi lascio le mie personali regole non scritte (prima d'ora) della sicurezza informatica:
 
-* più una cosa è semplice, più è difficile da bucare
-* aggiorna sempre tutti i sw, e se non puoi iscriviti alle mailing list di sicurezza dei software che tieni in produzione (così avvisi chi di dovere)
-* Se i dati che gestisci sono importanti, assumi uno che ne capisce
+- più una cosa è semplice, più è difficile da bucare
+- aggiorna sempre tutti i sw, e se non puoi iscriviti alle mailing list di sicurezza dei software che tieni in produzione (così avvisi chi di dovere)
+- Se i dati che gestisci sono importanti, assumi uno che ne capisce
 
 Conoscete tool simili a Helmet ma per altri linguaggi? Se si, indicali nei commenti!

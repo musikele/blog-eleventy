@@ -12,6 +12,7 @@ tags:
 permalink: the-javascript-event-loop-for-dummies/
 category: English
 ---
+
 What does it mean that Javascript has no threads?! What is the event loop and how it is related? How can JS be even considered a modern programming language?! Let's find out the surprising truth about this stuff.
 
 ![An event loop. The dancer is not included.]({{ site.baseurl }}/images/o_weighted_hula_hoop-1.jpg)
@@ -23,12 +24,12 @@ Let's consider this small javascript program. What will be printed?
 ```javascript
 console.log('Starting app');
 
-//first block 
+//first block
 setTimeout(() => {
   console.log('First setTimeout');
 }, 2000);
 
-//second block 
+//second block
 setTimeout(() => {
   console.log('Second setTimeout');
 }, 0);
@@ -110,12 +111,12 @@ So what happens when an asynchronous event happen, like the `setTimeout`?
 
 Bearing this in mind, let's return to the basis.
 
-*   The first `console.log()` is printed: `Starting app`
+- The first `console.log()` is printed: `Starting app`
 
-*   The first block is evaluated:
+- The first block is evaluated:
 
 ```javascript
-//first block 
+//first block
 setTimeout(() => {
   console.log('First setTimeout');
 }, 2000);
@@ -123,10 +124,10 @@ setTimeout(() => {
 
 This code says: _after 2000 milliseconds, trigger the function specified as first argument_. Since `() => { ... }` is a function, this is put in a **callback queue** ready to get fired when the conditions occur.
 
-*   The second block is evaluated:
+- The second block is evaluated:
 
 ```javascript
-//second block 
+//second block
 setTimeout(() => {
   console.log('Second setTimeout');
 }, 0);
@@ -136,11 +137,11 @@ Another explanation. This code says: _after zero milliseconds, fire the function
 
 Node cannot fire the function NOW because there's other javascript code being executed in the stack: it's the _main program_, the one that starts with the first `console.log()`. Think of this as a being wrapped inside a function; nodeJS is evaluating **this** function and cannot evaluate others.
 
-*   The last `console.log()` is evaluated and `Finishing app` is written to console.
+- The last `console.log()` is evaluated and `Finishing app` is written to console.
 
-*   NodeJS controls the call queue and decides what to fire. There are two functions in the call queue. It's NodeJS's responsibility to select the right one: since the second `setTimeout` had a higher priority, it will be fired first: you'll then see `Second setTimeout`.
+- NodeJS controls the call queue and decides what to fire. There are two functions in the call queue. It's NodeJS's responsibility to select the right one: since the second `setTimeout` had a higher priority, it will be fired first: you'll then see `Second setTimeout`.
 
-*   Node will pop the previous function from the stack and will check again the callback queue. This time it will select the first block `setTimeout` callback, and will print `First setTimeout`. Then, Node will pop this last function from the stack, and when it realizes that nothing more can be executed, the program will end.
+- Node will pop the previous function from the stack and will check again the callback queue. This time it will select the first block `setTimeout` callback, and will print `First setTimeout`. Then, Node will pop this last function from the stack, and when it realizes that nothing more can be executed, the program will end.
 
 ### What happens when you read data from a file or receive a response from the network?
 
@@ -158,4 +159,4 @@ The first disadvantage is that **programming with async in mind and with callbac
 
 Node.js is a great idea made simple: a complex use case solved smartly. **Learning Node will help you become a better programmer**, and this applies even if you work with other languages.
 
-I can only suggest you to google *NodeJS vs XXX performance", change XXX with whatever you want... You'll find that [an interpreted language, with no tweaks, is faster than well-established platforms](https://dzone.com/articles/performance-comparison-between) (Caution: old article! but the main points still hold) with years of optimization.
+I can only suggest you to google \*NodeJS vs XXX performance", change XXX with whatever you want... You'll find that [an interpreted language, with no tweaks, is faster than well-established platforms](https://dzone.com/articles/performance-comparison-between) (Caution: old article! but the main points still hold) with years of optimization.

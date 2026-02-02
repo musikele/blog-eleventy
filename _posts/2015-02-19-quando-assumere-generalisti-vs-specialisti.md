@@ -5,20 +5,19 @@ date: 2015-02-19 13:00:32
 author: musikele
 layout: post
 guid: http://michelenasti.com/?p=136
-permalink: "/2015/02/quando-assumere-generalisti-vs-specialisti/"
+permalink: '/2015/02/quando-assumere-generalisti-vs-specialisti/'
 dsq_thread_id:
-- '4108724544'
+  - '4108724544'
 categories:
-- Italiano
+  - Italiano
 tags:
   - assumere
   - generalisti
   - lavoro
   - specialisti
-headerImg: "/images/vs.jpg"
+headerImg: '/images/vs.jpg'
 description: 'Siete generalisti o specialisti? In questo articolo proviamo a scoprire
   cosa conviene fare alle aziende in base al loro ciclo di vita. '
-
 ---
 
 Oggi voglio riproporre in Italiano un articolo di una persona molto skillata sulle tecnologie web, Nicolas Zakas. Zakas è autore di ESLint e ha scritto [questo libro su Javascript](http://amzn.to/2mKc6gl) che ho letto per metà e che mi ha dato le basi per capire Javascript dal di dentro, ossia tutte le sue parti più nascoste come scoping, prototyping, type system, object model, etc.
@@ -59,8 +58,8 @@ Facile no?
 
 La risposta può variare, ma per sommi capi potremmo pensare a queste situazioni:
 
-* quando le cose sono veramente messe male. Ossia quando il lavoro che era "abbastanza buono" ora è diventato un totale casino.
-* quando ci si vuole muovere su un'area completamente nuova e bisogna farlo in fretta (es. Quando si ha già una webApp e si deve creare subito una app mobile)
+- quando le cose sono veramente messe male. Ossia quando il lavoro che era "abbastanza buono" ora è diventato un totale casino.
+- quando ci si vuole muovere su un'area completamente nuova e bisogna farlo in fretta (es. Quando si ha già una webApp e si deve creare subito una app mobile)
 
 ## chi deve condurre l'intervista
 

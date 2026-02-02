@@ -8,12 +8,13 @@ layout: post
 tags:
 headerImg: /images/nodemon.svg
 ---
+
 Are you frustrated when you hit an error in your NodeJS application because, after a crash, you have to restart it? Do you want to _immediately_ see the app restarted when you change a file? With **Nodemon** this will never be a problem again.
 
 When you start a NodeJS application, you usually do something like this:
 
 ```shell
-node app.js 
+node app.js
 ```
 
 but what if the app crashes? What if you change the content of a file? we must return to the terminal and start it again! What a waste of time!
@@ -25,13 +26,13 @@ That's what [_nodemon_](https://github.com/remy/nodemon) is for. It will restart
 Simply install it globally
 
 ```shell
-npm install -g nodemon 
+npm install -g nodemon
 ```
 
 and start your applications with nodemon:
 
 ```shell
-nodemon app.js 
+nodemon app.js
 ```
 
 You can also pass parameters via command line, if you need it; nodemon will handle everything for you.

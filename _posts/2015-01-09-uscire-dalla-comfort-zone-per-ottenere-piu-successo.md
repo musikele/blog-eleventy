@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=43
 permalink: /2015/01/uscire-dalla-comfort-zone-per-ottenere-piu-successo/
 headerImg: /uploads/2015/01/ribot-divano-in-pelle-berto-salotti.jpg
 dsq_thread_id:
-  - "3958634001"
+  - '3958634001'
 categories:
   - Italiano
 tags:
@@ -27,7 +27,7 @@ Il brutto è che finché siamo incatenati nella nostra comfort zone, ci sentiamo
 
 Sorpresa: non serve essere dei super esperti. E' difficile trovare superstar di livello galattico, quindi esistono persone disposte a concedervi un giro fuori dalla vostra comfort zone, a patto che voi vogliate mettercela tutta. Loro vi danno fiducia (sanno benissimo che è una cosa che non avete mai fatto!), voi non dovete cercare alibi: dovete imparare in fretta, e molto spesso è così che accade, anche senza che ci sia io a consigliarvelo.
 
-Quando nella mia azienda si è aperta la possibilità di occupare il ruolo di [Scrum Master](http://it.wikipedia.org/wiki/Scrum_%28informatica%29),  mi ci sono buttato a capofitto. Non tanto perchè lo sapessi fare (lo avevamo appena adottato!) ma l'idea di fare qualcosa di nuovo mi eccitava terribilmente. Non è stato un percorso facile, in due anni ne ho combinate di cotte e di crude, però è qualcosa che ora ho nel mio bagaglio di esperienze e se dovesse capitare un'altra occasione, non mi sentirei a disagio. E' questo che chiedo anche a voi! Appena c'è un'occasione che vi piace, proponetela al vostro manager, vedete che ne pensa di affidare quel compito proprio a VOI.
+Quando nella mia azienda si è aperta la possibilità di occupare il ruolo di [Scrum Master](http://it.wikipedia.org/wiki/Scrum_%28informatica%29), mi ci sono buttato a capofitto. Non tanto perchè lo sapessi fare (lo avevamo appena adottato!) ma l'idea di fare qualcosa di nuovo mi eccitava terribilmente. Non è stato un percorso facile, in due anni ne ho combinate di cotte e di crude, però è qualcosa che ora ho nel mio bagaglio di esperienze e se dovesse capitare un'altra occasione, non mi sentirei a disagio. E' questo che chiedo anche a voi! Appena c'è un'occasione che vi piace, proponetela al vostro manager, vedete che ne pensa di affidare quel compito proprio a VOI.
 
 ![/uploads/2015/01/wherethemagichappens.jpg](/uploads/2015/01/wherethemagichappens.jpg)
 

@@ -11,11 +11,12 @@ tags:
   - elon musk
   - Scifi
 categories: Italiano
-headerImg: "/images/Rick-And-Morty-Stagione-3.jpg"
+headerImg: '/images/Rick-And-Morty-Stagione-3.jpg'
 description: Scienziati di fama internazionale credono che viviamo in una simulazione,
   ma un esperimento potrebbe aver finalmente provato che non è così.
 category: Italiano
 ---
+
 Esitono persone che ritengono che [viviamo in una grande, enorme simulazione al computer](http://www.lescienze.it/news/2016/04/16/news/universo_simulazione_computer-3054787/), magari realizzata da una civiltà aliena che ci sfrutta o ci osserva, manco fossimo al Grande Fratello.
 
 <!--more-->
@@ -24,7 +25,7 @@ Se non avete ancora chiuso il browser, sappiate che tra i sostenitori di questa 
 
 ### Perché credere alla simulazione...
 
-non esistono prove, ma supposizioni e indizi. Ad esempio, il fatto che l'universo sembra avere un inizio temporale e dei confini fisici ben precisi. Il fatto che gli atomi si possano dividere in  Quark, ma fino a un certo punto: poi sono indivisibili. Quindi, questo fatto che il mondo analogico avesse dei limiti discreti era la prima causa di sospetto per la frangia più _sci-fi_ della scienza. 
+non esistono prove, ma supposizioni e indizi. Ad esempio, il fatto che l'universo sembra avere un inizio temporale e dei confini fisici ben precisi. Il fatto che gli atomi si possano dividere in Quark, ma fino a un certo punto: poi sono indivisibili. Quindi, questo fatto che il mondo analogico avesse dei limiti discreti era la prima causa di sospetto per la frangia più _sci-fi_ della scienza.
 
 ![]({{ site.baseurl }}/images/Rick-And-Morty-Stagione-3.jpg)
 
@@ -42,9 +43,9 @@ La "scoperta", per questi scienziati, è che questo particolare fenomeno sembra 
 
 Ci sono ancora troppe variabili in gioco per poter dire che la questione sia conclusa. Alcune delle domande a cui onestamente non sappiamo dare una risposta:
 
-* E se gli scienziati avessero sbagliato l'algoritmo, o i calcoli?
-* E se la simulazione non fosse possibile con le tecnologie attuali, ma lo sarà con quelle del futuro?
-* E se gli alieni che hanno programmato la nostra simulazione avessero deliberatamente inserito dei "glitch" all'interno del nostro universo per non farci andare troppo oltre?
-* Che senso ha vivere (e morire) se siamo in una simulazione che dura da 13.82 miliardi di anni?
-* Gli universi paralleli sono altre simulazioni lanciate in contemporanea alla nostra, ma con dati iniziali diversi?
-* **Le bollette, le rate del finanziamento e il mutuo sono reali?**
+- E se gli scienziati avessero sbagliato l'algoritmo, o i calcoli?
+- E se la simulazione non fosse possibile con le tecnologie attuali, ma lo sarà con quelle del futuro?
+- E se gli alieni che hanno programmato la nostra simulazione avessero deliberatamente inserito dei "glitch" all'interno del nostro universo per non farci andare troppo oltre?
+- Che senso ha vivere (e morire) se siamo in una simulazione che dura da 13.82 miliardi di anni?
+- Gli universi paralleli sono altre simulazioni lanciate in contemporanea alla nostra, ma con dati iniziali diversi?
+- **Le bollette, le rate del finanziamento e il mutuo sono reali?**

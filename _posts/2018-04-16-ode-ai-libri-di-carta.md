@@ -10,12 +10,13 @@ tags:
   - libri
   - ebook
   - carta
-description: 'Da ieri sera sono tornato alla carta, con l''obiettivo di trovare una
-  strategia per finire i due libri digitali e non comprarne mai più. '
-headerImg: "/images/kindle-vs-books.jpg"
+description: "Da ieri sera sono tornato alla carta, con l'obiettivo di trovare una
+  strategia per finire i due libri digitali e non comprarne mai più. "
+headerImg: '/images/kindle-vs-books.jpg'
 ---
-![](/images/kindle-vs-books.jpg)  
-  
+
+![](/images/kindle-vs-books.jpg)
+
 Ci ho provato, attratto dall'idea di portarmi un solo dispositivo dietro con tutti i libri che volevo leggere.
 
 Ho provato anche altre varianti, tipo il _kindle_ (che non trovo più!), il _tablet_ tradizionale, il _phablet_.
@@ -24,10 +25,10 @@ Leggere su questi dispositivi è scomodo, stancante, e soprattutto impossibile. 
 
 E mentre attendo di completare il libro sullo [state management in React](https://leanpub.com/taming-the-state-in-react), libro piacevolissimo per carità, ma comunque digitale, la pila di libri di carta sul mio comodino cresceva insieme ai sensi di colpa.
 
-Così ieri sera sono tornato alla carta, con l'obiettivo di trovare una strategia per finire i due libri digitali e non comprarne mai più. 
+Così ieri sera sono tornato alla carta, con l'obiettivo di trovare una strategia per finire i due libri digitali e non comprarne mai più.
 
-Sono consapevole che prendere tutto di carta significa comprare un mucchio di roba (tecnica) che nel giro di pochi mesi potrebbe risultare obsoleta. 
+Sono consapevole che prendere tutto di carta significa comprare un mucchio di roba (tecnica) che nel giro di pochi mesi potrebbe risultare obsoleta.
 
-Dopo aver sperimentato il problema, sono giunto alla conclusione che **il miglior supporto è quello che scompare per lasciare spazio al contenuto.** 
+Dopo aver sperimentato il problema, sono giunto alla conclusione che **il miglior supporto è quello che scompare per lasciare spazio al contenuto.**
 
-E voi cosa preferite? libri o digital? 
+E voi cosa preferite? libri o digital?

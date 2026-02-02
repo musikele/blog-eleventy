@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=161
 permalink: /2015/02/scrivere-codice-migliore-rispondendo-a-12-semplici-domande/
 dsq_thread_id:
-  - "4000455381"
+  - '4000455381'
 headerImg: /uploads/2015/02/code-hero-580x230.png
 categories:
   - Italiano
@@ -21,18 +21,18 @@ Qualcuno (per la precisione, uno dei creatori del celeberrimo Stack Overflow) ne
 
 Ecco il famigerato questionario:
 
-  1. Usate un sistema di source control?
-  2. Potete realizzare una build del sistema in un solo step?
-  3. Create una build giornaliera?
-  4. Avete un database dei bug?
-  5. Risolvete i bug prima di scrivere nuovo codice?
-  6. Avete una pianificazione aggiornata delle cose da fare?
-  7. Avete una specifica scritta di cosa devi fare?
-  8. I programmatori hanno condizioni lavorative tranquille?
-  9. Usate i migliori tool che potete permettervi?
-  10. Avete tester allocati sul progetto?
-  11. I candidati al ruolo di programmatore scrivono codice durante il colloquio?
-  12. Effettuate test di usabilità minimi?
+1. Usate un sistema di source control?
+2. Potete realizzare una build del sistema in un solo step?
+3. Create una build giornaliera?
+4. Avete un database dei bug?
+5. Risolvete i bug prima di scrivere nuovo codice?
+6. Avete una pianificazione aggiornata delle cose da fare?
+7. Avete una specifica scritta di cosa devi fare?
+8. I programmatori hanno condizioni lavorative tranquille?
+9. Usate i migliori tool che potete permettervi?
+10. Avete tester allocati sul progetto?
+11. I candidati al ruolo di programmatore scrivono codice durante il colloquio?
+12. Effettuate test di usabilità minimi?
 
 Il bello di questo test è che è facile rispondere; altri sistemi richiedono di calcolare il numero di bug per commit e cose simili, e non sono dunque rapidi. _Ovviamente non è un test da utilizzare per testare la sicurezza di una centrale nucleare_ 🙂
 

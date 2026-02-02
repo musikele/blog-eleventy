@@ -9,13 +9,13 @@ tags:
   - ssh
   - tutorial
 title: 'SSH cheatsheet (from zero to hero) '
-headerImg: "/images/ssh-big.png"
-description: 'SSH is one of the fundamental tools you must master to become a successful
-  developer. In this article we''ll talk about using it for advanced configurations,
+headerImg: '/images/ssh-big.png'
+description: "SSH is one of the fundamental tools you must master to become a successful
+  developer. In this article we'll talk about using it for advanced configurations,
   like logging to remote server without password, configuring a tunnel, monitoring
-  ssh connections '
-
+  ssh connections "
 ---
+
 SSH is one of the basic commands you need to master, no matter what's your platform of choice. Because you'll always end up working on some random server, and you'll have to login to see logs or restarting services. Also, you'll never see it as a _skill to show_ because it's implicit that you have to know how to use it, at least for logging in to some website.
 
 Here is a little cheatsheet of the most important commands (and tricks) you might find useful.
@@ -50,12 +50,12 @@ Now that we have SSH set up on our computer, let's see how we can login to a rem
 
 There are two ways to log in to a remote server:
 
-* by typing the remote user's password,
-* by using your private/public key.
+- by typing the remote user's password,
+- by using your private/public key.
 
 We will talk about the second option from now on.
 
-What we want to do now is to register our public key on the server. I want to remain  practical in this article, but if you need some deep explanation of what happens during the login process I suggest you to [follow this link](https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process "How SSH works").
+What we want to do now is to register our public key on the server. I want to remain practical in this article, but if you need some deep explanation of what happens during the login process I suggest you to [follow this link](https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process 'How SSH works').
 
 There's a simple command to set up the ssh key on a remote server (run on your local computer):
 
@@ -82,7 +82,7 @@ $ ssh 123.123.123.123
 musikele@123.123.123.123's password:
 ```
 
-... but if you're logging in to a corporate machine you don't have a user set up with your  username. So we prefix the host address with the remote user, like this:
+... but if you're logging in to a corporate machine you don't have a user set up with your username. So we prefix the host address with the remote user, like this:
 
 ```bash
 $ ssh remote_user@123.123.123.123
@@ -92,10 +92,10 @@ We're in!
 
 Other useful options:
 
-* `-p 2222` is used to specify the port to use. Default port for SSH is 22.
-* `-i /path/to/alternate/key` is used to speficy another _private_ key you want to use instead of the default one. You can have as many public/private keys you want, and they an be in different files or in different paths.
-* `-f` runs ssh in the background (you'll see later when to use it)
-* `-N` does not open a window.
+- `-p 2222` is used to specify the port to use. Default port for SSH is 22.
+- `-i /path/to/alternate/key` is used to speficy another _private_ key you want to use instead of the default one. You can have as many public/private keys you want, and they an be in different files or in different paths.
+- `-f` runs ssh in the background (you'll see later when to use it)
+- `-N` does not open a window.
 
 to run only one command and exit, simply write the command after the ssh connection string:
 
@@ -138,7 +138,7 @@ This is a real time saver tip ;)
 
 One of the most common actions we want to do with our remote servers is to copy files from and to it. The handy command **scp** will help us doing this.
 
-To  transfer a file from local host to a remote one:
+To transfer a file from local host to a remote one:
 
 ```bash
 scp bar.txt mark@123.123.123.123:~/
@@ -150,8 +150,8 @@ Whatever is after the `:` is the path on the remote server. If the path starts w
 
 Some other handy options for this command are:
 
-* `-P` for the port (note that for the regular ssh we used `-p` lowercase)
-* `-r` for a recursive copy of a folder
+- `-P` for the port (note that for the regular ssh we used `-p` lowercase)
+- `-r` for a recursive copy of a folder
 
 And of course, if you want to copy from a remote host to your local pc:
 
@@ -171,20 +171,20 @@ ssh -L 8000:yahoo.com:80 mark@myhost.com
 
 In this case:
 
-* your computer will listen on port `localhost:8000`
-* when a packet is sent at `localhost:8000` it will reach `myhost.com`
-* ssh daemon at `myhost.com` will redirect to `yahoo.com:80`
-* responses follow the same path.
+- your computer will listen on port `localhost:8000`
+- when a packet is sent at `localhost:8000` it will reach `myhost.com`
+- ssh daemon at `myhost.com` will redirect to `yahoo.com:80`
+- responses follow the same path.
 
 This technique can be useful to access a server on a private network. The only problem is that we also log in to `myhost.com` and the connection stays open until we exit from the remote session.
 
-Combining with options  `-f -N` ,  we run the tunnel and return to the localhost computer:
+Combining with options `-f -N` , we run the tunnel and return to the localhost computer:
 
 ```bash
 ssh -f -N -L 8000:yahoo.com:80 mark@myhost.com
 ```
 
-Another great use for tunneling is to redirect  traffic from the ssh server to your local host. Imagine to hit `myhost.com:8000` but the traffic is redirected to `localhost:3000`. This is useful for debugging, or to set up proxies, etc.
+Another great use for tunneling is to redirect traffic from the ssh server to your local host. Imagine to hit `myhost.com:8000` but the traffic is redirected to `localhost:3000`. This is useful for debugging, or to set up proxies, etc.
 
 Remote tunneling is disabled by default; to enable, open the config file:
 
@@ -200,14 +200,14 @@ ssh -R 8000:localhost:3000 mark@myhost.com
 
 What's happening here:
 
-* port `8000` on server `myhost.com` is exposed (be sure that it's reachable, for example by setting port forwarding on gateways if you have)
-* when you connect to port `myhost.com:8000` the data is sent to `localhost:3000`
-* eventual responses will flow back on the same route.
+- port `8000` on server `myhost.com` is exposed (be sure that it's reachable, for example by setting port forwarding on gateways if you have)
+- when you connect to port `myhost.com:8000` the data is sent to `localhost:3000`
+- eventual responses will flow back on the same route.
 
 ## Escape sequences
 
-* To stop a blocked ssh connection hit `<ENTER>` then write: `~.` (tilde fullstop).
-* Another escape sequence is `~ CTRL-Z` (tilde character + CTRL + Z). The ssh connection will be moved to background. To resume, type `fg`. Remember to hit `<ENTER>` if you have written anything before.
+- To stop a blocked ssh connection hit `<ENTER>` then write: `~.` (tilde fullstop).
+- Another escape sequence is `~ CTRL-Z` (tilde character + CTRL + Z). The ssh connection will be moved to background. To resume, type `fg`. Remember to hit `<ENTER>` if you have written anything before.
 
 ## Verify SSH fingerprints
 
@@ -217,8 +217,8 @@ However, sometimes keys on remote servers will change and our machine will not b
 
 In order to check the new fingerprint of a remote server:
 
-* connect to the remote server (e.g. `ssh root@123.123.123.123`) with password
-* on remote host, launch:
+- connect to the remote server (e.g. `ssh root@123.123.123.123`) with password
+- on remote host, launch:
 
 ```bash
 $ ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub
@@ -226,7 +226,7 @@ $ ssh-keygen -l -f /etc/ssh/ssh_host_ecdsa_key.pub
 
 The output of the command is the fingerprint of the key.
 
-* on localhost, launch:
+- on localhost, launch:
 
 ```bash
 $ ssh-keygen -R 123.123.123.123
@@ -234,7 +234,7 @@ $ ssh-keygen -R 123.123.123.123
 
 This will remove the line associated with `123.123.123.123` in the `~/.ssh/known_hosts` file.
 
-* finally, connect again to the remote server:
+- finally, connect again to the remote server:
 
 ```bash
 $ ssh root@123.123.123.123
@@ -248,12 +248,12 @@ The remote host will show its fingerprint, and it should match the one calculate
 
 You can imagine why a ssh connection for the root account can be a bad thing. Fortunately It can be disabled.
 
-* launch `vi /etc/ssh/sshd_config`. This file contains a bunch of options for ssh.
-* Search for `PermitRootLogin` and set to `no` to avoid root login.
+- launch `vi /etc/ssh/sshd_config`. This file contains a bunch of options for ssh.
+- Search for `PermitRootLogin` and set to `no` to avoid root login.
 
 ### Prohibit password access
 
-Another value for this setting is `prohibit-password`. This way you can only connect via public/private key.  You can disable password authentication by setting `PasswordAuthentication` option to `no`.
+Another value for this setting is `prohibit-password`. This way you can only connect via public/private key. You can disable password authentication by setting `PasswordAuthentication` option to `no`.
 
 If you want to accept connections only for a specific set of users, or only users that come from a specific IP, you can set `AllowUsers` option like this:
 
@@ -265,14 +265,12 @@ Remember to restart the server with `service ssh restart`.
 
 To check malicious/suspicious activity we have some tools that come at help.
 
-* `vi /var/log/auth.log` contains all the informations about who tried to log in the system, with other info like the IP, etc.
-* command `lastlog` will show last logs from all users of the system.
-* `lastlog -u mark` will display last logs for user `mark`.
+- `vi /var/log/auth.log` contains all the informations about who tried to log in the system, with other info like the IP, etc.
+- command `lastlog` will show last logs from all users of the system.
+- `lastlog -u mark` will display last logs for user `mark`.
 
-For example, we may see that our employee `mark` is connecting to the server, but at strange hours. So we can ask mark to  `cat ~/bash_history` and check his latest commands.  We can use this info to check if he legitimately accessed the machine, or if it was a hacker.
+For example, we may see that our employee `mark` is connecting to the server, but at strange hours. So we can ask mark to `cat ~/bash_history` and check his latest commands. We can use this info to check if he legitimately accessed the machine, or if it was a hacker.
 
 ### That's all folks
 
 This article is nothing more than a summary of what I learned by following [this excellent ssh course from Egghead](https://egghead.io/courses/ssh-for-remote-server-authentication). I think they are great and deserve a paid subscription.
-
-

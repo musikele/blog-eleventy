@@ -10,16 +10,15 @@ permalink: dev-vs-company-expectation-hiring/
 description: Company tend to hire people that already knows the technologies they
   use; devs tend to stick in teams they love to work with. Is there space for fixing
   the hiring problem?
-headerImg: "/images/pexels-nappy-935977.jpg"
+headerImg: '/images/pexels-nappy-935977.jpg'
 tags:
-- work
-- " hiring"
-- job
-- team
-- software development
-
-
+  - work
+  - ' hiring'
+  - job
+  - team
+  - software development
 ---
+
 Whenever I scroll a job board, I have a feeling that the things that matter to a company are (in _their_ order of importance):
 
 1. The technologies that the candidate knows.
@@ -46,13 +45,13 @@ _Enterprises_, on the other hand, have thousand of teams (and open positions) an
 
 In this field, only a few companies try to do something upfront and usually they do it unconsciously; for example:
 
-* try to let the candidate speak to as many people as possible, from future colleagues to managers;
-* try to understand, during whiteboard/coding assessments, if the candidate is not only competent but also nice to work with;
-* "hire and wait", i.e. you hire a candidate and if he is crap you fire him. If the candidate does not create problems to the team, we can safely assume he is a good fit. Good job, recruiters!
+- try to let the candidate speak to as many people as possible, from future colleagues to managers;
+- try to understand, during whiteboard/coding assessments, if the candidate is not only competent but also nice to work with;
+- "hire and wait", i.e. you hire a candidate and if he is crap you fire him. If the candidate does not create problems to the team, we can safely assume he is a good fit. Good job, recruiters!
 
 **The sad reality is that the third option ("hire and wait") is the most used** by all companies; nobody really cares that the team is happy with the new hire until the new hire is a problem.
 
-***
+---
 
 Apart from the fact that job searching is **time consuming** for both parties, I see another BIG problem here. From the developer perspective, here's the list of priorities:
 
@@ -60,7 +59,7 @@ Apart from the fact that job searching is **time consuming** for both parties, I
 2. the product being built is one that I can help build.
 3. Lastly, I'm really zero-concerned about the technologies being used.
 
-... exactly the inverse of the previous list, LOL. 
+... exactly the inverse of the previous list, LOL.
 
 ## 1. Is the team a good fit for me?
 
@@ -90,10 +89,10 @@ After a few years, I found myself working in Typescript, Docker, NodeJS, Python 
 
 **The problem**: companies want to hire people that is using the same stack because they want to minimize new hire's time-to-code.
 
-***
+---
 
 ## Can we fix this?
 
 1. there's nothing wrong in assessing the candidate skills; but **please, companies, do not decide who to hire based only on their knowledge of a specific language...** Nobody can know everything but everyone that take this job seriously can learn almost everything in no time. Yes, the price to pay is the mentorship for the first few weeks. But that would happen anyway. And th price of a bad hire is much higher.
 2. As a company, **am I hiring a _robocoder_ - one that can code everything but with zero idea of what the product is supposed to do - or a _thinking head_?** The first ones may produce great code, without any value to the company. The assumption here is that your company has a very good Specs Department that will exactly define every task with inputs and outputs, without errors, inaccuracies, conflicts. If you have that, coooooool but... i don't beleve you :D So, thinking heads - that study also the domain problem, the users, the
-3. **The power of a good, cohese team is that they know how to make things done  better than a single individual**. My advice is to let team members - of the team where the new hire will be put - to meet and interview candidates and decide who to integrate into their family.
+3. **The power of a good, cohese team is that they know how to make things done better than a single individual**. My advice is to let team members - of the team where the new hire will be put - to meet and interview candidates and decide who to integrate into their family.

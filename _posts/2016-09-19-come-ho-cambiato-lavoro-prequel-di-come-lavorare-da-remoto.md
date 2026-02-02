@@ -7,12 +7,13 @@ layout: post
 guid: http://michelenasti.com/?p=860
 permalink: /2016/09/come-ho-cambiato-lavoro-prequel-di-come-lavorare-da-remoto/
 dsq_thread_id:
-  - "5155314969"
+  - '5155314969'
 categories:
   - Italiano
 tags:
 headerImg: /uploads/2016/09/remote-working.jpg
 ---
+
 Vi ricordate che ho [cambiato lavoro](http://michelenasti.com/2016/06/cambio-lavoro-alla-scoperta-del-remote-working/)? E'giunto il momento di parlarne un po'.
 
 ## Per chi lavori?

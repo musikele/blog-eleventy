@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=572
 permalink: /2016/01/saro-al-codemotion-2016-roma/
 dsq_thread_id:
-  - "4534256642"
+  - '4534256642'
 categories:
   - Italiano
 tags:
@@ -16,6 +16,7 @@ tags:
   - hapi
   - node.js
 ---
+
 Anche quest'anno parteciperò al [Codemotion 2016](http://rome2016.codemotionworld.com/) di Roma, che per distanza geografica è anche la più facile da raggiungere. Quest'anno una tiratina di orecchie va proprio allo staff, che ha messo il biglietto "starter" al doppio dell'anno scorso. Maledetti!
 
 Nonostante questo ho deciso di partecipare anche a un [workshop](http://rome2016.codemotionworld.com/workshop/developing-rest-apis-with-node-js-and-hapi/), ossia un evento "hands-on" in cui mi sporcherò le mani con node.js e un framework, HAPI, di cui non sospettavo nemmeno l'esistenza.

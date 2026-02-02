@@ -5,15 +5,16 @@ date: 2016-06-25 11:22:11
 author: musikele
 layout: post
 guid: http://michelenasti.com/?p=765
-permalink: "/2016/06/come-scrivere-un-annuncio-di-lavoro-efficace/"
+permalink: '/2016/06/come-scrivere-un-annuncio-di-lavoro-efficace/'
 dsq_thread_id:
-- '4937597260'
+  - '4937597260'
 categories:
-- Italiano
+  - Italiano
 tags:
   - lavoro
 ---
-L'articolo sul mio [cambio lavoro](http://wp.me/p5zVKm-bk) ha riscosso qualche successo (wow!), e qualcuno mi ha chiamato per sapere dove fossi finito, che stessi facendo, etc. 
+
+L'articolo sul mio [cambio lavoro](http://wp.me/p5zVKm-bk) ha riscosso qualche successo (wow!), e qualcuno mi ha chiamato per sapere dove fossi finito, che stessi facendo, etc.
 
 In particolare una persona, dopo avermi contattato per farmi gli auguri, mi ha chiesto un aiuto: per il suo studio di comunicazione deve trovare uno **sviluppatore full stack con caratteristiche “senior”** ma non ha risorse, per così dire, infinite.
 
@@ -31,7 +32,7 @@ Inoltre un neolaureato (o comunque una persona alle prime armi) é più disposta
 
 Questo mio amico ha una web agency che non fa lavori banali; scrivere un annuncio richiedendo un elenco di tecnologie é il modo migliore per far scappare qualunque aspirante. Io avrei riscritto l'annuncio così:
 
-> _ciao, siamo la Web Agency \[...\].  Ci occupiamo di questo e quello, siamo specializzati in sviluppo web ma anche di applicazioni mobile. I nostri clienti vogliono app belle da vedere, rapide e funzionali. Siamo sempre attenti agli ultimi trend e cerchiamo di offrire a chi lavora con noi la possibilità di imparare le ultime tecnologie del settore._
+> _ciao, siamo la Web Agency \[...\]. Ci occupiamo di questo e quello, siamo specializzati in sviluppo web ma anche di applicazioni mobile. I nostri clienti vogliono app belle da vedere, rapide e funzionali. Siamo sempre attenti agli ultimi trend e cerchiamo di offrire a chi lavora con noi la possibilità di imparare le ultime tecnologie del settore._
 
 > _Stiamo cercando un giovane, anche alla prima esperienza, che voglia mettersi in gioco e aiutarci nel soddisfare i nostri clienti. Se pensi che il mondo del web ti piaccia, se pensi che le nuove tecnologie siano migliori delle vecchie, scrivici!_
 

@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=333
 permalink: /2015/07/alcune-best-practices-per-non-impazzire-con-i-db-relazionali/
 dsq_thread_id:
-  - "3969405603"
+  - '3969405603'
 categories:
   - Italiano
 tags:
@@ -16,6 +16,7 @@ tags:
   - RDBMS
   - sql
 ---
+
 Cerchiamo di avere poche ma semplici regole di gestione del DB che servono a non impazzire in futuro, fin'ora quelle più semplici che ho usato e che hanno portato alla miglior comprensione possibile (parlo di un team di 30 devs) è:
 
 - **Chiamare tutte le tabelle al singolare** (es. PRODOTTO e non PRODOTTI)

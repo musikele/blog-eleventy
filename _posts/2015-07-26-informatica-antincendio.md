@@ -7,12 +7,13 @@ layout: post
 guid: http://michelenasti.com/?p=356
 permalink: /2015/07/informatica-antincendio/
 dsq_thread_id:
-  - "3973298639"
+  - '3973298639'
 categories:
   - Italiano
 tags:
 headerImg: /uploads/2015/07/11717487_10207324270535115_1576077260777951752_o.jpg
 ---
+
 Si: l'articolo che sto per scrivere parla proprio di questo: **Informatica Antincendio**.
 
 E' che dietro casa mia ci sono almeno 2 incendi all'anno, e la collina che sovrasta casa mia è praticamente brulla e senza alberi.
@@ -23,19 +24,19 @@ Sembra fantascienza, però ci ho pensato e non è un'idea tanto campata in aria.
 
 Ecco tutto quello che so a riguardo, avendone spenti almeno due all'anno negli ultimi dieci.
 
-* sono di matrice umana, c'è un piromane e tutti stiamo aspettando che muoia.
-* Il piromane guarda il meteo e sceglie sempre il giorno migliore per farlo.
-* Quando si sviluppa un incendio, in genere il meteo è 
-  * ventoso
-  * caldo
-  * non dovrà piovere il giorno sucessivo
+- sono di matrice umana, c'è un piromane e tutti stiamo aspettando che muoia.
+- Il piromane guarda il meteo e sceglie sempre il giorno migliore per farlo.
+- Quando si sviluppa un incendio, in genere il meteo è
+  - ventoso
+  - caldo
+  - non dovrà piovere il giorno sucessivo
 
 Potremmo creare un database con gli ultimi incendi e memorizzare queste info:
 
-* data e ora di quando è partito l'incendio
-* temperatura
-* direzione e forza del vento
-* meteo del giorno successivo.
+- data e ora di quando è partito l'incendio
+- temperatura
+- direzione e forza del vento
+- meteo del giorno successivo.
 
 L'idea è che se il giorno successivo piove non ha senso appiccare un incendio. Le informazioni sulla direzione del vento sono utili per predire dove sarà appiccato il fuoco: se il vento soffia a Nord conviene appiccare l'incendio a Sud.
 

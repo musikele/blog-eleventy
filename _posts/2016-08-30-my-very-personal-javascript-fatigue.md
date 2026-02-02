@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=845
 permalink: /2016/08/my-very-personal-javascript-fatigue/
 dsq_thread_id:
-  - "5107340415"
+  - '5107340415'
 categories:
   - English
 tags:
@@ -15,6 +15,7 @@ tags:
   - testing
 headerImg: /uploads/2016/08/js-fatigue.jpg
 ---
+
 Trying to write this post as a 2007 blog post: personal, not so politically correct. (I'm not involved in JS politics by the way)
 
 Well, In 2007 I was already studying **Javascript**, **HTML** and **CSS**, and I vividly remember that I **HATED** the web world because different browsers were doing crazy stuff for the same instruction. These were the good ol' _HTML 4_ days.
@@ -39,7 +40,7 @@ Well, this can be an explanation, but not a great one.
 
 Uhm ... we are reaching the point ...
 
-> **Testing in javascript is f\*\*\*ing difficult
+> \*\*Testing in javascript is f\*\*\*ing difficult
 
 Now that's the truth, ol' boy. Let's dive into it.
 
@@ -49,11 +50,11 @@ Now that's the truth, ol' boy. Let's dive into it.
 
 I decided to revamp a very old project, written in Java and Swing (yes, it was a standalone application, that's how computers worked in 2010). In 2016, since browsers can do better things than before, I have decided to rewrite everything in javascript and to write the frontend in something that is more mantainable.
 
-I decided to write my stuff in angular 1 (I know it very well and since I have no spare time this was the only option for me). As a build tool, i have decided to use [Gulp](http://gulpjs.com/) + [Browserify](http://browserify.org/). For those who don't know what Browserify is, well, it's a JS library that lets you import other javascript modules exactly like NodeJs (so, you would use `require('./TimerService')`  to import it in your file). This has given me the ability to decouple angular from the actual JS code. Another advantage is that I can test it better, since it's only Javascript.
+I decided to write my stuff in angular 1 (I know it very well and since I have no spare time this was the only option for me). As a build tool, i have decided to use [Gulp](http://gulpjs.com/) + [Browserify](http://browserify.org/). For those who don't know what Browserify is, well, it's a JS library that lets you import other javascript modules exactly like NodeJs (so, you would use `require('./TimerService')` to import it in your file). This has given me the ability to decouple angular from the actual JS code. Another advantage is that I can test it better, since it's only Javascript.
 
 What about Gulp? Gulp is a build tool that can do a lot of stuff for you. I use it to trigger actions everytime I save a file, like running a syntax checker and convert my ES6 code to more ~~archaic~~ compatible ES5.
 
-I also run my unit tests everytime I hit `Ctrl+S`  (save).
+I also run my unit tests everytime I hit `Ctrl+S` (save).
 
 ### How do you write unit tests in Javascript?
 
@@ -61,15 +62,15 @@ It would be great to just say, "use this!" and we're happy. In Javascript there 
 
 One library? NO! In JS, at least for browser testing, you need:
 
-* a test runner, like [`karma`](https://karma-runner.github.io/1.0/index.html)
-* a library to actually write the tests, like [`mocha`](https://mochajs.org/)
-* an assertion library, like [`chai`](http://chaijs.com/)
+- a test runner, like [`karma`](https://karma-runner.github.io/1.0/index.html)
+- a library to actually write the tests, like [`mocha`](https://mochajs.org/)
+- an assertion library, like [`chai`](http://chaijs.com/)
 
 WTF, again? 3 libraries to do something that `JUnit` (for Java) does alone ?? This is an **example of the over-populated, github-based, quality-variegated NPM package manager**.
 
 These 3 pieces of software still don't have many years of maturity on their shoulders, and are not immune to bugs (which are promptly resolved, however). I have found one in mocha, for example, and I could not figure out until I upgraded.
 
-Once you understand how to use these three libraries, then you have to actually write tests for your application: I don't have words to describe how difficult is to test a function that uses multiple `setTimeout()`  in the code (it's an audio player, and deals with timing...). And now my next step in this journey is to mock stuff.
+Once you understand how to use these three libraries, then you have to actually write tests for your application: I don't have words to describe how difficult is to test a function that uses multiple `setTimeout()` in the code (it's an audio player, and deals with timing...). And now my next step in this journey is to mock stuff.
 
 Another discovery I want to share with you (well, it's not a discovery, since it's on `chai` 's web page): you can check the test correctness in two ways, the `assert` way (like the one used in JUnit), or via a "behavioural" testing definition, something like "`expect(this).to.be.greaterThan(that)` ". two syntaxes for the same thing.
 

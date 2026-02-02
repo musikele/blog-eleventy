@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=140
 permalink: /2015/02/attenti-alla-classe-active-delle-progress-bar-bootstrap-3/
 dsq_thread_id:
-  - "3990321065"
+  - '3990321065'
 headerImg: /uploads/2015/02/bootstrap-3-progress-bars.jpg
 categories:
   - English
@@ -16,6 +16,7 @@ tags:
   - performance
   - progress bar
 ---
+
 Yesterday a coworker calls me because he wants to understand why, **after loading the search results on a given page, we had an active CPU running**. In fact, after the data is loaded, the CPU goes from 10% to20% without any apparent cause.
 
 Astonished, we started to find out all the possible causes to this.

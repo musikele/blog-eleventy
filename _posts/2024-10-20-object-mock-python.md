@@ -5,7 +5,7 @@ title: A class that behaves like an Object and like a Dict in Python
 description: For fun and learning, I developed a class that behaves like a dict and an object. Let's see how it works
 headerImg: '/images/two-faces.webp'
 tags:
-- python
+  - python
 permalink: object-mock-python/
 eleventyExcludeFromCollections: false
 ---
@@ -21,9 +21,9 @@ But, in this article, I wanted to show a class that I wrote. I called it the **O
 In Javascript, you may know that you can do this:
 
 ```javascript
-const obj = {} 
-obj.prop1 = 33 
-obj["prop1"] = 44 
+const obj = {};
+obj.prop1 = 33;
+obj['prop1'] = 44;
 ```
 
 We have two different notations to access and set the same properties.
@@ -60,7 +60,7 @@ Let's see the code.
 class ObjectMock:
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
-    
+
     def __getitem__(self, key):
         return self.__dict__.get(key, None)
 
@@ -77,7 +77,7 @@ This was also a good exercise to learn a few Python features, so let's go a bit 
 
 In Object-Oriented world, classes can have a constructor to set the starting internal state.
 
-Every object in Python has this *not-so-well-hidden* property called `__dict__`. I must admit that once I found this out, I started using it everywhere, being bashed shortly after by my coworkers. In theory this property is "hidden" and by using it we're implicitly breaking the contract between the object and its clients. For example, we can have a `Person` with fields `name`, `surname`, and by tweaking `__dict__` we can add `engine`, which doesn't make any sense. In general there are other ways to access properties of an object in a sequential way.
+Every object in Python has this _not-so-well-hidden_ property called `__dict__`. I must admit that once I found this out, I started using it everywhere, being bashed shortly after by my coworkers. In theory this property is "hidden" and by using it we're implicitly breaking the contract between the object and its clients. For example, we can have a `Person` with fields `name`, `surname`, and by tweaking `__dict__` we can add `engine`, which doesn't make any sense. In general there are other ways to access properties of an object in a sequential way.
 
 I decided to use it here, because I'm not going to use this code in production. By accessing `self.__dict__` we can access the fields of the object like it was a `dict`, and we can use all the `dict` methods on it. Here we're saying, "pass all `kwargs` to the `update` method".
 
@@ -87,7 +87,7 @@ I decided to use it here, because I'm not going to use this code in production. 
 
 ### `__getitem__` and `__setitem__`
 
-These two functions implement the *magic* when we access the object with the **square brackets** notation. For exaple, when we do
+These two functions implement the _magic_ when we access the object with the **square brackets** notation. For exaple, when we do
 
 ```python
 obj = ObjectMock()
@@ -104,9 +104,9 @@ Note that `__setitem__` is implemented slightly different, by using a function c
 This function is instead called when we are defining a new prop using the dot notation:
 
 ```python
-obj = ObjectMock() 
+obj = ObjectMock()
 obj.prop = 'value' # calling __setattr__
-print(obj.prop) # it works but, where is __getattr__ ? 
+print(obj.prop) # it works but, where is __getattr__ ?
 ```
 
 Surprisingly, there's no need to implement `__getattr__`. Python will call the right property since it was internally set. (Python docs say: `__getattr__` is called only when default attribute access fails with `AttributeError`, and we're not in such scenario here).

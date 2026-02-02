@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=652
 permalink: /2016/04/gestire-le-dipendenze-frontend-con-bower/
 dsq_thread_id:
-  - "4783180565"
+  - '4783180565'
 categories:
   - Italiano
 tags:
@@ -15,11 +15,12 @@ tags:
   - frontend
 headerImg: /uploads/2016/04/bower-logo.png
 ---
+
 Avete un progetto web che include molte librerie esterne (angular, moment, jquery...)? Aggiornarle, gestirle e censirle sta diventando un problema? Nel corso degli anni sono usciti molti tool per la gestione delle dipendenze, e questo vale per ogni linguaggio di programmazione esistente al mondo; per il frontend una delle soluzioni più semplici da implementare è **bower** che con pochissimo sforzo si configura anche negli ambienti più ostici.
 
 # Bower
 
-**Bower** è un gestore delle dipendenze frontend, ossia gestice i file .js, e funziona in modo molto simile a Maven (se venite da tecnologie Java). Con **bower** è possibile definire un file (chiamato `bower.json`) in cui vengono inserite tutte le dipendenze della nostra webapp e gestirle con pochi  comandi. Obiettivo? ridurre la complessità, semplificare gli aggiornamenti, vivere più felici con il proprio team 😀
+**Bower** è un gestore delle dipendenze frontend, ossia gestice i file .js, e funziona in modo molto simile a Maven (se venite da tecnologie Java). Con **bower** è possibile definire un file (chiamato `bower.json`) in cui vengono inserite tutte le dipendenze della nostra webapp e gestirle con pochi comandi. Obiettivo? ridurre la complessità, semplificare gli aggiornamenti, vivere più felici con il proprio team 😀
 
 Per installare bower come prerequisito bisognerà installare NodeJs, dal sito [nodejs.org](https://nodejs.org/en/).
 
@@ -82,10 +83,10 @@ Per creare questo progetto ho per prima cosa creato un file di configurazione ch
 
 Queste impostazioni sono tipiche in una realtà _enterprise_ dove c'è un proxy da configurare. Provo a spiegare le più importanti:
 
-* **directory**: specifica in quale directory andare a scaricare le dipendenze esterne. Ad esempio, se importiamo angular, la troveremo in lib/angular .
-* **proxy** e **https-proxy**: se avete qualche proxy impostato per accedere a internet, cosa assolutamente normale in ambienti aziendali, li configurate così.
-* **no-proxy**: se ci sono host da raggiungere che fanno parte della rete locale, e che dunque non devono passare per il proxy, si possono specificare qui.
-* **strict-ssl**: se il vostro SVN o Git privato è raggiunto in modalità https, è molto probabile che il certificato non sia validato da un'autorità riconosciuta. settando questo flag a "false", bower ignora i controlli di validità sul certificato.
+- **directory**: specifica in quale directory andare a scaricare le dipendenze esterne. Ad esempio, se importiamo angular, la troveremo in lib/angular .
+- **proxy** e **https-proxy**: se avete qualche proxy impostato per accedere a internet, cosa assolutamente normale in ambienti aziendali, li configurate così.
+- **no-proxy**: se ci sono host da raggiungere che fanno parte della rete locale, e che dunque non devono passare per il proxy, si possono specificare qui.
+- **strict-ssl**: se il vostro SVN o Git privato è raggiunto in modalità https, è molto probabile che il certificato non sia validato da un'autorità riconosciuta. settando questo flag a "false", bower ignora i controlli di validità sul certificato.
 
 Questo file `.bowerrc` può andare sia nella home dell’utente sia nella home del progetto, dato che sono impostazioni globali. Bower quando va sui repo cerca il file `.bowerrc` più vicino andando a vedere prima nella directory corrente, poi in quella superiore, etc. fino alla home utente.
 
@@ -111,9 +112,9 @@ Superata questa prima fase di configurazione, che farete una sola volta, vediamo
 
 all’interno delle dipendenze vediamo i 3 tipi di dipendenze che ho utilizzato:
 
-  1. **jquery** è uno di quei pacchetti presenti nel bower globale (raggiungibile a [bower.io/search](http://bower.io/search)), quindi è specificato solo per versione;
-  2. **jquery-scrollintoview** è un plugin di jquery e non esiste su bower central, ma solo su GitHub. Scrivendo `litera/jquery-scrollintoview` lo stiamo andando a prendere da github. La versione è la `#06834cf7fdba0e86cac84ed7761ea64a3a5fbec8` (che sarebbe l’hash del commit su github). Quando una dipendenza non ha versioni, è possibile fissare il download ad un commit specifico in questo modo.
-  3. **mylib** non è una dipendenza presente nè su bower nè su github, perchè nostra, quindi ho specificato la sua versione con il path su SVN. Se il vostro repository inizia con http o https, bisogna aggiungere `svn+` davanti all'indirizzo, altrimenti bower assume che sia un repository git. Se il nostro progetto è versionato in maniera standard, ossia con le cartelle `branches`, `tags`, e `trunk`, bower sceglierà la versione giusta andando a vedere se esiste un cartella in tag con quel nome. Dunque nel nostro caso andrà all’interno della cartella `tags` presente su svn e poi prende il contenuto della cartella `0.0.1` e farà il checkout da `svn+https://<mysvnrepo>/frontend-libs/mylib/tags/0.0.1/`.
+1. **jquery** è uno di quei pacchetti presenti nel bower globale (raggiungibile a [bower.io/search](http://bower.io/search)), quindi è specificato solo per versione;
+2. **jquery-scrollintoview** è un plugin di jquery e non esiste su bower central, ma solo su GitHub. Scrivendo `litera/jquery-scrollintoview` lo stiamo andando a prendere da github. La versione è la `#06834cf7fdba0e86cac84ed7761ea64a3a5fbec8` (che sarebbe l’hash del commit su github). Quando una dipendenza non ha versioni, è possibile fissare il download ad un commit specifico in questo modo.
+3. **mylib** non è una dipendenza presente nè su bower nè su github, perchè nostra, quindi ho specificato la sua versione con il path su SVN. Se il vostro repository inizia con http o https, bisogna aggiungere `svn+` davanti all'indirizzo, altrimenti bower assume che sia un repository git. Se il nostro progetto è versionato in maniera standard, ossia con le cartelle `branches`, `tags`, e `trunk`, bower sceglierà la versione giusta andando a vedere se esiste un cartella in tag con quel nome. Dunque nel nostro caso andrà all’interno della cartella `tags` presente su svn e poi prende il contenuto della cartella `0.0.1` e farà il checkout da `svn+https://<mysvnrepo>/frontend-libs/mylib/tags/0.0.1/`.
 
 Una volta che abbiamo specificato tutte le dipendenze che abbiamo, possiamo semplicemente lanciare un fantastico `bower install` dalla root del progetto e bower si preoccuperà di scaricare tutte le dipendenze per conto nostro. Provare per credere!
 
@@ -126,5 +127,5 @@ Con git e svn bower è già compatibile con la stragrande maggioranza dei repo g
 Buona bowerizzazione dei vostri frontend!
 
 Altre risorse:
-  
-* [Bower Getting Started](http://bower.io/#getting-started)
+
+- [Bower Getting Started](http://bower.io/#getting-started)

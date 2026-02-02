@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=238
 permalink: /2015/03/codemotion-roma-2015-day-two/
 dsq_thread_id:
-  - "4083554203"
+  - '4083554203'
 categories:
   - Italiano
 tags:
@@ -17,6 +17,7 @@ tags:
   - red hat
   - stack overflow
 ---
+
 Riprendiamo a parlare del Codemotion Roma, con qualche giorno di ritardo.
 
 Red Hat distribuiva Fedora a tutti, o meglio a chi aveva la prontezza di riflessi di prendere un cappello:
@@ -38,8 +39,6 @@ Red Hat distribuiva Fedora a tutti, o meglio a chi aveva la prontezza di rifless
   </div>
 </blockquote>
 
-
-
 A seguire sono andato a sentire un talk su "AbsurdJS", un framework che permette di scrivere HTML e CSS in Javascript:
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -58,8 +57,6 @@ A seguire sono andato a sentire un talk su "AbsurdJS", un framework che permette
     </p>
   </div>
 </blockquote>
-
-
 
 Uno dei talk più belli in assoluto è quello sull'architettura di Stack Overflow, in cui abbiamo praticamente capito che per realizzare un sito di successo bisogna mettere in discussione TUTTO quello che sappiamo; sicuramente nei prossimi giorni scriverò due righe su questo talk veramente interessante.
 
@@ -80,8 +77,6 @@ Uno dei talk più belli in assoluto è quello sull'architettura di Stack Overflo
   </div>
 </blockquote>
 
-
-
 E' tempo di gadget! Abbiamo partecipato a un contest di Google (uno di quelli in cui bisogna programmare per trovare la soluzione) e abbiamo vinto due porta-bibite by Google! Anche in questo caso, a giorni, vi parlerò del problema affrontato!
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -101,9 +96,7 @@ E' tempo di gadget! Abbiamo partecipato a un contest di Google (uno di quelli in
   </div>
 </blockquote>
 
-
-
-Un altro talk che abbiamo seguito è stato sul Lean Frontend Development: 
+Un altro talk che abbiamo seguito è stato sul Lean Frontend Development:
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
   <div style="padding:8px;">
@@ -122,9 +115,7 @@ Un altro talk che abbiamo seguito è stato sul Lean Frontend Development:
   </div>
 </blockquote>
 
-
-
-Marco Fusco, direttamente da Red Hat, ci parla di RxJava, una libreria che permette di consumare gli oggetti di un flusso man mano che arrivano. (Ci ha fatto pariare perchè ci ricordava un nostro amico Mondragonese!) 
+Marco Fusco, direttamente da Red Hat, ci parla di RxJava, una libreria che permette di consumare gli oggetti di un flusso man mano che arrivano. (Ci ha fatto pariare perchè ci ricordava un nostro amico Mondragonese!)
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
   <div style="padding:8px;">
@@ -143,9 +134,7 @@ Marco Fusco, direttamente da Red Hat, ci parla di RxJava, una libreria che perme
   </div>
 </blockquote>
 
-
-
-Un'altra bella sorpresa di questo Codemotion: OrientDB, un database scritto da un team quasi tutto italiano, con un sacco di funzionalità e soprattutto dotato di une bella funzionalità: le live query. Ne parleremo in un articolo sicuramente! 
+Un'altra bella sorpresa di questo Codemotion: OrientDB, un database scritto da un team quasi tutto italiano, con un sacco di funzionalità e soprattutto dotato di une bella funzionalità: le live query. Ne parleremo in un articolo sicuramente!
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
   <div style="padding:8px;">
@@ -164,9 +153,7 @@ Un'altra bella sorpresa di questo Codemotion: OrientDB, un database scritto da u
   </div>
 </blockquote>
 
-
-
-Una foto con Enrico del team di Mangatar sfuggito alla foto del giorno prima: 
+Una foto con Enrico del team di Mangatar sfuggito alla foto del giorno prima:
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
   <div style="padding:8px;">
@@ -184,8 +171,6 @@ Una foto con Enrico del team di Mangatar sfuggito alla foto del giorno prima:
     </p>
   </div>
 </blockquote>
-
-
 
 Siamo in dirittura di arrivo. Raffaele di Mangatar aspetta di ricevere il premio "best gaming startup" del Codemotion, e noi pensiamo che sia uno scherzo...
 
@@ -206,9 +191,7 @@ Siamo in dirittura di arrivo. Raffaele di Mangatar aspetta di ricevere il premio
   </div>
 </blockquote>
 
-
-
-... Invece hanno vinto davvero! 
+... Invece hanno vinto davvero!
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
   <div style="padding:8px;">
@@ -226,7 +209,5 @@ Siamo in dirittura di arrivo. Raffaele di Mangatar aspetta di ricevere il premio
     </p>
   </div>
 </blockquote>
-
-
 
 E così si conclude la giornata! Corsa in metro fino a Tiburtina per prendere il treno che ci ha riportati a casa. E non abbiamo nemmeno vinto il premio a sorteggio, peccato!

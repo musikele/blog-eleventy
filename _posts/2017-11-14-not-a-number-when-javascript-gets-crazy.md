@@ -6,10 +6,11 @@ title: 'Not-A-Number: when javascript gets crazy'
 category: Italiano
 layout: post
 date: 2017-11-14 00:00:00
-headerImg: "/images/not-a-number.jpg"
+headerImg: '/images/not-a-number.jpg'
 tags:
   - javascript
 ---
+
 Yesterday I was doing some maintenance on a corporate website when I found out that `parseInt()` returns `NaN` if the argument is, well, not a number.
 
 ![]({{ site.baseurl }}/images/not-a-number.jpg)
@@ -23,7 +24,7 @@ NaN
 
 That's fair. What comes next is funny :)
 
-```javascript 
+```javascript
 > pippo == NaN
 false
 > pippo === NaN
@@ -74,8 +75,8 @@ I see your face 😆 Where is the logic?
 In the case of `isNaN(null)`, this is what happens:
 
 ```javascript
-isNaN(null) // Number(null) ==> 0 
-> false 
+isNaN(null) > // Number(null) ==> 0
+  false;
 ```
 
 Ha ha, `Number(null)` returns zero??? Welcome to javascript 😎 This would require a bigger explanation, however JS does a type cohercion trying to compare things. It is described [here](http://www.ecma-international.org/ecma-262/5.1/#sec-9.3) (warning: it's a spec, the first 10 lines are understandable, then it's a mess).
@@ -83,8 +84,7 @@ Ha ha, `Number(null)` returns zero??? Welcome to javascript 😎 This would requ
 Of course,
 
 ```javascript
-null == 0
-> false
+null == 0 > false;
 ```
 
 🙂
@@ -92,17 +92,15 @@ null == 0
 Just to add the last bit of discoveries around `NaN`:
 
 ```javascript
-Number(null)
-> 0
-parseInt(null) 
-> NaN
+Number(null) > 0;
+parseInt(null) > NaN;
 ```
 
 ## There is another isNaN() around
 
 The Javascript `Number` object also has a `isNaN` method, that is way more conservative:
 
-```javascript 
+```javascript
 > Number.isNaN(3)
 false
 > Number.isNaN('3a')
@@ -124,6 +122,8 @@ It will return `true` only for `NaN`.
 Ok, let's end with a song:
 
 ```javascript
-console.log(`${10/'a'}a${ 10/'b'}a${ 10/'c'}a${10/'d'}a ${10/'e'}a${10/'f'}a${10/'g'}a${ 10/'h'}a Batman!`)
+console.log(
+  `${10 / 'a'}a${10 / 'b'}a${10 / 'c'}a${10 / 'd'}a ${10 / 'e'}a${10 / 'f'}a${10 / 'g'}a${10 / 'h'}a Batman!`
+);
 //NaNaNaNaNaNaNaNa NaNaNaNaNaNaNaNa Batman!
 ```

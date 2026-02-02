@@ -19,7 +19,7 @@ One may think that B is designed in a way that cannot handle such a big load: bu
 
 This type of test falls under the name of **stress tests**, or **load tests**. You must throw at the server a large number of incoming requests to see how the server - or the cluster - behaves.
 
-The tool we chose for the job is called [wrk](https://github.com/wg/wrk "wrk github homepage"). It's a command-line app that, in its most basic form, is already very useful for stress testing.
+The tool we chose for the job is called [wrk](https://github.com/wg/wrk 'wrk github homepage'). It's a command-line app that, in its most basic form, is already very useful for stress testing.
 
 To install on Mac:
 
@@ -37,10 +37,10 @@ Let's see a classic example:
 wrk -t20 -c300 -d30 http://localhost:8080
 ```
 
-* `-t` specifies the number of threads to use. The best thing to do is to use between half and all the number of CPU cores. So, if your CPU has 20 cores, use a number between 10 and 20. More would just clog the system. In the example, 20 threads.
-* `-c` is the number of connections every thread will keep open. In the example, 300 connections per thread.
-* `-d` is the duration of the test, in seconds. In the example, 30 seconds.
-* `http://localhost:8080` is the URL to hit. The request will be a simple GET.
+- `-t` specifies the number of threads to use. The best thing to do is to use between half and all the number of CPU cores. So, if your CPU has 20 cores, use a number between 10 and 20. More would just clog the system. In the example, 20 threads.
+- `-c` is the number of connections every thread will keep open. In the example, 300 connections per thread.
+- `-d` is the duration of the test, in seconds. In the example, 30 seconds.
+- `http://localhost:8080` is the URL to hit. The request will be a simple GET.
 
 ## Tips and Tricks
 

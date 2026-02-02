@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=20
 permalink: /2015/01/il-document-object-model-dom/
 dsq_thread_id:
-  - "3979259896"
+  - '3979259896'
 headerImg: /uploads/2015/01/Dom_tree.png
 categories:
   - Italiano
@@ -19,6 +19,7 @@ tags:
   - javascript
   - netscape
 ---
+
 Come abbiamo detto (nell'articolo "[un breve riassunto della storia di Javascript](http://michelenasti.com/2015/01/un-breve-riassunto-sulla-storia-di-javascript/)"), Javascript è composto da tre parti:
 
 - EcmaScript, che definisce la sintassi del linguaggio;
@@ -29,12 +30,12 @@ Il **Document Object Model (DOM)** è una API per l’XML che è stata estesa pe
 
 ```html
 <html>
- <head>
-  <title>This is a title!</title>
- </head>
- <body>
-  Hello World!
- </body>
+  <head>
+    <title>This is a title!</title>
+  </head>
+  <body>
+    Hello World!
+  </body>
 </html>
 ```
 

@@ -15,6 +15,7 @@ categories: English
 category: Italiano
 headerImg: images/miners.jpeg
 ---
+
 A lot of stuff has happenend in the crypto-mining world: antiviruses, search engines, private miners, and more.
 
 ![]({{site.baseurl}}/{{ page.headerImg }})
@@ -23,7 +24,7 @@ A lot of stuff has happenend in the crypto-mining world: antiviruses, search eng
 
 ## There are private miners out there
 
-After discovering Coinhive I found out many new websites that offered the same cryptomining services: [CryptoLoot](https://www.crypto-loot.com/ "Crypto-Loot"), [JSCoin](https://jsecoin.com/)... The main differences are in the payout and in the commission they take.
+After discovering Coinhive I found out many new websites that offered the same cryptomining services: [CryptoLoot](https://www.crypto-loot.com/ 'Crypto-Loot'), [JSCoin](https://jsecoin.com/)... The main differences are in the payout and in the commission they take.
 
 However, I've been contacted by a facebook friend that offered me to enter an "exclusive program" with a private monero miner, untraceable by antiviruses because it's self hosted.
 
@@ -37,7 +38,7 @@ If your browser consumes too much CPU maybe you've found a private monero miner.
 
 ![]({{site.baseurl}}/images/antivirus-mining.png)
 
-I have personally tried a Firefox extension called [NoCoin](https://addons.mozilla.org/it/firefox/addon/no-coin/) and it works for me; infact, my blog was blocked. On Chrome you might try other extensions. 
+I have personally tried a Firefox extension called [NoCoin](https://addons.mozilla.org/it/firefox/addon/no-coin/) and it works for me; infact, my blog was blocked. On Chrome you might try other extensions.
 
 Other friends have told me that antiviruses like Avast alert the user about the script. Some friends think that my website has been hacked :p
 

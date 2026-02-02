@@ -4,11 +4,11 @@ layout: post
 title: Recover gitlab repositories from an hacked machine
 description: ''
 permalink: ''
-date: "2022-07-22"
+date: '2022-07-22'
 tags: []
 headerImg: ''
-
 ---
+
 Some weeks ago I was tasked to recover a series of git repositories from a gitlab private box that was hacked. This gitlab instance was of a former startup that was acquired by my current company, and honestly completing this task required a lot of research (and 10-15 lines of code).
 
 But let's start from the beginning:
@@ -31,10 +31,10 @@ The user experience is very very similar, probably the thing that changes the mo
 
 First, we had to discuss what exactly was our plan.
 
-* recover the whole machine: this means that we would put remove the malware, inform digitalocean that the machine could be reconnected to the network, and prey that we did our job. Turns out this is one of the most difficult things one can do; hackers know their sh*t and do this for living, while I am just a simple webdev.
-* Detach the disk from the droplet, create a new droplet and attach the disk to it: Again, in this scenario we would try to recover the whole instance, but in practice it's very hard to recover a gitlab instance this way.
-* Create a gitlab backup, then create a new machine, import the backup and restart over: there are official procedures on line to do this, so it shouldn't be that complicated. However, at my first attempt to get a backup it took more than 2hrs and it didn't even complete, so in the end I decided to stop that.
-* just recover the git repositories and don't care about all the rest (pull requests, comments, users, stars, thumbs up, etc etc).
+- recover the whole machine: this means that we would put remove the malware, inform digitalocean that the machine could be reconnected to the network, and prey that we did our job. Turns out this is one of the most difficult things one can do; hackers know their sh\*t and do this for living, while I am just a simple webdev.
+- Detach the disk from the droplet, create a new droplet and attach the disk to it: Again, in this scenario we would try to recover the whole instance, but in practice it's very hard to recover a gitlab instance this way.
+- Create a gitlab backup, then create a new machine, import the backup and restart over: there are official procedures on line to do this, so it shouldn't be that complicated. However, at my first attempt to get a backup it took more than 2hrs and it didn't even complete, so in the end I decided to stop that.
+- just recover the git repositories and don't care about all the rest (pull requests, comments, users, stars, thumbs up, etc etc).
 
 We went for the last option.
 
@@ -64,7 +64,7 @@ Anyway, a git repository in a “bare“ format has this directory structure:
 
 ```shell
 $ cd project/library.git
-$ ls -al 
+$ ls -al
 drwxr-x---  13 mnasti  staff    416  9 Dic  2019 .
 drwxr-x---  34 mnasti  staff   1088 16 Lug  2021 ..
 -rw-r--r--   1 mnasti  staff     81 25 Gen  2019 FETCH_HEAD
@@ -80,14 +80,14 @@ drwxr-xr-x  37 mnasti  staff   1184 27 Apr  2020 objects
 drwxr-xr-x   8 mnasti  staff    256 25 Gen  2019 refs
 ```
 
-Doesn't look like a normal repo with normal files. In fact, this looks like the content of  the .git folder that every git repository has. So I decided to try it to force it to become a _real_ git repo:
+Doesn't look like a normal repo with normal files. In fact, this looks like the content of the .git folder that every git repository has. So I decided to try it to force it to become a _real_ git repo:
 
 ```shell
 $ mkdir project/library
 $ mv project/library.git project/library/.git
 $ cd project/library
 $ git reset --hard HEAD
-fatal: this operation must be run in a work tree 
+fatal: this operation must be run in a work tree
 ```
 
 Damn: what does this error mean? Well, if you remember I said that the repo is in a "bare" state, and I have to un-bare it:
@@ -95,8 +95,8 @@ Damn: what does this error mean? Well, if you remember I said that the repo is i
 ```shell
 cd .git
 git config --unset core.bare
-cd .. 
-git reset --hard HEAD 
+cd ..
+git reset --hard HEAD
 ```
 
 And finally we've got the repo back, with the original files !

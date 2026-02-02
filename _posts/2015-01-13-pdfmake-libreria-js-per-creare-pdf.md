@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=68
 permalink: /2015/01/pdfmake-libreria-js-per-creare-pdf/
 dsq_thread_id:
-  - "3966435152"
+  - '3966435152'
 headerImg: /uploads/2015/01/pdfmake.png
 categories:
   - Italiano
@@ -23,9 +23,9 @@ Ecco a voi il task della settimana: generare _on the fly_ un **pdf** con il cont
 
 Quale libreria scegliere?
 
-* [**JasperReports**](https://community.jaspersoft.com/) non è adatto allo scopo: bisognerebbe spedire il contenuto della tabella sul backend, e far stampare il report al server; ma soprattutto, se l'applicazione contiene 100.000 tabelle, c'è il rischio di dover preparare 100.000 template? (Aiuto miei cari friends della community, sinceramente non sono un super esperto di JasperReports!). In ogni caso, i dati sono in genere già disponibili sul client; possibili che non ci sono soluzioni "native" in js?
-* [**jsPDF**](https://parall.ax/products/jspdf) è un'altra libreria presa in considerazione. E' Javascript, è frontend, è leggera. Il problema è che non è capace di renderizzare l'HTML, quindi per creare la tabella avrei dovuto disegnarla linea per linea. Non un compito banale. Ad esempio, per scrivere del testo in una certa posizione, bisogna specificare la posizione di ogni oggetto: `doc.text(35, 25, "Paranyan loves jsPDF");`. Un delirio di numeri! E poi tutti quei problemi come spaziatura... proporzioni ... overflow del testo...  insomma è quasi una tesi di laurea! Scartato.
-* [**Pdfmake**](http://pdfmake.org/#/) l'ho scoperto per caso. Nella pagina web di [UI-Grid](http://ui-grid.info/) (una tabella per Angular) c'era questo import, ma non trovavo nessun riferimento sul sito. Così sono andato sul sito ufficiale e ho provato a capirci di più.
+- [**JasperReports**](https://community.jaspersoft.com/) non è adatto allo scopo: bisognerebbe spedire il contenuto della tabella sul backend, e far stampare il report al server; ma soprattutto, se l'applicazione contiene 100.000 tabelle, c'è il rischio di dover preparare 100.000 template? (Aiuto miei cari friends della community, sinceramente non sono un super esperto di JasperReports!). In ogni caso, i dati sono in genere già disponibili sul client; possibili che non ci sono soluzioni "native" in js?
+- [**jsPDF**](https://parall.ax/products/jspdf) è un'altra libreria presa in considerazione. E' Javascript, è frontend, è leggera. Il problema è che non è capace di renderizzare l'HTML, quindi per creare la tabella avrei dovuto disegnarla linea per linea. Non un compito banale. Ad esempio, per scrivere del testo in una certa posizione, bisogna specificare la posizione di ogni oggetto: `doc.text(35, 25, "Paranyan loves jsPDF");`. Un delirio di numeri! E poi tutti quei problemi come spaziatura... proporzioni ... overflow del testo... insomma è quasi una tesi di laurea! Scartato.
+- [**Pdfmake**](http://pdfmake.org/#/) l'ho scoperto per caso. Nella pagina web di [UI-Grid](http://ui-grid.info/) (una tabella per Angular) c'era questo import, ma non trovavo nessun riferimento sul sito. Così sono andato sul sito ufficiale e ho provato a capirci di più.
 
 ## pdfmake, wow
 
@@ -42,7 +42,7 @@ Ma ricordiamoci il nostro obiettivo. Noi vogliamo stampare il contenuto di una t
 ```html
 <!doctype html>
 <html ng-app="app">
-<head>
+  <head>
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-touch.js"></script>
@@ -51,29 +51,32 @@ Ma ricordiamoci il nostro obiettivo. Noi vogliamo stampare il contenuto di una t
     <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
     <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
     <script src="http://ui-grid.info/release/ui-grid-unstable.js"></script>
-    <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid-unstable.css" type="text/css">
-    <link rel="stylesheet" href="main.css" type="text/css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="http://ui-grid.info/release/ui-grid-unstable.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <div ng-controller="MainCtrl">
+      <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
+      <button ng-click="stampa()">stampiamo il pdf!</button>
+    </div>
 
-<div ng-controller="MainCtrl">
-    <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
-    <button ng-click="stampa()">stampiamo il pdf!</button>
-</div>
-
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
 ```
 
-Una semplice pagina HTML, come potete vedere sto importando `pdfmake.js`  e `vfs_fonts.js`  , necessari per renderizzare i pdf. Inoltre abbiamo aggiunto un bottone che chiama la funzione `stampa()`.
+Una semplice pagina HTML, come potete vedere sto importando `pdfmake.js` e `vfs_fonts.js` , necessari per renderizzare i pdf. Inoltre abbiamo aggiunto un bottone che chiama la funzione `stampa()`.
 
 ### main.css
 
 ```css
 .grid {
-    width: 600px;
-    height: 300px;
+  width: 600px;
+  height: 300px;
 }
 ```
 
@@ -86,152 +89,147 @@ A riga 78 viene definito il documento PDF: vi conviene partire da lì, dalla var
 ```javascript
 var app = angular.module('app', ['ngTouch', 'ui.grid']);
 
-app.controller('MainCtrl', ['$scope', function ($scope) {
-
-    //questo array contiene degli oggetti che sono simili a quelli 
-    //che solitamente si ricevono dal server. 
+app.controller('MainCtrl', [
+  '$scope',
+  function ($scope) {
+    //questo array contiene degli oggetti che sono simili a quelli
+    //che solitamente si ricevono dal server.
     $scope.myData = [
-        {
-            "firstName": "Cox",
-            "lastName": "Carney",
-            "company": "Enormo",
-            "employed": true
-        },
-        {
-            "firstName": "Lorraine",
-            "lastName": "Wise",
-            "company": "Comveyer",
-            "employed": false
-        },
-        {
-            "firstName": "Nancy",
-            "lastName": "Waters",
-            "company": "Fuelton",
-            "employed": false
-        }
-
+      {
+        firstName: 'Cox',
+        lastName: 'Carney',
+        company: 'Enormo',
+        employed: true,
+      },
+      {
+        firstName: 'Lorraine',
+        lastName: 'Wise',
+        company: 'Comveyer',
+        employed: false,
+      },
+      {
+        firstName: 'Nancy',
+        lastName: 'Waters',
+        company: 'Fuelton',
+        employed: false,
+      },
     ];
 
     //questa è la funzione che genera il pdf, una volta cliccato
     $scope.stampa = function () {
-        
-        //headers contiene il titolo della tabella. Viene ripetuto su
-        //più pagine, quindi è importante isolarlo. Vedete la funzione 
-        //getHeaders() per dettagli.  
-        var headers = getHeaders($scope.myData);
+      //headers contiene il titolo della tabella. Viene ripetuto su
+      //più pagine, quindi è importante isolarlo. Vedete la funzione
+      //getHeaders() per dettagli.
+      var headers = getHeaders($scope.myData);
 
-        //fingiamo di prendere i dati dal server... 
-        var externalDataRetrievedFromServer = $scope.myData;
+      //fingiamo di prendere i dati dal server...
+      var externalDataRetrievedFromServer = $scope.myData;
 
-        //in questa funzione costruiamo il body della tabella (con i dati).
-        function buildTableBody(data, columns) {
-            var body = [];
+      //in questa funzione costruiamo il body della tabella (con i dati).
+      function buildTableBody(data, columns) {
+        var body = [];
 
-            //aggiungiamo gli header, come prima riga della tabella
-            body.push(columns);
+        //aggiungiamo gli header, come prima riga della tabella
+        body.push(columns);
 
-            //per ogni riga... 
-            data.forEach(function (row) {
-                var dataRow = [];
-                //aggiungiamo le colonne 
-                columns.forEach(function (column) {
-                    //nel mio caso, il nome delle proprietà è scritto nel 
-                    //campo propertyName delle column. 
-                    dataRow.push(row[column.propertyName].toString());
-                })
-                //costruita la riga, la aggiungiamo al body
-                body.push(dataRow);
-            });
+        //per ogni riga...
+        data.forEach(function (row) {
+          var dataRow = [];
+          //aggiungiamo le colonne
+          columns.forEach(function (column) {
+            //nel mio caso, il nome delle proprietà è scritto nel
+            //campo propertyName delle column.
+            dataRow.push(row[column.propertyName].toString());
+          });
+          //costruita la riga, la aggiungiamo al body
+          body.push(dataRow);
+        });
 
-            return body;
-        }
-        //in questa funzione creiamo la table. Notate che passiamo 
-        //sia i dati, sia le colonne. 
-        function table(data, columns) {
-            return {
-                table: {
-                    //headerRows indica quante righe fanno parte  
-                    //dell'header. 
-                    headerRows: 1,
-                    //qui chiamiamo la funzione a riga 41 per 
-                    //costruire i dati contenuti nella tabella 
-                    body: buildTableBody(data, columns)
-                }
-            };
-        }
+        return body;
+      }
+      //in questa funzione creiamo la table. Notate che passiamo
+      //sia i dati, sia le colonne.
+      function table(data, columns) {
+        return {
+          table: {
+            //headerRows indica quante righe fanno parte
+            //dell'header.
+            headerRows: 1,
+            //qui chiamiamo la funzione a riga 41 per
+            //costruire i dati contenuti nella tabella
+            body: buildTableBody(data, columns),
+          },
+        };
+      }
 
-        //la variabile dd contiene tutto il documento da renderizzare
-        var dd = {
-            content: [
-                { text: 'Tabella di prova', style: 'header' },
-                table(externalDataRetrievedFromServer, headers)
-            ],
-            styles: {
+      //la variabile dd contiene tutto il documento da renderizzare
+      var dd = {
+        content: [
+          { text: 'Tabella di prova', style: 'header' },
+          table(externalDataRetrievedFromServer, headers),
+        ],
+        styles: {
+          tableHeader: {
+            bold: true,
+            fontSize: 20,
+            color: 'black',
+          },
+        },
+      };
+      // Apre il PDF in una nuova finestra
+      var outputCreatePdf = pdfMake.createPdf(dd).open();
 
-                tableHeader: {
-                    bold: true,
-                    fontSize: 20,
-                    color: 'black'
-                }
-            }
-        }
-        // Apre il PDF in una nuova finestra
-        var outputCreatePdf = pdfMake.createPdf(dd).open();
+      console.log(outputCreatePdf);
 
-        console.log(outputCreatePdf);
+      // Stampa il PDF (Chrome-only)
+      //pdfMake.createPdf(docDefinition).print();
 
-        // Stampa il PDF (Chrome-only)
-        //pdfMake.createPdf(docDefinition).print();
-
-        // download il PDF ( Chrome-only)
-        //pdfMake.createPdf(docDefinition).download('optionalName.pdf');
-
+      // download il PDF ( Chrome-only)
+      //pdfMake.createPdf(docDefinition).download('optionalName.pdf');
     };
-}]);
+  },
+]);
 
 //sostituisce i nomi da camelCase a Camel case (non funziona troppo bene!)
 function toTitleCase(str) {
-    return str.replace(/\w\S*/g, function (txt) {
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-    });
+  return str.replace(/\w\S*/g, function (txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
 }
 
 //estrapola gli header dagli oggetti definiti sopra
 function getHeaders(data) {
-    var firstObject = data[0];
-    var headers = [];
-    for (var key in firstObject) {
-        
-        //metodo BARBARO per togliere 
-        // questa property aggiunta da Angular  
-        if (key !== '$$hashKey') 
-            headers.push(
-                {
-                    text: toTitleCase(key),
-                    style: 'tableHeader',
-                    propertyName: key //contiene il nome della property
-                });
-    }
-    console.table(headers);
-    return headers;
+  var firstObject = data[0];
+  var headers = [];
+  for (var key in firstObject) {
+    //metodo BARBARO per togliere
+    // questa property aggiunta da Angular
+    if (key !== '$$hashKey')
+      headers.push({
+        text: toTitleCase(key),
+        style: 'tableHeader',
+        propertyName: key, //contiene il nome della property
+      });
+  }
+  console.table(headers);
+  return headers;
 }
 
-//trasformo gli oggetti in array di dati 
+//trasformo gli oggetti in array di dati
 function getData(data) {
-    var firstObject = data[0];
-    var newData = [];
-    for (var key in firstObject) {
-        if (key !== '$$hashKey') {
-            for (var i = 0; i < data.length; i++) {
-                if (newData[i] === undefined)
-                    newData[i] = [];
-                newData[i].push(data[i][key]);
-            }
-        }
+  var firstObject = data[0];
+  var newData = [];
+  for (var key in firstObject) {
+    if (key !== '$$hashKey') {
+      for (var i = 0; i < data.length; i++) {
+        if (newData[i] === undefined) newData[i] = [];
+        newData[i].push(data[i][key]);
+      }
     }
-    newData = $.makeArray(newData);
-    console.table(newData);
-    return newData;
+  }
+  newData = $.makeArray(newData);
+  console.table(newData);
+  return newData;
 }
 ```
 

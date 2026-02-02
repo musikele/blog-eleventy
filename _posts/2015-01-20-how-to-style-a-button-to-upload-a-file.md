@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=76
 permalink: /2015/01/how-to-style-a-button-to-upload-a-file/
 headerImg: /uploads/2015/01/upload-button-styled.png
 dsq_thread_id:
-  - "4056337607"
+  - '4056337607'
 categories:
   - English
 tags:
@@ -17,12 +17,13 @@ tags:
   - howto
   - html
 ---
+
 This is what I'm doing right now at work: _trying to style an **input button** to upload a file_.
 
 So, if you simply type the code like this:
 
 ```html
-<input type="file">
+<input type="file" />
 ```
 
 this is what you get:
@@ -39,10 +40,10 @@ This is something I have discovered on [StackOverflow](http://stackoverflow.com/
 
 ```html
 <div class="form-group">
-    <label for="inputFile" class="btn btn-primary">
-      <input id="inputFile" type="file" style="display:none;">
-        Select File
-    </label>
+  <label for="inputFile" class="btn btn-primary">
+    <input id="inputFile" type="file" style="display:none;" />
+    Select File
+  </label>
 </div>
 ```
 

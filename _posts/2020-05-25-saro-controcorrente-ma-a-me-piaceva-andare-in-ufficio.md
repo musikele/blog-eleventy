@@ -9,15 +9,15 @@ title: Sarò controcorrente, ma a me piaceva andare in ufficio
 description: Non fraintendetemi, non mi piaceva mica il traffico o il tempo perso
   per raggiungere l'ufficio, o il capo spocchioso. A me piaceva proprio conversare
   con i miei colleghi.
-headerImg: "/images/top-view-photo-of-people-near-wooden-table-3183150.jpg"
+headerImg: '/images/top-view-photo-of-people-near-wooden-table-3183150.jpg'
 tags:
   - lavoro
   - Colleghi
   - Covid
   - remote working
   - Smart working
-
 ---
+
 Non fraintendetemi, non mi piaceva mica il traffico o il tempo perso per raggiungere l'ufficio, o il capo spocchioso. A me piaceva proprio conversare con i miei colleghi.
 
 Ironico il mondo; ormai lavoro da 4 anni da remoto ed é impossibile per me tornare indietro, visto che nessuna azienda della zona sembra voler (o poter) offrire quello che mi offre il lavoro dall'estero. Dal punto di vista professionale mi ritengo molto fortunato per la complessità e l'impatto che il mio lavoro ha. Non il solito gestionale, insomma.

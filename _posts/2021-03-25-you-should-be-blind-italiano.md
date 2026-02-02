@@ -9,13 +9,13 @@ title: '"A quest''ora avresti dovuto essere cieco" - intervista a uno sviluppato
   che sta perdendo la vista'
 description: 'Hai mai pensato di fare il tuo lavoro senza poter vedere? Un mio amico
   sta attraversando esattamente questo e voglio raccontarvi la sua storia.  '
-headerImg: "/images/weber-pizza.JPG"
+headerImg: '/images/weber-pizza.JPG'
 tags:
   - work
   - vista
   - erasmus
-
 ---
+
 **Hai mai pensato a come svolgeresti il tuo lavoro senza poter vedere?** Lo devo ammettere, non avrei idea di dove iniziare, ma un mio caro amico lo sta sperimentando e penso sia il caso di condividere la sua storia.
 
 [(Questa post è una traduzione dell'articolo inglese che trovate qui)](https://michelenasti.com/2021/01/28/no-sight-developer.html)
@@ -34,7 +34,7 @@ Quando l'ho conosciuto meglio mi ha parlato del problema coi suoi occhi: lui gi�
 
 Con questa intervista voglio portare alla luce qualcosa che potrebbe accadere ad ognuno di noi, non solo professionisti dell'IT. Se solo uno di noi cambierà i colori del suo sito, o penserà all'accessibilità per un secondo, avrò conseguito il mio piccolo scopo.
 
-***
+---
 
 #### La prima domanda è una tua presentazione: chi è Weber, dove sei cresciuto, dove hai studiato, quali sono le tue esperienze lavorative...
 
@@ -42,7 +42,7 @@ Mi chiamo Weber Amaral, ho 36 anni, e sono nato nel sud del Brasile. Ho vissuto 
 
 #### Qual è il tuo problema con la vista?
 
-A 6 anni amavo andare a scuola. Un giorno, **siccome ero troppo chiacchierone, la maestra mi ha spostato di posto in fondo alla classe. Così ha notato che non riuscivo a vedere niente di quello che c'era sulla lavagna.** Ha chiamato i miei genitori che mi hanno portato da un oculista. Abbiamo così scoperto che avevo solo il 5% della vista in entrambi i miei occhi a causa di una malattia vascolare autoimmune chiamata [_pars planitis_](https://it.wikipedia.org/wiki/Uveite) _(_più nota come _uveite_ in italiano). Da allora ho fatto **più di 50 operazioni** e ho perso totalmente la vista all'occhio destro 6 anni fa. Il sinistro continuava a funzionare "bene" fino a 3 anni fa, quando una nuova fase di degenerazione è iniziata. Quindi, ogni giorno per me è una nuova scoperta, visto che la mia vista diventa sempre peggio.
+A 6 anni amavo andare a scuola. Un giorno, **siccome ero troppo chiacchierone, la maestra mi ha spostato di posto in fondo alla classe. Così ha notato che non riuscivo a vedere niente di quello che c'era sulla lavagna.** Ha chiamato i miei genitori che mi hanno portato da un oculista. Abbiamo così scoperto che avevo solo il 5% della vista in entrambi i miei occhi a causa di una malattia vascolare autoimmune chiamata [_pars planitis_](https://it.wikipedia.org/wiki/Uveite) _(\_più nota come \_uveite_ in italiano). Da allora ho fatto **più di 50 operazioni** e ho perso totalmente la vista all'occhio destro 6 anni fa. Il sinistro continuava a funzionare "bene" fino a 3 anni fa, quando una nuova fase di degenerazione è iniziata. Quindi, ogni giorno per me è una nuova scoperta, visto che la mia vista diventa sempre peggio.
 
 #### Cosa fai a lavoro? Come passi una giornata tipo? Riesci a programmare?
 

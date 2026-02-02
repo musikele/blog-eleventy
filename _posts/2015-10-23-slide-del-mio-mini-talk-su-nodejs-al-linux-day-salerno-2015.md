@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=404
 permalink: /2015/10/slide-del-mio-mini-talk-su-nodejs-al-linux-day-salerno-2015/
 dsq_thread_id:
-  - "4252797385"
+  - '4252797385'
 categories:
   - Italiano
 tags:
@@ -16,11 +16,12 @@ tags:
   - talk
   - unisa
 ---
+
 Ecco le slide del mio talk al Linux Day Salerno!
 
 <!-- iframe plugin v.4.3 wordpress.org/plugins/iframe/ -->
 
-Da vero _nerd _vi dirò che potete clonarlo/forkarlo da [github](https://github.com/musikele/nodejs_linux_day_salerno_2015).
+Da vero \_nerd \_vi dirò che potete clonarlo/forkarlo da [github](https://github.com/musikele/nodejs_linux_day_salerno_2015).
 
 In alternativa potete [scaricare le slide in formato zip.](http://michelenasti.com/uploads/2015/10/nodejs_linux_day_salerno_2015.zip) Dopodichè vi basterà aprire il file index.html .
 

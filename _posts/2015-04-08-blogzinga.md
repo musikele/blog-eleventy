@@ -7,13 +7,14 @@ layout: post
 guid: http://michelenasti.com/?p=248
 permalink: /2015/04/blogzinga/
 dsq_thread_id:
-  - "4090045980"
+  - '4090045980'
 categories:
   - Italiano
 tags:
   - blog
   - blogzinga
 ---
+
 [Sono su BlogZinga](http://www.blogzinga.it/#!/home)!
 
 Se avete un blog sull'IT, e siete italiani, fate application! BlogZinga è "una raccolta di blog sulla programmazione scritti da sviluppatori italiani." Il modo per farsi aggiungere è il più nerd possibile: con una git pull request 🙂

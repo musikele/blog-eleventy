@@ -10,15 +10,15 @@ tags:
   - nodejs
   - configuration
   - laravel
-headerImg: "/images/conifer-daylight-environment-454880.jpg"
+headerImg: '/images/conifer-daylight-environment-454880.jpg'
 description: 'A Laravel-style configuration sytem for NodeJS. '
-
 ---
+
 Imagine you have a NodeJS app you're writing, and this app runs on several different environments:
 
-* on your **developer** PC, it should use some environment variables (e.g. database connection to _localhost_, port to use _3000_...)
-* when you push your code you may want to run some continuous integration & deployiment on a **test environment**, so you have to configure new environment variables: database now points to _192.168.xx.yy_, port is _8000..._
-* Finally, on the **production environment** you use the official values for these configuration.
+- on your **developer** PC, it should use some environment variables (e.g. database connection to _localhost_, port to use _3000_...)
+- when you push your code you may want to run some continuous integration & deployiment on a **test environment**, so you have to configure new environment variables: database now points to _192.168.xx.yy_, port is _8000..._
+- Finally, on the **production environment** you use the official values for these configuration.
 
 How do you handle this? There are several ways to accomplish this task, I wanted to replicate the simple, easy solution provided by _Laravel_ in **NodeJS**.
 
@@ -26,10 +26,10 @@ How do you handle this? There are several ways to accomplish this task, I wanted
 
 In [Laravel](https://laravel.com/docs/5.6/configuration) you create as many env files you want, for example:
 
-* `.dev.env`, that contains configuration for development environment
-* `.test.env`, for test environment
-* `.prod.env` for production
-* Then there's a last file called `.env` that contains a single variable:
+- `.dev.env`, that contains configuration for development environment
+- `.test.env`, for test environment
+- `.prod.env` for production
+- Then there's a last file called `.env` that contains a single variable:
 
   `APP_ENV=dev` (or test, or prod).
 
@@ -39,22 +39,22 @@ We're in NodeJS, how do we simulate this behaviour?
 
 First, our configuration files are js files:
 
-* `.development.js`
-* `.test.js`
-* `.production.js`
+- `.development.js`
+- `.test.js`
+- `.production.js`
 
 Naming of files has changed a little bit, we'll see why in a while.
 
 Let's see the content of the .development.js test file:
 
 ```js
-//.development.js 
+//.development.js
 
 module.exports = {
-    API_URL: 'api_url',
-    API_KEY: 'api_key',
-    SECRET_KEY: 'secret_key'
-}
+  API_URL: 'api_url',
+  API_KEY: 'api_key',
+  SECRET_KEY: 'secret_key',
+};
 ```
 
 `.production.js` and `.test.js` will contain an object with the same keys but different values.
@@ -66,7 +66,7 @@ Since Express became the most popular application server in Node, the NODE_ENV v
 `app.get('env')` is pretty much implemented like this:
 
 ```javascript
-return process.env.NODE_ENV || 'development'
+return process.env.NODE_ENV || 'development';
 ```
 
 So you know that if the variable is not set, it is defaulted to `development`.
@@ -76,11 +76,11 @@ Let's write a solution that is not express-dependent.
 Here's the configuration.js file:
 
 ```javascript
-//configuration.js 
+//configuration.js
 
-const env = process.env.NODE_ENV || 'development'
+const env = process.env.NODE_ENV || 'development';
 
-module.exports = require(`../.${env}.js`) 
+module.exports = require(`../.${env}.js`);
 ```
 
 Based on the `NODE_ENV` variable, we will pick up the right `.js` file.
@@ -90,10 +90,10 @@ And now let's test this. Run `node index.js` (should start with `development` en
 ```javascript
 //index.js
 
-const configuration = require('./configuration')
+const configuration = require('./configuration');
 
-console.log('configuration: ', configuration)
-// =>  
+console.log('configuration: ', configuration);
+// =>
 // configuration:  { API_URL: 'api_url',
 // API_KEY: 'api_key',
 // SECRET_KEY: 'secret_key' }
@@ -120,12 +120,12 @@ This approach is very easy to use but you should not versionate `.production.js`
 An alternative could be to use environment variables only for the production file:
 
 ```js
-//.production.js 
+//.production.js
 module.exports = {
     API_URL: process.env.API_URL || 'some_value' ,
     API_KEY: process.env.API_KEY,
     SECRET_KEY: process.env.SECRET_KEY,
-    ... 
+    ...
 }
 ```
 

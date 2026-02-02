@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=53
 permalink: /2015/01/hackerando-la-caldaia-junkers-ceraclass-smart-incasso-per-farla-funzionare-col-termostato-netatmo/
 dsq_thread_id:
-  - "3958634016"
+  - '3958634016'
 headerImg: /uploads/2015/01/netatmo-640x0.jpg
 categories:
   - Italiano

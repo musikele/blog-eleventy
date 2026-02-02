@@ -1,0 +1,21 @@
+# Build output
+_site/
+
+# Dependencies
+node_modules/
+
+# Cache
+.cache/
+
+# Uploads and images
+uploads/
+images/
+
+# Archives
+archives/
+
+# Old admin
+old_admin/
+
+# Package lock
+package-lock.json

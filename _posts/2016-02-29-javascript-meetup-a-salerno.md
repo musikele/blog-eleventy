@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=610
 permalink: /2016/02/javascript-meetup-a-salerno/
 dsq_thread_id:
-  - "4620849179"
+  - '4620849179'
 categories:
   - Italiano
 tags:
@@ -17,7 +17,8 @@ tags:
   - salerno
 headerImg: /uploads/2016/02/wp-1456732465778.jpg
 ---
-Sabato 5 marzo ci sarà il primo [Meetup Javascript & NodeJS](http://www.meetup.com/it-IT/JS-Salerno/)  di Salerno!
+
+Sabato 5 marzo ci sarà il primo [Meetup Javascript & NodeJS](http://www.meetup.com/it-IT/JS-Salerno/) di Salerno!
 
 L'appuntamento è presso la sede della scuola [Puntolingue](http://www.puntolingue.it/), all'interno della stazione FF.SS. di Salerno, sul primo binario, di fianco a Italo. Start ore 16.30 (fa molto discoteca scrivere così...).
 

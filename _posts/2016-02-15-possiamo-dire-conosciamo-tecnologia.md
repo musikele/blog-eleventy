@@ -7,32 +7,33 @@ layout: post
 guid: http://michelenasti.com/?p=538
 permalink: /2016/02/possiamo-dire-conosciamo-tecnologia/
 dsq_thread_id:
-  - "4580702515"
+  - '4580702515'
 categories:
   - Italiano
 tags:
   - lavoro
 ---
+
 Inizio con un finto annuncio di lavoro. In questi giorni è rimbalzato ovunque su internet quindi è probabile che l'abbiate già letto.
 
 ### Come sarebbe se gli autisti fossero assunti come i programmatori? (originale [qui](https://www.jitbit.com/alexblog/203-what-if-drivers-were-hired-like-programmers/)).
 
 > **Cosa cerchiamo:** autista
-> 
+>
 > **Requisiti:** capacità professionali di guida di automobili normali e pesanti, autobus e camion, autobus con rimorchio, tram, metro, trattori, pale scavatrici, carrarmati contemporanei leggeri e pesanti in uso presso le nazioni NATO.
-> 
+>
 > Obbligatorio: capacità di guida spericolata e rally.
-> 
+>
 > Bonus: esperienza di guida in Formula 1.
-> 
+>
 > Obbligo di conoscenza ed esperienza nella riparazione di pistoni e motori a rotori/wankel, trasmissioni automatiche e manuali, sistemi di iniezione, computer di bordo, ABS, ABD, GPS e autoradio delle aziende più conosciute.
-> 
+>
 > É gradita esperienza in verniciatura auto e lavori si carrozzeria.
-> 
+>
 > Gli aspiranti autisti devono avere certificati di BMW, General Motors e Bosch, non più vecchi di 2 anni.
-> 
+>
 > **Paga**: €15-€20/ora, a seconda delle reali competenze dell'intervistato.
-> 
+>
 > **Titoli di studio richiesti:**Laurea quinquiennale in Ingegneria.
 
 ## No, ma dai, Davvero?

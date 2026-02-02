@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=852
 permalink: /2016/09/to-log-php-soap-call-with-nusoap/
 dsq_thread_id:
-  - "5141030553"
+  - '5141030553'
 categories:
   - English
 tags:
@@ -17,6 +17,7 @@ tags:
   - php
   - soap
 ---
+
 I am doing some debugging in PHP for **Gestpay**.
 
 [**Gestpay**](http://www.gestpay.it) is an italian system that allows to accept payments from customers, all over the world. If you have an e-commerce and want to try something (in my opinion) way more powerful than other systems, you should definitely check this out.

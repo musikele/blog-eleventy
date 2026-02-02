@@ -10,9 +10,10 @@ tags:
   - linux
   - shell
   - bash
-headerImg: "/images/find-file-linux-code_magnifying_glass_zero.png"
+headerImg: '/images/find-file-linux-code_magnifying_glass_zero.png'
 description: let's find how to find files read by a linux process. It's super easy!
 ---
+
 Problem: **I had a process using 90% of cpu, couldn't understand what was going on.**
 
 After seeking the log files and other stuff, I still couldn't undestand why it was taking so much CPU.
@@ -42,7 +43,7 @@ The pid of this process is `13141`.
 And now **let's get the list of files blocked by this process**.
 
 ```bash
-$ ls -al /proc/13141/fd 
+$ ls -al /proc/13141/fd
 ```
 
 The system might ask you to run this command as privileged user, so don't disregard using `sudo`.

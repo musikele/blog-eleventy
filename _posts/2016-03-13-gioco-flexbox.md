@@ -7,12 +7,13 @@ layout: post
 guid: http://michelenasti.com/?p=627
 permalink: /2016/03/gioco-flexbox/
 dsq_thread_id:
-  - "4659041306"
+  - '4659041306'
 categories:
   - Italiano
 tags:
 headerImg: /uploads/2016/03/Schermata-2016-03-13-alle-16.17.26.png
 ---
+
 Tutti abbiamo sentito parlare di **flexbox**, _spero_, è una nuova spec di css3 che permette di organizzare gli elementi di una pagina web in maniera più semplice rispetto a prima. Nonostante sia una feature per così dire _moderna_ è ben supportata da tutti i browser (anche mobile!).
 
 Forse il motivo per cui è poco utilizzata è che tecnologie come Bootstrap risolvevano il 95% dei problemi che risolve flexbox; solo che bootstrap fa tutto "vecchia scuola".
@@ -31,36 +32,36 @@ Curiosità: non avevo idea di come funzionassero i flexbox prima di oggi, ma gra
 
 è la property da dare a un div. Da quel momento si comporterà seguendo le regole del flexbox model.
 
-### **justify-content
+### \*\*justify-content
 
 Distribuisce gli elementi orizzontalmente in base alle regole specificate.
 
-* `flex-start`: Raggruppa gli elementi nella parte sinistra (l'inizio) del contenitore
-* `flex-end`: Raggruppa gli elementi nella parte destra del contenitore
-* `center`: Raggruppa gli elementi al centro del contenitore
-* `space-between`: Distribuisce equamente gli elementi nel contenitore in modo ch il primo elemento si allinea a sinistra e l'ultimo elemento si allinea a destra
-* `space-around`: Distribuisce equamente gli elementi nel contenitore in modo che tutti gli elementi abbiano lo stesso spazio intorno a loro
+- `flex-start`: Raggruppa gli elementi nella parte sinistra (l'inizio) del contenitore
+- `flex-end`: Raggruppa gli elementi nella parte destra del contenitore
+- `center`: Raggruppa gli elementi al centro del contenitore
+- `space-between`: Distribuisce equamente gli elementi nel contenitore in modo ch il primo elemento si allinea a sinistra e l'ultimo elemento si allinea a destra
+- `space-around`: Distribuisce equamente gli elementi nel contenitore in modo che tutti gli elementi abbiano lo stesso spazio intorno a loro
 
-### **align-items
-  
+### \*\*align-items
+
 Distribuisce gli elementi verticalmente.
 
-* `flex-start`: Allinea gli elementi sul top del contenitore
-* `flex-end`: Allinea gli elementi sul fondo del contenitore
-* `center`: Allinea gli elementi al centro del contenitore
-* `baseline`: Allinea gli elementi sulla baseline del contenitore
-* `stretch`: Allarga gli elementi per riempire il container
+- `flex-start`: Allinea gli elementi sul top del contenitore
+- `flex-end`: Allinea gli elementi sul fondo del contenitore
+- `center`: Allinea gli elementi al centro del contenitore
+- `baseline`: Allinea gli elementi sulla baseline del contenitore
+- `stretch`: Allarga gli elementi per riempire il container
 
-### **flex-direction
+### \*\*flex-direction
 
 permette di modificare la distribuzione spaziale degli elementi. Con `column` e `column-reverse` si invertiranno i comportamenti delle due proprietà: justify-content impilerà gli elementi verticalmente e align-items li organizzerà orizzontalmente.
 
-* `row`: Dispone gli elementi da sinistra a destra
-* `row-reverse`: Dispone gli elementi da destra a sinistra
-* `column`: Dispone gli elementi dall'alto verso il basso
-* `column-reverse`: Dispone gli elementi dal basso verso l'alto
+- `row`: Dispone gli elementi da sinistra a destra
+- `row-reverse`: Dispone gli elementi da destra a sinistra
+- `column`: Dispone gli elementi dall'alto verso il basso
+- `column-reverse`: Dispone gli elementi dal basso verso l'alto
 
-### **Order
+### \*\*Order
 
 La proprietà **order** può essere applicata ai singoli item e serve per modificarne la posizione all'interno della disposizione naturale. Ogni item inizia la numerazione da 0, quindi specificando -1 lo si sposterà più a sinistra (mentre dandogli +1 lo si sposterà a destra).
 

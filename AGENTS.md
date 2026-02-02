@@ -13,7 +13,7 @@ Questo file contiene informazioni sulla struttura del blog per facilitare il lav
 
 ## Struttura delle Cartelle
 
-```
+```graph
 /
 ├── _data/              # Dati globali del sito
 │   └── site.json       # Configurazione del sito (url, titolo, etc.)
@@ -50,8 +50,8 @@ tags:
   - javascript
   - tutorial
 headerImg: /images/header.jpg
-eleventyExcludeFromCollections: false  # true = bozza (non pubblicato)
-permalink: /custom-url/  # opzionale
+eleventyExcludeFromCollections: false # true = bozza (non pubblicato)
+permalink: /custom-url/ # opzionale
 ---
 
 Contenuto dell'articolo in Markdown...
@@ -59,16 +59,16 @@ Contenuto dell'articolo in Markdown...
 
 ### Campi del Frontmatter
 
-| Campo | Tipo | Obbligatorio | Descrizione |
-|-------|------|--------------|-------------|
-| `layout` | string | Sì | Sempre `post` per gli articoli |
-| `title` | string | Sì | Titolo dell'articolo |
-| `date` | datetime | Sì | Data di pubblicazione |
-| `description` | string | No | Meta description per SEO |
-| `tags` | array | No | Lista di tag |
-| `headerImg` | string | No | Immagine header |
-| `eleventyExcludeFromCollections` | boolean | No | Se `true`, l'articolo è una bozza |
-| `permalink` | string | No | URL personalizzato |
+| Campo                            | Tipo     | Obbligatorio | Descrizione                       |
+| -------------------------------- | -------- | ------------ | --------------------------------- |
+| `layout`                         | string   | Sì           | Sempre `post` per gli articoli    |
+| `title`                          | string   | Sì           | Titolo dell'articolo              |
+| `date`                           | datetime | Sì           | Data di pubblicazione             |
+| `description`                    | string   | No           | Meta description per SEO          |
+| `tags`                           | array    | No           | Lista di tag                      |
+| `headerImg`                      | string   | No           | Immagine header                   |
+| `eleventyExcludeFromCollections` | boolean  | No           | Se `true`, l'articolo è una bozza |
+| `permalink`                      | string   | No           | URL personalizzato                |
 
 ## Sveltia CMS
 

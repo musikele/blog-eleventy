@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=367
 permalink: /2015/10/perche-node-js-e-cosi-difficile-da-imparare-per-chi-viene-da-java/
 dsq_thread_id:
-  - "4198440043"
+  - '4198440043'
 categories:
   - Italiano
 tags:
@@ -33,27 +33,27 @@ Ci ho messo un po' a capire questa proprietà dei linguaggi funzionali. In prati
 Possiamo assegnare una funzione a una variabile:
 
 ```javascript
-var saluta = function() {
-   console.log("ciao"); 
-}
+var saluta = function () {
+  console.log('ciao');
+};
 ```
 
 possiamo passare una funzione in input a un'altra funzione:
 
 ```javascript
-var salutaColCiao = function() {
-   return "ciao";  
+var salutaColCiao = function () {
+  return 'ciao';
 };
 
 //nota: sto passando la funzione come un argomento qualsiasi!
-var salutaConNome = function(saluto, nome) {
-   //per come è fatto javascript, se saluto() non è una funzione 
-   //verrà lanciata un'eccezione
-   saluto() + " " + nome;
-}
+var salutaConNome = function (saluto, nome) {
+  //per come è fatto javascript, se saluto() non è una funzione
+  //verrà lanciata un'eccezione
+  saluto() + ' ' + nome;
+};
 
-//scriverà "ciao Michele" 
-salutaConNome(salutaColCiao , "Michele"); 
+//scriverà "ciao Michele"
+salutaConNome(salutaColCiao, 'Michele');
 ```
 
 ### 2. Callback
@@ -63,9 +63,9 @@ Una Callback è una funzione che viene "chiamata dopo". Ad esempio, fate una que
 ```java
 //codice JAVA
 ...
-List&lt;Paziente&gt; pazienteList = PazienteDAO.getAll(); 
-processPazienti(pazienteList); 
-... 
+List&lt;Paziente&gt; pazienteList = PazienteDAO.getAll();
+processPazienti(pazienteList);
+...
 
 ```
 
@@ -75,18 +75,18 @@ E se l'operazione successiva la dovremmo decidere a runtime, in base al punto in
 //codice JAVA
 
 public interface Callback {
-    public void executeOperation(Object result); 
+    public void executeOperation(Object result);
 }
 
 public class PazienteDAO {
 
-    private static DB db; 
+    private static DB db;
 
     public void getAll(Callback callback) {
-      //operazioni di lettura sul db... 
-      List&lt;Paziente&gt; pazienteList = db.executeQuery("select * from paziente"); 
-      //quando ho fatto chiamo la callback: 
-      callback.executeOperation(pazienteList); 
+      //operazioni di lettura sul db...
+      List&lt;Paziente&gt; pazienteList = db.executeQuery("select * from paziente");
+      //quando ho fatto chiamo la callback:
+      callback.executeOperation(pazienteList);
       }
 }
 ```
@@ -94,13 +94,13 @@ public class PazienteDAO {
 Adesso, siccome getAll non restituisce più nulla, per elaborare il dato in uscita dobbiamo implementare la funzione executeOperation per processare l'output:
 
 ```javascript
-... // codice JAVA 
+... // codice JAVA
 pazienteDAO.getAll(new Callback() {
-  
+
   @Override
   public void executeOperation(Object result) {
-    List&lt;Paziente&gt; pazienteList = (List&lt;Paziente&gt;) result; 
-    process(pazienteList); 
+    List&lt;Paziente&gt; pazienteList = (List&lt;Paziente&gt;) result;
+    process(pazienteList);
   }
 
 });
@@ -110,8 +110,8 @@ Ecco, questa è una callback in Java. In JS è moooolto più semplice, visto che
 
 ```java
 patientDAO.getAll(function(patientList) {
-   //tutte le operazioni che servono 
-   process(patientList); 
+   //tutte le operazioni che servono
+   process(patientList);
 });
 ```
 
@@ -135,7 +135,7 @@ Per ricapitolare: _tutto ciò che fa parte di una libreria base viene eseguito i
 
 ### 4. Il fantastico mondo degli oggetti in JS
 
-Questa non è troppo difficile da capire ma l'ho messa qui perchè, rispetto ai vari linguaggioni business etc, penso che sia una cosa fantastica.  Per creare un oggetto in JS è sufficiente questo :
+Questa non è troppo difficile da capire ma l'ho messa qui perchè, rispetto ai vari linguaggioni business etc, penso che sia una cosa fantastica. Per creare un oggetto in JS è sufficiente questo :
 
 ```javascript
 var human = {}; //oggetto istanziato ma vuoto
@@ -145,8 +145,8 @@ se voglio creare una property all'interno dell'oggetto posso fare così:
 
 ```javascript
 var human = {
-  height: 170, 
-  weight: 80
+  height: 170,
+  weight: 80,
 };
 ```
 
@@ -156,11 +156,11 @@ Potete mettere le funzioni negli oggetti nello stesso modo delle proprietà:
 
 ```javascript
 var human = {
-  height: 170, 
-  weight: 80, 
-  calculateDensity : function(height, weight) {
-     return height/weight; 
-  }
+  height: 170,
+  weight: 80,
+  calculateDensity: function (height, weight) {
+    return height / weight;
+  },
 };
 ```
 

@@ -11,10 +11,11 @@ tags:
   - startup
   - Sws18
   - Mentor
-headerImg: "/images/IMG_20180422_132054.jpg"
-description: 'Cos''é uno Startup Weekend, cosa si impara e come? Un evento che consiglio
-  a tutti, in cui si impara a diventare imprenditori di sé stessi. '
+headerImg: '/images/IMG_20180422_132054.jpg'
+description: "Cos'é uno Startup Weekend, cosa si impara e come? Un evento che consiglio
+  a tutti, in cui si impara a diventare imprenditori di sé stessi. "
 ---
+
 Avete la vostra lista di cose nuove da fare ogni anno? Io sinceramente no, ma se l'avessi probabilmente per quest'anno avrei scritto: **partecipare a uno startup weekend**.
 
 l'occasione l'ho avuta già l'anno scorso ma é sfumata a causa di un altro impegno; la curiosità è rimasta e quindi quest'anno ho riservato lo slot: ho annunciato con largo anticipo a moglie e familiari che mi sarei dedicato a quest'esperienza.
@@ -27,9 +28,9 @@ Tutti abbiamo idee che sembrano geniali, ma come fare per sapere se possono aver
 
 In uno startup weekend ci si confronta con coach, mentor, altri partecipanti e l'idea passa attraverso tre fasi:
 
-* **scoperta**: l'idea "acchiappa" altri partecipanti, che magari sono venuti senza un'idea propria ma hanno sentito il tuo discorsetto e ti hanno trovato interessante.
-* **analisi** del mercato potenziale, dei problemi, dei rischi: attraverso il **business model canvas** (uno strumento che viene presentato durante il weekend) le idee iniziano a farsi più chiare e si riesce a rispondere anche a domande cruciali, tipo: che problema sto risolvendo? A chi? Come ci farò i soldi?
-* **pitch**: senza lilleri non si lallera, ed é per questo che ci si prepara ad uno speech per convincere un investitore a sganciare soldi motivati.
+- **scoperta**: l'idea "acchiappa" altri partecipanti, che magari sono venuti senza un'idea propria ma hanno sentito il tuo discorsetto e ti hanno trovato interessante.
+- **analisi** del mercato potenziale, dei problemi, dei rischi: attraverso il **business model canvas** (uno strumento che viene presentato durante il weekend) le idee iniziano a farsi più chiare e si riesce a rispondere anche a domande cruciali, tipo: che problema sto risolvendo? A chi? Come ci farò i soldi?
+- **pitch**: senza lilleri non si lallera, ed é per questo che ci si prepara ad uno speech per convincere un investitore a sganciare soldi motivati.
 
 ![mentors, organizzatori, staff, etc etc mentre è in posa per la foto ufficiale (non la mia eh) ]({{ site.baseurl }}/images/IMG_20180422_132054.jpg "Staff Startup Weekend Salerno 2018")
 
@@ -39,7 +40,7 @@ Dal punto di vista di un mentor **vedi le idee/cazzate che diventano, lentamente
 
 ## conta il viaggio, non la destinazione
 
-**Con i ragazzi ci sono stati scontri anche duri**, volti soprattutto a fargli notare le contraddizioni dei loro ragionamenti. Una persona non scarica un'app "perché é annoiato", oppure un'autolinea di autobus non implementa il tuo sistema di tracking se non gli porti un vantaggio che altri competitor non hanno... 
+**Con i ragazzi ci sono stati scontri anche duri**, volti soprattutto a fargli notare le contraddizioni dei loro ragionamenti. Una persona non scarica un'app "perché é annoiato", oppure un'autolinea di autobus non implementa il tuo sistema di tracking se non gli porti un vantaggio che altri competitor non hanno...
 
 Con la scusa delle loro idee **i ragazzi hanno acquisito strumenti, come il business model canvas e l'arte del pitching**, che potranno riutilizzare per i progetti futuri.
 

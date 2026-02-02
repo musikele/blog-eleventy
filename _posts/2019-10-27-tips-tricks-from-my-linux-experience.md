@@ -9,12 +9,12 @@ tags:
   - linux
   - ubuntu
 title: Tips & Tricks from my linux experience
-headerImg: "/images/busy-computer-keyboard-hands-2058128.jpg"
+headerImg: '/images/busy-computer-keyboard-hands-2058128.jpg'
 description: In more than 15 years I've used Ubuntu, windows and mac as my desktop
   workstation. Here's the best way to use enjoy Linux to become a better developer!
-
 ---
-> This article is the summary of a talk I gave for [Linux Day Avellino 2019](https://www.facebook.com/events/686761111828223/permalink/686775338493467/). Slides are [here](https://show.zohopublic.com/publish/h93fsd5b97c46dd57465e9769d542c3871bea). 
+
+> This article is the summary of a talk I gave for [Linux Day Avellino 2019](https://www.facebook.com/events/686761111828223/permalink/686775338493467/). Slides are [here](https://show.zohopublic.com/publish/h93fsd5b97c46dd57465e9769d542c3871bea).
 
 While at university, I - like many other students - were encouraged to install linux on our laptops, to learn the fundamentals of programming and the internals of operating systems.
 
@@ -34,11 +34,11 @@ If you're a Windows user, you can avoid command line for the rest of your life, 
 
 However, Bash is still super popular, and if you administer or work on a remote server, chances are your only tool is bash. Here are some resources:
 
-* [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
-* [The single most useful thing in bash](https://coderwall.com/p/oqtj8w/the-single-most-useful-thing-in-bash)
-* [Bash cheatsheet](https://devhints.io/bash)
-* ... and obviously Stack Overflow, Google, etc.
-* don't forget to learn _vi_ or _emacs_ (i prefer the former). 
+- [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
+- [The single most useful thing in bash](https://coderwall.com/p/oqtj8w/the-single-most-useful-thing-in-bash)
+- [Bash cheatsheet](https://devhints.io/bash)
+- ... and obviously Stack Overflow, Google, etc.
+- don't forget to learn _vi_ or _emacs_ (i prefer the former).
 
 ## How to backup a Linux system?
 
@@ -52,9 +52,9 @@ So I decided to build [my own backup script](https://github.com/musikele/backups
 
 If you can access a network position with ssh access (without password), you can schedule a cron job to run every X hours and have a full backup of your computer.
 
-Nice, isn't it? However, I ended up not using my script. 
+Nice, isn't it? However, I ended up not using my script.
 
-A backup is a critical process and must run flawlessly without hassles, without the user even knowing it's running. In my case, since my solution was "homemade", I had to check every now and then if it was working, and what was going on, etc. 
+A backup is a critical process and must run flawlessly without hassles, without the user even knowing it's running. In my case, since my solution was "homemade", I had to check every now and then if it was working, and what was going on, etc.
 
 After a couple of years of honoured service I moved to [Duplicati](https://www.duplicati.com/), an open source .NET project that has a lot of features for backup nerds like me.
 
@@ -68,23 +68,23 @@ I have more than 100+ GB of data, going back to 2003, that I want to preserve fo
 
 But I'm a nerd and I want to do it myself!
 
-What I am looking for is a **NAS** (_Network Attached Storage_), basically a Server connected to the internet. After having looked around, building one means you have time,  knowledge and a spare computer. I did not have time and a spare computer so I decided to buy one :)
+What I am looking for is a **NAS** (_Network Attached Storage_), basically a Server connected to the internet. After having looked around, building one means you have time, knowledge and a spare computer. I did not have time and a spare computer so I decided to buy one :)
 
 I bought 5 years ago a NAS with two 3TB hard disks, total expense 320€, duplicated in a RAID 1 configuration. This means that the two disks are exact clones and when a disk will fail I can substitute it with a new one and the system will autoclone the disks.
 
 But buying a NAS it's not only great because of the power you get, but because you can experiment with a lot of cool features! That's a list of what I accomplished:
 
-* buy a domain and point to the NAS - access the NAS from everywhere
-* use let's encrypt to generate certificates and connect to the NAS with HTTPS only
-* use 2 factor auth
-* install apps on it, like owncloud (drobox clone)...
-* a webserver with mysql and a wordpress instance (for my wedding)...
-* a mail server for my custom domain ...
-* a DLNA for video streaming
-* SSH access with no password
-* SAMBA, SFTP, etc for network devices,
-* an italian proxy to watch football matches from abroad (go Napoli!)
-* ... and whatever else you may ever need!
+- buy a domain and point to the NAS - access the NAS from everywhere
+- use let's encrypt to generate certificates and connect to the NAS with HTTPS only
+- use 2 factor auth
+- install apps on it, like owncloud (drobox clone)...
+- a webserver with mysql and a wordpress instance (for my wedding)...
+- a mail server for my custom domain ...
+- a DLNA for video streaming
+- SSH access with no password
+- SAMBA, SFTP, etc for network devices,
+- an italian proxy to watch football matches from abroad (go Napoli!)
+- ... and whatever else you may ever need!
 
 I did not expect to learn that much when I first bought my NAS, but yes, after looking at what I've gained 5 years after, I really did a good choice.
 
@@ -114,15 +114,15 @@ I wrote a nice article about [SSH, from zero to hero](https://michelenasti.com/2
 
 Installing Ubuntu on my Dell was not so flawless as I thought. Google will be your friend (or enemy) if you try this path. Here are some insights:
 
-* since the monitor is 4K, the native terminal is too small to be read.
-* Connecting a non-external monitor that is not-4k is a real problem. I generally launch this command to connect a monitor on the right:
+- since the monitor is 4K, the native terminal is too small to be read.
+- Connecting a non-external monitor that is not-4k is a real problem. I generally launch this command to connect a monitor on the right:
 
-    $ xrandr --output HDMI1 --scale 2x2 --mode 1920x1080 --fb 3840x0 --pos 3840x0
+  $ xrandr --output HDMI1 --scale 2x2 --mode 1920x1080 --fb 3840x0 --pos 3840x0
 
 (trick: connect the cable, and when the system looks freezed, run this command. I don't know why, but if I wait for the system to unfreeze and then run the command, the system will definitely block!)
 
-* **Wayland** - an alternative composer to Xorg - is not ready for 4K monitors. Gnome apps will look fine, but Electron apps will not.
-* This PC also has a **touchscreen**. It works nice with Chrome, but it is useless with Firefox because it will select text instead of scroll. [Here are some fixes](https://superuser.com/questions/1151161/enable-touch-scrolling-in-firefox).
-* **Snap or apt** ? I tend to embrace new stuff and I like snap because applications get updated faster, since they're self-contained. Also, many command line tools can be snap-installed. However, I also got some 4K problems with snap apps so I had to install some apps few times before finding one that works without issues.
+- **Wayland** - an alternative composer to Xorg - is not ready for 4K monitors. Gnome apps will look fine, but Electron apps will not.
+- This PC also has a **touchscreen**. It works nice with Chrome, but it is useless with Firefox because it will select text instead of scroll. [Here are some fixes](https://superuser.com/questions/1151161/enable-touch-scrolling-in-firefox).
+- **Snap or apt** ? I tend to embrace new stuff and I like snap because applications get updated faster, since they're self-contained. Also, many command line tools can be snap-installed. However, I also got some 4K problems with snap apps so I had to install some apps few times before finding one that works without issues.
 
-That's all folks! I hope you enjoy linux as much as I did. 
+That's all folks! I hope you enjoy linux as much as I did.

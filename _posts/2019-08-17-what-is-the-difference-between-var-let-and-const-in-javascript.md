@@ -10,11 +10,11 @@ tags:
   - Interview
   - Questions
 title: What is the difference between var, let and const in Javascript
-headerImg: "/images/proxy.duckduckgo.com-2.jpeg"
-description: 'Var is deprecated; let and const are introduced with es6. Let''s see
-  how to use them '
-
+headerImg: '/images/proxy.duckduckgo.com-2.jpeg'
+description: "Var is deprecated; let and const are introduced with es6. Let's see
+  how to use them "
 ---
+
 I did some interviews in the last few days, the role we were searching was "super-duper senior javascript master" so I asked this very simple question as starter:
 
 > What is the difference between `var`, `let` and `const` to declare a variable?
@@ -32,19 +32,19 @@ Well, when you declare a variable with var, it's declaration is _hoisted_ and th
 ```javascript
 // ...looks fine, isn't it?
 if (!someVariable) {
-    console.log("will this execute?") 
-    // will throw ReferenceError: someVariable is not defined
+  console.log('will this execute?');
+  // will throw ReferenceError: someVariable is not defined
 }
 ```
 
 Now refresh the page and run this:
 
-```javascript 
-if (! someVariable) {
-    console.log("will this execute? and what is the value of someVariable?", someVariable) 
-    // apart from console.logs, we only added this line: 
-    var someVariable = true 
-    console.log("Value of someVariable again: ", someVariable)    
+```javascript
+if (!someVariable) {
+  console.log('will this execute? and what is the value of someVariable?', someVariable);
+  // apart from console.logs, we only added this line:
+  var someVariable = true;
+  console.log('Value of someVariable again: ', someVariable);
 }
 
 //output:
@@ -62,15 +62,15 @@ The second time it reads the `.js` file, it will now execute the interpreted cod
 
 Based on this, the previous code becomes something like this:
 
-```javascript 
-// 
+```javascript
+//
 function someFunction() {
-  	var someVariable = undefined
-  	if (!someVariable) {
-		console.log("will this execute? and what is the value of someVariable?", someVariable) 
-    	someVariable = true
-      	console.log("Value of someVariable again: ", someVariable)    
-  	}
+  var someVariable = undefined;
+  if (!someVariable) {
+    console.log('will this execute? and what is the value of someVariable?', someVariable);
+    someVariable = true;
+    console.log('Value of someVariable again: ', someVariable);
+  }
 }
 ```
 
@@ -79,14 +79,14 @@ function someFunction() {
 Since this _movement of variables_ happen in functions, we can say tha `var` is function-scoped. This code should not surprise you anymore:
 
 ```javascript
- if (someCondition) {
- someCondition = false
+if (someCondition) {
+  someCondition = false;
 } else {
-  var someCondition = true
+  var someCondition = true;
 }
 ```
 
-... But when you check the code and see that `someCondition` is true, but the first if block didn't execute,  you'll end in wtf. 
+... But when you check the code and see that `someCondition` is true, but the first if block didn't execute, you'll end in wtf.
 
 ### So, what's the problem
 
@@ -100,11 +100,11 @@ Imagine a world where you declare a variable and it will behave exactly as you t
 
 The same code as before will now be more reasonable:
 
-```javascript  
-if (! someVariable) {
-    console.log("will this execute? and what is the value of someVariable?", someVariable) 
-    let someVariable = true
-    console.log("Value of someVariable again: ", someVariable)    
+```javascript
+if (!someVariable) {
+  console.log('will this execute? and what is the value of someVariable?', someVariable);
+  let someVariable = true;
+  console.log('Value of someVariable again: ', someVariable);
 }
 
 // : ReferenceError: someVariable is not defined
@@ -116,16 +116,16 @@ Once the `var` problem is fixed, what if you want to declare an immutable refere
 
 With const, we can finally declare constant _references_, but what does it mean? Let's see an example again:
 
-```javascript 
-const PRICE = 33
-const TITLE = 'wonderful title'
-const anObject = { a: 'obj property' } 
+```javascript
+const PRICE = 33;
+const TITLE = 'wonderful title';
+const anObject = { a: 'obj property' };
 
-PRICE=44 // TypeError: invalid assignment to const `PRICE'
-TITLE = 'less beautiful title' // TypeError: invalid assignment to const `TITLE'
+PRICE = 44; // TypeError: invalid assignment to const `PRICE'
+TITLE = 'less beautiful title'; // TypeError: invalid assignment to const `TITLE'
 
-anObject = {} // TypeError: invalid assignment to const `anObject'
-anObject.a = 'new obj property' // no error! 
+anObject = {}; // TypeError: invalid assignment to const `anObject'
+anObject.a = 'new obj property'; // no error!
 ```
 
 _The last two lines should bring you special attention._ `const` will **freeze the reference**. If the referenced object holds other properties, you can still change them.

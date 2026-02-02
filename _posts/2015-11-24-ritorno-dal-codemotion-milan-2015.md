@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=452
 permalink: /2015/11/ritorno-dal-codemotion-milan-2015/
 dsq_thread_id:
-  - "4347640331"
+  - '4347640331'
 headerImg: /uploads/2015/11/wpid-wp-14482992317411.jpg
 categories:
   - Italiano
@@ -21,6 +21,7 @@ tags:
   - React native
   - ringpop
 ---
+
 Ed eccomi di ritorno dal [secondo Codemotion](http://milan2015.codemotionworld.com/) dell'anno! Questa volta sono stato a Milano, dove ho seguito talk interessanti purtroppo solo per il giorno di sabato. Qui potete trovare altri articoli sul [Codemotion di Roma](http://michelenasti.com/2015/01/codemotion-2015/).
 
 Tralasciamo il disclaimer che do sempre, ossia che é importante andare alle conferenze perché si "annusano" i trend di oggi e di domani, e che comunque se non volete andare alle conferenze almeno aggiornatevi, perché tra 3-5 anni tutto sarà cambiato e voi... Meglio che non siate sempre gli stessi.

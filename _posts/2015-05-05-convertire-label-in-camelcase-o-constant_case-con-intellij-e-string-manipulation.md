@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=286
 permalink: /2015/05/convertire-label-in-camelcase-o-constant_case-con-intellij-e-string-manipulation/
 dsq_thread_id:
-  - "4096239362"
+  - '4096239362'
 categories:
   - Italiano
 tags:

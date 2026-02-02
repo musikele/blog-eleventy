@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=418
 permalink: /2015/11/unofficial-but-simple-way-to-upgrade-moodle/
 dsq_thread_id:
-  - "4311572009"
+  - '4311572009'
 categories:
   - English
 tags:
@@ -28,22 +28,20 @@ I am using a private italian hosting, and I am not able to access the server via
 
 First, unnamed step:
 
-  * did you backup? (I pay the hosting for a weekly backup, for now this is good!)
+- did you backup? (I pay the hosting for a weekly backup, for now this is good!)
 
 then, my checklist:
 
-  1. upload latest moodle.zip.
-  2. maintenance mode.
-  3. access via ftp with Filezilla.
-  4. create a new folder called "moodle_old".
-  5. copy all content of http root into moodle_old.
-  6. uncompress latest moodle.zip. You get a /moodle directory.
-  7. move the content of /moodle in the http root.
-  8. move config.php and custom plugins from /moodle_old to the http root.
-  9. reach out your website with a browser and do the DB upgrade, upgrade plugins, etc etc (from this point you can follow instructions in browser).
+1. upload latest moodle.zip.
+2. maintenance mode.
+3. access via ftp with Filezilla.
+4. create a new folder called "moodle_old".
+5. copy all content of http root into moodle_old.
+6. uncompress latest moodle.zip. You get a /moodle directory.
+7. move the content of /moodle in the http root.
+8. move config.php and custom plugins from /moodle_old to the http root.
+9. reach out your website with a browser and do the DB upgrade, upgrade plugins, etc etc (from this point you can follow instructions in browser).
 
 Et voilà! Moodle is updated. 9 steps is still a lot tough. There are many steps that you can do wrong and loose all your files. I wonder Moodle was easier to upgrade, but the truth is that it's one of the most cusotmized software in the planet - what if an automatic upgrade deletes a university customization?
 
 You get the point. Happy upgrading.
-
- 

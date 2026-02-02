@@ -9,11 +9,11 @@ date: 2018-09-02
 tags:
   - javascript
   - es6
-headerImg: "/images/es6.jpeg"
+headerImg: '/images/es6.jpeg'
 description: 'Features that are very handy in Object Oriended Javascript: getters
   & setters, and static methods. '
-
 ---
+
 Hi there! Let's try to create a simple `Group` object, very similar to the [existing `Set` object](https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Global_Objects/Set) in Javascript. Here's the specification for this Abstract Data Type:
 
 1. It should provide a constructor that creates an empty Group.
@@ -30,7 +30,7 @@ Let's start from the basics. Here's the constructor for this object:
 
 ```javascript
 class Group {
-  
+
   constructor() {
     this.elements = []
   }
@@ -57,7 +57,7 @@ Basically we leave to `indexOf()` the burden of checking if the element is alrea
 
 ## add() and delete() method
 
-If an element is not present, `add` should add the element to the group. And of course,  if an element is present, `delete` should... delete.
+If an element is not present, `add` should add the element to the group. And of course, if an element is present, `delete` should... delete.
 
 ```javascript
 class Group {
@@ -69,7 +69,7 @@ class Group {
 
   delete(element) {
     if (!this.has(element)) return
-    this.elements.splice(this.elements.indexOf(element), 1)        
+    this.elements.splice(this.elements.indexOf(element), 1)
   }
   ...
 }
@@ -102,9 +102,9 @@ class Example {
   set property(element) {
     this.hidden = element
   }
-  
+
   get property() {
-    return this.hidden*this.hidden 
+    return this.hidden*this.hidden
 }
 
 const example = new Example()
@@ -134,7 +134,7 @@ class Group {
   static from(elements) {
 	//here we instantiate the object that will be returned
     const group = new Group()
-    //for semplicity let's assume that `elements` is an array. 
+    //for semplicity let's assume that `elements` is an array.
 	for (let elem of elements) {
       group.add(elem)
     }
@@ -143,7 +143,7 @@ class Group {
 }
 
 const group = Group.from(["one", "two", "three", "one"]);
-// -> returns a Group 
+// -> returns a Group
 
 console.log(group.length)
 // -> 3

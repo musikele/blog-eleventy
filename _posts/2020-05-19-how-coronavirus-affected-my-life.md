@@ -8,10 +8,10 @@ date: 2020-05-19
 tags:
   - coronavirus
 title: 'How Coronavirus affected my life  '
-headerImg: "/images/man-in-white-t-shirt-holding-black-smartphone-4113948.jpg"
+headerImg: '/images/man-in-white-t-shirt-holding-black-smartphone-4113948.jpg'
 description: 'How this coronavirus affected my life full of things to do. '
-
 ---
+
 **I bet none of you predicted to live the months we have just lived**. I expected to see an earthquake, an eruption by the Vesuvius, a nuclear war, but for sure not a _pandemy_.
 
 Now that we're approaching summer, infections are decreasing and the quarantine seems to be a thing of the past. To be clear, I am safe, all my family and my colleagues are safe, so we didn't have any health troubles during this period.

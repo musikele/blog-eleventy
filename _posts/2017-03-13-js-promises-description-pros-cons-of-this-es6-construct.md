@@ -11,6 +11,7 @@ tags:
   - es6
   - promises
 ---
+
 I hope that you have done some kind of exploration with Javascript, NodeJS and asynchronous constructs right now.
 
 To recap: when you wait for an async operation to handle the result, for example in NodeJS when we read a file, we do this:
@@ -18,8 +19,8 @@ To recap: when you wait for an async operation to handle the result, for example
 ```javascript
 const fs = require('fs');
 fs.readFile('filename.txt', (err, data) => {
-   if (err) throw err; 
-   //now you can use the data object 
+   if (err) throw err;
+   //now you can use the data object
    ...
 });
 ```
@@ -41,18 +42,20 @@ However ES6 has standardized this, and now we have a fantastic `Promise` object.
 The following snippet will create a Promise that waits 2,5 seconds and then sends a message `Hey. it worked`:
 
 ```javascript
-let somePromise = new Promise((resolve, reject) => { //1
+let somePromise = new Promise((resolve, reject) => {
+  //1
   setTimeout(() => {
-    // only one can be called and only once 
-    resolve('Hey. it worked');                      //2
+    // only one can be called and only once
+    resolve('Hey. it worked'); //2
     //reject('Unable to fulfill promise');          //3
   }, 2500);
-}); 
+});
 
-somePromise.then(                                   //4
+somePromise.then(
+  //4
   (message) => {
     console.log('Success: ' + message);
-  }, 
+  },
   (errorMessage) => {
     console.log('Error: ', errorMessage);
   }
@@ -69,16 +72,16 @@ How do you use these two parameters? `resolve` (2) is a function used to return 
 
 There are some bonds on using Promises:
 
-*   you cannot call both `resolve` or `reject`in your code. As soon as one of the two functions gets called, the promise stops.
-*   if you don't call any of the two functions, the promise will hang.
-*   you can only pass **one** parameter to `resolve` or `reject`. If you have more stuff to pass, wrap everything in an object.
+- you cannot call both `resolve` or `reject`in your code. As soon as one of the two functions gets called, the promise stops.
+- if you don't call any of the two functions, the promise will hang.
+- you can only pass **one** parameter to `resolve` or `reject`. If you have more stuff to pass, wrap everything in an object.
 
 Ok, now we have defined a promise. How do we use it? An example is shown in (4): we just call the promise and then use the `then` method to use the response.
 
 `then` can take two functions as arguments:
 
-*   the first callback is called when the promise ends correctly, with the value contained in `resolve`
-*   the second callback is the _error handler_, so you might want to use it when you want to get data from the `reject` function.
+- the first callback is called when the promise ends correctly, with the value contained in `resolve`
+- the second callback is the _error handler_, so you might want to use it when you want to get data from the `reject` function.
 
 ## Chaining promises
 
@@ -99,17 +102,20 @@ let asyncAdd = (a, b) => {
   });
 };
 
-asyncAdd(5, 7)                         // (1)
-  .then((result) => {                  // (2)
+asyncAdd(5, 7) // (1)
+  .then((result) => {
+    // (2)
     console.log(result);
-    return asyncAdd(result, '33');     // (3)
+    return asyncAdd(result, '33'); // (3)
   })
-  .then((res) => {                     // (4)
-    console.log('Should be 45:', res); 
+  .then((res) => {
+    // (4)
+    console.log('Should be 45:', res);
   })
-  .catch((errorMessage) => {           // (5)
+  .catch((errorMessage) => {
+    // (5)
     console.log(errorMessage);
-  })
+  });
 ```
 
 **Quiz**: what does this code print? (Answer below)

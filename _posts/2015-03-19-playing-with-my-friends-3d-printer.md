@@ -7,13 +7,14 @@ layout: post
 guid: http://michelenasti.com/?p=193
 permalink: /2015/03/playing-with-my-friends-3d-printer/
 dsq_thread_id:
-  - "4893212729"
+  - '4893212729'
 categories:
   - English
 tags:
   - 3D printer
   - stampante 3D
 ---
+
 Yesterday one of my best friends invited me to his house to see his new toy: a 3D printer, proudly bought on Internet from China. He assembled it piece from piece, and now he can print whatever he wants to.
 
 I am not a great expert of 3D printers, however I'll try to explain some interesting features. Obviously if you have questions I'll ask my friend to write the answers down here.
@@ -34,8 +35,6 @@ But first, checkout this two little videos (audio in Italian, but images speak f
     </p>
   </div>
 </blockquote>
-
-
 
 <blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="4">
   <div style="padding: 8px;">

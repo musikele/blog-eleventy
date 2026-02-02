@@ -4,12 +4,12 @@ title: How to do the important things that you keep postponing
 description: We all would like to read more books, exercise more or simply get better
   habits. But what is preventing us from doing them? In this article I explain how
   we can better schedule our tasks in order to fix our life.
-permalink: "/do-not-postpone/"
+permalink: '/do-not-postpone/'
 date: 2022-08-23T12:00:00.000+02:00
 tags:
-- book
-- 7 habits of highly successful people
-- time management
+  - book
+  - 7 habits of highly successful people
+  - time management
 headerImg: images/pexels-karl-solano-2729899.jpg
 eleventyExcludeFromCollections: false
 ---
@@ -20,10 +20,10 @@ Everyone has a different answer, I have several: blogging, working out, caring o
 
 Turns out we can divide the "things to do" in 4 categories and put those in a matrix:
 
-|  | URGENT | NOT URGENT |
-| --- | --- | --- |
-| IMPORTANT | I | II |
-| NOT IMPORTANT | III | IV |
+|               | URGENT | NOT URGENT |
+| ------------- | ------ | ---------- |
+| IMPORTANT     | I      | II         |
+| NOT IMPORTANT | III    | IV         |
 
 What is urgent? And what is Important?
 
@@ -41,10 +41,10 @@ But there is a way to do this. If I want to exercise more, I have to reserve som
 
 Let's rewrite the matrix by putting labels on every quadrant:
 
-|  | URGENT | NOT URGENT |
-| --- | --- | --- |
-| IMPORTANT | I - Problems | II - Schedule |
-| NOT IMPORTANT | III - Delegate | IV - Delete |
+|               | URGENT         | NOT URGENT    |
+| ------------- | -------------- | ------------- |
+| IMPORTANT     | I - Problems   | II - Schedule |
+| NOT IMPORTANT | III - Delegate | IV - Delete   |
 
 The quadrant I is now called **Problems** - not because they're real problems, but because the things that are urgent and important must be solved as soon as possible otherwise they'll become problems.
 
@@ -58,9 +58,9 @@ Finally, the fourth quadrant is about all the tasks that are just a waste of tim
 
 I feel your pain; I am also a terrible planner and a huge procrastinator. But I also discovered that we (humanity) went through at least 3 generations of time management techniques:
 
-* **TODO Lists**. The first thing we created were to-do lists. However, these lists can grow biggish in small time, so we introduced...
-* **TODO Lists with priorities**. This is a natural evolution of the first generation; there is an improvement because we now do the important things first, but if the list is long enough, we tend to do only the "urgent/important" things and there'll be no time or energy for the rest.
-* **Daily planners**. So, daily planners came along and we started scheduling our days around things to do: meeting with Bob at 11, shop for grocieries at 18, etc.
+- **TODO Lists**. The first thing we created were to-do lists. However, these lists can grow biggish in small time, so we introduced...
+- **TODO Lists with priorities**. This is a natural evolution of the first generation; there is an improvement because we now do the important things first, but if the list is long enough, we tend to do only the "urgent/important" things and there'll be no time or energy for the rest.
+- **Daily planners**. So, daily planners came along and we started scheduling our days around things to do: meeting with Bob at 11, shop for grocieries at 18, etc.
 
 Are these tools effective? Do these techniques help to do "_non-urgent but important_" tasks? If you tried them all you should already know the answer, that is, unfortunately, _no_.
 
@@ -76,13 +76,13 @@ The second thing to do is to identify the _roles_ we play during the week. For e
 
 For each of these roles there are goals I want to achieve, for example:
 
-* as an individual I want to read more books, and exercise
-* as a parent/husband, I want to spend some quality, uninterrupted time with my kids and my wife.
-* As a software engineer, I want to study new technologies, work on pet projects
-* As a community leader I want to organize new monthly meetups
+- as an individual I want to read more books, and exercise
+- as a parent/husband, I want to spend some quality, uninterrupted time with my kids and my wife.
+- As a software engineer, I want to study new technologies, work on pet projects
+- As a community leader I want to organize new monthly meetups
 
 All these activities _must_ be put into the weekly calendar and you should try to stick to the schedule because of the final reward: a better version of yourself.
 
 ## Conclusions
 
-I'm still half through the book, so I can't reccomend it fully, even though it's a nice read that puts a lot of things into the right perspective. I admit that I was worried to be reading a psychological, motivational book because they usually are not my kind. However, there are a lot of ideas to become a better parent, leader, manager (they're two different things) and I'd reccomend the book to those that are looking to improve their lives. 
+I'm still half through the book, so I can't reccomend it fully, even though it's a nice read that puts a lot of things into the right perspective. I admit that I was worried to be reading a psychological, motivational book because they usually are not my kind. However, there are a lot of ideas to become a better parent, leader, manager (they're two different things) and I'd reccomend the book to those that are looking to improve their lives.

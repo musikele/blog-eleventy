@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=598
 permalink: /2016/02/il-battesimo-del-sangue-il-talk-su-nodejs-al-napoli-devday/
 dsq_thread_id:
-  - "4610890988"
+  - '4610890988'
 categories:
   - Italiano
 tags:
@@ -17,6 +17,7 @@ tags:
   - talk
 headerImg: /uploads/2016/02/nodejs1.jpg
 ---
+
 Ieri sera (24/02/2016) ho presentato NodeJs alla platea del Napoli DevDay.
 
 Le slide, con le gif animate e tutto, le potete [vedere su google docs](https://docs.google.com/presentation/d/1EDsvR99WUDx3IBhygYt51YKM1sA5UA_PJmaRFh9HTa4/edit?usp=sharing).

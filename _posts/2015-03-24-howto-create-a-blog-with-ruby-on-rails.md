@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=218
 permalink: /2015/03/howto-create-a-blog-with-ruby-on-rails/
 dsq_thread_id:
-  - "4061839464"
+  - '4061839464'
 categories:
   - English
 tags:
@@ -19,7 +19,7 @@ tags:
 headerImg: /uploads/2015/03/rubyrails.png
 ---
 
-I'm following a course on Coursera about Ruby on Rails, well the course is about [Web Architectures](https://www.coursera.org/course/webapplications "Web Application Architectures") but it uses Ruby on Rails to explain it's uses. So this is a good excuse to experiment with this new language and framework.
+I'm following a course on Coursera about Ruby on Rails, well the course is about [Web Architectures](https://www.coursera.org/course/webapplications 'Web Application Architectures') but it uses Ruby on Rails to explain it's uses. So this is a good excuse to experiment with this new language and framework.
 
 It is not the first time that I try to learn RoR; when I completed my university it was in its "momentum" &#8212; it was one of the coolest frameworks to play with. Since 2012 things have changed a bit, now NodeJS is the new "new", but who cares: when you learn something new you should target at the idea, not the execution.
 
@@ -31,7 +31,7 @@ And what about _disadvantages_? You have to learn a **new language** (Ruby), tha
 
 ### Let's get our hands dirty
 
-Assuming you have [installed Ruby on Rails](http://railsinstaller.org/en "Rails Installer"), here are the steps to produce an "iteration 1" of a blog application:
+Assuming you have [installed Ruby on Rails](http://railsinstaller.org/en 'Rails Installer'), here are the steps to produce an "iteration 1" of a blog application:
 
 ```shell
 rails new blog && cd blog

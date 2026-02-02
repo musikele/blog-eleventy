@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=229
 permalink: /2015/03/codemotion-roma-2015-raccontiamo-questa-prima-giornata/
 dsq_thread_id:
-  - "3958634095"
+  - '3958634095'
 categories:
   - Italiano
 tags:
@@ -19,6 +19,7 @@ tags:
   - roma
   - scrum
 ---
+
 Anche quest'anno sono al Codemotion, anzi stavolta ho avuto anche la pazienza di fotografare un sacco di momenti e dunque ve li ripropongo così vi fate un'idea se è il caso di venire oppure no l'anno prossimo. Se volete la mia opinione, trattandosi della conferenza più famosa in Italia sulle professioni informatiche, non bisogna mancare!
 
 Comunque, iniziamo così la giornata. Appena arrivati ci spariamo un selfie con lo sfondo di uno degli sponsor; perchè proprio loro? E perchè no, rispondiamo noi:
@@ -38,7 +39,7 @@ Comunque, iniziamo così la giornata. Appena arrivati ci spariamo un selfie con 
   </div>
 </blockquote>
 
-Primo talk seguito al mattino con Svetlana Isakova che ci racconta il nuovo linguaggio per Android, Kotlin (che si rifà a Swift per molti aspetti): 
+Primo talk seguito al mattino con Svetlana Isakova che ci racconta il nuovo linguaggio per Android, Kotlin (che si rifà a Swift per molti aspetti):
 
 <blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 658px; padding: 0; width: calc(100% - 2px);" data-instgrm-captioned="" data-instgrm-version="4">
   <div style="padding: 8px;">

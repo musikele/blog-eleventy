@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=605
 permalink: /2016/02/considerazioni-sul-public-speaking/
 dsq_thread_id:
-  - "4616044005"
+  - '4616044005'
 categories:
   - Italiano
 tags:
@@ -16,6 +16,7 @@ tags:
   - suggerimenti
   - talk
 ---
+
 Qualche giorno fa ho tenuto il talk su NodeJS al Napoli DevDay, 30-40 minuti di pura pazzia. Nel 2015 ho parlato, sempre di NodeJs, al Linux Day a Salerno e anche lì mi sono dovuto misurare con una bella platea. Dunque, con due talk all'attivo, posso discutere di public speaking? Essendo questo il mio blog, direi proprio di SI 🙂 Quindi eccovi alcune considerazioni fresche di giornata.
 
 ### Slide come canovaccio

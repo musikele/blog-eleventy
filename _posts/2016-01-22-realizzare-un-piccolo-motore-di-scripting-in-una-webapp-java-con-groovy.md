@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=525
 permalink: /2016/01/realizzare-un-piccolo-motore-di-scripting-in-una-webapp-java-con-groovy/
 dsq_thread_id:
-  - "4513006607"
+  - '4513006607'
 categories:
   - Italiano
 tags:
@@ -23,10 +23,10 @@ Nella precedente versione dell'applicazione, realizzata in Visual Basic, questi 
 
 Così tra ieri e oggi mi sono messo a cercare un po' di info su quale fosse il miglior linguaggio scriptabile e integrabile con Java, che avesse le seguenti caratteristiche:
 
-* deve poter accedere al database e "vivere" nella stessa transazione del chiamante
-* deve poter chiamare i servizi Java già creati (solitamente creati come bean spring)
-* i servizi Java devono poter chiamare questi eventuali script
-* devono poter essere sostituiti "on-the-fly", senza spegnere e accendere il software.
+- deve poter accedere al database e "vivere" nella stessa transazione del chiamante
+- deve poter chiamare i servizi Java già creati (solitamente creati come bean spring)
+- i servizi Java devono poter chiamare questi eventuali script
+- devono poter essere sostituiti "on-the-fly", senza spegnere e accendere il software.
 
 Il management aveva individuato [Drools](http://www.drools.org/) come uno dei possibili tools che il team già conosce, che non risponde però a tutti i requisiti. Il mio compito era di continuare a investigare per trovare altre alternative.
 
@@ -34,15 +34,15 @@ Il management aveva individuato [Drools](http://www.drools.org/) come uno dei po
 
 Fin dall'inizio ho pensato a Groovy ma da qualche parte ho letto che Spring supporta altri due linguaggi, che ho dovuto scartare:
 
-* [**BeanShell**](https://github.com/beanshell/beanshell). Purtroppo i siti web a riguardo non sono molto aggiornati, e sembra che il progetto sia ospitato su github ora. Il sito ufficiale è in disuso dal 2005, github non viene aggiornato da 4 mesi e comunque c'è stato un solo avanzamento di versione in 10 anni. Ci sono dubbi sulla compatibilità con Java8 e, da una mia prova, non riesce a chiamare bean autowired di spring.
-* [JRuby](http://jruby.org/). Ruby è un grande linguaggio e sulla JVM diventa incredibilmente potente, portabile, veloce. Peccato che la sua sintassi sia estremamente complicata per uno _scripter_ alle prime armi.
+- [**BeanShell**](https://github.com/beanshell/beanshell). Purtroppo i siti web a riguardo non sono molto aggiornati, e sembra che il progetto sia ospitato su github ora. Il sito ufficiale è in disuso dal 2005, github non viene aggiornato da 4 mesi e comunque c'è stato un solo avanzamento di versione in 10 anni. Ci sono dubbi sulla compatibilità con Java8 e, da una mia prova, non riesce a chiamare bean autowired di spring.
+- [JRuby](http://jruby.org/). Ruby è un grande linguaggio e sulla JVM diventa incredibilmente potente, portabile, veloce. Peccato che la sua sintassi sia estremamente complicata per uno _scripter_ alle prime armi.
 
 Così siamo arrivati a [Groovy](http://www.groovy-lang.org/). Andate sul sito web se volete leggere le caratteristiche, ma la cosa che ci importava è che
 
-* supporta una grande parte della sintassi Java (e si possono chiamare classi Java come String, Integer, Boolean...)
-* è sponsorizzato da SpringSource
-* esiste da una decina d'anni (e aveva le clojures dalla prima versione!)
-* Ad oggi è molto utilizzato come framework per lo sviluppo web, ad esempio col framework [Grails](https://grails.org/).
+- supporta una grande parte della sintassi Java (e si possono chiamare classi Java come String, Integer, Boolean...)
+- è sponsorizzato da SpringSource
+- esiste da una decina d'anni (e aveva le clojures dalla prima versione!)
+- Ad oggi è molto utilizzato come framework per lo sviluppo web, ad esempio col framework [Grails](https://grails.org/).
 
 Il problema delle transazioni l'ho risolto grazie a [questo articolo](http://sadalage.com/blog/2013/01/14/transactions_using_groovysql/), come potete vedere il data source e il transaction manager vengono definiti in Hibernate e poi passati all'oggetto SQL di Groovy.
 
@@ -103,20 +103,20 @@ E infine ecco l'XML in cui sono definiti i due bean (Java e Groovy):
         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-4.0.xsd
-        http://www.springframework.org/schema/lang 
+        http://www.springframework.org/schema/lang
         http://www.springframework.org/schema/lang/spring-lang.xsd"
 >
 
 
 <context:annotation-config />
 
-<bean id="servizioFarlocco" 
+<bean id="servizioFarlocco"
     class="it.eng.areas.eliot.interoperability.ServizioFarlocco">
 </bean>
 
-<lang:groovy 
-    id="groovyScript" 
-    script-source="path/to/GroovyScript.groovy" 
+<lang:groovy
+    id="groovyScript"
+    script-source="path/to/GroovyScript.groovy"
     refresh-check-delay="5000"
 />
 

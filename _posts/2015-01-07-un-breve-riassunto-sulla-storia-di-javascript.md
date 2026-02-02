@@ -7,12 +7,12 @@ layout: post
 guid: http://michelenasti.com/?p=17
 permalink: /2015/01/un-breve-riassunto-sulla-storia-di-javascript/
 dsq_thread_id:
-    - '3958633921'
+  - '3958633921'
 headerImg: /images/ecma.gif
 categories:
-    - Italiano
+  - Italiano
 tags:
-    - javascript
+  - javascript
 ---
 
 Javascript è un linguaggio ideato da [Brendan Eich](http://en.wikipedia.org/wiki/Brendan_Eich 'Brendan Eich'), che all’epoca lavorava in Netscape. Il principale utilizzo di Javascript doveva essere quello di evitare rimbalzi di richeste / risposte da client a server solo per delle banali validazioni nei form. All’epoca, nel 1995, caricare una pagina poteva costare tantissimo e vedersela ritornare indietro con la scritta “devi accettare questa clausola per continuare” poteva essere moooolto costoso.

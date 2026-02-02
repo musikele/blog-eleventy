@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=173
 permalink: /2015/03/tools-that-dont-explain-themselves-clearly-will-not-be-used/
 dsq_thread_id:
-  - "4105943629"
+  - '4105943629'
 headerImg: /uploads/2015/03/If-you-can-t-explain-it-simply-then-you-don-t-understand-it-35.jpg
 categories:
   - English

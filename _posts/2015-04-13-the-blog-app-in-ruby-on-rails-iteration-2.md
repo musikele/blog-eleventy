@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=242
 permalink: /2015/04/the-blog-app-in-ruby-on-rails-iteration-2/
 dsq_thread_id:
-  - "4152000991"
+  - '4152000991'
 categories:
   - English
 tags:
@@ -17,18 +17,19 @@ tags:
   - ruby on rails
 headerImg: /uploads/2015/04/rubyrails.png
 ---
+
 Previous Articles and tutorials about Ruby:
 
-  1. [Howto: create a blog using Ruby on Rails](http://michelenasti.com/2015/03/howto-create-a-blog-with-ruby-on-rails/)
-  2. [Installing Ruby on Rails on Mac is a pain](http://michelenasti.com/2015/03/installing-ruby-on-rails-on-mac-10-10-is-a-pain/)
+1. [Howto: create a blog using Ruby on Rails](http://michelenasti.com/2015/03/howto-create-a-blog-with-ruby-on-rails/)
+2. [Installing Ruby on Rails on Mac is a pain](http://michelenasti.com/2015/03/installing-ruby-on-rails-on-mac-10-10-is-a-pain/)
 
 In the [previous article](http://michelenasti.com/2015/03/howto-create-a-blog-with-ruby-on-rails/) we created a `post` entity and a `comment` entity. If you remember, we did not create the one-to-many relationship between these two objects of the model. Let's see how to create them.
 
 In real world applications there are three types of relations:
 
-* **one-to-one**
-* **one-to-many**
-* **many-to-many**
+- **one-to-one**
+- **one-to-many**
+- **many-to-many**
 
 I have ~stolen~ acquired a photo on how to organize relations inside ruby objects:
 

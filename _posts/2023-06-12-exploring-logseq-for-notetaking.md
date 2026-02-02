@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "LogSeq: what's good, what's not, what I still haven't figured out"
-description: I've used several note-taking apps and now I am experimenting with LogSeq. 
+description: I've used several note-taking apps and now I am experimenting with LogSeq.
 headerImg: '/images/logseq.jpg'
 tags:
-- logseq
-- notetaking
-- obsidian
+  - logseq
+  - notetaking
+  - obsidian
 permalink: exploring-logseq-for-notetaking/
 eleventyExcludeFromCollections: false
 date: '2023-06-12'
@@ -18,7 +18,7 @@ I've gone through many notetaking apps in my life, expecially the open source on
 - **Google Keep**. Very simple note taking app. For some time it has been my default app. However, it's very limited: I want to do much more with my knowledge.
 - **DS Note** - AKA **Synology Note Station**. Synology is a NAS producer and I proudly own a [Synology NAS](/2019/10/27/tips-tricks-from-my-linux-experience.html) at home. I use many Synology services, like [Synology Photos](/from-google-photos-to-synology-photos/), because I want to physically own my data. Sometimes I may write a password, or some thoughs that I don't want to go public. However, DS Note is probably the least loved app by Synology developers. There are a lot of bugs that you hit in a way or another. Plus, the data is not in an exportable format. And you cannot create links. Usability is a mess on mobile devices.
 - **Obsidian**. This was my first attempt to use a serious app for note taking. With Obsidian, note taking becomes a _knowledge tracing_ experience. I've used Obsidian with profit over the last year, and there were a couple of features I really liked, like the fact that everything is Markdown (we should give the author of Markdown a Turing Award, lol), files are phisically living on your device, and you can sync with whatever - I sync with my NAS, but others use dropbox etc. Everything looks cool but I have found some shortcomings, like the fact that notes were mostly disconnected, and I kept organizing notes based on directories and subdirectories, which is not optimal.
-- **Logseq** - the last tool I'm trying to use. It will be discussed here more in detail. 
+- **Logseq** - the last tool I'm trying to use. It will be discussed here more in detail.
 
 ## My requirements
 

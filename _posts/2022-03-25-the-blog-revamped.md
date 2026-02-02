@@ -4,16 +4,16 @@ date: 2022-03-25T23:00:00.000+00:00
 title: This blog, revamped
 description: After much work I redesigned and rearchitectured my blog using 11ty static
   site generator.
-headerImg: "/images/blog-eleventy.png"
+headerImg: '/images/blog-eleventy.png'
 tags:
-- wordpress
-- 11ty
-- eleventy
-- blog
+  - wordpress
+  - 11ty
+  - eleventy
+  - blog
 permalink: blog-revamped/
 eleventyExcludeFromCollections: false
-
 ---
+
 So, here it is! my redesigned blog is finally live.
 
 It has just been [migrated to 11ty from jekyll](https://michelenasti.com/rebuild-eleventy/), and redesigned, from a theme called [Strata](https://html5up.net/strata) to something super-custom heavily inspired to [Gridsome blog starter](https://gridsome.org/starters/gridsome-blog-starter/).
@@ -42,10 +42,10 @@ My main goal in this phase was to **document my progress in javascript learning*
 
 Wordpress is fine for a lot of use cases. For example, it is a good blog engine under the hood, however it is mostly used now for media projects like newspapers, landing pages, corporate websites. There are some downsides however:
 
-* You need a plugin to write code in your posts. It's a pain in the ass to write inline comments when referring to a variable, like `this`.
-* You need to host a **database**. This introduces some latency, security, backup issues.
-* You need **PHP**, and back in the day I was not very proficient with its syntax.
-* Also, Wordpress is known for requiring a lot of **maintenance**. For example: upgrading to latest version, checking that plugins do not break, checking that memory is enough, handling backups, and check that nobody is attacking your website.
+- You need a plugin to write code in your posts. It's a pain in the ass to write inline comments when referring to a variable, like `this`.
+- You need to host a **database**. This introduces some latency, security, backup issues.
+- You need **PHP**, and back in the day I was not very proficient with its syntax.
+- Also, Wordpress is known for requiring a lot of **maintenance**. For example: upgrading to latest version, checking that plugins do not break, checking that memory is enough, handling backups, and check that nobody is attacking your website.
 
 You end up doing maintenance only and never writing content. That's not what I wanted to do in first place. So after a while I decided to switch to Jekyll.
 
@@ -61,8 +61,8 @@ Welcome [11ty](https://www.11ty.dev/), then. Honestly, I felt to do the redesign
 
 Together with 11ty, my current blogging setup is composed of:
 
-* [Forestry](https://forestry.io/), to write articles in a backoffice like wordpress admin;
-* [Netlify](https://www.netlify.com/), a static site hosting, with many more features;
-* [Disqus](https://disqus.com/), to handle comments.
+- [Forestry](https://forestry.io/), to write articles in a backoffice like wordpress admin;
+- [Netlify](https://www.netlify.com/), a static site hosting, with many more features;
+- [Disqus](https://disqus.com/), to handle comments.
 
 I am not affiliated with any of these services and I use their generous free tiers.

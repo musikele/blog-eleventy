@@ -14,16 +14,17 @@ tags:
   - microsoft
   - microsoft bob
   - design
-headerImg: "/images/ComicSans.gif"
-description: 'La storia che sto per raccontarvi riguarda uno degli aspetti più mitologici
-  dell''informatica intera: il Comic Sans, il carattere più odiato in assoluto, ma
-  allo stesso tempo uno dei più usati al mondo.'
+headerImg: '/images/ComicSans.gif'
+description: "La storia che sto per raccontarvi riguarda uno degli aspetti più mitologici
+  dell'informatica intera: il Comic Sans, il carattere più odiato in assoluto, ma
+  allo stesso tempo uno dei più usati al mondo."
 ---
+
 La storia che sto per raccontare riguarda uno degli aspetti più _mitologici_ dell'informatica intera: il **Comic Sans**, il carattere più odiato in assoluto, ma allo stesso tempo uno dei più usati al mondo.
 
 ## L'inizio: Microsoft Bob
 
-[Microsoft Bob](https://it.wikipedia.org/wiki/Microsoft_Bob "Microsoft Bob") meriterebbe un articolo a parte, in quanto fu uno dei primi progetti di Microsoft gestiti direttamente da Melinda Gates (la moglie di Bill) e, contemporaneamente, uno dei progetti più fallimentari.
+[Microsoft Bob](https://it.wikipedia.org/wiki/Microsoft_Bob 'Microsoft Bob') meriterebbe un articolo a parte, in quanto fu uno dei primi progetti di Microsoft gestiti direttamente da Melinda Gates (la moglie di Bill) e, contemporaneamente, uno dei progetti più fallimentari.
 
 ![]({{ site.baseurl }}/images/bobhome1p.png)
 
@@ -37,11 +38,11 @@ _(sono segretamente convinto che sia stato questo il vero motivo dell'insuccesso
 
 ## Vincent Connaire: l'uomo che progettò Comic Sans
 
-[Vincent Connaire](https://en.wikipedia.org/wiki/Vincent_Connare "Vincent Connaire") è un designer che nel 1993 iniziò a lavorare per Microsoft.
+[Vincent Connaire](https://en.wikipedia.org/wiki/Vincent_Connare 'Vincent Connaire') è un designer che nel 1993 iniziò a lavorare per Microsoft.
 
 Connaire entrò subito in contatto col team di Microsoft Bob e fece notare che un'interfaccia così giocosa non poteva avere un font tanto serio, quindi propose di ideare un font più uniforme allo stile comunicativo di Bob.
 
-L'idea fu inizialmente accettata e Connaire si ispirò ai fumetti che amava di più, tra cui un [Batman - The dark knight returns](https://en.wikipedia.org/wiki/The_Dark_Knight_Returns "Batman - The dark knight returns") del 1986 che aveva sulla sua scrivania. I caratteri dei fumetti generalmente vengono disegnati a mano, e fanno parte del processo di creazione. Il processo artigianale che c'è dietro a ogni dialogo di un fumetto fa sì che nessuno, fino ad oggi, si sia mai lamentato dei font dei fumetti.
+L'idea fu inizialmente accettata e Connaire si ispirò ai fumetti che amava di più, tra cui un [Batman - The dark knight returns](https://en.wikipedia.org/wiki/The_Dark_Knight_Returns 'Batman - The dark knight returns') del 1986 che aveva sulla sua scrivania. I caratteri dei fumetti generalmente vengono disegnati a mano, e fanno parte del processo di creazione. Il processo artigianale che c'è dietro a ogni dialogo di un fumetto fa sì che nessuno, fino ad oggi, si sia mai lamentato dei font dei fumetti.
 
 Qui sotto riporto una tavola di Batman, per farvi capire da dove nasce l'ispirazione.  
 ![]({{ site.baseurl }}/images/batman-begins-1986.jpg)
@@ -78,12 +79,12 @@ Beh, dovrebbe essere chiaro, **non devi usarlo**. Per. nessun. motivo. al. mondo
 
 Ci sono pochissimi motivi per cui dovresti usare il comic sans, e te li elenco qui:
 
-* Se la tua audience ha meno di 2 anni.
-* **Se la tua audience è composta da dislessici**. E' infatti noto che i dislessici trovano più facile leggere il comic sans rispetto agli altri font.
+- Se la tua audience ha meno di 2 anni.
+- **Se la tua audience è composta da dislessici**. E' infatti noto che i dislessici trovano più facile leggere il comic sans rispetto agli altri font.
 
 ---
 
-Questo articolo non sarebbe mai nato senza il primo capitolo di un libro che purtroppo ho perso in aereo: [Sei proprio il mio Typo, di Simon Garfield](http://amzn.to/2zDrYID "Sei proprio il mio Typo ").
+Questo articolo non sarebbe mai nato senza il primo capitolo di un libro che purtroppo ho perso in aereo: [Sei proprio il mio Typo, di Simon Garfield](http://amzn.to/2zDrYID 'Sei proprio il mio Typo ').
 
 [![]({{ site.baseurl }}/images/seproprioilmiotypo.jpg)](http://amzn.to/2zDrYID)
 

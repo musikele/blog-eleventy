@@ -12,7 +12,6 @@ tags:
   - lingua
 ---
 
-
 C'è un trend che ogni tanto ritorna, ossia quello di usare l'inglese come lingua ufficiale durante l'orario di lavoro. Con colleghi italiani. In un ufficio italiano.
 
 La prima volta che ho sentito di questa pratica era durante la mia prima esperienza lavorativa; realizzando un software per un'azienda inglese, una grande parte delle specifiche arrivavano in quella lingua (giustamente!) e i nostri Business Analyst dovevano interfacciarsi continuamente con loro per documentare il software. Da qui, la scelta del team di analisti di parlare solo in inglese, tra di loro, per un giorno a settimana.
@@ -21,9 +20,9 @@ Ora che lavoro da remoto, e interazione "sincrona" con i colleghi è molto scars
 
 ![]({{ site.baseurl }}/images/pexels-photo-119689%20(1).jpeg)
 
-*it's time for a cup of tea!*
+_it's time for a cup of tea!_
 
-Chi vi scrive ha un inglese decente, complice il papà professore di Inglese che si è sbattuto per insegnarglielo fin da piccolo. Ovvio che non sono madrelingua ma non faccio pena, anzi mi sento tranquillamente a mio agio a parlare il mio fantastico *English* con accento napoletano.
+Chi vi scrive ha un inglese decente, complice il papà professore di Inglese che si è sbattuto per insegnarglielo fin da piccolo. Ovvio che non sono madrelingua ma non faccio pena, anzi mi sento tranquillamente a mio agio a parlare il mio fantastico _English_ con accento napoletano.
 
 Ebbene, **trovo questa idea di sforzarsi a parlare inglese, tra italiani, una cagata pazzesca.**
 
@@ -31,8 +30,8 @@ Ebbene, **trovo questa idea di sforzarsi a parlare inglese, tra italiani, una ca
 
 Faccio solo un rapido e semplice excursus sul tipo di comunicazioni possibili in un ambiente di lavoro:
 
-* **Comunicazione Sincrona** - è quel tipo di comunicazione che prevede due o più persone impegnate nello stesso momento. Esempi: la classica chiacchierata face-2-face, la telefonata, una videocall (skype...) etc. Qui è importante l'immediatezza e la chiarezza dei concetti espressi.
-* **Comunicazione Asincrona** - Le comunicazioni che non prevedono una risposta immediata tra gli interlocutori. Tra questi tipi di comunicazione ci sono chat, mail, blog post, commenti a un wiki, documentazione, documenti word... Qui invece è desiderabile ottenere una comunicazione non ambigua e chiara anche a distanza di mesi.
+- **Comunicazione Sincrona** - è quel tipo di comunicazione che prevede due o più persone impegnate nello stesso momento. Esempi: la classica chiacchierata face-2-face, la telefonata, una videocall (skype...) etc. Qui è importante l'immediatezza e la chiarezza dei concetti espressi.
+- **Comunicazione Asincrona** - Le comunicazioni che non prevedono una risposta immediata tra gli interlocutori. Tra questi tipi di comunicazione ci sono chat, mail, blog post, commenti a un wiki, documentazione, documenti word... Qui invece è desiderabile ottenere una comunicazione non ambigua e chiara anche a distanza di mesi.
 
 Aspettarsi una risposta istantanea a una chat è da stupidi, così come vi sembrerebbe piuttosto strano se un interlocutore fisico (con cui state conversando al distributore) smetta di rispondervi all'improvviso.
 
@@ -42,9 +41,9 @@ Bene, avete appena completato il primo corso base di comunicazione aziendale :)
 
 Ho sentito molti motivi per cui le aziende vogliono introdurre l'inglese aggressivo tra i propri dipendenti. Smontiamoli uno ad uno.
 
-* **"Così possiamo attrarre talenti stranieri"**. Cazzata. I talenti stranieri non vengono perché in Italia si parla inglese, anzi si aspettano che con loro parliate in inglese (che li avete chiamati a fare?). Per attrarre talenti stranieri servono **idee sfidanti**, **stipendi alti**, e un **ecosistema dinamico.**
-* **"Così i dipendenti migliorano l'inglese".** Mi dispiace davvero che qualcuno pensi che, se due persone che non conoscono l'inglese iniziano improvvisamente a parlarlo (sotto tortura), poi lo imparano. Anche questa è una **cazzata**. Se volete imparare l'inglese esiste una sola strada: un bel corso di lingue in cui si parla molto (e in cui la grammatica non è trascurata).
-* **"Così ci sentiamo più internazionali"**. Equivale a misurarsi il pene col righello senza mai confrontare le misure con gli altri. L'unica metrica che dovrebbe interessarvi è il FATTURATO.
+- **"Così possiamo attrarre talenti stranieri"**. Cazzata. I talenti stranieri non vengono perché in Italia si parla inglese, anzi si aspettano che con loro parliate in inglese (che li avete chiamati a fare?). Per attrarre talenti stranieri servono **idee sfidanti**, **stipendi alti**, e un **ecosistema dinamico.**
+- **"Così i dipendenti migliorano l'inglese".** Mi dispiace davvero che qualcuno pensi che, se due persone che non conoscono l'inglese iniziano improvvisamente a parlarlo (sotto tortura), poi lo imparano. Anche questa è una **cazzata**. Se volete imparare l'inglese esiste una sola strada: un bel corso di lingue in cui si parla molto (e in cui la grammatica non è trascurata).
+- **"Così ci sentiamo più internazionali"**. Equivale a misurarsi il pene col righello senza mai confrontare le misure con gli altri. L'unica metrica che dovrebbe interessarvi è il FATTURATO.
 
 Aggiungo, per completezza, che sul luogo di lavoro è importante che la comunicazione sia **efficace, semplice e chiara**. **Ogni sovrastruttura, impedimento, legaccio, costrizione finirà col logorare il vostro lavoro.** Io ad esempio non sopporto quando devo parlare con qualcuno e mi si risponde "mandami una mail che sono SEMPRE impegnato" (non riesci neanche a trovare 10 minuti per me?). Anche questo è un esempio di costrizione che non migliora il problem solving.
 
@@ -54,8 +53,8 @@ Siccome sono un programmatore (e se siete su questa pagina dovreste averlo intui
 
 Questo vuol dire sostanzialmente due cose:
 
-* **La documentazione dei vostri software e dei vostri processi di business non può essere in italiano**. Anche se oggi siete tutti italiani sul progetto, un bel giorno potreste trovarvi ad assumere degli stranieri, o delocalizzare lo sviluppo in qualche paese asiatico, e l'unico modo che avete per comunicare con loro sarà l'inglese. Siate future-proof e usate l'inglese come fa il resto del mondo.
-* **Il vostro codice sorgente deve essere in inglese.** Il motivo è lo stesso del punto precedente, con l'aggravante che `checkIfCodiceFiscaleIsValid()` non si può sentire.
+- **La documentazione dei vostri software e dei vostri processi di business non può essere in italiano**. Anche se oggi siete tutti italiani sul progetto, un bel giorno potreste trovarvi ad assumere degli stranieri, o delocalizzare lo sviluppo in qualche paese asiatico, e l'unico modo che avete per comunicare con loro sarà l'inglese. Siate future-proof e usate l'inglese come fa il resto del mondo.
+- **Il vostro codice sorgente deve essere in inglese.** Il motivo è lo stesso del punto precedente, con l'aggravante che `checkIfCodiceFiscaleIsValid()` non si può sentire.
 
 E' importante dunque che chi voglia lavorare in questo mondo debba per lo meno saper leggere e scrivere un Inglese decente.
 
@@ -69,6 +68,6 @@ Siamo costretti a restare confinati nella nostra italianità? Non avremo mai acc
 
 Se la tua azienda è una s.r.l., non puoi certo definirla L.T.D. :)
 
-Un altra conseguenza è che non è la lingua che si parla a rendere *grande* un workplace.
+Un altra conseguenza è che non è la lingua che si parla a rendere _grande_ un workplace.
 
-Infine: meglio un ottimo performer con un inglese zoppicante, o un  inglese madrelingua che lavora così così?
+Infine: meglio un ottimo performer con un inglese zoppicante, o un inglese madrelingua che lavora così così?

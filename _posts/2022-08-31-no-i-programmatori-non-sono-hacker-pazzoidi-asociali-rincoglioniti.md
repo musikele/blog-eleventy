@@ -9,14 +9,14 @@ description: Siamo considerati hacker, intelligenti ma allo stesso tempo stupidi
 permalink: programmatori-hacker-pazzoidi-asociali-strambi/
 date: 2022-08-31T00:00:00+02:00
 tags:
-- cultura digitale
-- lavoro
-- programmatore
-- programmazione
-- informatica
-headerImg: "/images/pexels-christina-morillo-1181263.jpg"
-
+  - cultura digitale
+  - lavoro
+  - programmatore
+  - programmazione
+  - informatica
+headerImg: '/images/pexels-christina-morillo-1181263.jpg'
 ---
+
 Come tutti i 35+enni anche io ho un account Facebook, nonostante le nuove generazioni abbiano messo le tende su social di cui io non riesco ad innamorarmi. Su Facebook, insomma, siamo ancora in tanti, anche se vecchietti e rincoglioniti, quindi spesso mi capita di sentire/leggere/ricevere questo tipo di critiche alla mia professione:
 
 > l'informatica riduce le abilità linguistiche, ci lascia con appena 50 parole in testa, ci rende schiavi dei dispositivi
@@ -35,7 +35,7 @@ Così come saper guidare un'auto non significa saperla progettare o riparare, **
 
 **Qual è l'attività che un programmatore svolge maggiormente?** **Parlare con gli altri**. Il lavoro di informatico è fatto di divisione dei compiti, organizzazione, aiuto, discussione, scelte. Tutte queste cose si fanno parlando o scrivendo, davanti a una lavagna, dietro a un microfono, insomma scegliete voi il come ma il succo non cambia.
 
-**Al secondo posto c'è leggere documenti**, purtroppo digitali. Passiamo una quantità di tempo a leggere (e a scrivere!)  documentazione tecnica, spesso in un'altra lingua, solo per capire come funzionano e come fare le cose.
+**Al secondo posto c'è leggere documenti**, purtroppo digitali. Passiamo una quantità di tempo a leggere (e a scrivere!) documentazione tecnica, spesso in un'altra lingua, solo per capire come funzionano e come fare le cose.
 
 **E solo al terzo posto c'è scrivere codice.** Per chi guarda la nostra professione dall'esterno, questa appare come l'attività principale, e invece vi assicuro che è quello che si fa dopo che hai svolto i punti 1 e 2.
 

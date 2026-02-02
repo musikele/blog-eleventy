@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=274
 permalink: /2015/04/should-i-learn-php-symphony/
 dsq_thread_id:
-  - "4020110607"
+  - '4020110607'
 categories:
   - Italiano
 tags:

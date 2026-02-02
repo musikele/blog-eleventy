@@ -7,12 +7,12 @@ layout: post
 date: 2020-05-02
 tags:
   - quarantine
-  - " c"
+  - ' c'
 title: I wish I had a programmers' quarantine
-headerImg: "/images/coding-computer-data-depth-of-field-577585.jpg"
+headerImg: '/images/coding-computer-data-depth-of-field-577585.jpg'
 description: Trying to cover a hole in my learning on quarantine
-
 ---
+
 Hello devs, I wrote this article during COVID-19 quarantine, hopefully you'll read this post when it's all over and we'll think of this period as a not-so-painful memory.
 
 Italy was one of the first countries to start a hard quarantine, and expecially in my region we closed restaurants, bar, gyms. Even walking out was problematic. So, in theory, we all had a lot of free time.
@@ -31,11 +31,11 @@ My plan is to understand the basics of how operating systems are made. I was rea
 
 Here are some of the questions I left unanswered:
 
-* Are C programs always compiled to one big application?
-* If not, How is it possible to compile a file into a library and use the library as an external resource in a C program?
-* How are strings handled?
-* Is everything global, even the functions declared in external files? What are the best practices to avoid name clashes?
-* What's the malloc/calloc/*alloc fuss?
+- Are C programs always compiled to one big application?
+- If not, How is it possible to compile a file into a library and use the library as an external resource in a C program?
+- How are strings handled?
+- Is everything global, even the functions declared in external files? What are the best practices to avoid name clashes?
+- What's the malloc/calloc/\*alloc fuss?
 
 I know what you think, "_duuude these are very basic questions_" and really they are, but I was in some kind of learn-and-forget state during university and also it was my very first exam, it didn't go well: for example, once the vote was registered, I asked the teacher to redo the exam in order to "upgrade" my vote. He looked at me very calmly and said: "this is not how university works..."
 

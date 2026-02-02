@@ -6,14 +6,14 @@ category: English
 layout: post
 date: 2020-09-16
 title: How to read and write from STDIN and STDOUT in GO
-description: 'Using the Go programming language, i''ll explain some basic features
-  of the language with this simple Hello World program. '
-headerImg: "/images/golang.png"
+description: "Using the Go programming language, i'll explain some basic features
+  of the language with this simple Hello World program. "
+headerImg: '/images/golang.png'
 tags:
   - go
   - hello world
-
 ---
+
 At my current job we have some projects that were realized using the **Go programming language**. The cool thing is, programmers that have used it are in love with it, and these applications never crash, not even under heavy load. This is great, for example, for applications that have to process a stream of data as fast as possible.
 
 ![]({{ site.baseurl }}/images/golang.png)
@@ -37,9 +37,9 @@ This "exercise" is really valid and I encourage everyone to do it. You will do a
 Go source files have the `.go` extension. So, to compile a file:
 
 ```shell
-$ go build hello-world.go 
-$ ls 
-hello-world hello-world.go 
+$ go build hello-world.go
+$ ls
+hello-world hello-world.go
 ```
 
 Go compiler will create a `hello-world` executable that we can lunch, on Linux and Mac systems, by running `./hello-world` .
@@ -47,14 +47,14 @@ Go compiler will create a `hello-world` executable that we can lunch, on Linux a
 Some may say that it's boring to compile & launch so **Go offers the `run` mode, that will execute the two steps for you:**
 
 ```shell
-$ go run hello-world.go 
-.... (program output here) 
+$ go run hello-world.go
+.... (program output here)
 ```
 
 And finally: **go has an official formatting tool**. This means that you cannot decide how many spaces (or tabs), or how long your lines should be, etc. Smart IDEs like Visual Studio Code with the Go extension will automagically run the formatting tool for you at every save. But if you want to run it from the command line:
 
 ```shell
-$ go fmt hello-world.go 
+$ go fmt hello-world.go
 ```
 
 No more issues on git merge :)
@@ -93,7 +93,7 @@ Let's break up and analyse the code in parts.
 package main
 ```
 
-**All go code must declare its package.** Executable files must be in a `main` package, and the first function that is executed on the first run is the `main` function. 
+**All go code must declare its package.** Executable files must be in a `main` package, and the first function that is executed on the first run is the `main` function.
 
 ### Import block
 
@@ -107,9 +107,9 @@ import (
 
 Here, we are importing three packages from the go standard library:
 
-* `fmt` is the [formatted I/O library](https://golang.org/pkg/fmt/) and contains functions to read and write from I/O like printf and scanf in C.
-* `bufio` is the package that will perform [buffered i/o operations](https://golang.org/pkg/bufio/). basically, we want to read a bunch of characters at a time, and this is the package that contains the easiest functions.
-* `os` provides a [platform-independent interface](https://golang.org/pkg/os/) to operating system functionality.
+- `fmt` is the [formatted I/O library](https://golang.org/pkg/fmt/) and contains functions to read and write from I/O like printf and scanf in C.
+- `bufio` is the package that will perform [buffered i/o operations](https://golang.org/pkg/bufio/). basically, we want to read a bunch of characters at a time, and this is the package that contains the easiest functions.
+- `os` provides a [platform-independent interface](https://golang.org/pkg/os/) to operating system functionality.
 
 I must be honest with you, in my first attempt to write this block, I wrote:
 
@@ -162,7 +162,7 @@ reader := bufio.NewReader(os.Stdin)
 
 As I specified before, the `bufio` library contains functions that allow to read in a buffer. The buffer we are creating is reading from STDIN, that is a common name for the Standard Input. Basically, what the user types in the terminal.
 
-Once we get a reference to the `reader`, we use it to read a string using the method `ReadString()`. ReadString accepts a character (that is wrapped in single quotes, `''` instead of strings that use double quotes, `""`) that will be used to match the end of the buffer line.  But... what's on the left side of the assignment?
+Once we get a reference to the `reader`, we use it to read a string using the method `ReadString()`. ReadString accepts a character (that is wrapped in single quotes, `''` instead of strings that use double quotes, `""`) that will be used to match the end of the buffer line. But... what's on the left side of the assignment?
 
 ```go
 message, _ := ...
@@ -185,19 +185,19 @@ In this snippet, we are writing "Hello World" followed by the message we capture
 
 You may not see it from this very simple program, but:
 
-* being compiled, and strongly typed, many errors will be caught at compile time.
-* multi-return values allow for the error-checking pattern that is verbose, but produces some very robust code.
-* Go shines on multithreaded applications using "channels", more on that in the next articles. As I said, my colleagues wrote a super-fast data processor that never breaks, even under heavy load.
+- being compiled, and strongly typed, many errors will be caught at compile time.
+- multi-return values allow for the error-checking pattern that is verbose, but produces some very robust code.
+- Go shines on multithreaded applications using "channels", more on that in the next articles. As I said, my colleagues wrote a super-fast data processor that never breaks, even under heavy load.
 
-Below I leave some links that I checked while writing this article. Explore them like I did. Bye!  
+Below I leave some links that I checked while writing this article. Explore them like I did. Bye!
 
-***
+---
 
 More resources:
 
-* [how to install go for your OS](https://golang.org/doc/install) (golang.org)
-* many [other ways to read input in Go](http://zetcode.com/golang/readinput/) (from zetcode.com)
-* [difference of quotes in Go](https://golangbyexample.com/double-single-back-quotes-go/) (from golangbyexample.com)
-* [anatomy of functions in go](https://medium.com/rungo/the-anatomy-of-functions-in-go-de56c050fe11) (by runGo)
-* [Go by example: variables](https://gobyexample.com/variables)
-* [ReadString specification](https://golang.org/pkg/bufio/#Reader.ReadString) (golang.org)
+- [how to install go for your OS](https://golang.org/doc/install) (golang.org)
+- many [other ways to read input in Go](http://zetcode.com/golang/readinput/) (from zetcode.com)
+- [difference of quotes in Go](https://golangbyexample.com/double-single-back-quotes-go/) (from golangbyexample.com)
+- [anatomy of functions in go](https://medium.com/rungo/the-anatomy-of-functions-in-go-de56c050fe11) (by runGo)
+- [Go by example: variables](https://gobyexample.com/variables)
+- [ReadString specification](https://golang.org/pkg/bufio/#Reader.ReadString) (golang.org)

@@ -8,7 +8,7 @@ date: 2019-02-12 12:00:00
 tags:
   - javascript
 title: 'How ads are loaded so fast: the command queue pattern'
-headerImg: "/images/command_queue_pattern-2.jpg"
+headerImg: '/images/command_queue_pattern-2.jpg'
 description: 'The command queue pattern allows you to give commands to your library,
   even if it has still not been loaded. This technique is widely used in advertising. '
 ---
@@ -32,16 +32,16 @@ Suppose we have a library that will load something, and this initialization proc
 in the client's code, the code that the user will write to interact with our library, we will initialize the library like this:
 
 ```javascript
-var Library = Library || {}; 
+var Library = Library || {};
 Library.queue = Library.queue || [];
 ```
 
 In these two simple lines, we have initialized our library and its commands queue. In fact, if the `Library` object does not exist, we will initialize it with an empty object, and then we will create the empty array property `Library.queue` that will contain our initalization code. For example:
 
 ```javascript
-Library.queue.push(function(){
-	console.log("Called only when the library has loaded, not before");
-	Library.doMagic();
+Library.queue.push(function () {
+  console.log('Called only when the library has loaded, not before');
+  Library.doMagic();
 });
 ```
 
@@ -55,7 +55,7 @@ Imagine we load our library with this `script` tag:
 <script src="/path/to/Library.js" async defer></script>
 ```
 
-`async` means that the browser will download the library as soon as possible, but the evaluation will start whenever it is more convenient (the browser decides). The HTML parser is paused when the script is evluated. `defer` means the same thing (more or less!) but the code execution happens only after the DOM has been loaded. [More info here](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html "async vs defer").
+`async` means that the browser will download the library as soon as possible, but the evaluation will start whenever it is more convenient (the browser decides). The HTML parser is paused when the script is evluated. `defer` means the same thing (more or less!) but the code execution happens only after the DOM has been loaded. [More info here](https://www.growingwiththeweb.com/2014/02/async-vs-defer-attributes.html 'async vs defer').
 
 By inserting the `async` and `defer` keyword we don't have any guarantee of the Library execution time, so we don't know who will be loaded first.
 
@@ -64,18 +64,18 @@ By inserting the `async` and `defer` keyword we don't have any guarantee of the 
 Here's an example of how the Library could initialize itself:
 
 ```javascript
-//This code could be in file Library.js 
- 
+//This code could be in file Library.js
+
 var Library = (function() {
   ...
-  var queue = []; 
+  var queue = [];
   if (Library) {
-    // queue from outside might be null... 
+    // queue from outside might be null...
     queue = Library.queue || queue;
-  } 
+  }
   //here we execute code that is in the queue
   while (queue.length > 0) {
-    var command = queue.shift(); 
+    var command = queue.shift();
     command();
   }
   ...
@@ -90,7 +90,7 @@ By not forcing the browser to stop and parse our js, we gain a significant amoun
 
 In this simple snippet we have not covered other themes like:
 
-* what if we add another element to the queue after the initialization has already completed?
-* A way of logging functions (yes, we can stringify functions) and remember a history of executed functions
+- what if we add another element to the queue after the initialization has already completed?
+- A way of logging functions (yes, we can stringify functions) and remember a history of executed functions
 
 That's an exercise for you, fellow readers!

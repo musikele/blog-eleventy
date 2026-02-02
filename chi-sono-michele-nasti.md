@@ -20,7 +20,7 @@ Here's a small list of things I do, or like:
 - Some years ago I cofounded [DevDay](https://devday.it/), an association of Campania's developers that try to meet every month or two.
 - I have been a remote worker since 2016, way before COVID ;)
 - I believe that Software is more about managing people than managing machines; for this reason, I am interested in **team coordination and organization**.
-My English is well reflected in the articles of this blog, even though my pronunciation is heavily affected by my Italianism.
+  My English is well reflected in the articles of this blog, even though my pronunciation is heavily affected by my Italianism.
 - I am Italian and **I live in one of the most beautiful areas of Italy**, although it's usually out of mainstream tours: things like Naples, Vesuvius, Amalfi, Sorrento, Pompei, and Caserta are all very close to me.
 - In my free time, I practice climbing and go hiking. I try to visit the beautiful Italian Alps every year. I also used to play the guitar and bass in bands.
 

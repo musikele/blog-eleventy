@@ -9,12 +9,12 @@ date: 2018-10-02
 tags:
   - javascript
   - nodejs
-headerImg: "/images/require.png"
-description: 'NodeJS was the first environment to offer a way to read files and organize
-  code in modules, thanks to the require() function. But how does it work? Let''s
-  have a look. '
-
+headerImg: '/images/require.png'
+description: "NodeJS was the first environment to offer a way to read files and organize
+  code in modules, thanks to the require() function. But how does it work? Let's
+  have a look. "
 ---
+
 You should know that Javascript (better to say EcmaScript) does not specify any function to read and write files.
 
 In fact, **Javascript is just the language used by many environments** (the browser, or NodeJS, are examples of environments) that offer more objects and functions to work with.
@@ -25,13 +25,13 @@ Here is an example of `require` at work:
 
 ```javascript
 //test.js
-module.exports = "Hello World";
+module.exports = 'Hello World';
 ```
 
 ```javascript
 //main.js
-const test = require("./test.js"); 
-console.log(test) 
+const test = require('./test.js');
+console.log(test);
 ```
 
 Let's write that `require` function.
@@ -40,9 +40,9 @@ Let's write that `require` function.
 
 a `require` function is expected to:
 
-* read the content of a javascript file in a string
-* evaluate that code
-* save the exported function/object in a cache for later use (only read files once)
+- read the content of a javascript file in a string
+- evaluate that code
+- save the exported function/object in a cache for later use (only read files once)
 
 ### Disclaimer
 
@@ -61,11 +61,11 @@ const fs = require('fs');
 
 myRequire.cache = Object.create(null); //(1)
 
-function myRequire(name) {   
-    if (!(name in myRequire.cache)) {     
+function myRequire(name) {
+    if (!(name in myRequire.cache)) {
         let code = fs.readFileSync(name, 'utf8'); //(2)
         let module = {exports: {}}; //(3)
-        myRequire.cache[name] = module; //(4)    
+        myRequire.cache[name] = module; //(4)
         let wrapper = Function("require, exports, module", code); //(5)
         wrapper(myRequire, module.exports, module); //(6)
     }
@@ -83,7 +83,7 @@ Also, functions can have properties (_this is javascript_!) so you can add the `
 
 Finally we're creating the `cache` property with `Object.create`. With this function we can specify the object prototype, we have chosen to not specify a prototype. Why? This way we don't mess with other functions or properties declared by the runtime. [Here's an explanation](https://www.reddit.com/r/javascript/comments/5e62us/is_there_a_reason_to_create_an_object_without_a/).
 
-***
+---
 
 Let's go back to `myRequire` . If the file we're importing is not in cache, we read the file from disk **(step 2)**.
 
@@ -101,16 +101,16 @@ So, basically we are creating a new function with these variables **(step 5)**: 
 
 ```javascript
 function(require, exports, module) {
-  module.exports = "Hello World" 
+  module.exports = "Hello World"
 }
 ```
 
 and the second file, `main.js`:
 
-```javascript 
+```javascript
 function(require, exports, module) {
-  const test = require("./test.js"); 
-  console.log(test) 
+  const test = require("./test.js");
+  console.log(test)
 }
 ```
 
@@ -121,7 +121,7 @@ Variables that seemed "global" in files are indeed passed as function arguments.
 We have created **(step 6)** a `wrapper` variable that holds a function, but the function is never executed. We do this at the line:
 
 ```javascript
-wrapper(myRequire, module.exports, module); 
+wrapper(myRequire, module.exports, module);
 ```
 
 Note that the second variable (that should be `exports`) is just a handle to `module.exports`; NodeJS creators thought that this [could have helped in writing less code...](https://blog.tableflip.io/the-difference-between-module-exports-and-exports/)

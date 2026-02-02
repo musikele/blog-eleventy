@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=439
 permalink: /2015/11/i-tre-pilastri-per-migliorare-la-propria-carriera/
 dsq_thread_id:
-  - "4330380108"
+  - '4330380108'
 categories:
   - Italiano
 tags:
@@ -19,6 +19,7 @@ tags:
   - reid hoffman
 headerImg: /uploads/2015/11/startup-of-u.jpg
 ---
+
 Ovviamente non parlo secondo me, eh. Ma secondo **Reid Hoffman**, fondatore di LinkedIn, investitore in tante altre startup, e uomo anche un pò fortunello in verità (si é trovato nel posto giusto e al momento giusto più volte nella sua vita).
 
 Hoffman ha scritto un libro, [Startup Of You](http://amzn.to/2mstZED) (in italiano: [Teniamoci in contatto](http://amzn.to/2mssyFV)), in cui dà suggerimenti su come migliorare la propria carriera adottando gli stessi meccanismi analitici e decisionali che utilizzano le startup.
@@ -33,9 +34,9 @@ Torniamo al libro. Col tempo alcuni analisti hanno sviluppato una serie di _euri
 
 I tre pilastri su cui basare l'analisi sono:
 
-* **l'analisi degli asset**, ossia ciò che abbiamo o che già sappiamo fare.  Li distinguiamo in **hard assets**, ossia le vostre proprietà (soldi, computer, auto, etc...) e **soft assets**, ciò che sapete fare. Gli _hard asset_ sembrano superflui, ma quando si vuole investire sei mesi della propria vita per apprendere un nuovo skill, avere dei soldi da parte fa comodo. I _soft assets_, invece, é tutto ciò che non puoi scambiare direttamente per soldi: le abilità, le capacità individuali, etc. Sono sicuramente più importanti perché chi sceglie di pagare il vostro tempo per risolvere i suoi problemi lo fa sulla base dei vostri soft assets. Una parte importante consiste dunque nel saper _comunicare efficacemente_ questi asset agli altri.
-* **aspirazioni e valori**. Le aspirazioni e i valori sono quel che conta davvero per voi nella vita : i desideri più profondi, le idee, gli obiettivi, e la vostra visione del futuro, a prescindere da quel che accade nel mondo esterno. Le aspirazioni sono importanti perché, se lavorate per esse, lavorerete di più e con maggior qualità senza sentirne la fatica. 
-* **la realtà del mercato**.  É inutile conoscere esotici linguaggi di programmazione se non vi é richiesta. Un prodotto non farà soldi senza clienti disposti a comprarlo, anche se ha un bel design (questa la dovrei spiegare a certi amici...). Contemporaneamente, i vostri asset e le vostre aspirazioni non vi daranno un vantaggio se non c'é un mercato disposto a pagare per loro.
+- **l'analisi degli asset**, ossia ciò che abbiamo o che già sappiamo fare. Li distinguiamo in **hard assets**, ossia le vostre proprietà (soldi, computer, auto, etc...) e **soft assets**, ciò che sapete fare. Gli _hard asset_ sembrano superflui, ma quando si vuole investire sei mesi della propria vita per apprendere un nuovo skill, avere dei soldi da parte fa comodo. I _soft assets_, invece, é tutto ciò che non puoi scambiare direttamente per soldi: le abilità, le capacità individuali, etc. Sono sicuramente più importanti perché chi sceglie di pagare il vostro tempo per risolvere i suoi problemi lo fa sulla base dei vostri soft assets. Una parte importante consiste dunque nel saper _comunicare efficacemente_ questi asset agli altri.
+- **aspirazioni e valori**. Le aspirazioni e i valori sono quel che conta davvero per voi nella vita : i desideri più profondi, le idee, gli obiettivi, e la vostra visione del futuro, a prescindere da quel che accade nel mondo esterno. Le aspirazioni sono importanti perché, se lavorate per esse, lavorerete di più e con maggior qualità senza sentirne la fatica.
+- **la realtà del mercato**. É inutile conoscere esotici linguaggi di programmazione se non vi é richiesta. Un prodotto non farà soldi senza clienti disposti a comprarlo, anche se ha un bel design (questa la dovrei spiegare a certi amici...). Contemporaneamente, i vostri asset e le vostre aspirazioni non vi daranno un vantaggio se non c'é un mercato disposto a pagare per loro.
 
 Se vi state domandando quali sono i vostri asset, aspirazioni, e il vostro mercato, bene: state facendo un ottimo esercizio per analizzare il vostro futuro. Ricordatevi però che l'analisi deve essere messa in relazione con il **vostro** mondo, non con tutto il mondo. Non dovete essere i migliori chef dell'universo, spesso basta esserlo in città.
 

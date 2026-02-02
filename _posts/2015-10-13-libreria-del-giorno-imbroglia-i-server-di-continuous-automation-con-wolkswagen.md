@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=398
 permalink: /2015/10/libreria-del-giorno-imbroglia-i-server-di-continuous-automation-con-wolkswagen/
 dsq_thread_id:
-  - "4220972511"
+  - '4220972511'
 categories:
   - Italiano
 tags:
@@ -18,12 +18,13 @@ tags:
   - wolkswagen
 headerImg: /uploads/2015/10/volkswagen-emission-tests-2.jpg
 ---
+
 Ogni tanto il mondo diventa un posto migliore, e lo diventa grazie a persone come quelle che pubblicano progetti come [Wolkswagen](https://github.com/auchenberg/volkswagen).
 
 Ma come? Un progetto che si chiama come la nota casa automobilistica, recentemente coinvolta in uno scandalo sui test truccati?
 
-Ebbene si, e per motivi _assolutamente indipendenti_da quelli scritti al paragrafo precedente, [Wolkswagen](https://github.com/auchenberg/volkswagen) è una libreria che si accorge che stai eseguendo test su un server CI e li fa passare tutti.
+Ebbene si, e per motivi \_assolutamente indipendenti_da quelli scritti al paragrafo precedente, [Wolkswagen](https://github.com/auchenberg/volkswagen) è una libreria che si accorge che stai eseguendo test su un server CI e li fa passare tutti.
 
-Cito dalla pagina ufficiale del progetto: "Questo ti  permetterà di spendere _meno_ tempo a preoccuparti del testing e _più_ tempo a goderti la vita come sviluppatore software affidabile".
+Cito dalla pagina ufficiale del progetto: "Questo ti permetterà di spendere _meno_ tempo a preoccuparti del testing e _più_ tempo a goderti la vita come sviluppatore software affidabile".
 
 Cosa dovevo fare oggi? Ah niente, testing... `require("volkswagen")` e ho tutto il pomeriggio libero 😉

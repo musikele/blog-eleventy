@@ -13,11 +13,11 @@ tags:
   - hb
   - header bidding
 title: How internet ads work
-headerImg: "/images/pexels-photo-802024.jpeg"
+headerImg: '/images/pexels-photo-802024.jpeg'
 description: 'header bidding, DFP, GAM, cpm ... welcome in the world of ads, where
   everything is an acronym. Le me try to explain how everything works under the hood. '
-
 ---
+
 Since money was invented, people felt the urge to advertise their products to others. I live very near to Pompeii (Italy) and if you visit this incredible town you'll discover that in 79 a.D. there were a lot of ads painted on walls, trying to sell you wine, prostitutes, or ask for a vote.
 
 Fast-forward a couple of millenia, we have many websites that are free to their users - think at your favourite newspaper. This is totally different from how newspapers made money few years ago: you had to buy them in shops. So, how they pay salaries to their employees now?
@@ -34,8 +34,8 @@ In 1999 I was 14 years old, so what I know is based on the tales of wise old men
 
 Once the deal was closed, there were needs to:
 
-* **track impressions** - how many times ads were rendered? and how many times they were actually _viewed_? and clicked?
-* **handle multiple campaigns concurrently** - I can close a deal with advertiser A for 1.5mln impressions per 100k, but then close another deal with advertiser B for 500k impressions for 200k - which one would you show most? and with what algorithm?
+- **track impressions** - how many times ads were rendered? and how many times they were actually _viewed_? and clicked?
+- **handle multiple campaigns concurrently** - I can close a deal with advertiser A for 1.5mln impressions per 100k, but then close another deal with advertiser B for 500k impressions for 200k - which one would you show most? and with what algorithm?
 
 Turns out, you need a software to implement these logics. A software like that is called **Ad Manager**. One of the most famous ad managers is...
 
@@ -45,9 +45,9 @@ Turns out, you need a software to implement these logics. A software like that i
 
 DFP allowed to:
 
-* **organize campaigns, creatives, orders**, **line items**, etc. Many obscure terms I will not explain here. I will only explain what is needed to understand the rest of this article, btw.
-* **serve the** **most valuable creative** amongst the closed deals
-* **track, analyze, report** - because after all, based on this data, advertisers will pay publishers!
+- **organize campaigns, creatives, orders**, **line items**, etc. Many obscure terms I will not explain here. I will only explain what is needed to understand the rest of this article, btw.
+- **serve the** **most valuable creative** amongst the closed deals
+- **track, analyze, report** - because after all, based on this data, advertisers will pay publishers!
 
 Not all publishers had the resources for a _dedicated sales team_ or the power to _engage with the most valuable customers_. Also, when campaigns are exhausted, there are no remnant ads to show and this can lead to blanks in some moments of the year. But things are going to change again because at some point in 2007...
 
@@ -95,9 +95,9 @@ the name _Header bidding (HB)_ comes from the fact that, historically, what I'm 
 
 **HB _hacks_ GAM to allow other SSPs to bid for the same ad units**. Let's recap the three foundational items:
 
-* we can inject whatever creative we want for custom orders.
-* we can define targeting on GAM requests, so we can display specific ads to some users.
-* SSPs will tell us what they're paying us, and we can use this piece of information to estimate the price of GAM ads too.
+- we can inject whatever creative we want for custom orders.
+- we can define targeting on GAM requests, so we can display specific ads to some users.
+- SSPs will tell us what they're paying us, and we can use this piece of information to estimate the price of GAM ads too.
 
 You're finally ready to discover **the HB process**, _for dummies:_
 

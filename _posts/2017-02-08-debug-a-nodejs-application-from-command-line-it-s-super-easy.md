@@ -6,8 +6,8 @@ comments: true
 author: musikele
 layout: post
 tags:
-  
 ---
+
 If you want to seriously develop a nodejs application, you can't continue to put `console.log()` statements everywhere. It's just a pain! That's why every modern language has debug support via various tools.
 
 In NodeJS debugging can be also done via command line - it's not _point n' click_, but it's still easy and straightforward.
@@ -21,7 +21,7 @@ Save this file as `book.js` :
 ```javascript
 let book = {
   title: 'NodeJS for dummies',
-  ISBN: '1234567'
+  ISBN: '1234567',
 };
 
 book.title = 'cooking with Trump';
@@ -35,7 +35,7 @@ console.log(book);
 To run this file you can launch `node book.js`; however, in case you want to **debug** you just add an option:
 
 ```bash
-$ node debug book.js 
+$ node debug book.js
 
 < Debugger listening on 127.0.0.1:5858
 connecting to 127.0.0.1:5858 ... ok
@@ -75,7 +75,7 @@ We might want to stop at a specific point, for example before setting the `categ
 ```javascript
 ...
 book.title = 'cooking with Trump';
-debugger; 
+debugger;
 book.category = 'recipes';
 ...
 ```

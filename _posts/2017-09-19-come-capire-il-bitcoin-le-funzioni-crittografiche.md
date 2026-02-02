@@ -14,7 +14,6 @@ category: Italiano
 permalink: 2017/09/19/come-capire-il-bitcoin-le-funzioni-crittografiche.html
 ---
 
-
 Ormai sono un paio di mesi che mi sono appassionato all'anarchico mondo del bitcoin, ossia questa moneta virtuale che esiste su internet che gode di un'infinita serie di proprietà positive: è anonima, decentralizzata, incontrollabile, incopiabile, incraccabile...
 
 Finchè si trattava di scimmiottare gli agenti di borsa era anche divertente, ma da quando abbiamo tenuto il [primo meetup a Salerno sul Bitcoin](https://www.meetup.com/it-IT/preview/devday-salerno/events/242583299) ho capito che bisognava assolutamente provare a capirne di più.
@@ -25,14 +24,14 @@ In questo articolo vi parlo di un concetto chiave alla base di bitcoin, blockcha
 
 ### le funzioni Hash
 
-Hash in italiano significa *carne tritata*, ma onestamente non ho mai visto un inglese fare le polpette quindi dobbiamo fidarci di google. Tuttavia carne tritata gli si addice: in effetti quello che fa una funzione hash è proprio di prendere un messaggio (pensate a una stringa, ma in realtà può essere qualunque oggetto), e calcolarne un valore di lunghezza fissa. Vediamone un esempio, mi appoggio a NodeJS per comodità e perchè è uno dei più immediati, ma volendo potete giocare con qualsiasi linguaggio perchè le funzioni di crittografia sono native in ogni ambiente.
+Hash in italiano significa _carne tritata_, ma onestamente non ho mai visto un inglese fare le polpette quindi dobbiamo fidarci di google. Tuttavia carne tritata gli si addice: in effetti quello che fa una funzione hash è proprio di prendere un messaggio (pensate a una stringa, ma in realtà può essere qualunque oggetto), e calcolarne un valore di lunghezza fissa. Vediamone un esempio, mi appoggio a NodeJS per comodità e perchè è uno dei più immediati, ma volendo potete giocare con qualsiasi linguaggio perchè le funzioni di crittografia sono native in ogni ambiente.
 
 Creiamo una directory di esempio e installiamo il modulo `crypto-js`:
 
 ```
 $ mkdir esempi-crypto
 $ cd esempi-crypto
-$ npm i -S crypto-js 
+$ npm i -S crypto-js
 
 ```
 
@@ -41,7 +40,7 @@ Forse l'environment vi darà degli errori che manca il file `package.json`, ma n
 Ora siamo pronti a sbizzarrirci. Da console apriamo l'environment invocando il comando `node`:
 
 ```
-$ node 
+$ node
 > let CryptoJS = require('crypto-js')
 undefined
 
@@ -52,7 +51,7 @@ Abbiamo appena importato la libreria che contiene le funzioni crittografiche pi�
 E' il momento di provare a fare l'hash di un messaggio. L'algoritmo più usato e considerato più sicuro è SHA256, ossia prende qualunque messaggio e lo trasforma in una stringa di 256 bits. Proviamolo:
 
 ```
-> let message = "This is my password" 
+> let message = "This is my password"
 > let sha = CryptoJS.SHA256(message)
 
 > console.log(sha)
@@ -81,15 +80,15 @@ Però dei byte non ce ne facciamo niente, siamo pur sempre esseri umani e se vog
 
 Hai ragione a pensarlo, caro lettore, però non è così. Le funzioni hash (e quindi anche SHA256 che abbiamo usato, che è una delle tante funzioni hash) garantiscono le seguenti proprietà:
 
-* Una funzione hash prende ogni possibile stringa come input, e restituisce una stringa di dimensioni fisse.
+- Una funzione hash prende ogni possibile stringa come input, e restituisce una stringa di dimensioni fisse.
 
-* la funzione deve essere computata efficientemente: nell'esempio precedente accade tutto in pochissimi microsecondi.
+- la funzione deve essere computata efficientemente: nell'esempio precedente accade tutto in pochissimi microsecondi.
 
-* la funzione è [collision-resistant](https://en.wikipedia.org/wiki/Collision_resistance): è impossibile (per essere precisi, è difficile farlo in tempi ragionevoli) per chiunque trovare due stringhe diverse `x`e `y` che restituiscano lo stesso hash (matematicamente: `H(x) = H(y)`).
+- la funzione è [collision-resistant](https://en.wikipedia.org/wiki/Collision_resistance): è impossibile (per essere precisi, è difficile farlo in tempi ragionevoli) per chiunque trovare due stringhe diverse `x`e `y` che restituiscano lo stesso hash (matematicamente: `H(x) = H(y)`).
 
-* la funzione hash *nasconde* il messaggio originario: se vi do l'hash di un messaggio H(x), è impossibile risalire al messaggio. Ciò è particolarmente vero se concateniamo una stringa casuale prima del messaggio (chiamata *salt*), che noi potremmo definire come una "chiave" , per intenderci.
+- la funzione hash _nasconde_ il messaggio originario: se vi do l'hash di un messaggio H(x), è impossibile risalire al messaggio. Ciò è particolarmente vero se concateniamo una stringa casuale prima del messaggio (chiamata _salt_), che noi potremmo definire come una "chiave" , per intenderci.
 
-* la funzione hash è *puzzle-friendly*: per ogni possibile hash, se il salt è scelto davvero a caso, è infattibile risalire al messaggio se non cercando nell'insieme di tutte le chiavi possibili. L'idea quindi è di fornire un *puzzle* di questo tipo: dato un salt (casuale) e un insieme finito di soluzioni Y, trovare un messaggio tale che la chiave, concatenata al messaggio, appartenga all'insieme delle soluzioni. Per risolvere questo puzzle bisognerà scorrere tutti i possibili messaggi.
+- la funzione hash è _puzzle-friendly_: per ogni possibile hash, se il salt è scelto davvero a caso, è infattibile risalire al messaggio se non cercando nell'insieme di tutte le chiavi possibili. L'idea quindi è di fornire un _puzzle_ di questo tipo: dato un salt (casuale) e un insieme finito di soluzioni Y, trovare un messaggio tale che la chiave, concatenata al messaggio, appartenga all'insieme delle soluzioni. Per risolvere questo puzzle bisognerà scorrere tutti i possibili messaggi.
 
 Bel casino! Scommetto che la terza proprietà vi ha complicato la comprensione.
 
@@ -107,7 +106,7 @@ Come possiamo vedere, per risolvere il primo puzzle ci sono voluti 15 tentativi,
 
 Questo gioco non è altro che il **mining**: a partire dall'hash del blocco precedente, trovare un numero che restituisca un hash che inizia con ... qualcosa, poi vedremo cosa. Questo problema non è facile e richiede milioni di milioni di calcoli, motivo per cui si ricevono dei bitcoin come premio.
 
-Non mi resta  che salutarvi con l'hash di `Buona giornata`:
+Non mi resta che salutarvi con l'hash di `Buona giornata`:
 
 ```
 9b1ec4ffe99ed6f9c898e91d79d197a7399519c53b3b0671d4e34664d6dcae21

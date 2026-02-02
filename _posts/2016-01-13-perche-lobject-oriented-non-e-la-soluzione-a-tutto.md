@@ -8,7 +8,7 @@ guid: http://michelenasti.com/?p=513
 permalink: /2016/01/perche-lobject-oriented-non-e-la-soluzione-a-tutto/
 headerImg: /uploads/2016/01/stormo-di-gabbiani-un-cielo-color-pastello.jpg
 dsq_thread_id:
-  - "4486789148"
+  - '4486789148'
 categories:
   - Italiano
 tags:

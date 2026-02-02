@@ -7,7 +7,7 @@ title: 'Consigli ai junior e ai laureandi (ossia: evitate gli errori che ho fatt
 category: Italiano
 layout: post
 date: 2018-02-25 00:00:00
-headerImg: "/images/0402ae2.jpg"
+headerImg: '/images/0402ae2.jpg'
 description: 'Consigli per i neolaureati: come redigere il CV, come trovare stage,
   evitando gli errori classici '
 tags:
@@ -17,6 +17,7 @@ tags:
   - junior
   - neolaureati
 ---
+
 Ieri sera abbiamo tenuto un altro incontro del [DevDay Salerno](https://www.meetup.com/it-IT/devday-salerno/?chapter_analytics_code=UA-74462208-1), un gruppo di programmatori che si riunisce più o meno una volta al mese per parlare di programmazione, lavoro, informatica, etc. E' andato molto bene.
 
 All'incontro c'erano anche due studenti in cerca di uno stage e ciò mi ha fatto molto piacere: la community si è mostrata molto ricettiva con loro.
@@ -41,8 +42,8 @@ Come ho già scritto il CV era colorato, con addirittura il _simboletto di whats
 
 Alcune **eccezioni** a questa regola:
 
-* **Un blog**. Se hai un blog con contenuti relativi alla tua professione, **il blog merita di essere in prima pagina proprio sotto al numero di telefono**. I recruiter infatti ti cercano sui social, e se gli rendi facile l'accesso al tuo sito è come se il colloquio partisse già in discesa. Il mio blog è in prima pagina ;)
-* **Eventuali altri contatti e riferimenti social SOLO se richiesti.** Per posizioni di copywriting, o altre di cui non ne ho idea, potrebbe essere necessario fornire anche il proprio profilo social. In questi casi valutate voi se darli oppure no (purtroppo ho visto job descriptions in USA in cui cercavano dev con un [_Klout Score_](https://klout.com/#/micnasti) di un certo tipo).
+- **Un blog**. Se hai un blog con contenuti relativi alla tua professione, **il blog merita di essere in prima pagina proprio sotto al numero di telefono**. I recruiter infatti ti cercano sui social, e se gli rendi facile l'accesso al tuo sito è come se il colloquio partisse già in discesa. Il mio blog è in prima pagina ;)
+- **Eventuali altri contatti e riferimenti social SOLO se richiesti.** Per posizioni di copywriting, o altre di cui non ne ho idea, potrebbe essere necessario fornire anche il proprio profilo social. In questi casi valutate voi se darli oppure no (purtroppo ho visto job descriptions in USA in cui cercavano dev con un [_Klout Score_](https://klout.com/#/micnasti) di un certo tipo).
 
 **Prima tenevo molto alla privacy ma poi ho capito che i social potevano essere usati a mio favore**. La mia bacheca prima era chiusa ai più, poi ho cambiato completamente registro e **adesso condivido prevalentemente roba di lavoro**; chi mi trova sa cosa ha trovato. E il colloquio si semplifica parecchio, di nuovo.
 
@@ -68,7 +69,7 @@ Il trucco è davvero semplice e stupido: i due ragazzi di cui sopra sono venuti 
 
 Ovviamente **ieri sera non c'erano i CEO** (...in verità qualcuno si), ma **una sovrabbondanza di senior programmer e team leader che hanno fatto un colloquio "al volo" al termine dell'evento**, tra una pizzettina e una coca.
 
-Un altro consiglio è di parlare con tutti, anche con quelli che non ti interessano  (specialmente ora che non hai nessun tipo di esperienza), e di accettare il lavoro che ti permette di imparare di più.
+Un altro consiglio è di parlare con tutti, anche con quelli che non ti interessano (specialmente ora che non hai nessun tipo di esperienza), e di accettare il lavoro che ti permette di imparare di più.
 
 Ecco infatti un'altra cosa che ho imparato sulla mia pelle: **rifiutare un lavoro non significa rifiutarlo per sempre**, dobbiamo infatti lavorare 35 anni (almeno) e chi sa che non ci si reincontra, in questo lavoro o nel prossimo.
 

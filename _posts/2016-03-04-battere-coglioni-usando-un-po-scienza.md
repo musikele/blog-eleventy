@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=612
 permalink: /2016/03/battere-coglioni-usando-un-po-scienza/
 dsq_thread_id:
-  - "4634520636"
+  - '4634520636'
 categories:
   - Italiano
 tags:
@@ -17,6 +17,7 @@ tags:
   - Jacopo Notarstefano
   - python
 ---
+
 In questi giorni, sul web, è uscito un articolo bellissimo: [Battere Calderoli usando Python](http://www.jacquerie.it/battere-calderoli-usando-python), scritto da [Jacopo Notarstefano](https://twitter.com/Jaconotar). E' un po' difficile da leggere perché è tecnico, ma gli effetti sono piuttosto interessanti. Proverò a spiegarvi un attimo l'articolo, da un punto di vista "umano", e poi vi parlerò dell'autore.
 
 ## L'articolo originale spiegato facile
@@ -27,10 +28,10 @@ Dunque molti emendamenti sono simili. Come fare a capire quali sono stati genera
 
 Ecco il procedimento utilizzato da Jacopo, spiegato a chi di informatica capisce poco o niente:
 
-* Il primo passo è di scaricare tutti gli emendamenti dalla pagina del senato.
-* Il problema da risolvere è un classico problema di Data Science, ossia trovare tutti i "cluster" (gruppi) di articoli "omogenei" (simili).
-* Come capire quali articoli sono simili tra loro? Usando una metrica semplice: dati due emendamenti, calcola quanto è grande la sottostringa uguale (una porzione di testo) più grande. E' abbastanza chiaro che se la sottostringa è grande, i due articoli sono molto simili.
-* Grazie a questa metrica è possibile lanciare un algoritmo, chiamato "Hierarchical Clustering", che mostra un grafico somigliante a un tabellone dei mondiali disegnato da un ubriaco. Se lo guardate attentamente, però, i colori sono diversi: bene, l'algoritmo ha colorato allo stesso modo gli emendamenti che secondo lui sono simili. Nell'articolo viene mostrato anche praticamente, ispezionando gli esempi.
+- Il primo passo è di scaricare tutti gli emendamenti dalla pagina del senato.
+- Il problema da risolvere è un classico problema di Data Science, ossia trovare tutti i "cluster" (gruppi) di articoli "omogenei" (simili).
+- Come capire quali articoli sono simili tra loro? Usando una metrica semplice: dati due emendamenti, calcola quanto è grande la sottostringa uguale (una porzione di testo) più grande. E' abbastanza chiaro che se la sottostringa è grande, i due articoli sono molto simili.
+- Grazie a questa metrica è possibile lanciare un algoritmo, chiamato "Hierarchical Clustering", che mostra un grafico somigliante a un tabellone dei mondiali disegnato da un ubriaco. Se lo guardate attentamente, però, i colori sono diversi: bene, l'algoritmo ha colorato allo stesso modo gli emendamenti che secondo lui sono simili. Nell'articolo viene mostrato anche praticamente, ispezionando gli esempi.
 
 ### Calderoli, prendi questo
 

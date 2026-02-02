@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=574
 permalink: /2016/01/i-colloqui-di-lavoro-iniziano-e-finiscono-su-facebook/
 dsq_thread_id:
-  - "4540079755"
+  - '4540079755'
 categories:
   - Italiano
 tags:

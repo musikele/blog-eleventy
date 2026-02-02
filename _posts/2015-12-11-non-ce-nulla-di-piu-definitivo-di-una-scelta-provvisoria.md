@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=467
 permalink: /2015/12/non-ce-nulla-di-piu-definitivo-di-una-scelta-provvisoria/
 dsq_thread_id:
-  - "4394257271"
+  - '4394257271'
 categories:
   - Italiano
 tags:
@@ -16,9 +16,10 @@ tags:
   - sviluppo
 headerImg: /images/pezzotto.jpg
 ---
-Negli ultimi due giorni ho lavorato a un  refactoring della webapp che stiamo sviluppando e, mentre sistemavamo tutti i problemi che incontravamo lungo la strada, abbiamo trovato tante scelte _provvisorie_ fatte dagli sviluppatori di sei mesi fa (alcune anche di un anno fa). Ci faceva sorridere il fatto che alcuni div fossero addirittura etichettati come `provvisorio` e invece sono resistiti tutto questo tempo.
 
-Voi lo sapete che meno refactoring si fa sul codice meglio é, tuttavia ogni tanto un refactoring é indispensabile altrimenti  i poveri sviluppatori impazziscono 🙂  
+Negli ultimi due giorni ho lavorato a un refactoring della webapp che stiamo sviluppando e, mentre sistemavamo tutti i problemi che incontravamo lungo la strada, abbiamo trovato tante scelte _provvisorie_ fatte dagli sviluppatori di sei mesi fa (alcune anche di un anno fa). Ci faceva sorridere il fatto che alcuni div fossero addirittura etichettati come `provvisorio` e invece sono resistiti tutto questo tempo.
+
+Voi lo sapete che meno refactoring si fa sul codice meglio é, tuttavia ogni tanto un refactoring é indispensabile altrimenti i poveri sviluppatori impazziscono 🙂
 
 Questo problema delle scelte provvisorie che poi diventano definitive travalica i confini dell'informatica: mi vengono in mente i [Trulli di Alberobello](https://it.m.wikipedia.org/wiki/Trullo), costruiti senza malta (quindi con la sola pietra) affinché potessero essere facilmente smontabili in caso di ispezione da parte del Regno delle Due Sicilie. Ai tempi si pagava una tassa per ogni nuovo insediamento!
 

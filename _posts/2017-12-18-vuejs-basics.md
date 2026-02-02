@@ -9,11 +9,12 @@ tags:
   - vuejs
   - javascript
   - frontend
-headerImg: "/images/vuejs.png"
+headerImg: '/images/vuejs.png'
 description: 'A super brief description of what is VueJS, and how easy it is to get
   in. '
 categories: Italiano
 ---
+
 It has been a long week for me, I'm studying very hard VueJS - this time by coding real examples - and I confirm that there are some very good concepts backed in.
 
 ![]({{ site.baseurl }}/images/vuejs.png)
@@ -26,11 +27,13 @@ This is a basic html containing some VueJS markup:
 <html>
   ...
   <body>
-  	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  	<div id="app">{% raw %}
-  	  <h2>{{ message }}</h2>
-      <p>{{ sayHelloTo(name) }}</p>{% endraw %}
-  	</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <div id="app">
+      {% raw %}
+      <h2>{{ message }}</h2>
+      <p>{{ sayHelloTo(name) }}</p>
+      {% endraw %}
+    </div>
   </body>
 </html>
 ```
@@ -42,21 +45,21 @@ new Vue({
   el: '#app',
   data: {
     message: 'Hello from Vue!',
-    name: 'Michele'
+    name: 'Michele',
   },
   methods: {
-    sayHelloTo: function(name) {
-      return `Hello, ${this.name}!`
-    }
-  }
-})
+    sayHelloTo: function (name) {
+      return `Hello, ${this.name}!`;
+    },
+  },
+});
 ```
 
 Let's describe this snippet:
 
-* the `el` references the DOM element with the `#app` id. This element will be _Vuezed_.
-* the `data` object contains the data that can be used inside the HTML: for example, we used the `message` property in the Html.
-* the `methods` property contains the methods you can use in your html. These are useful for calculations or for actions, like clicking on a button.
+- the `el` references the DOM element with the `#app` id. This element will be _Vuezed_.
+- the `data` object contains the data that can be used inside the HTML: for example, we used the `message` property in the Html.
+- the `methods` property contains the methods you can use in your html. These are useful for calculations or for actions, like clicking on a button.
 
 I acutally like a lot: a clear separations of data and methods.
 
@@ -66,7 +69,7 @@ However, Vue is not _functional_ in the classic sense of the definition, because
 
 ## A word on this
 
-Have you noticed that from the `methods` section,  if you want to access `data` properties, you use `this` ?
+Have you noticed that from the `methods` section, if you want to access `data` properties, you use `this` ?
 
 In fact, Vue proxies the `this` keyword so that you can access to data without writing `this.data.message`.
 

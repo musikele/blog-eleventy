@@ -6,7 +6,7 @@ headerImg: /images/fixing python impots.webp
 description: >
   in this post I'll explain what has worked for me to fix Visual Studio Code to
   work with Python, poetry, virtualenvs, to find the right imports and how to
-  configure black and isort correctly. 
+  configure black and isort correctly.
 tags:
   - black
   - isort
@@ -21,13 +21,13 @@ As you may know, Python developers that work on a project that is big enough wil
 
 So, even though I had installed the right Python version on my computer and I could see that by running `python --version` , Visual Studio Code would still tell me that my imports were broken.
 
-![lxml is not found by VScode ](</images/Screenshot 2025-02-13 alle 09.52.42.png> "Hey lxml, where are you located?")
+![lxml is not found by VScode ](</images/Screenshot 2025-02-13 alle 09.52.42.png> 'Hey lxml, where are you located?')
 
 This project is using Poetry to manage its dependencies. Poetry does many things:
 
-* it creates a virtual env with the right python verison (usually with `poetry install`)
-* installs the specified dependencies (same command as before)
-* if some of these dependencies are runnable commands, it will allow you to run them using the right python and dependencies version (this is done with `poetry run ...`).
+- it creates a virtual env with the right python verison (usually with `poetry install`)
+- installs the specified dependencies (same command as before)
+- if some of these dependencies are runnable commands, it will allow you to run them using the right python and dependencies version (this is done with `poetry run ...`).
 
 In my case, this problem was due to the fact that VSCode was using the global python version, not the virtualenv one. So, how to fix this?
 

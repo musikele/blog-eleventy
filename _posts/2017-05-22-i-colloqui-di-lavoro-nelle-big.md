@@ -10,10 +10,9 @@ tags:
   - colloqui di lavoro
 ---
 
-
 Recentemente sono stato speaker all'evento [pre-Google I/O](https://www.meetup.com/it-IT/GDGCampania/events/239723850/) organizzato dal [Google Developers Group Campania](http://gdgcampania.com), a Napoli.
 
-Il mio talk verteva sui colloqui di lavoro delle aziende top, e qui ci sta bene un bel disclaimer: *non ho mai fatto colloqui per aziende top  - tranne un piccolo frangente con Amazon*. Ma ho letto molto sull'argomento, e ho chiesto in giro ad alcuni amici che hanno fatto le selezioni per queste aziende, quindi avevo un po' di materiale che era bello condividere.
+Il mio talk verteva sui colloqui di lavoro delle aziende top, e qui ci sta bene un bel disclaimer: _non ho mai fatto colloqui per aziende top - tranne un piccolo frangente con Amazon_. Ma ho letto molto sull'argomento, e ho chiesto in giro ad alcuni amici che hanno fatto le selezioni per queste aziende, quindi avevo un po' di materiale che era bello condividere.
 
 <!-- markdownlint-disable MD033 -->
 <iframe src="https://docs.google.com/presentation/d/1eQce7aEOl8qaGPbmhQVmUQb99Sf2bioBJhmuEER4_B8/embed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -53,6 +52,6 @@ Che diamine stanno dicendo?! Quanti sono? Chi ha ragione? Come sono seduti?
 
 > Cambio tavolo: vado a sedermi da un'altra parte.
 
-Posso dirvi che in aziende come Google queste risposte non sarebbero state solo degli *ice-breaker*, ma verrebbero probabilmente considerate nel giudizio globale del candidato.
+Posso dirvi che in aziende come Google queste risposte non sarebbero state solo degli _ice-breaker_, ma verrebbero probabilmente considerate nel giudizio globale del candidato.
 
 Tuttavia non basta per superare il colloquio 😅 Scrivi la tua risposta nei commenti!

@@ -11,12 +11,11 @@ categories: English
 date: 2017-09-21 00:00:00
 ---
 
-
 In this post I'm going to talk about an authentication "protocol" called JWT, that allows to secure an API so that only authenticated users can use some requests of your API. And more importantly, a user cannot impersonate another by changing something in the request, so we can be reasonably certain that a user is who claims to be.
 
 However, to understand JWT, we must step back and talk about hashing functions.
 
-<!--more--> 
+<!--more-->
 
 ## Hashing: a one-way transformation function
 
@@ -31,20 +30,20 @@ $ npm i --save crypto-js
 Now, let's create a new file, `hashing.js` and fill it with this:
 
 ```javascript
-const {SHA256} = require('crypto-js')
+const { SHA256 } = require('crypto-js');
 
-let message = 'I am user number 3'
+let message = 'I am user number 3';
 
 let hash = SHA256(message).toString();
 
-console.log(`Message: ${message}`)
-console.log(`Hash: ${hash}`)
+console.log(`Message: ${message}`);
+console.log(`Hash: ${hash}`);
 ```
 
 Let's run this file. What will we get?
 
 ```bash
-$ node hashing.js 
+$ node hashing.js
 Message: I am user number 3
 Hash: 9da4d19e100809d42da806c2b7df5cf37e72623d42f1669eb112e23f5c9d45a3
 ```
@@ -53,13 +52,13 @@ What's happening here? We are importing the function `SHA256`, that is one of th
 
 Basically, the `message` text will be converted in a new string of just 256 bits, and this string has some unique properties:
 
-* the same message will always receive the same hash.
+- the same message will always receive the same hash.
 
-* If you change just one character from the `message` string, you get a completely different hash.
+- If you change just one character from the `message` string, you get a completely different hash.
 
-* The probability that two different strings get the same hash is definitely low.
+- The probability that two different strings get the same hash is definitely low.
 
-* It's impossible to get the original message back.
+- It's impossible to get the original message back.
 
 Curious? I won't lie to you, security is one of the hottest themes in computer science; this stuff is hard, btw we are just using it and the three points before should be sufficient for you to understand.
 
@@ -85,21 +84,21 @@ So let's create a json object with the user' ID:
 
 ```javascript
 let data = {
-    id: 4
-}
+  id: 4,
+};
 ```
 
 We obviously don't want that the user can change their ID with some other ID, for example the admin ID. So we can create a new object called `token` that contains the data and the hash of the data:
 
 ```javascript
 let data = {
-    id: 4
+  id: 4,
 };
 
 let token = {
-    data, 
-    hash: SHA256(JSON.stringify(data)).toString()
-}
+  data,
+  hash: SHA256(JSON.stringify(data)).toString(),
+};
 ```
 
 We now have a token, but ... if the user tamper the data, he can just recalculate the hash and he won.
@@ -112,21 +111,21 @@ So the previous example would be something like this:
 
 ```javascript
 let token = {
-    data, 
-    hash: SHA256(JSON.stringify(data) + 'somesecret').toString()
-}
+  data,
+  hash: SHA256(JSON.stringify(data) + 'somesecret').toString(),
+};
 ```
 
-Wait, but what if the user knows the salt? **They shouldn't!** Once they're logged in, you send them this *token* signed with the *server's salt* and you can be sure that the client cannot recreate the hash back again.
+Wait, but what if the user knows the salt? **They shouldn't!** Once they're logged in, you send them this _token_ signed with the _server's salt_ and you can be sure that the client cannot recreate the hash back again.
 
 ## Don't reinvent the wheel: Json Web Token
 
-We could write all the edge cases, but that would be a lot of work. Instead, there's a library that does just  this, **JSON Web Token** (JWT): it has becomed a de-facto standard for authentication tokens, even if not all the web loves it.
+We could write all the edge cases, but that would be a lot of work. Instead, there's a library that does just this, **JSON Web Token** (JWT): it has becomed a de-facto standard for authentication tokens, even if not all the web loves it.
 
 Let's install it:
 
 ```bash
-$ npm i --save jsonwebtoken 
+$ npm i --save jsonwebtoken
 ```
 
 With this package we get two functions: one to **create** the token (`sign`), and another to **verify** (`verify`).
@@ -134,21 +133,21 @@ With this package we get two functions: one to **create** the token (`sign`), an
 So let's create a new file (we are not going to need the previous stuff anymore) and start over.
 
 ```javascript
-const jwt = require('jsonwebtoken')
+const jwt = require('jsonwebtoken');
 
 let data = {
-    id: 10
+  id: 10,
 };
 
-let secret = '123abc'
-let token = jwt.sign(data, secret)
-console.log(token)
+let secret = '123abc';
+let token = jwt.sign(data, secret);
+console.log(token);
 ```
 
 And this becomes:
 
 ```bash
-$ node jwtExample.js 
+$ node jwtExample.js
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTUwNTk4MjUxOX0.w
 DMat521KBdCoTj0XiqYcHxLkTblN01C9v8y26pEtl8
 ```
@@ -157,11 +156,11 @@ this is different from the hash we presented before: it is divided in three bloc
 
 Let's copy this string and go over [jwt.io](http://jwt.io), where you'll see a cool tool that will explain the JWT: paste it in the left side.
 
-* We see the **header**, that contains the algorithm used the type of token issued;
+- We see the **header**, that contains the algorithm used the type of token issued;
 
-* we see the **payload**, that contains our original data along with a new property called `iat`(*Issued at*, the time this token was created);
+- we see the **payload**, that contains our original data along with a new property called `iat`(_Issued at_, the time this token was created);
 
-* and finally we see the **verify signature** that will allow us to inser the secret and verify that the token is right. Try to insert our `secret` (`123abc`) and the verification box will change to *Signature Verified* ;)
+- and finally we see the **verify signature** that will allow us to inser the secret and verify that the token is right. Try to insert our `secret` (`123abc`) and the verification box will change to _Signature Verified_ ;)
 
 ![screenshot of JWT website]({{site.baseurl}}/images/jwt.PNG)
 
@@ -170,17 +169,16 @@ Let's copy this string and go over [jwt.io](http://jwt.io), where you'll see a c
 Very very easy:
 
 ```javascript
-//add this to the preceeding script 
+//add this to the preceeding script
 
-let decoded = jwt.verify(token, secret)
-console.log('decoded', decoded)
-
+let decoded = jwt.verify(token, secret);
+console.log('decoded', decoded);
 ```
 
 output:
 
 ```bash
-$ node jwtExample.js 
+$ node jwtExample.js
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTUwNTk4MjUxOX0.w
 DMat521KBdCoTj0XiqYcHxLkTblN01C9v8y26pEtl8
 decoded { id: 10, iat: 1505982519 }
@@ -190,17 +188,16 @@ decoded { id: 10, iat: 1505982519 }
 And if we try to change anything in the token, or in the secret, we get a javascript Error back:
 
 ```javascript
-//change the secret to fail the validation  
+//change the secret to fail the validation
 
-let decoded = jwt.verify(token, secret+'blah')
-console.log('decoded', decoded)
-
+let decoded = jwt.verify(token, secret + 'blah');
+console.log('decoded', decoded);
 ```
 
 output:
 
 ```bash
-$ node jwtExample.js 
+$ node jwtExample.js
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlhdCI6MTUwNTk4MjUxOX0.w
 DMat521KBdCoTj0XiqYcHxLkTblN01C9v8y26pEtl8
 
@@ -228,14 +225,14 @@ Not very clear, but once you know, you'll catch it.
 
 ### Conclusions
 
-In the past years I have dealt with authentication checking *on database* if the user was logged.
+In the past years I have dealt with authentication checking _on database_ if the user was logged.
 
 Think about it: for. every. request. How much delay we introduced? Could we scale? Obviously not!
 
 With JWT the database is not needed anymore (at every request), because we can stay safe that the user has not tampered data and because we know when the token was issued, so we can decide to block the authentication after, you say, 24 hours.
 
-> **UPDATE**: it seems that you might need the database however, with different strategies depending on your needs. Check out the comments thread, and thanks to [Stas Kaufman](http://disq.us/p/1mremix) for pointing this to me. However, i believe JWT can scale better than session tokens: think of a 2 million users logged in to a cluster of servers. You loose some things but you earn scalability. 
+> **UPDATE**: it seems that you might need the database however, with different strategies depending on your needs. Check out the comments thread, and thanks to [Stas Kaufman](http://disq.us/p/1mremix) for pointing this to me. However, i believe JWT can scale better than session tokens: think of a 2 million users logged in to a cluster of servers. You loose some things but you earn scalability.
 
 Now you can handle as many users you can, thanks to hash functions and JWT!
 
-*This post would have never existed without the brilliant course by [Andrew Mead about NodeJs](https://www.udemy.com/the-complete-nodejs-developer-course-2/). Check it out.*
+_This post would have never existed without the brilliant course by [Andrew Mead about NodeJs](https://www.udemy.com/the-complete-nodejs-developer-course-2/). Check it out._

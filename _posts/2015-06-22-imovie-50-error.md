@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=318
 permalink: /2015/06/imovie-50-error/
 dsq_thread_id:
-  - "4016107614"
+  - '4016107614'
 categories:
   - English
 tags:
@@ -23,11 +23,11 @@ iMovie is smart and it is very easy to prepare a video without being an expert o
 
 The problem arose when I tried to create a **mpg file** of the video. There's a button **"share" -> "file"** with some settings about the video, and I simply left all with default values.
 
-My first 5-6 attempts where blocked by a very strange **-50 error**.  There was **no description of what was going on**, so I tried to be friend with Google. Unfortunately they all described error -49 and I was a bit disappointed, however it seems that nobody really knows where's the problem and here are the suggestions that worked for me:
+My first 5-6 attempts where blocked by a very strange **-50 error**. There was **no description of what was going on**, so I tried to be friend with Google. Unfortunately they all described error -49 and I was a bit disappointed, however it seems that nobody really knows where's the problem and here are the suggestions that worked for me:
 
-  * disable Time Machine while rendering the video;
-  * disable iCloud;
-  * disable other cloud services that are scanning the rendering directory (dropbox, google drive, owncloud, etc. In my case, owncloud was scanning Pictures folder).
+- disable Time Machine while rendering the video;
+- disable iCloud;
+- disable other cloud services that are scanning the rendering directory (dropbox, google drive, owncloud, etc. In my case, owncloud was scanning Pictures folder).
 
 At first, none of these suggestions solved the problem.
 
@@ -35,8 +35,8 @@ Another strange thing was that **the video was stopping always at the same point
 
 **The video still gave -50 errors , but to my surprise, the rendering process was continuing.** At the end the video was completed and it played well in Vlc and QuickTime. So My suggestions are to
 
-  1. disable the services listed before
-  2. check if the rendering blocks always at the same point
-  3. check if the rendering really stops or if continues until the end. Ignore errors that don't block the rendering.
+1. disable the services listed before
+2. check if the rendering blocks always at the same point
+3. check if the rendering really stops or if continues until the end. Ignore errors that don't block the rendering.
 
 While waiting for an Apple iFix, maybe this will save 3-4 hours to understand what's going on.

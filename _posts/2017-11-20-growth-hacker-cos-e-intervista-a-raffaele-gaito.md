@@ -2,24 +2,25 @@
 paginate: true
 comments: true
 author: musikele
-title: 'Growth Hacker: cos''è? Intervista a Raffaele Gaito'
+title: "Growth Hacker: cos'è? Intervista a Raffaele Gaito"
 category: Italiano
 layout: post
 date: 2017-11-18 00:00:00
 tags:
-  - growth hacking 
+  - growth hacking
   - raffaele gaito
   - marketing
   - libro
-headerImg: "/images/raf_gaito.jpg"
+headerImg: '/images/raf_gaito.jpg'
 categories: Italiano
 description: "In quest'intervista Raffale ci parla del Growth Hacking e delle sue connessioni con il mondo degli sviluppatori. "
 ---
-Conosco [Raffaele Gaito](https://www.raffaelegaito.com/ "Raffaele Gaito, il blog") dai tempi dell'università, e mettiamolo subito in chiaro: siamo amici 😎 Oggi dobbiamo _fare finta_ che non abbiamo mai bevuto una birra insieme (mai!) e parleremo di una cosa che Raf conosce molto bene: 
+
+Conosco [Raffaele Gaito](https://www.raffaelegaito.com/ 'Raffaele Gaito, il blog') dai tempi dell'università, e mettiamolo subito in chiaro: siamo amici 😎 Oggi dobbiamo _fare finta_ che non abbiamo mai bevuto una birra insieme (mai!) e parleremo di una cosa che Raf conosce molto bene:
 
 ## il Growth Hacking
 
-Raffaele ha pubblicato il suo primo libro ([Growth Hacker, mindset e strumenti per far crescere il tuo business](https://www.raffaelegaito.com/growth-hacker-libro/) - c'è un'anteprima gratuita!) e ho colto l'occasione per fargli qualche domanda. 
+Raffaele ha pubblicato il suo primo libro ([Growth Hacker, mindset e strumenti per far crescere il tuo business](https://www.raffaelegaito.com/growth-hacker-libro/) - c'è un'anteprima gratuita!) e ho colto l'occasione per fargli qualche domanda.
 
 [![Growth Hacker - il libro]({{ site.baseurl }}/images/growth-hacker-libro-cover-3d-medium.png)](https://www.raffaelegaito.com/growth-hacker-libro/)
 
@@ -63,11 +64,11 @@ E' vero che il programmatore può avvicinarsi molto facilmente, perchè ci sono 
 
 Detto questo, perché leggere il mio libro? Provo a darti risposte diverse in base a scenari diversi:
 
-* Se è la prima cosa che leggi sul Growth Hacking, è un libro perfetto con una piccola parte teorica (molto piccola) e poi tanta ciccia. Ti consentirà di capire velocemente di cosa si tratta, ma essere anche in grado di metterlo in pratica.
+- Se è la prima cosa che leggi sul Growth Hacking, è un libro perfetto con una piccola parte teorica (molto piccola) e poi tanta ciccia. Ti consentirà di capire velocemente di cosa si tratta, ma essere anche in grado di metterlo in pratica.
 
-* Se hai già letto altre cose sul Growth Hacking (tipo il libro di Luca), allora meglio ancora perché il taglio del libro è quello di essere strategico/operativo per la quotidianità. Se ti interessa applicare questa metodologia sul tuo progetto o vuoi farne un lavoro questo è il libro perfetto.
+- Se hai già letto altre cose sul Growth Hacking (tipo il libro di Luca), allora meglio ancora perché il taglio del libro è quello di essere strategico/operativo per la quotidianità. Se ti interessa applicare questa metodologia sul tuo progetto o vuoi farne un lavoro questo è il libro perfetto.
 
-* Se se già un po' più avanti e magari hai fatto anche qualche corso (uno dei miei, ad esempio), il libro è il perfetto completamento a tutto quello che hai studiato fino ad oggi. È un manualetto da tenere sulla scrivania in ufficio e tirare fuori quando ti serve!
+- Se se già un po' più avanti e magari hai fatto anche qualche corso (uno dei miei, ad esempio), il libro è il perfetto completamento a tutto quello che hai studiato fino ad oggi. È un manualetto da tenere sulla scrivania in ufficio e tirare fuori quando ti serve!
 
 Il libro è perfetto per le agenzie, per i freelance, per i marketer, per i growth hacker, per i product manager, per i project manager e per chiunque in azienda (la propria o quella di altri) abbia la necessità crescere.
 

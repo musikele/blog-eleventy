@@ -7,7 +7,6 @@ category: Italiano
 layout: post
 date: 2017-05-30T12:07:50+00:00
 tags:
-   
   - git flow
   - mac-cli
   - oh-my-zsh
@@ -15,8 +14,7 @@ tags:
   - ngrok
 ---
 
-
-Riuscireste a svolgere il vostro lavoro senza la linea di comando? Se siete come me, ossia amanti di bash, ecco alcuni tool che vi permetteranno di migliorare la vostra *developer experience*.
+Riuscireste a svolgere il vostro lavoro senza la linea di comando? Se siete come me, ossia amanti di bash, ecco alcuni tool che vi permetteranno di migliorare la vostra _developer experience_.
 
 ### `mac` command line
 
@@ -26,9 +24,9 @@ Si [installa da linea di comando](https://github.com/guarinogabriel/Mac-CLI) e c
 
 Un esempio?
 
-* `mac ip:public` vi restituisce il vostro ip pubblico
-* `mac speedtest` esegue uno speed test da linea di comando
-* `mac memory` vi dice quale app sta consumando la vostra preziosa RAM
+- `mac ip:public` vi restituisce il vostro ip pubblico
+- `mac speedtest` esegue uno speed test da linea di comando
+- `mac memory` vi dice quale app sta consumando la vostra preziosa RAM
 
 e tanti altri. Sono circa una cinquantina!
 
@@ -56,27 +54,27 @@ Git flow è sia [un tool installabile da linea di comando](https://github.com/nv
 
 Git è un potentissimo sistema di versioning e branching; spero per voi che lo stiate già utilizzando altrimenti brrrr.
 
-Con git flow organizziamo il lavoro in due *meta-filoni*:
+Con git flow organizziamo il lavoro in due _meta-filoni_:
 
-* branch `master`, che corrisponde alle versioni rilasciate
-* branch `develop`, ossia dove gli sviluppatori committano le feature sviluppate, in attesa di rilascio.
+- branch `master`, che corrisponde alle versioni rilasciate
+- branch `develop`, ossia dove gli sviluppatori committano le feature sviluppate, in attesa di rilascio.
 
 Oltre a questi due branch "generali", ogni azione degli sviluppatori è realizzata creando nuovi branch:
 
-* Gli sviluppi delle singole feature sui branch `feature/*tua_feature*`
-* I rilasci (da develop a master) su branch chiamati `release/*nome_release*`
-* le hotfix (fix, correzioni a bug, di versioni già rilasciate) su branch `hotfix/*nome_fix*`.
+- Gli sviluppi delle singole feature sui branch `feature/*tua_feature*`
+- I rilasci (da develop a master) su branch chiamati `release/*nome_release*`
+- le hotfix (fix, correzioni a bug, di versioni già rilasciate) su branch `hotfix/*nome_fix*`.
 
 Non ci avete capito niente? [Qui un grafico che prova a spiegare comandi e funzioni](https://danielkummer.github.io/git-flow-cheatsheet/).
 
 ### Bonus: Postman per testare le interfacce Rest
 
-Ho iniziato a lavorare che c'era SOAP e si stava appena iniziando a parlare di REST. Qualche anno dopo, SOAP è diventato *legacy* e tutti si dichiarano REST, chi bene e chi male. 
+Ho iniziato a lavorare che c'era SOAP e si stava appena iniziando a parlare di REST. Qualche anno dopo, SOAP è diventato _legacy_ e tutti si dichiarano REST, chi bene e chi male.
 
 Ad ogni modo, è sorta l'esigenza di testare le interfacce REST e come testarle se non con [Postman](https://www.getpostman.com/)?
 
 ![Postman](https://www.getpostman.com/img/v2/logo-big.svg)
 
-Questa è  una vera e propria applicazione *standalone* che permette di effettuare ogni tipo di chiamata desideriate, GET - PUT - POST - HEAD etc. C'è la possibilità di salvare le chiamate, passare header aggiuntivi, visualizzare i dati in molti modi (ad esempio JSON), etc etc.
+Questa è una vera e propria applicazione _standalone_ che permette di effettuare ogni tipo di chiamata desideriate, GET - PUT - POST - HEAD etc. C'è la possibilità di salvare le chiamate, passare header aggiuntivi, visualizzare i dati in molti modi (ad esempio JSON), etc etc.
 
 Come dite? non è un tool da linea di comando? Avete ragione, ma questo è il mio blog e qui comando io 😂

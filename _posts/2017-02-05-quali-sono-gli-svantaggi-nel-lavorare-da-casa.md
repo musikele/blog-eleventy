@@ -12,6 +12,7 @@ tags:
   - remote working
   - svantaggi
 ---
+
 Salvo sporadiche trasferte a Biella, dove risiedono gran parte dei miei colleghi, io lavoro prevalentemente da remoto, a Salerno.
 
 Quando lavoravo in un'azienda tradizionale pensavo al lavoro da remoto come la _liberazione da tutti i mali_; non ho cambiato idea, ma adesso sono più consapevole che **ci sono anche dei lati negativi,** che tra l'altro impattano poco sulla qualità del lavoro e molto sulla qualità della vita.
@@ -28,11 +29,11 @@ Quella settimana **ho fatto 78.000 passi** - sono più di 10.000 passi al giorno
 
 Una giornata di lavoro tipica era così composta:
 
-* **6.50**: sveglia
-* **7.25**: autobus per Napoli
-* **8.15**: arrivo a Napoli, se è bel tempo vado a piedi (circa 15-20 min).
-* **8.45**: arrivo in ufficio ... inizio giornata di lavoro
-* **18.00**: fine giornata di lavoro, a piedi verso l'autobus (15-20 minuti)
+- **6.50**: sveglia
+- **7.25**: autobus per Napoli
+- **8.15**: arrivo a Napoli, se è bel tempo vado a piedi (circa 15-20 min).
+- **8.45**: arrivo in ufficio ... inizio giornata di lavoro
+- **18.00**: fine giornata di lavoro, a piedi verso l'autobus (15-20 minuti)
 
 2 volte a settimana c'è allenamento e il weekend poteva capitare una partita di tennis.
 
@@ -46,13 +47,13 @@ Lasciamo stare la notte del venerdì, in cui ho probabilmente tolto l'orologio, 
 
 La mia giornata tipica è così cambiata:
 
-* sveglia intorno alle **8:00**, colazione, etc.
-* **ore 9:00**: mi sposto nell'ufficio di fianco casa, dove lavorano anche altre persone che però fanno altro.
-* **ore 18:30-19:00**: finisco di lavorare e mi dedico a famiglia, hobby, sport, etc.
+- sveglia intorno alle **8:00**, colazione, etc.
+- **ore 9:00**: mi sposto nell'ufficio di fianco casa, dove lavorano anche altre persone che però fanno altro.
+- **ore 18:30-19:00**: finisco di lavorare e mi dedico a famiglia, hobby, sport, etc.
 
 Gli allenamenti di tennis sono rimasti invariati, sempre 2 a settimana, più una partita nel weekend.
 
-**Morale:** lavorando da remoto non solo potrete organizzare il lavoro come credete, ma anche la vostra vita. **Cercate di non soccombere alle comodità**: praticare sport non basta.  Serve un'attitudine a fare di più.
+**Morale:** lavorando da remoto non solo potrete organizzare il lavoro come credete, ma anche la vostra vita. **Cercate di non soccombere alle comodità**: praticare sport non basta. Serve un'attitudine a fare di più.
 
 **Soluzione**: mi impegnerò a fare una **corsetta** / passeggiata la **mattina**. Chi viene con me?
 
@@ -74,13 +75,13 @@ Così **capita spesso di restare a programmare fino alle 19 e anche le 19.30**, 
 
 E' bello internet, è bello facebook, è bello hacker news. E' bello twitter, slack, e il blog. Ma certe volte vorresti alzare la testa e sentire l'opinione di qualcuno che "ne capisce". Classiche domande che un collega può aiutare o comunque mostrare empatia:
 
-* Devo comprare un computer nuovo, che prendo?
+- Devo comprare un computer nuovo, che prendo?
 
-* Perché venerdì compilava, e oggi (lunedì mattina) no?
+- Perché venerdì compilava, e oggi (lunedì mattina) no?
 
-* Hai sentito l'ultima di Microsoft / Apple / Facebook / Google ... ?
+- Hai sentito l'ultima di Microsoft / Apple / Facebook / Google ... ?
 
-* Chissà se esiste una libreria che fa X-Y-Z (elenco di feature) ?
+- Chissà se esiste una libreria che fa X-Y-Z (elenco di feature) ?
 
 Per non dare segni di schizofrenia preferisco lavorare da un ufficio vicino casa, dove ci sono altre fantastiche persone che si occupano di altro; sebbene si inizino le migliori discussioni generali, a volte sarebbe meglio chiacchierare con qualcuno che "parla la tua lingua".
 

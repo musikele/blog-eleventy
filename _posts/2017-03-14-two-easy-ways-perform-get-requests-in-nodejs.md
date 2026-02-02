@@ -12,6 +12,7 @@ tags:
   - Axios
 categories: Italiano
 ---
+
 Today I want to talk about something that we all need during our programming life: requesting data from a remote server. We will do this using callbacks and promises, to show both the approaches.
 
 We will see this specifically for NodeJS because it's so simple that I couldn't even imagine.
@@ -24,7 +25,7 @@ In this article I'm going to talk about two super-popular libraries that do the 
 
 Just as an example, we will write a simple program that takes a textual address (for example`Piazza della Concordia, Salerno`) and return latitude and longitude.
 
-The URL is this: [https://maps.googleapis.com/maps/api/geocode/json?address=piazza della concordia, salerno](https://maps.googleapis.com/maps/api/geocode/json?address=piazza della concordia, salerno).  Clicking on this link you can see the response in json format.
+The URL is this: [https://maps.googleapis.com/maps/api/geocode/json?address=piazza della concordia, salerno](https://maps.googleapis.com/maps/api/geocode/json?address=piazza della concordia, salerno). Clicking on this link you can see the response in json format.
 
 Our mission is to retrive latitude and longitude, so
 
@@ -50,30 +51,29 @@ Here is a NodeJS function that uses `request` to perform the call
 ```javascript
 let encodedAddress = encodeURIComponent(address);
 
-  request({
+request(
+  {
     url: `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`,
-    json: true
-  }, (error, response, body) => {
-
+    json: true,
+  },
+  (error, response, body) => {
     //server unreachable
-    if (error) { 
+    if (error) {
       callback('Unable to connect to Google Servers');
     }
 
-    // no results 
+    // no results
     else if (body.status === 'ZERO_RESULTS') {
       callback('Unable to find that address');
-    }
-
-    else if (body.status === 'OK') {
+    } else if (body.status === 'OK') {
       callback(undefined, {
         address: body.results[0].formatted_address,
         latitude: body.results[0].geometry.location.lat,
-        longitude: body.results[0].geometry.location.lng
+        longitude: body.results[0].geometry.location.lng,
       });
     }
-
-  });
+  }
+);
 ```
 
 `encodeURIComponent()` is a function that converts strings with special characters (like spaces, or quotes..) to a string that can be passed over a URI.
@@ -101,28 +101,32 @@ let encodedAddress = encodeURIComponent(address);
 
 let geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}`;
 
-axios.get(geocodeUrl).then((response) => {
-  // throw error on no results
-  if (response.data.status === 'ZERO_RESULTS') {
-    throw new Error('Unable to find that address');
-  }
-  // return new promise with data (for chaining)
-  return Promise.resolve({
-    latitude: response.data.results[0].geometry.location.lat,
-    longitude: response.data.results[0].geometry.location.lng,
-    formatted_address: response.data.results[0].formatted_address
+axios
+  .get(geocodeUrl)
+  .then((response) => {
+    // throw error on no results
+    if (response.data.status === 'ZERO_RESULTS') {
+      throw new Error('Unable to find that address');
+    }
+    // return new promise with data (for chaining)
+    return Promise.resolve({
+      latitude: response.data.results[0].geometry.location.lat,
+      longitude: response.data.results[0].geometry.location.lng,
+      formatted_address: response.data.results[0].formatted_address,
+    });
+
+    // show data
+  })
+  .then((response) => {
+    console.log(`latitude: ${response.formatted_address}`);
+    console.log(`latitude: ${response.latitude}`);
+    console.log(`latitude: ${response.longitude}`);
+
+    //error handling
+  })
+  .catch((e) => {
+    console.error(e);
   });
-
-  // show data
-}).then((response) => {
-  console.log(`latitude: ${response.formatted_address}`);
-  console.log(`latitude: ${response.latitude}`);
-  console.log(`latitude: ${response.longitude}`);
-
-  //error handling 
-}).catch((e) => {
-  console.error(e);
-}); 
 ```
 
 The approach here is different. `axios.get()` returns a Promise, that we chain with a call to the `then()` method.

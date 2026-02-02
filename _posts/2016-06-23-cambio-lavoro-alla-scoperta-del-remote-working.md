@@ -7,12 +7,13 @@ layout: post
 guid: http://michelenasti.com/?p=702
 permalink: /2016/06/cambio-lavoro-alla-scoperta-del-remote-working/
 dsq_thread_id:
-  - "4933582020"
+  - '4933582020'
 categories:
   - Italiano
 tags:
   - lavoro
 ---
+
 Big news nella mia vita! Ho cambiato lavoro!
 
 Siete curiosi di sapere come, perchè, quando, dove, ma dovrete attendere un po' per tutti questi dettagli. Li sto ancora metabolizzando anch'io.
@@ -22,7 +23,7 @@ Volevo spendere qualche parola sul posto che ho appena lasciato, e provare a ris
 Sono stato due anni fantastici in Engineering, e alla fine le persone che hai intorno diventano parte della tua famiglia. Anzi, le vedi più della tua famiglia, motivo per cui cerchi di andarci d'accordo più che puoi. Nel mio caso non mi sono dovuto sforzare poi molto, erano tutte persone decisamente ragionevoli 🙂
 
 Quando ho deciso di cambiare lavoro sono stato il primo a domandarmi: ma come, lasci un lavoro fisso, in un posto tranquillo, con garanzie di futuro, etc.
-  
+
 Ammetto che non é la prima volta che faccio un salto del genere, da qualcosa di "sicuro" a qualcosa di leggermente più rischioso. Ma c'erano alcune cose che volevo urgentemente sistemare, prima che diventassero un problema.
 
 ### Viaggiare per lavorare
@@ -35,7 +36,7 @@ _"Solo un'ora? Firmerei per poter lavorare a un'ora d'autobus!"_ - a me non stav
 
 ### Stimoli
 
-Gli ultimi due anni li ho passati a conoscere profondamente il mercato dei software sanitari italiani, e ho visto da vicino le difficoltà di chi sviluppa e di chi usa questo tipo di SW che sono estremamente specialistici - si interfacciano con macchinari, stampano etichette, etc.. Non è esattamente roba per startup che vogliono _disruptare _il mercato, visto che servirebbe una conoscenza specialistica notevole.
+Gli ultimi due anni li ho passati a conoscere profondamente il mercato dei software sanitari italiani, e ho visto da vicino le difficoltà di chi sviluppa e di chi usa questo tipo di SW che sono estremamente specialistici - si interfacciano con macchinari, stampano etichette, etc.. Non è esattamente roba per startup che vogliono \_disruptare \_il mercato, visto che servirebbe una conoscenza specialistica notevole.
 
 Tuttavia c'è una costante che mi ha accompagnato nei primi quattro anni della mia carriera: sono sempre stato un "operaio" più che un progettista. In genere c'era sempre qualcuno che mi diceva cosa fare, e i margini di miglioramento / ottimizzazione di una funzionalità erano piuttosto limitati. Roba come interazione, design, ottimizzazione del backend, misurazione degli eventi dell'utente, sono tutte tematiche di cui ci si interessava poco. Perciò uno dei requisiti che avrebbe dovuto avere il mio prossimo lavoro è di darmi un grande margine di intervento su ciò che avrei fatto.
 

@@ -13,7 +13,6 @@ tags:
   - luca barboni
 ---
 
-
 Growth Hacking. **Growth Hacking ovunque.** Pure nei bagni dell'autogrill.
 
 E' la buzzword del momento: un fenomeno che sta riguardando l'universo del marketing e delle startup, che si propone come la Metodologia Unica™ di accrescimento della vostra società, budget permettendo.
@@ -36,13 +35,13 @@ Il libro è piuttosto operativo, infatti superati i primi capitoli introduttivi 
 
 Ci sono cose che ho annotato e che mi hanno colpito maggiormente:
 
-* GH non è un insieme di tips n' tricks. E' una metodologia. Se trovate siti che vi propongono *cinquanta azioni di Growth Hacking che potete mettere in pratica sul vostro sito*, beh, scappate perchè non sanno nenache di che stanno parlando.
+- GH non è un insieme di tips n' tricks. E' una metodologia. Se trovate siti che vi propongono _cinquanta azioni di Growth Hacking che potete mettere in pratica sul vostro sito_, beh, scappate perchè non sanno nenache di che stanno parlando.
 
-* **NON iniziare il GH senza avere un sistema per misurare ogni possibile azione che ti interessa**. Ad esempio, se vuoi sapere quanti clienti vengono sul tuo sito da facebook, devi avere modo di poterlo tracciare (landing page dedicata, etc). Se vuoi tracciare il numero di clienti che si iscrivono tramite altri clienti, DEVI avere una piattaforma che ti permette di tracciare tutto.
+- **NON iniziare il GH senza avere un sistema per misurare ogni possibile azione che ti interessa**. Ad esempio, se vuoi sapere quanti clienti vengono sul tuo sito da facebook, devi avere modo di poterlo tracciare (landing page dedicata, etc). Se vuoi tracciare il numero di clienti che si iscrivono tramite altri clienti, DEVI avere una piattaforma che ti permette di tracciare tutto.
 
-* Esistono **due momenti** per un'azienda che sta lanciando un prodotto: la fase **pre-market fit** e la fase **post-market fit**. In pratica, nella prima fase state realizzando un prodotto e state cercando di fare in modo che sia ciò di cui il cliente ha bisogno. In questa prima fase vi focalizzate sulle funzionalità più che sulla sua crescita. La seconda fase invece corrisponde a quando avrete creato un prodotto "valido", e potete finalmente dare fuoco al budget per pubblicizzarlo.
+- Esistono **due momenti** per un'azienda che sta lanciando un prodotto: la fase **pre-market fit** e la fase **post-market fit**. In pratica, nella prima fase state realizzando un prodotto e state cercando di fare in modo che sia ciò di cui il cliente ha bisogno. In questa prima fase vi focalizzate sulle funzionalità più che sulla sua crescita. La seconda fase invece corrisponde a quando avrete creato un prodotto "valido", e potete finalmente dare fuoco al budget per pubblicizzarlo.
 
-* Il marketing non è qualcosa di esterno all'azienda, non è un ufficio a parte: **il primo growth hacker è il CEO**. Tutti dovrebbero sapere che esperimenti stiamo facendo, cosa ha funzionato, e cosa no.
+- Il marketing non è qualcosa di esterno all'azienda, non è un ufficio a parte: **il primo growth hacker è il CEO**. Tutti dovrebbero sapere che esperimenti stiamo facendo, cosa ha funzionato, e cosa no.
 
 ## Ma la cosa che più mi ha sorpreso è che ...
 

@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=770
 permalink: /2016/07/progetti-a-cui-lavoro-hype-carta-di-credito-conto-bancario-app-3-in-1/
 dsq_thread_id:
-  - "4992485928"
+  - '4992485928'
 categories:
   - Italiano
 tags:
@@ -15,6 +15,7 @@ tags:
   - pagamenti on line
 headerImg: /uploads/2016/07/hype-logo.png
 ---
+
 Uno dei prodotti su cui lavora la mia azienda é **[Hype](https://www.hype.it/Hype/index.jsp)**.
 
 **Hype** é molte cose: una carta di credito con IBAN, quindi é anche un conto bancario, e si gestisce tramite un'app che ha delle funzionalità avanzate.
@@ -35,7 +36,7 @@ Nel frattempo, una volta approvata la richiesta di apertura del conto (in genere
 
 ## Funzionalità ovvie
 
-Nella sua versione base, Hype é una carta ricaricabile e un conto bancario. Quindi può essere ricaricata via bonifico (ci vogliono 1-3 giorni...)  o via carta di credito (istantanea). Le ricariche sono gratuite.
+Nella sua versione base, Hype é una carta ricaricabile e un conto bancario. Quindi può essere ricaricata via bonifico (ci vogliono 1-3 giorni...) o via carta di credito (istantanea). Le ricariche sono gratuite.
 
 > controlate sempre la data in cui ho scritto questo articolo e verificate che le condizioni contrattuali siano quelle che descrivo io.
 

@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=115
 permalink: /2015/02/pro-e-contro-di-angularjs-dopo-2-mesi-di-lavoro/
 dsq_thread_id:
-  - "3958633940"
+  - '3958633940'
 headerImg: /uploads/2015/02/angular-featured-825x468.png
 categories:
   - Italiano
@@ -20,13 +20,14 @@ tags:
   - SPA
   - webstorm
 ---
-_Questa è una chat tra me e il mio ex-collega/amico [Davide](https://www.linkedin.com/profile/view?id=9483864 "Davide Antelmo"), sull'esperienza fatta con [AngularJs](https://angularjs.org/). Forse anche loro svilupperanno un POC (proof of concept) e voleva un po' di info. Credo che queste "opinioni" possano servire anche ad altri. Enjoy 🙂_
+
+_Questa è una chat tra me e il mio ex-collega/amico [Davide](https://www.linkedin.com/profile/view?id=9483864 'Davide Antelmo'), sull'esperienza fatta con [AngularJs](https://angularjs.org/). Forse anche loro svilupperanno un POC (proof of concept) e voleva un po' di info. Credo che queste "opinioni" possano servire anche ad altri. Enjoy 🙂_
 
 > **D.:** Come vi state trovando con angularjs?
 
 **Io:** la cosa di AngularJs è lunghetta; ci sono pro e contro. Di sicuro Angular è un framework all-or-nothing ... Non si può usare solo una parte di Angular, come il data binding, senza usare ad es. le direttive, o la dependency injection. Ci sono parti di Angular che si possono saltare, ma il "core" è abbastanza ampio. Quindi lo si deve imparare per forza tutto prima di capirne tutte le potenzialità.
 
-Un altro svantaggio di Angular è che **è JavaScript**,  e JavaScript è un linguaggio da studiare completamente, ossia il modello a oggetti, i prototype, gli scope, gli === al posto di == ... Pensa, ho scoperto dopo mesi di lavoro che alcuni ignorano la possibilità di provare codice nella console del browser!
+Un altro svantaggio di Angular è che **è JavaScript**, e JavaScript è un linguaggio da studiare completamente, ossia il modello a oggetti, i prototype, gli scope, gli === al posto di == ... Pensa, ho scoperto dopo mesi di lavoro che alcuni ignorano la possibilità di provare codice nella console del browser!
 
 Ci sono anche alcuni vantaggi, però: è ormai il framework più diffuso a livello mondiale, da un po' esistono migliaia di estensioni, direttive, filtri, etc. che qualcuno ha già scritto e fa proprio quel che vuoi tu.
 
@@ -56,13 +57,13 @@ Alla fine della fiera cmq il software lo stiamo realizzando, i problemi li abbia
 
 **M:** una sorta di "template" ce lo siamo inventati noi. Su questa parte non siamo stati troppo smart ... Eravamo all'inizio e non sapevamo che fare. Dovevamo "buttare le mani"
 
-> **D:** io penso che useremo qualcosa di questo tipo:  <a href="https://github.com/johnpapa/gulp-patterns" target="_blank" rel="nofollow">https://github.com/johnpapa/gulp-patterns</a>
+> **D:** io penso che useremo qualcosa di questo tipo: <a href="https://github.com/johnpapa/gulp-patterns" target="_blank" rel="nofollow">https://github.com/johnpapa/gulp-patterns</a>
 
 **M:** Se potessi tornare indietro userei [yeoman](http://yeoman.io/) che ho usato a casa
 
-> **D.: **<a href="http://slides.com/thomasburleson/using-requirejs-with-angularjs#/" target="_blank" rel="nofollow">http://slides.com/thomasburleson/using-requirejs-with-angularjs#/</a>  <a href="https://github.com/ThomasBurleson/angularjs-Zza-BMEAN" target="_blank" rel="nofollow">https://github.com/ThomasBurleson/angularjs-Zza-BMEAN</a>
+> **D.: **<a href="http://slides.com/thomasburleson/using-requirejs-with-angularjs#/" target="_blank" rel="nofollow">http://slides.com/thomasburleson/using-requirejs-with-angularjs#/</a> <a href="https://github.com/ThomasBurleson/angularjs-Zza-BMEAN" target="_blank" rel="nofollow">https://github.com/ThomasBurleson/angularjs-Zza-BMEAN</a>
 
-**M: **Si si purtroppo sono cose che ho letto DOPO che ho iniziato a lavorare su angular. Purtroppo non ho partecipato alla fase di setup del progetto. Ah dimenticavo,  un altro svantaggio probabile è che A[ngularJs 2 sarà una cosa totalmente diversa](http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/)
+**M: **Si si purtroppo sono cose che ho letto DOPO che ho iniziato a lavorare su angular. Purtroppo non ho partecipato alla fase di setup del progetto. Ah dimenticavo, un altro svantaggio probabile è che A[ngularJs 2 sarà una cosa totalmente diversa](http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/)
 
 > **D.: s**i visto
 

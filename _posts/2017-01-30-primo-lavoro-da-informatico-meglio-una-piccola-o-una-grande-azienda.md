@@ -6,13 +6,13 @@ comments: true
 author: musikele
 layout: post
 tags:
-  
 ---
+
 Dopo aver partecipato a una bella discussione on line su quale fosse la migliore scelta per il _primo lavoro per un programmatore_,ho deciso di ripubblicare la mia risposta anche sul blog.
 
-[Su Facebook](https://www.facebook.com/groups/OrientamentoUscitaInformaticaSalerno/permalink/1220485904665717/) troverete il thread originale.   
+[Su Facebook](https://www.facebook.com/groups/OrientamentoUscitaInformaticaSalerno/permalink/1220485904665717/) troverete il thread originale.
 
-**In questi giorni mi domando spesso se per una persona che deve affacciarsi al mondo del lavoro sarebbe meglio aspirare ad entrare in una grande azienda o è indifferente?**  
+**In questi giorni mi domando spesso se per una persona che deve affacciarsi al mondo del lavoro sarebbe meglio aspirare ad entrare in una grande azienda o è indifferente?**
 
 _La mia riposta: _
 
@@ -20,7 +20,7 @@ Ho lavorato in due aziende medie e in una più piccola. Il primo assunto é fare
 
 Da un punto di vista qualitativo, le aziende grandi non preferiscono tecnologie cutting edge e anzi preferiscono la stabilità di tecnologie consolidate su cui hanno investito soldi e skill. I progetti che realizzano sono generalmente di system integration (... gestionali) con alti carichi di utenti e dati. In una grande azienda il lavoro può essere bello o brutto a seconda di com'é il capo, ma tieni presente che sei solo un numero. _Ovviamente ci sono tante eccezioni a quello che ti ho detto._
 
-In una startup o piccola azienda cambia tutto. I progetti in genere o hanno il requisito di **consegnare subito** (se é un'azienda di consulenza) o di **essere belli e fighi** (se cerchi di vendere un prodotto tuo). Hai più controllo su ciò che puoi fare, puoi decidere come farlo, spesso lavorando con lo strumento che ritieni più giusto per il tuo lavoro. In termini di soldi puoi guadagnare più o meno rispetto ad un enterprise, soprattutto se l'azienda é tua. Di sicuro impari tanto perché dovrai capirne non solo di software ma metterai la mano a marketing, pubblicità, social, etc. Insomma ce n'é per tutti.   
+In una startup o piccola azienda cambia tutto. I progetti in genere o hanno il requisito di **consegnare subito** (se é un'azienda di consulenza) o di **essere belli e fighi** (se cerchi di vendere un prodotto tuo). Hai più controllo su ciò che puoi fare, puoi decidere come farlo, spesso lavorando con lo strumento che ritieni più giusto per il tuo lavoro. In termini di soldi puoi guadagnare più o meno rispetto ad un enterprise, soprattutto se l'azienda é tua. Di sicuro impari tanto perché dovrai capirne non solo di software ma metterai la mano a marketing, pubblicità, social, etc. Insomma ce n'é per tutti.  
 _Anche qui ci sono le dovute eccezioni._
 
 In ogni caso non considerarti mai arrivato: continua a fare colloqui con le aziende che reputi più interessanti, e migliora sempre il tuo "saldo mensile". Nessuno ti darà un aumento perché sei un dipendente "fedele"!

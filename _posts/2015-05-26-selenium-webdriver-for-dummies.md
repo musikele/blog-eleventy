@@ -6,7 +6,7 @@ author: musikele
 layout: post
 permalink: /2015/05/selenium-webdriver-for-dummies/
 dsq_thread_id:
-  - "4071409600"
+  - '4071409600'
 categories:
   - Italiano
 tags:
@@ -15,6 +15,7 @@ tags:
   - webdriver
 headerImg: /images/selenium.png
 ---
+
 Esistono tool che permettono di scrivere i casi di test che simulano il comportamento dell'utente e di eseguirli all'infinito, cosa utile per individuare eventuali regressioni durante lo sviluppo.
 
 Il più diffuso a livello globale, per i test di tipo funzionale, è **Selenium**, nelle sue varianti **Selenium IDE** e **Selenium Web Driver**. Abbiamo testato entrambi e alla fine abbiamo scelto WebDriver. (Ora esistono altri tool come Protractor, ma bisogna riconoscere che Selenium per anni è stato il più diffuso).
@@ -22,13 +23,13 @@ Il più diffuso a livello globale, per i test di tipo funzionale, è **Selenium*
 ### Selenium IDE
 
 Sulla carta era la scelta migliore per gli utenti-tester: permette di memorizzare i passaggi fatti dall'utente sulla pagina, memorizzando i click del mouse e le digitazioni sulla tastiera, senza scrivere codice.
-  
+
 I problemi riscontrati sono stati i seguenti:
 
-* **alta instabilità** del sistema con il nostro applicativo, dovuto all'elevato numero di componenti caricati e agli iframe ; ciò causava crash e stalli del browser;
-* il sistema "punta e clicca" spesso **non riconosce le azioni dell'utente**
-* per riuscire a far funzionare casi di test anche molto semplici era necessario **intervenire manualmente sul codice prodotto**;
-* **scarso supporto alle webapp moderne** che usano tecnologie come AJAX, per caricare pezzi di pagine dinamicamente.
+- **alta instabilità** del sistema con il nostro applicativo, dovuto all'elevato numero di componenti caricati e agli iframe ; ciò causava crash e stalli del browser;
+- il sistema "punta e clicca" spesso **non riconosce le azioni dell'utente**
+- per riuscire a far funzionare casi di test anche molto semplici era necessario **intervenire manualmente sul codice prodotto**;
+- **scarso supporto alle webapp moderne** che usano tecnologie come AJAX, per caricare pezzi di pagine dinamicamente.
 
 ### Selenium WebDriver
 
@@ -36,12 +37,12 @@ I problemi riscontrati sono stati i seguenti:
 
 Per semplificare l'approccio alla scrittura dei casi di test ho pensato di creare una classe Java che semplifica le operazioni più comuni dei tester. Alcune funzionalità messe a disposizione sono:
 
-* **apertura e chiusura del browser**
-* **navigazione** verso un indirizzo specifico
-* **login** e **logout**
-* possibilità di **recuperare un oggetto dalla pagina** (per poterlo poi utilizzare, ad esempio per simulare un click, o inviare testo, etc)
-* possibilità di **navigare all'interno dei frame**, cosa che con Selenium IDE è risultata particolarmente difficile;
-* possibilità di **eseguire i test in batteria**, su un server remoto con accesso a un browser, e di ottenere un report dei casi di test che falliscono
+- **apertura e chiusura del browser**
+- **navigazione** verso un indirizzo specifico
+- **login** e **logout**
+- possibilità di **recuperare un oggetto dalla pagina** (per poterlo poi utilizzare, ad esempio per simulare un click, o inviare testo, etc)
+- possibilità di **navigare all'interno dei frame**, cosa che con Selenium IDE è risultata particolarmente difficile;
+- possibilità di **eseguire i test in batteria**, su un server remoto con accesso a un browser, e di ottenere un report dei casi di test che falliscono
 
 Una delle funzioni più complesse che abbiamo dovuto realizzare, nell'ottica delle webapp asincrone, è di **aspettare che un componente venisse caricato e mostrato all'interno della pagina**. Il nostro approccio permette di aspettare (per un tempo prefissato) che un componente sia caricato e mostrato all'utente, e solo dopo renderlo disponibile al test. _Se non si seguisse questo approccio, si correrebbe il rischio di usare componenti non ancora caricati, o cliccare su elementi nascosti._
 
@@ -181,7 +182,7 @@ public class SeleniumWebDriverBaseTest {
     }
 
     /**
-     * utility method to move to other frames. 
+     * utility method to move to other frames.
      * beware: it will always return to the parent frame first.
      *
      * @param url url to check if the frame contains it.
@@ -213,7 +214,7 @@ public class SeleniumWebDriverBaseTest {
     }
 
     /**
-     * calls "waitForLoadedAndDisplayed(by)" and returns the element found, 
+     * calls "waitForLoadedAndDisplayed(by)" and returns the element found,
      * that can be used easily.
      * @param by element the selector.
      * @return the WebElement chosen
@@ -246,6 +247,6 @@ Queste sono le dipendenze necessarie:
 
 ### Cosa manca?
 
-* sostituire la classe di logging con una più seria
-* caricare un progetto di esempio e un esempio di utilizzo
-* scrivere questa pagina in inglese
+- sostituire la classe di logging con una più seria
+- caricare un progetto di esempio e un esempio di utilizzo
+- scrivere questa pagina in inglese

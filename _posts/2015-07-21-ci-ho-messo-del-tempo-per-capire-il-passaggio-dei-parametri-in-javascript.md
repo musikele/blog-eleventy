@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=350
 permalink: /2015/07/ci-ho-messo-del-tempo-per-capire-il-passaggio-dei-parametri-in-javascript/
 dsq_thread_id:
-  - "3958634138"
+  - '3958634138'
 categories:
   - Italiano
 tags:
@@ -16,6 +16,7 @@ tags:
   - parametri
   - sintassi
 ---
+
 Oggi vi parlo di qualcosa che sin dall'inizio non avevo compreso a fondo: gli argumenti delle funzioni in Javascript (o ECMAScript, che sarebbe il nome completo). Quando un anno fa ho compreso questa storia degli "_arguments_" mi si è aperto un mondo!
 
 Anni fa infatti mi chiedevo com'è possibile che in JS si possa passare un numero arbitrario di parametri alle funzioni, per di più senza specificare il tipo degli argomenti. All'epoca (circa 10 anni fa) Java era il mio linguaggio preferito, e avrei voltuo che tutto somigliasse a Java. Per fortuna così non è!
@@ -30,7 +31,7 @@ Dunque potremmo scrivere una funzione nel modo classico di JS (esplicitando i pa
 
 ```javascript
 function sayHi(name, message) {
-    alert("ciao " + name + ", " + message);
+  alert('ciao ' + name + ', ' + message);
 }
 ```
 
@@ -38,7 +39,7 @@ oppure usando `arguments`:
 
 ```javascript
 function sayHi() {
-    alert("ciao " + arguments[0] + ", " + arguments[1]);
+  alert('ciao ' + arguments[0] + ', ' + arguments[1]);
 }
 ```
 
@@ -50,20 +51,20 @@ Gli argomenti col nome possono anche essere utilizzati con arguments, javascript
 
 ### L'overloading in Javascript (che non esiste)
 
-L'overloading, così come definito negli altri linguaggi, in JS semplicemente non esiste. Per ottenere un effetto simile, ossia una funzione che si comporta diversamente in base al numero o al tipo degli argomenti in input, dobbiamo fare una sorta di switch su `arguments.length` o sul tipo degli argomenti.  Ciò che realmente conta in JS è il nome della funzione, e se due funzioni hanno lo stesso nome, vale sempre l'ultima analizzata.
+L'overloading, così come definito negli altri linguaggi, in JS semplicemente non esiste. Per ottenere un effetto simile, ossia una funzione che si comporta diversamente in base al numero o al tipo degli argomenti in input, dobbiamo fare una sorta di switch su `arguments.length` o sul tipo degli argomenti. Ciò che realmente conta in JS è il nome della funzione, e se due funzioni hanno lo stesso nome, vale sempre l'ultima analizzata.
 
 Analizziamo il seguente snippet di codice:
 
 ```javascript
 function aggiungiUnNumero(num) {
-   return num+100;
+  return num + 100;
 }
 
 function aggiungiUnNumero(num) {
-   return num1+200; 
+  return num1 + 200;
 }
 
-var result = aggiungiUnNumero(100) //300
+var result = aggiungiUnNumero(100); //300
 ```
 
 la seconda definizione di aggiungiUnNumero ha sovrascritto la prima !

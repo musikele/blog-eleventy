@@ -7,15 +7,15 @@ layout: post
 date: 2021-02-12
 title: How to integrate a django-select2 component in Django Admin
 description: 'an How To that tries to write what the official guide omits '
-headerImg: "/images/select2.png"
+headerImg: '/images/select2.png'
 tags:
   - python
   - django
   - django admin
   - django-select2
   - select2
-
 ---
+
 In a project we had a select box that will probably contain more than a hundred of results, and it will be very difficult for users to select the right one without typing. So we decided to implement a [django-select2](https://django-select2.readthedocs.io/en/latest/) widget instead.
 
 > I am not a Python expert, nor a Django or Django Admin expert. What you read here is what i learned along the way. It may be inaccurate or imprecise but I try to explain all the inner questions I got to myself.
@@ -144,16 +144,16 @@ class BookAutocompleteWidget(BaseAutocompleteSelect):
     ).order_by("id")
 ```
 
-* The empty_label contains the label that is shown when the dropdown is closed and no value is selected.
-* `search_fields` is how the search has to be done. This depends on the model.
-* `queryset` is the list of objects on whom the query is performed. It seems that django-select2 launches a warning if there's no "order_by" that's why I added one.
+- The empty_label contains the label that is shown when the dropdown is closed and no value is selected.
+- `search_fields` is how the search has to be done. This depends on the model.
+- `queryset` is the list of objects on whom the query is performed. It seems that django-select2 launches a warning if there's no "order_by" that's why I added one.
 
 #### Use the widget in a form
 
 And now you can add the Widget in the form:
 
 ```python
-class BookForm(forms.Form): 
+class BookForm(forms.Form):
     ...
     book = forms.ModelChoiceField(
         label="Book: ",

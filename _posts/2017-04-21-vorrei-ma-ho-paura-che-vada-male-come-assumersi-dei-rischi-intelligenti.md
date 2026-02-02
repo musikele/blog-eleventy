@@ -19,11 +19,11 @@ Nel libro gli autori spiegano cosa si può fare per **conferire alla propria vit
 
 ## I rischi intelligenti
 
-*Siamo abituati a pensare ai rischi come qualcosa di negativo*: perdite di denaro sui mercati azionari, o guida di una moto senza casco. Ma il rischio non è un nemico; è qualcosa che fa intrinsecamente parte della nostra vita.
+_Siamo abituati a pensare ai rischi come qualcosa di negativo_: perdite di denaro sui mercati azionari, o guida di una moto senza casco. Ma il rischio non è un nemico; è qualcosa che fa intrinsecamente parte della nostra vita.
 
 Le situazioni rischiose, comunque, sono quelle in cui la possibilità che le cose vadano male è decisamente più alto del vantaggio che si ottiene se le cose vanno bene.
 
-Ad esempio, **volare in aereo non è rischioso**, perché anche se lo scenario peggiore è *molto **doloroso* la possibilità che questo accada è bassissima. Invece, il tempo di viaggio risparmiato è un dato di fatto.
+Ad esempio, **volare in aereo non è rischioso**, perché anche se lo scenario peggiore è _molto \*\*doloroso_ la possibilità che questo accada è bassissima. Invece, il tempo di viaggio risparmiato è un dato di fatto.
 
 Alcuni imprenditori sono dei cowboy del rischio; tuttavia, **ciò che distingue un imprenditore giudizioso da un semplice spavaldo non è l'alta tolleranza al rischio, ma l'abilità di saperlo valutare e gestire correttamente**.
 
@@ -45,7 +45,7 @@ Il primo passo nella valutazione di un rischio è ricordarsi che **il caso peggi
 
 Se accade il caso peggiore cosa succede alla nostra vita? La reputazione scenderà a livelli sotto zero, perderemo tutti i soldi, la carriera sarà definitivamente finita?
 
-Se nel caso peggiore accade che perdiamo *un po'* di soldi, o veniamo licenziati (posto che riusciamo a trovare un altro lavoro subito), o rischi semplicemente di sentirti inadeguato, **dovresti comunque provarci**. Almeno finché hai un [solido Piano Z](https://michelenasti.com/2015/11/serve-un-piano/).
+Se nel caso peggiore accade che perdiamo _un po'_ di soldi, o veniamo licenziati (posto che riusciamo a trovare un altro lavoro subito), o rischi semplicemente di sentirti inadeguato, **dovresti comunque provarci**. Almeno finché hai un [solido Piano Z](https://michelenasti.com/2015/11/serve-un-piano/).
 
 ### 3. Puoi cambiare la decisione a metà dell'opera? Puoi passare al piano B?
 
@@ -67,12 +67,10 @@ Man mano che invecchi, la tua percezione del rischio cambia. Arrivano i bambini,
 
 Prendetevi 30 secondi per ogni punto sottostante. Provate a immaginare i pro e i contro delle seguenti situazioni. Considerati i cinque punti espressi precedentemente, come cambierebbe la tua vita se:
 
-* trovi un lavoro fantastico e strapagato ma è negli USA
-* la tua azienda smette di pagare gli stipendi
-* inizi a dirigere un team
+- trovi un lavoro fantastico e strapagato ma è negli USA
+- la tua azienda smette di pagare gli stipendi
+- inizi a dirigere un team
 
 Questo semplice esercizio mentale magari vi farà riflettere su come percepite il rischio; nel mio caso mi ha aiutato a fare scelte più consapevoli nel mondo del lavoro.
 
 In bocca al rischio ;)
-
-

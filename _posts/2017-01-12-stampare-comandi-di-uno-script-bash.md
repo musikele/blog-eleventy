@@ -6,15 +6,15 @@ comments: true
 author: musikele
 layout: post
 tags:
-  
 ---
-Se avete scritto uno script bash *complesso* e volete cosa accade step by step, una soluzione semplice è usare lanciare il comando così: 
+
+Se avete scritto uno script bash _complesso_ e volete cosa accade step by step, una soluzione semplice è usare lanciare il comando così:
 
 ```shell
-$ bash -x script.sh 
+$ bash -x script.sh
 ```
 
-In questo modo vedrete tutti i comandi che vengono lanciati, e le variabili che vengono settate, etc etc. 
+In questo modo vedrete tutti i comandi che vengono lanciati, e le variabili che vengono settate, etc etc.
 
 Voci mi dicono che si può addirittura debuggare Bash come se fosse un linguaggio di programmazione normale, ma non ho ancora avuto modo di provarlo.
 

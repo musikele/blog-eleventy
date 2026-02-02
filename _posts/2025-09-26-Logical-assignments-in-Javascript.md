@@ -48,7 +48,7 @@ data.callbacks ||= [];
 
 This means: assign to left what is on the right, if the property on the left is "falsy".
 
-Caveat: what does it mean "falsy" in Javascript? Here's the list: null, undefined, false, NaN ([this is a veeery special value](https://michelenasti.com/2017/11/14/not-a-number-when-javascript-gets-crazy "Not-a-number: when javascript gets crazy")), 0 and -0, "" (empty string) and document.all ( this i just found out now).
+Caveat: what does it mean "falsy" in Javascript? Here's the list: null, undefined, false, NaN ([this is a veeery special value](https://michelenasti.com/2017/11/14/not-a-number-when-javascript-gets-crazy 'Not-a-number: when javascript gets crazy')), 0 and -0, "" (empty string) and document.all ( this i just found out now).
 
 the problematic values here are 0 and "". Sometimes, these values are totally legit and we want to consider them as "truthy", not "falsy". That's why we have operator number 3:
 
@@ -57,11 +57,11 @@ the problematic values here are 0 and "". Sometimes, these values are totally le
 This ??= operator is like ||=, but it sets the variable only if the left side is null or undefined.
 
 ```javascript
-let obj = { value: "" };
-obj.value ??= "default";
-console.log(obj.value) // prints "" 
+let obj = { value: '' };
+obj.value ??= 'default';
+console.log(obj.value); // prints ""
 ```
 
-***
+---
 
 Hope you liked these 3 new operators! These are the syntactic enhancements that makes us feel muuuch more productive. Nothing you could not do before, with good old ES3. But writing less, and more elegant code seems a win for many programmers. Bugs will still be there, but now they'll look fancier.

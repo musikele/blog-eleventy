@@ -7,7 +7,7 @@ layout: post
 guid: http://michelenasti.com/?p=279
 permalink: /2015/04/la-libreria-js-del-giorno-elevator-js/
 dsq_thread_id:
-  - "3979267137"
+  - '3979267137'
 categories:
   - Italiano
 tags:
@@ -16,8 +16,9 @@ tags:
   - javascript
   - libreria
 ---
+
 Non voglio perdermi in chiacchiere: alzate il volume e, nel caso, mettete le cuffie.
 
-[Elevator.JS](http://tholman.com/elevator.js/ )
+[Elevator.JS](http://tholman.com/elevator.js/)
 
 WOW.

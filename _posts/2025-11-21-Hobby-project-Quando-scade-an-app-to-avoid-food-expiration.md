@@ -26,9 +26,9 @@ There is a simple way to build this project, you simply build an app where you m
 
 What if the user can simply take a picture of the market's invoice, and let AI figure out the rest? I did a test, and i was not disappointed. AIs can:
 
-* correctly identify what i bought from the cryptic words on the invoice
-* estimate their expiry dates
-* return all of this in the form of a JSON
+- correctly identify what i bought from the cryptic words on the invoice
+- estimate their expiry dates
+- return all of this in the form of a JSON
 
 Now it's time to put this into practice. In this post, I'll try to outline what I want to do to get to a 0.1 version.
 
@@ -42,9 +42,9 @@ The RN app must have just one button that, when clicked, allows to photograph an
 
 The server will expose just one endpoint, /extract, that will:
 
-* get the photo
-* send it to OpenAI
-* retrieve a JSON containing all the objects with their estimate expiry date.
+- get the photo
+- send it to OpenAI
+- retrieve a JSON containing all the objects with their estimate expiry date.
 
 ### Step 3 - display the list on the RN app ✅
 
@@ -74,8 +74,8 @@ AI isn't perfect, the estimation is, infact, an estimation. So we have to provid
 
 I will for sure validate my theories and follow up with you what happens once this app is on my family's phone. While developing, I've already found some improving points. The developer's experience - and the vibe coding - deserves a blog post, too. Once I validate the use case with me & my wife, i want to move over and:
 
-* add authentication and authorization
-* Add groups
-* Monetize from the project, if possible - AI it's not free!
+- add authentication and authorization
+- Add groups
+- Monetize from the project, if possible - AI it's not free!
 
 Stay tuned!

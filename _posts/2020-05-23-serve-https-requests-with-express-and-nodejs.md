@@ -8,21 +8,21 @@ date: 2020-05-23
 title: 'Serve HTTPS requests with Express and NodeJS '
 description: 'Let me show how easy it is to write an https server with nodejs and
   express. '
-headerImg: "/images/person-holding-white-scroll-2292837.jpg"
+headerImg: '/images/person-holding-white-scroll-2292837.jpg'
 tags:
   - nodejs
   - express
   - https
-
 ---
+
 One of the things I do, on my job, is to maintain a javascript library to display ads. Customers will inject this script on their page and _voilà_ they start displaying ads.
 
 Everything works nice and easy except debugging. One of the problems is that we build this big chunk of javascript with customer's data, a bunch of other open source libraries, all concatenated in one file (there is a reason why we do that - we are not crazy).
 
 So, when we have to debug the library, we usually _generate_ a modified version (uncompressed, or with sourcemaps, or with a different configuration...) and then we inject it into the page. To do that, we use several thecniques:
 
-* via [Requestly](https://www.requestly.in/ "Requestly.in") (a firefox and chrome plugin) it is possible to redirect a request to localhost
-* by specifying an entry in `/etc/hosts` we can also redirect traffic for a domain to aother ip, like localhost
+- via [Requestly](https://www.requestly.in/ 'Requestly.in') (a firefox and chrome plugin) it is possible to redirect a request to localhost
+- by specifying an entry in `/etc/hosts` we can also redirect traffic for a domain to aother ip, like localhost
 
 The problem is when our target website is on **https**. As you know, when the page is served on a secure channel, all other requests must be https too. This means that if I require **`https`**`://michelenasti.com` I cannot add a script tag pointing to **`http`**`://cdn.google.com/jquery.js` - the browser will refuse to serve the file and will display a warning in console.
 
@@ -44,7 +44,7 @@ The program will ask you to answer some questions on the issuer of the certifica
 
 This will generate two files, `selfsigned.key` and `selfsigned.crt`, that can be used by any webserver in the world, but for now we'll use in nodejs.
 
-**This step is only required once**. Generate and forget :) 
+**This step is only required once**. Generate and forget :)
 
 ## Use the certificates in express
 
@@ -56,33 +56,33 @@ const fs = require('fs');
 const http = require('http');
 const https = require('https');
 
-// read the certificate files previously created and create 
-// options object for https server 
+// read the certificate files previously created and create
+// options object for https server
 var key = fs.readFileSync(__dirname + '/selfsigned.key');
 var cert = fs.readFileSync(__dirname + '/selfsigned.crt');
 var options = {
   key: key,
-  cert: cert
+  cert: cert,
 };
 
 const app = express();
 
-// this handler will respond to all GET requests. 
-// It will respond with the file that matches the url. 
-// For example http://localhost:3000/index.js 
-// will respond with this very file. 
+// this handler will respond to all GET requests.
+// It will respond with the file that matches the url.
+// For example http://localhost:3000/index.js
+// will respond with this very file.
 const handler = (req, res) => {
-    res.sendFile(`${req.url}`, {
-        root: '.'
-    });
-}
+  res.sendFile(`${req.url}`, {
+    root: '.',
+  });
+};
 app.get('*', handler);
 
-// set the server to respond on http and https 
+// set the server to respond on http and https
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(options, app);
 
-// set the addresses. This will start the program! 
+// set the addresses. This will start the program!
 httpServer.listen(3000);
 httpsServer.listen(8443);
 ```

@@ -5,7 +5,6 @@ comments: true
 author: musikele
 layout: post
 tags:
-  
 ---
 
 I have successfully moved all my blog from Wordpress to Jekyll (what you see is the proof of it!) but there was one thing I was really missing: a web console to easily manage the blog when I don't have a computer on hand.
@@ -30,11 +29,11 @@ Here's a screenshot of my backend while I am writing this article in a wysiwyg e
 
 You get a
 
-* **wysiwyg editor** for posts and pages that is completely in-sync with the repository
-*   a **custom url** to access the blog-management without going to forestry.io website everytime
-*   support for **parameters** in front matter (with auto recognition!)
-*  support for **drafts**
-*  **upload** of images and files
+- **wysiwyg editor** for posts and pages that is completely in-sync with the repository
+- a **custom url** to access the blog-management without going to forestry.io website everytime
+- support for **parameters** in front matter (with auto recognition!)
+- support for **drafts**
+- **upload** of images and files
 
 In practice, they set-up a custom route (`/admin` ? you can choose it) with a `.js` file that connects with their servers and does all the magic for you.
 
