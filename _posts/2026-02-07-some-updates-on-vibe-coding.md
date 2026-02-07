@@ -1,14 +1,14 @@
 ---
 title: 'Vibe Coding: lessons learned'
 date: 2026-02-07T14:14:00
+layout: post
 description: 'My experience with vibe coding: what was good, what was bad, what took away most of the time'
 permalink: 2026-vibe-coding
 eleventyExcludeFromCollections: true
 tags:
   - AI
   - vibe coding
-headerImg: /pexels-sanket-mishra-16461434.jpg
-layout: post
+headerImg: /vibe-coding.png
 ---
 
 I've been thinking and working on about my app [Quando Scade](https://michelenasti.com/quando-scade-app-idea/) (When does it expire, but in italian) for few weeks now. Here are a few things I learned.
