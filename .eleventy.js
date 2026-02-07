@@ -119,6 +119,9 @@ module.exports = function (eleventyConfig) {
         collectionApi.getFilteredByGlob('_posts/**/*.md')
     );
 
+    // Escludi file dalla build
+    eleventyConfig.ignores.add('AGENTS.md');
+
     return {
         // Control which files Eleventy will process
         // e.g.: *.md, *.njk, *.html, *.liquid
