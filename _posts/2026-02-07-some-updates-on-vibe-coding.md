@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: false
 tags:
   - AI
   - vibe coding
-headerImg: /vibe-coding.png
+headerImg: /images/vibe-coding.png
 ---
 
 I've been thinking and working on about my app [Quando Scade](https://michelenasti.com/quando-scade-app-idea/) (When does it expire, but in italian) for few weeks now. Here are a few things I learned.
