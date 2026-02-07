@@ -5,7 +5,7 @@ description: 'My experience with vibe coding: what was good, what was bad, what 
 permalink: 2026-vibe-coding
 eleventyExcludeFromCollections: false
 tags:
-  - ai
+  - AI
   - vibe coding
 headerImg: /pexels-sanket-mishra-16461434.jpg
 ---

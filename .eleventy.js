@@ -3,6 +3,7 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const { DateTime } = require('luxon');
 const sass = require('sass');
 const path = require('path');
+const Eleventy = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 /**
  * @param {import("@11ty/eleventy").UserConfig} eleventyConfig
@@ -115,9 +116,35 @@ module.exports = function (eleventyConfig) {
         compile: compileScss,
     });
 
-    eleventyConfig.addCollection('posts', (/** @type {any} */ collectionApi) =>
-        collectionApi.getFilteredByGlob('_posts/**/*.md')
-    );
+    eleventyConfig.addCollection('posts', (/** @type {any} */ collectionApi) => {
+        return collectionApi.getFilteredByGlob('_posts/**/*.md');
+    });
+    // Normalizza i tag in lowercase per tutti i post PRIMA che vengano create le collections
+    eleventyConfig.addGlobalData('eleventyComputed', {
+        tags: (data) => {
+            if (data.tags && Array.isArray(data.tags)) {
+                return data.tags.map((tag) =>
+                    typeof tag === 'string' ? tag.toLowerCase() : tag
+                );
+            }
+            return data.tags;
+        },
+    });
+
+    // Collection con tutti i tag unici (già normalizzati in lowercase)
+    eleventyConfig.addCollection('tagsList', (/** @type {Eleventy} */ collectionApi) => {
+        const tagsSet = new Set();
+        collectionApi.getAll().forEach((item) => {
+            if (item.data.tags && Array.isArray(item.data.tags)) {
+                item.data.tags.forEach((tag) => {
+                    if (typeof tag === 'string') {
+                        tagsSet.add(tag.toLowerCase());
+                    }
+                });
+            }
+        });
+        return [...tagsSet].sort();
+    });
 
     // Escludi file dalla build
     if (!eleventyConfig.ignores) {
