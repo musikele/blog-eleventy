@@ -8,6 +8,7 @@ tags:
   - AI
   - vibe coding
 headerImg: /pexels-sanket-mishra-16461434.jpg
+layout: post
 ---
 
 I've been thinking and working on about my app [Quando Scade](https://michelenasti.com/quando-scade-app-idea/) (When does it expire, but in italian) for few weeks now. Here are a few things I learned.
@@ -22,5 +23,3 @@ My app has two user flows, one was working, the other was not. So I asked, "fix 
 The second is that the code produced an overwhemingly set of repetitions. For each call to backend, there was the code to detect the "authentication error". It was easy to fix, by asking "extract this code into a function and use it everywhere it's needed", but what happens if the user doesn't check that? He'll live with all those repetitions forever.
 
 My opinion is that vibe coding is a powerful instrument, and the gap between an idea and its realization is getting smaller and smaller, but it is not yet zero. A tech savy user might get the best out of it. Programmers may be still needed, for the first few months of 2026.
-
-<a href="https://www.pexels.com/it-it/foto/mano-smartphone-tecnologia-tenendo-16461434/">Photo by Sanket  Mishra on Pexels</a>
