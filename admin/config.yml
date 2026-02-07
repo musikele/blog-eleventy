@@ -11,6 +11,7 @@ collections:
     - name: posts
       label: Posts
       folder: _posts
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
       sortable_fields: [title, date]
       summary: "{{date | date('YYYY-MM-DD')}} | {{title}} |  Bozza: {{eleventyExcludeFromCollections}}"
       fields:
