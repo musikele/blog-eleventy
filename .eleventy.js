@@ -120,6 +120,9 @@ module.exports = function (eleventyConfig) {
     );
 
     // Escludi file dalla build
+    if (!eleventyConfig.ignores) {
+        eleventyConfig.ignores = new Set();
+    }
     eleventyConfig.ignores.add('AGENTS.md');
 
     return {
