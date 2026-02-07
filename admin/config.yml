@@ -25,6 +25,12 @@ collections:
                 default: true,
                 required: false,
             }
-          - { label: Tags, name: tags, widget: list, required: false }
+          - {
+                label: Tags,
+                name: tags,
+                widget: list,
+                required: false,
+                field: { label: Tag, name: tag, widget: string },
+            }
           - { label: Header Image, name: headerImg, widget: image, required: true }
           - { label: Body, name: body, widget: markdown }
