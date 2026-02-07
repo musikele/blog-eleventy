@@ -4,7 +4,7 @@ date: 2026-02-07T14:14:00
 layout: post
 description: 'My experience with vibe coding: what was good, what was bad, what took away most of the time'
 permalink: 2026-vibe-coding
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 tags:
   - AI
   - vibe coding
