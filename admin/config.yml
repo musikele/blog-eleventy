@@ -5,7 +5,7 @@ backend:
     repo: musikele/blog-eleventy
 
 media_folder: /images
-public_folder: /
+public_folder: /images
 
 collections:
     - name: posts
