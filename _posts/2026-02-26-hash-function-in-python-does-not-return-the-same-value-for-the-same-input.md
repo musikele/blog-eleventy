@@ -1,5 +1,5 @@
 ---
-title: hash() function in Python does not return the same value for the same input
+title: hash() function in Python may not return the same value for the same input
 date: 2026-02-26T09:34:00
 layout: post
 description: While debugging a complex multi-application app, I found out that the same hash function is not returning the same value. Let's understand why and how to mitigate this.
@@ -51,19 +51,19 @@ def hash(value: str) -> int:
 
 ## Ok, but why?
 
-The reason Python and many other programming languages are doing this, is related to an [attack that was "discovered" in 2003 for the Perl programming language](https://www.usenix.org/legacy/events/sec03/tech/full_papers/crosby/crosby.pdf) (but it's so general that it has been proven and solved for many other languages, like Python). 
+The reason Python and many other programming languages are doing this, is related to an [attack that was "discovered" in 2003 for the Perl programming language](https://www.usenix.org/legacy/events/sec03/tech/full_papers/crosby/crosby.pdf) (but it's so general that it has been proven and solved for many other languages, like Python).
 
-Basically, **every programming language uses some sort of hash table** (you may also know it by the name "associative array") where the data you store is put in an array, and the index is usually calculated through an hash function. 
+Basically, **every programming language uses some sort of hash table** (you may also know it by the name "associative array") where the data you store is put in an array, and the index is usually calculated through an hash function.
 
-**In theory, collisions are very rare, but if they occour, the values with the same hash are stored in linked lists.** If you remember linked lists performances, scrolling through all elements of a linked list to check if that element has been already stored can cost _O(n)_. 
+**In theory, collisions are very rare, but if they occour, the values with the same hash are stored in linked lists.** If you remember linked lists performances, scrolling through all elements of a linked list to check if that element has been already stored can cost _O(n)_.
 
-You may understand how the attack can be forged: if we find a way to build hashes so that we get, for different inputs, the same hash, we can degradate the performance of the software causing a _Denial of Service_. 
+You may understand how the attack can be forged: if we find a way to build hashes so that we get, for different inputs, the same hash, we can degradate the performance of the software causing a _Denial of Service_.
 
-This attack works because those hash functions are not built for cryptographic security but for speed: the language designer usually wants a hash function that is fast and that shows a sufficiently small average collision probability. 
+This attack works because those hash functions are not built for cryptographic security but for speed: the language designer usually wants a hash function that is fast and that shows a sufficiently small average collision probability.
 
 So, **the attacker can prebuild some strings that have the same hash.** It can be done asynchronously on the attacker computer, in a way that is described in the paper. **Then you just feed those inputs to the attacked system and it'll start to degrade.** In the paper, the example attack is performed on a popular firewall software that, after some time, will stop working.
 
-How the _salting _fixes the attack? Basically, if the hash is salted with a random number, the attacker doesn't know if the inputs calculated on his computer will be exactly going to compute to the same hash on the target computer. This is generally considered a good compromise. 
+How the _salting _fixes the attack? Basically, if the hash is salted with a random number, the attacker doesn't know if the inputs calculated on his computer will be exactly going to compute to the same hash on the target computer. This is generally considered a good compromise.
 
 ## what a trip!
 
