@@ -1,22 +1,20 @@
 ---
-paginate: true
-comments: true
-author: musikele
-category: English
-layout: post
-date: 2020-09-16
 title: How to read and write from STDIN and STDOUT in GO
-description: "Using the Go programming language, i'll explain some basic features
-  of the language with this simple Hello World program. "
-headerImg: '/images/golang.png'
+date: 2020-09-16
+layout: post
+description: Using the Go programming language, i'll explain some basic features of the language with this simple Hello World program.
+permalink: ''
 tags:
   - go
   - hello world
+headerImg: /images/golang.png
+comments: true
+author: musikele
+category: English
+paginate: true
 ---
 
 At my current job we have some projects that were realized using the **Go programming language**. The cool thing is, programmers that have used it are in love with it, and these applications never crash, not even under heavy load. This is great, for example, for applications that have to process a stream of data as fast as possible.
-
-![]({{ site.baseurl }}/images/golang.png)
 
 So, I decided to go through HackerRank and do the 30 days challenge. I do not expect to become a True Expert© but, at least, I'd like to catch up with the syntax and all the rest.
 
@@ -191,7 +189,7 @@ You may not see it from this very simple program, but:
 
 Below I leave some links that I checked while writing this article. Explore them like I did. Bye!
 
----
+***
 
 More resources:
 
