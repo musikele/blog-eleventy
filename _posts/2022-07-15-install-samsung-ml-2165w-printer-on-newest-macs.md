@@ -40,6 +40,8 @@ So here's the solution:
 
   If your concern is that the driver is not from Samsung website, I hear you, but that's what actually worked for me. Probably there's a better source out there that comes from a trusted domain. Let me know if you find one.
 
+  **Update (2026):** Since the driver is getting harder to find online, I'm now hosting it directly on this site. You can download it here: [Samsung_Mac_Driver_V3.93.01.dmg](/uploads/Samsung_Mac_Driver_V3.93.01.dmg).
+
 - So, the driver you'll be downloading should be version 3.93.01. This driver is signed so there won't be any security warnings.
 - How to install? Open the dmg, click on **MAC_Printer**, then **Printer Driver.pkg** and follow the steps.
 - At some point the driver will ask you to connect the printer. here comes another magic step that nobody tells you.
