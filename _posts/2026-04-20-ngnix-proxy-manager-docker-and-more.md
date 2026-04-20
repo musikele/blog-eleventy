@@ -4,7 +4,7 @@ date: 2026-04-20T11:08:00
 layout: post
 description: Here's how I am currently hosting my vibe-coded AI apps on a virtual server i bought.
 permalink: /2026-04-20/ngnix-proxy-manager-docker-and-more/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 tags:
   - ngnix
   - docker
