@@ -1,12 +1,12 @@
 ---
-title: ngnix proxy manager, docker, and more
+title: NGINX proxy manager, docker, and more
 date: 2026-04-20T11:08:00
 layout: post
 description: Here's how I am currently hosting my vibe-coded AI apps on a private virtual server.
 permalink: /2026-04-20/ngnix-proxy-manager-docker-and-more/
 eleventyExcludeFromCollections: false
 tags:
-  - ngnix
+  - NGINX
   - docker
   - letsencrypt
   - vibe coding
@@ -64,11 +64,11 @@ This is an external docker network, and it's shared between several containers &
 
 so, when a request hits the server, it gets to ...
 
-## Ngnix Proxy Manager 
+## NGINX Proxy Manager 
 
-Have you ever had the problem of multiple domains hitting the same server? For example, `site1.com` should target `site1/app` and `site2.com` should hit `site2/app` ? ngnix proxy manager does exactly that. That's what is usually referred to as a Reverse Proxy. With the bonus of managing let's encypt renawals, and much more for you! 
+Have you ever had the problem of multiple domains hitting the same server? For example, `site1.com` should target `site1/app` and `site2.com` should hit `site2/app` ? NGINX proxy manager does exactly that. That's what is usually referred to as a Reverse Proxy. With the bonus of managing let's encypt renawals, and much more for you! 
 
-I have just copied this docker-compose in ngnix-proxy-manager folder, started it, and docker did the rest for me: 
+I have just copied this docker-compose in nginx-proxy-manager folder, started it, and docker did the rest for me: 
 
 ```plain
 services:
@@ -99,7 +99,7 @@ networks:
 
 - This app will respond to ports `80`, `443`, and `<private_tailscale_url>:81` (more on that later). the `81` port is the configuration port. 
 
-![ngnix proxy manager screenshot](/images/Screenshot%202026-04-20%20alle%2010.38.53.png "ngnix proxy manager screenshot")
+![nginx proxy manager screenshot](/images/Screenshot%202026-04-20%20alle%2010.38.53.png "nginx proxy manager screenshot")
 
 Here we can easily configure every site to be redirect to the right app. 
 
@@ -108,7 +108,7 @@ When a request arrives for `site1.com` (currently erased), route the request to
 ![proxy hosts example](/images/Screenshot%202026-04-20%20alle%2010.40.45.png "proxy hosts example")
 
 - nobody can access directly the port `3000` of that app.
-- There can be multiple containers that expose the port `3000`, ngnix proxy manager will simply route to the right one based on the routes. 
+- There can be multiple containers that expose the port `3000`, nginx proxy manager will simply route to the right one based on the routes. 
 - the trick happens in the `networks` section: here we specify that for the `proxy` network, we are exposing the ports defined previously. 
 
 ## App
@@ -124,7 +124,7 @@ services:
           - proxy
 ```
 
-The `default` network is the one that is created by docker compose, where every service can see each other by hostname; This is the default if you omit the `networks` section. By adding the `proxy` network, ngnix-proxy-manager can call this container directly. 
+The `default` network is the one that is created by docker compose, where every service can see each other by hostname; This is the default if you omit the `networks` section. By adding the `proxy` network, nginx-proxy-manager can call this container directly. 
 
 > Note: other containers of the docker-compose (like, the database) are not exposed to the proxy network. 
 
@@ -141,7 +141,7 @@ Nice: we have set up a very cool system, but.. what if we need to inspect logs? 
 
 [Tailscale](https://michelenasti.com/2024/tailscale/) is a great VPN provider with a great free tier. Once you are inside your own VPN network, you can access the server by using the private IP that will not work for anyone else than you. 
 
-So, if I want to access the dashboard of ngnix proxy manager, i can do it ONLY from the tailscale IP. Nobody else in the world can access it nor intercept the traffic. 
+So, if I want to access the dashboard of nginx proxy manager, i can do it ONLY from the tailscale IP. Nobody else in the world can access it nor intercept the traffic. 
 
 And finally, i block all traffic on every other port that is not 80, 443 for regular web traffic. This is easily done with `ufw`. For the curious: 
 
