@@ -35,6 +35,7 @@ I'd like to thank the services that expose a free API for this, which are:
 - [OpenStreetMaps](https://nominatim.openstreetmap.org/) , that allows me to find the name of the city from the device's coordinates;
 - [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api), that I use to autocomplete the name of the cities while you type;
 - [Open-Meteo Forecast API](https://open-meteo.com/en/docs), that allows me to find weather data up until 92 days in the past;
-- [Netlify](https://netlify.com), for hosting. 
+- [Netlify](https://netlify.com), for hosting,
+- [Umami.is](https://umami.is/), for analytics.
 
 Enjoy !
