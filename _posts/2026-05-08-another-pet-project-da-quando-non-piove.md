@@ -22,6 +22,12 @@ In summer I can feel the total absence of water in my garden and in the hills ar
 
 This project took 1-2 hours to be completed. Honestly, the thing I spent most time on was connecting the domain name to netlify, and debugging an issue with the search bar - one can fetch the situation of any city in the world. 
 
+Cool things to know:
+
+- multilanguage hasn't been done with fancy libraries, it's just two jsons of strings, one per language, and the right one is selected from the user's locale. 
+- I've used Vite to develop and bundle the site and it's blazing fast. All the code is typescript. 
+- Yes, even a small site like this has tests: i used vitest for it.
+
 I'd like to thank the services that expose a free API for this, which are:
 
 - [OpenStreetMaps](https://nominatim.openstreetmap.org/) , that allows me to find the name of the city from the device's coordinates;
