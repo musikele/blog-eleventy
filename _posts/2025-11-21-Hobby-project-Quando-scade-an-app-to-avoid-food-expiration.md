@@ -1,13 +1,14 @@
 ---
 title: 'Hobby project: Quando scade, an app to avoid food expiration'
 date: 2025-11-21T23:00:00.000Z
+layout: post
 description: '"Quando Scade?", in italian, means "when does it expire?". The purpose of the project is to get an estimation of expire dates of all the perishable stuff you buy at the supermarket. The idea is that, knowing that something is getting closer to the expiry date, you try to consume it and avoid to throw away.'
 permalink: /quando-scade-app-idea/
 eleventyExcludeFromCollections: false
 tags:
-  - app idea
+  - vibe coding
+  - pet project
 headerImg: /images/receipts_receipt_pay_shopping_wealth_supermarket_currency_finance-1410366.jpg
-layout: post
 ---
 
 There are problems and hard problems. For problems, we can find solutions that are good and work incredibly fine (think of polinomial algorithms). Then there are hard problems, which you can't easily find an easy solution, if it exists (Think of NP problems). \
