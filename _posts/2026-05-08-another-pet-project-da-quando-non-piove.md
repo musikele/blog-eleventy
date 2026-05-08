@@ -24,14 +24,17 @@ This project took 1-2 hours to be completed. Honestly, the thing I spent most ti
 
 Cool things to know:
 
-- multilanguage hasn't been done with fancy libraries, it's just two jsons of strings, one per language, and the right one is selected from the user's locale. 
-- I've used Vite to develop and bundle the site and it's blazing fast. All the code is typescript. 
-- Yes, even a small site like this has tests: i used vitest for it.
+- **multilanguage** hasn't been done with fancy libraries, it's just two jsons of strings, one per language, and the right one is selected from the user's locale. 
+- I've used **Vite** to develop and bundle the site and it's blazing fast. All the code is typescript. 
+- Yes, even a small site like this has tests: i used **vitest** for it.
+- There's some sort of continuous deployment thanks to **netlify**. 
+- The website is a **PWA** so you can install it on your launcher. 
 
 I'd like to thank the services that expose a free API for this, which are:
 
 - [OpenStreetMaps](https://nominatim.openstreetmap.org/) , that allows me to find the name of the city from the device's coordinates;
 - [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api), that I use to autocomplete the name of the cities while you type;
-- [Open-Meteo Forecast API](https://open-meteo.com/en/docs), that allows me to find weather data up until 92 days in the past.
+- [Open-Meteo Forecast API](https://open-meteo.com/en/docs), that allows me to find weather data up until 92 days in the past;
+- [Netlify](https://netlify.com), for hosting. 
 
 Enjoy !
