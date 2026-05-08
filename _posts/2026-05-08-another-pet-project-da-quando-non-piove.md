@@ -14,7 +14,7 @@ headerImg: /images/Screenshot 2026-05-08 alle 08.43.28.png
 
 Since the advent of AI, I feel like my creativity is unleashed. I can finally design functionalities instead of focusing on coding. In this sense,  I feel I am getting closer to become a product manager, instead of being "just" a developer. 
 
-The last project I've been [vibe coding](tags/vibe-coding/) is "[Da quando non piove](https://daquandononpiove.it)", that translated would be "how many days since last rain". Unfortunately it's in Italian, but it's very easy to follow along. 
+The last project I've been [vibe coding](https://michelenasti.com/tags/vibe-coding/) is "[Da quando non piove](https://daquandononpiove.it)", that translated would be "how many days since last rain". Unfortunately it's in Italian, but it's very easy to follow along. 
 
 The website is very stupid: you navigate to the main page, and it'll detect your current location, fetch the historical data, and tell you how long since the last rain. Nothing else. 
 
