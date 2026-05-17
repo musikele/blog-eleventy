@@ -4,7 +4,7 @@ date: 2026-05-17T10:28:00
 layout: post
 description: This time i'll talk about raspberry, sensors, irrigation
 permalink: 2026/moisture-detection-with-raspberry/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 tags:
   - raspberrypi
   - mcp3008
