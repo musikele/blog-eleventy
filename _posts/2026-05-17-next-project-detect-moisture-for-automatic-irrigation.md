@@ -9,7 +9,7 @@ tags:
   - raspberrypi
   - mcp3008
   - moisture
-headerImg: ''
+headerImg: /images/IMG_3468.jpeg
 ---
 
 Today i'll briefly discuss another project I am working on: **mostiure detection (for automatic irrigation)**. 
