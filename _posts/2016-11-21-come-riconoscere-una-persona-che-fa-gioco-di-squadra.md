@@ -1,32 +1,34 @@
 ---
-id: 1140
-title: 'Come riconoscere (e perché assumere) un buon "giocatore di squadra" '
+title: Come riconoscere (e perché assumere) un buon "giocatore di squadra"
 date: 2016-11-21T09:30:00+00:00
-author: musikele
-excerpt: 'Le qualità del buon giocatore di squadra sono:'
 layout: post
-guid: http://michelenasti.com/?p=1140
+description: ''
 permalink: /2016/11/come-riconoscere-una-persona-che-fa-gioco-di-squadra/
-dsq_thread_id:
-  - '5320513326'
-categories:
-  - Italiano
 tags:
   - lavoro
   - qualità
   - team
   - team building
+headerImg: /images/91BXTYwh8wL._SL1500_.jpg
+author: musikele
+excerpt: 'Le qualità del buon giocatore di squadra sono:'
+guid: http://michelenasti.com/?p=1140
+dsq_thread_id:
+  - '5320513326'
+categories:
+  - Italiano
+id: 1140
 ---
 
 > Un buon "giocatore di squadra" ha queste qualità:
->
+> >
 > - Voglia di superarsi, fare più del dovuto per quell'extra che fa la differenza
 > - La capacità di essere una persona che fa "gruppo", che sa stare con gli altri e sa comunicare
 > - L'umiltà di mettere da parte l'ego per il bene del gruppo.
->
+> >
 > Se manca una sola di queste tre qualità, il team intero ne risentirà.
 
-Questo é un sunto del libro "[The Ideal Good Player](http://blnk.to/e7821b80)", ma potrei anche dire che é un sunto della mia esperienza lavorativa. Avendo lavorato con tante persone, sia più junior che senior di me, ho visto centinaia di casi umani da manuale:
+Questo é un sunto del libro [The Ideal Good Player](https://www.amazon.it/Ideal-Team-Player-Recognize-Cultivate/dp/1119209595), ma potrei anche dire che é un sunto della mia esperienza lavorativa. Avendo lavorato con tante persone, sia più junior che senior di me, ho visto centinaia di casi umani da manuale:
 
 - La persona che senza neanche presentarsi ti definisce bugiardo / incapace / you know it...
 - La persona che _pretende_ il tuo aiuto
