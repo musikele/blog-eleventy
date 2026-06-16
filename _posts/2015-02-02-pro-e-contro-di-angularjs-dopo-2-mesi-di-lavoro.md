@@ -1,16 +1,9 @@
 ---
-id: 115
 title: Pro e contro di AngularJs dopo 2 mesi di lavoro
-date: 2015-02-02T09:55:11+00:00
-author: musikele
+date: 2015-02-02T10:55
 layout: post
-guid: http://michelenasti.com/?p=115
+description: ''
 permalink: /2015/02/pro-e-contro-di-angularjs-dopo-2-mesi-di-lavoro/
-dsq_thread_id:
-  - '3958633940'
-headerImg: /uploads/2015/02/angular-featured-825x468.png
-categories:
-  - Italiano
 tags:
   - angularJs
   - backbone
@@ -19,9 +12,17 @@ tags:
   - requireJs
   - SPA
   - webstorm
+headerImg: /uploads/2015/02/angular-featured-825x468.png
+author: musikele
+guid: http://michelenasti.com/?p=115
+dsq_thread_id:
+  - '3958633940'
+categories:
+  - Italiano
+id: 115
 ---
 
-_Questa è una chat tra me e il mio ex-collega/amico [Davide](https://www.linkedin.com/profile/view?id=9483864 'Davide Antelmo'), sull'esperienza fatta con [AngularJs](https://angularjs.org/). Forse anche loro svilupperanno un POC (proof of concept) e voleva un po' di info. Credo che queste "opinioni" possano servire anche ad altri. Enjoy 🙂_
+_Questa è una chat tra me e il mio ex-collega/amico_ [_Davide](https://www.linkedin.com/profile/view?id=9483864 'Davide Antelmo'), sull'esperienza fatta con [AngularJs_](https://angularjs.org/)_. Forse anche loro svilupperanno un POC (proof of concept) e voleva un po' di info. Credo che queste "opinioni" possano servire anche ad altri. Enjoy 🙂_
 
 > **D.:** Come vi state trovando con angularjs?
 
@@ -45,7 +46,7 @@ Alla fine della fiera cmq il software lo stiamo realizzando, i problemi li abbia
 
 **Io:** Gli sviluppatori sono abituati a Eclipse per il backend e quasi tutti usano eclipse anche per il frontend. Difficilmente li convinci se non gli fai vedere che funziona ctrl+spazio (che comunque in Eclipse JavaScript non c'è!) o altre amenità. Ho pure mostrato che in WebStorm c'è, anche se non funziona benissimo, e comunque manco l'hanno voluto usare... Ho visto un pò di brackets ed è OK... Non so visual studio etc come vanno
 
-> **D.:** cmq anche io ho letto diversi articoli sui famosi &#8216;problemi di perfomance' di angularjs. Quante UI aveva il progetto che avete usato?
+> **D.:** cmq anche io ho letto diversi articoli sui famosi ‘problemi di perfomance' di angularjs. Quante UI aveva il progetto che avete usato?
 
 **M:** Un centinaio di UI. Era una vecchia applicazione Visual BASIC portata in web
 
@@ -53,7 +54,7 @@ Alla fine della fiera cmq il software lo stiamo realizzando, i problemi li abbia
 
 **Io:** No niente RequireJs
 
-> **D.:** avete usato qualche template per la struttura del progetto ? Tipo [angular seed](https://github.com/angular/angular-seed)? o avete usato qualcosa di più &#8216;enteprise' ?
+> **D.:** avete usato qualche template per la struttura del progetto ? Tipo [angular seed](https://github.com/angular/angular-seed)? o avete usato qualcosa di più ‘enteprise' ?
 
 **M:** una sorta di "template" ce lo siamo inventati noi. Su questa parte non siamo stati troppo smart ... Eravamo all'inizio e non sapevamo che fare. Dovevamo "buttare le mani"
 
@@ -61,9 +62,9 @@ Alla fine della fiera cmq il software lo stiamo realizzando, i problemi li abbia
 
 **M:** Se potessi tornare indietro userei [yeoman](http://yeoman.io/) che ho usato a casa
 
-> **D.: **<a href="http://slides.com/thomasburleson/using-requirejs-with-angularjs#/" target="_blank" rel="nofollow">http://slides.com/thomasburleson/using-requirejs-with-angularjs#/</a> <a href="https://github.com/ThomasBurleson/angularjs-Zza-BMEAN" target="_blank" rel="nofollow">https://github.com/ThomasBurleson/angularjs-Zza-BMEAN</a>
+> \*\*D.: \*\*<a href="http://slides.com/thomasburleson/using-requirejs-with-angularjs#/" target="_blank" rel="nofollow">http://slides.com/thomasburleson/using-requirejs-with-angularjs#/</a> <a href="https://github.com/ThomasBurleson/angularjs-Zza-BMEAN" target="_blank" rel="nofollow">https://github.com/ThomasBurleson/angularjs-Zza-BMEAN</a>
 
-**M: **Si si purtroppo sono cose che ho letto DOPO che ho iniziato a lavorare su angular. Purtroppo non ho partecipato alla fase di setup del progetto. Ah dimenticavo, un altro svantaggio probabile è che A[ngularJs 2 sarà una cosa totalmente diversa](http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/)
+\*\*M: \*\*Si si purtroppo sono cose che ho letto DOPO che ho iniziato a lavorare su angular. Purtroppo non ho partecipato alla fase di setup del progetto. Ah dimenticavo, un altro svantaggio probabile è che A[ngularJs 2 sarà una cosa totalmente diversa](https://web.archive.org/web/20210506192110/http://ng-learn.org/2014/03/AngularJS-2-Status-Preview/)
 
 > **D.: s**i visto
 
@@ -73,7 +74,7 @@ Alla fine della fiera cmq il software lo stiamo realizzando, i problemi li abbia
 
 **Io:** Il web si interroga come ha fatto angularJs a vincere ... ci sono altri progetti concorrenti che qualitativamente stanno lì, come [Backbone](http://backbonejs.org/) e [Ember](http://emberjs.com/)... Bo
 
-> **D.:** Perchè AngularJs, secondo me, è più enterprise. Le due cose &#8216;enterprise' che ha di più sono le direttive e i moduli. Ti permette di strutturare, riusare, testare... poi ok c'è anche la dependency injection... ah, questi javisti che si mettono a inventare framework javascript!
+> **D.:** Perchè AngularJs, secondo me, è più enterprise. Le due cose ‘enterprise' che ha di più sono le direttive e i moduli. Ti permette di strutturare, riusare, testare... poi ok c'è anche la dependency injection... ah, questi javisti che si mettono a inventare framework javascript!
 
 **Io:** a quanto pare è stato scritto da un Javista ...
 
