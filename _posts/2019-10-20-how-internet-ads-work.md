@@ -1,10 +1,9 @@
 ---
-paginate: true
-comments: true
-author: musikele
-category: English
-layout: post
+title: How internet ads work
 date: 2019-10-21
+layout: post
+description: header bidding, DFP, GAM, cpm ... welcome in the world of ads, where everything is an acronym. Le me try to explain how everything works under the hood.
+permalink: ''
 tags:
   - ads
   - google
@@ -12,10 +11,11 @@ tags:
   - dfp
   - hb
   - header bidding
-title: How internet ads work
-headerImg: '/images/pexels-photo-802024.jpeg'
-description: 'header bidding, DFP, GAM, cpm ... welcome in the world of ads, where
-  everything is an acronym. Le me try to explain how everything works under the hood. '
+headerImg: /images/pexels-photo-802024.jpeg
+comments: true
+author: musikele
+category: English
+paginate: true
 ---
 
 Since money was invented, people felt the urge to advertise their products to others. I live very near to Pompeii (Italy) and if you visit this incredible town you'll discover that in 79 a.D. there were a lot of ads painted on walls, trying to sell you wine, prostitutes, or ask for a vote.
@@ -117,7 +117,7 @@ What you've just read here is nothing more than the logic behind [PrebidJS](http
 
 Prebid will perform the auction amongst the publisher chosen set of SSPs, then will query GAM, and finally will render the ad. Prebid also contains code to display video ads, mobile ads, handle different currencies, and much more.
 
-Here you can see an example of [prebid in action](http://prebid.org/dev-docs/getting-started.html).
+Here you can see an example of [prebid in action](https://docs.prebid.org/dev-docs/examples/basic-example.html).
 
 ## That's it?
 
