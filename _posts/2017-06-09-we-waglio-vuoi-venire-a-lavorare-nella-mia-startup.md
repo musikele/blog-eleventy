@@ -1,15 +1,17 @@
 ---
-paginate: true
-comments: true
-author: musikele
-title: "We' waglio', vuoi venire a lavorare nella mia startup?"
-category: Italiano
+title: We' waglio', vuoi venire a lavorare nella mia startup?
+date: 2017-06-09T11:20
 layout: post
-date: 2017-06-09T09:20:50+00:00
+description: ''
+permalink: ''
 tags:
   - startup
   - lavoro
-headerImg: '/images/matrimonio-maldive.jpg'
+headerImg: /images/matrimonio-maldive.jpg
+comments: true
+author: musikele
+category: Italiano
+paginate: true
 ---
 
 Ricevo almeno **due richieste al mese** per collaborare con startup.
@@ -47,7 +49,7 @@ Motivo per cui scarto tutte le startup che non sanno rispondere alla domanda **"
 
 ## Tra CEO e CTO deve esserci qualcosa di più forte di un matrimonio
 
-Leggevo un interessante articolo in cui si diceva che il 65% delle startup non falliscono perchè non trovano clienti o investitori, bensì perchè [i fondatori litigano](http://money.cnn.com/2014/02/24/smallbusiness/startups-entrepreneur-cofounder/index.html).
+Leggevo un interessante articolo in cui si diceva che il 65% delle startup non falliscono perchè non trovano clienti o investitori, bensì perchè [i fondatori litigano](https://web.archive.org/web/20250603155723/http://money.cnn.com/2014/02/24/smallbusiness/startups-entrepreneur-cofounder/index.html).
 
 Mettiamoci nei panni dell'aspirante startupper che ho citato prima: contatta persone a caso su facebook chiedendogli di lavorare alla sua idea.
 
