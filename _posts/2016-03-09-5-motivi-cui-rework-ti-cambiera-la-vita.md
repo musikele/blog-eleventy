@@ -1,22 +1,24 @@
 ---
-id: 619
 title: 5 motivi per cui Rework ti cambierà la vita
-date: 2016-03-09T19:33:14+00:00
-author: musikele
+date: 2016-03-09T20:33
 layout: post
-guid: http://michelenasti.com/?p=619
+description: ''
 permalink: /2016/03/5-motivi-cui-rework-ti-cambiera-la-vita/
+tags: null
+headerImg: /images/4450243588_358fe9057c_o.jpg
+author: musikele
+guid: http://michelenasti.com/?p=619
 dsq_thread_id:
   - '4648297127'
+headerimg: /uploads/2016/03/wp-1457508741600-2.jpg
 categories:
   - Italiano
-tags:
-headerimg: /uploads/2016/03/wp-1457508741600-2.jpg
+id: 619
 ---
 
-[**Rework**](http://amzn.to/2nYp7mS) é un libro.
+[**Rework**](https://www.amazon.it/Rework-Jason-Fried/dp/0307463745) é un libro.
 
-Gli autori di Rework sono gli stessi autori di **[Basecamp](http://www.basecamp.com)**, software per il lavoro collaborativo, e di **Ruby on Rails**, tool per lo sviluppo rapido di webapp che va tanto di moda in USA. La loro azienda si chiama(va) 37signals.
+Gli autori di Rework sono gli stessi autori di [**Basecamp**](http://www.basecamp.com), software per il lavoro collaborativo, e di **Ruby on Rails**, tool per lo sviluppo rapido di webapp che va tanto di moda in USA. La loro azienda si chiama(va) 37signals.
 
 All'interno di Rework gli autori descrivono la loro filosofia lavorativa che hanno già applicato a se stessi; insomma non parlano di concetti astratti ma di cose sperimentate e supportate dalla loro esperienza.
 
