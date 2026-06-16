@@ -1,16 +1,18 @@
 ---
-paginate: true
-comments: true
-author: musikele
 title: I colloqui di lavoro nelle Big
-category: Italiano
+date: 2017-05-22T17:08
 layout: post
-date: 2017-05-22T15:08:19+00:00
+description: ''
+permalink: ''
 tags:
   - colloqui di lavoro
+comments: true
+author: musikele
+category: Italiano
+paginate: true
 ---
 
-Recentemente sono stato speaker all'evento [pre-Google I/O](https://www.meetup.com/it-IT/GDGCampania/events/239723850/) organizzato dal [Google Developers Group Campania](http://gdgcampania.com), a Napoli.
+Recentemente sono stato speaker all'evento [pre-Google I/O](https://www.meetup.com/it-IT/GDGCampania/events/239723850/) organizzato dal [Google Developers Group Campania](https://www.facebook.com/GDGCampania/?locale=it_IT), a Napoli.
 
 Il mio talk verteva sui colloqui di lavoro delle aziende top, e qui ci sta bene un bel disclaimer: _non ho mai fatto colloqui per aziende top - tranne un piccolo frangente con Amazon_. Ma ho letto molto sull'argomento, e ho chiesto in giro ad alcuni amici che hanno fatto le selezioni per queste aziende, quindi avevo un po' di materiale che era bello condividere.
 
