@@ -1,20 +1,19 @@
 ---
-paginate: true
-comments: true
-author: musikele
 title: Perchè la Green Card è una lotteria?
-category: Italiano
-layout: post
 date: 2018-01-17 00:00:00
+layout: post
+description: Perchè per l'asta dei diritti televisivi si usa un'asta di secondo prezzo? E perchè la green card è una lottera? Analizziamo questi metodi da un punto di vista informatico.
+permalink: ''
 tags:
   - green card
   - usa
   - lotteria
   - michele risponde
-description: "Perchè per l'asta dei diritti televisivi si usa un'asta di secondo
-  prezzo? E perchè la green card è una lottera? Analizziamo questi metodi da un punto
-  di vista informatico. "
-headerImg: '/images/lottery.jpg'
+headerImg: /images/lottery.jpg
+comments: true
+author: musikele
+category: Italiano
+paginate: true
 ---
 
 Ho beccato un post on line in cui si chiedeva se un lavoratore da remoto può lavorare dagli USA per clienti italiani. La risposta precisa ve la potrà dare solo un avvocato esperto (o il consolato USA); semplifichiamo dicendo che se si lavora dal territorio USA bisogna pagare le tasse americane. Per lavorare legalmente in USA ci sono [molte strade](https://www.us-immigration.com/greencard/Green-Card-Lottery.html): la **Green Card** è una di queste.
@@ -25,7 +24,7 @@ In questo articolo parleremo del **perchè gli USA hanno scelto la lotteria come
 
 ## Cos'è la Green Card?
 
-La [**Green Card**](http://america24.com/news/come-si-ottiene-la-green-card) è l'equivalente del _permesso di soggiorno italiano_, ma permette di lavorare, a tempo indeterminato, negli USA. In pratica chi vince una Green Card può tranquillamente trasferirsi e creare reddito: non ci sono limiti di nessun tipo (ma evitate di violare la legge).
+La [**Green Card**](https://www.rei-sol.com/green-card/) è l'equivalente del _permesso di soggiorno italiano_, ma permette di lavorare, a tempo indeterminato, negli USA. In pratica chi vince una Green Card può tranquillamente trasferirsi e creare reddito: non ci sono limiti di nessun tipo (ma evitate di violare la legge).
 
 ## Perchè si dice che è una lotteria?
 
@@ -41,7 +40,7 @@ Sostanzialmente quando vuoi offrire una risorsa a qualcuno hai molti modi per fa
 - Il **bando di gara "beauty contest"** prevede che tu la commissione scelga il progetto migliore. Anche in questo caso la corruzione la fa da padrona.
 - Le **aste al ribasso o al rialzo** sono frequenti nel settore dei diritti televisivi o per gli appalti: in questo caso, aziende con forti disponibilità vinceranno sicuramente, o comunque se sai chi altro partecipa e qual è la loro disponibilità economica (ad esempio corrompendo le persone giuste), ti basterà fare un'offerta leggermente maggiore. In questo caso chi ci perde è chi assegna il bene: non intasca il reale valore di quel bene, ma il valore appena necessario per ottenerlo.
 - L'**asta di secondo prezzo** è un meccanismo intelligente, anche eBay funziona così, e su questa cosa [Vickrey ci ha vinto un premio nobel per l'economia](https://it.wikipedia.org/wiki/William_Vickrey). Lo spiego in parole povere: facciamo un'asta a busta chiusa, ognuno di noi offre quanto secondo lui quel bene "vale", e vince ovviamente chi offre di più MA paga il secondo prezzo più alto. Tramite una serie di teoremi (che a suo tempo ho anche studiato) si può dimostrare che chi partecipa a questo tipo di asta è meno invogliato a offrire di meno rispetto al valore reale.
-- il **Click Day,** mi vergogno addirittura a metterlo in questa lista, è una di quelle cavolate all'italiana venute fuori dalla mente di chissà quale burocrate. Praticamente in un certo giorno e a una certa ora, si fa una gara di velocità: i più veloci a _cliccare_ si assegnano quel bene*.* Capirete che tutto dipende dall'affidabilità del sistema di rilevamento, dalla latenza della velocità internet, dalla dimestichezza che ha l'operatore con mouse e tastiera, e dalla fortuna.
+- il **Click Day,** mi vergogno addirittura a metterlo in questa lista, è una di quelle cavolate all'italiana venute fuori dalla mente di chissà quale burocrate. Praticamente in un certo giorno e a una certa ora, si fa una gara di velocità: i più veloci a _cliccare_ si assegnano quel bene\*.\* Capirete che tutto dipende dall'affidabilità del sistema di rilevamento, dalla latenza della velocità internet, dalla dimestichezza che ha l'operatore con mouse e tastiera, e dalla fortuna.
 - E veniamo infine alla **lotteria**: è il meccanismo più equo ed economico quando hai un tot di posti disponibili (es. 50.000) e una quantità enorme di persone che partecipa (es. 10.000.000): semplicemente decide il caso. Costa poco, è di facile realizzazione, non richiede di revisionare tutte le domande per verificare titoli o altro (beauty contest), nè è accessibile solo ai ricchi (aste). Ah, e non vince il più veloce.
 
 Se avete seguito uno dei primi link di questo articolo sappiate che vincere la lotteria per la Green Card è solo il primo passo: seguiranno un paio di anni di colloqui con l'ambasciata, e tanta burocrazia. **La cosa più semplice é di trovare un'azienda USA che sponsorizzi la vostra candidatura per farvi lavorare lì**. In bocca al lupo!
