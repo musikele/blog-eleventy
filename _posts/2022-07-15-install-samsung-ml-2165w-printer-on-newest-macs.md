@@ -14,9 +14,9 @@ tags:
 headerImg: /images/ml2165w-stampante-laser-samsung_10051.jpg
 ---
 
-> Note
-> 
-> I bought this little piece of hardware centuries ago, a **Samsung ML-2165w**, and it had a lot of advantages for a home user like me:
+> **2026 update**: **this printer no longer lives in my house.** Sorry lil' printer, but we needed something that could print from iOS. 
+
+I bought this little piece of hardware centuries ago, a **Samsung ML-2165w**, and it had a lot of advantages for a home user like me:
 
 - it's a **laser printer**. The toner takes _ages_ to run out.
 - It costed something around 70€ at the time, probably 2017.
