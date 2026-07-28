@@ -1,21 +1,22 @@
 ---
-eleventyExcludeFromCollections: false
-layout: post
 title: Install Samsung ML-2165w printer on newest Macs
-description: Basically, ignore whatever its written on their support site and follow
-  my advice...
-permalink: '/samsung-ml-2165w-printers-mac/'
 date: 2022-07-15T00:00:00+02:00
+layout: post
+description: Basically, ignore whatever its written on their support site and follow my advice...
+permalink: /samsung-ml-2165w-printers-mac/
+eleventyExcludeFromCollections: false
 tags:
   - drivers
   - mac
   - ml-2165w
   - printer
   - samsung
-headerImg: '/images/ml2165w-stampante-laser-samsung_10051.jpg'
+headerImg: /images/ml2165w-stampante-laser-samsung_10051.jpg
 ---
 
-I bought this little piece of hardware centuries ago, a **Samsung ML-2165w**, and it had a lot of advantages for a home user like me:
+> Note
+> 
+> I bought this little piece of hardware centuries ago, a **Samsung ML-2165w**, and it had a lot of advantages for a home user like me:
 
 - it's a **laser printer**. The toner takes _ages_ to run out.
 - It costed something around 70€ at the time, probably 2017.
@@ -30,7 +31,7 @@ Another issue with this printer's driver is that the driver is unsigned. This me
 
 No! The reccomended printer driver, simply, does not work.
 
----
+***
 
 Some years ago, however, Samsung issued a new driver called **Samsung universal printer driver**. It contains drivers for all samsung printers.
 
@@ -56,6 +57,6 @@ Sorry if my screenshots are in italian; however, you must **select the driver fr
 
 Voilà! This super old printer now works fine with your new mac.
 
----
+***
 
 _I made this article in the spirit of the first web - to help others that may be having my same issue. There's no ned to replace the printer if it still works. Don't fall into the consumism trap!_
