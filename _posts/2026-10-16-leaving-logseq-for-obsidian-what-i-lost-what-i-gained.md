@@ -3,7 +3,7 @@ title: 'Leaving Logseq for Obsidian: what I lost, what I gained'
 date: 2026-10-16T11:57:00
 layout: post
 description: After years of Logseq, a failed migration pushed me to Obsidian. Here’s how I moved my notes and rebuilt my daily workflow with a few plugins.
-permalink: /2026/logseq-to-obsidian
+permalink: /2026/logseq-to-obsidian/
 eleventyExcludeFromCollections: false
 tags:
   - logseq
