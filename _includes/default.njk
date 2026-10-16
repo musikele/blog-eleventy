@@ -11,8 +11,8 @@
         {% include 'analytics.html' %}
     </head>
     <body>
-        <div id="color-switcher">
-            <i class="fa-solid fa-palette"></i>
+        <div id="color-switcher" title="Change theme">
+            {% include "icons/palette.svg" %}
         </div>
         <header>
             {% responsiveImage '/images/volto.jpg', { width: 150, height: 150, alt: 'Michele Nasti' }, { widths: [150, 263, 300, 450], sizes: '150px', fallbackWidth: 300 } %}
@@ -30,7 +30,6 @@
                 {{ content | safe }}
         </main>
         {% include 'footer.html' %}
-        <script src="https://kit.fontawesome.com/34fd8742c5.js" crossorigin="anonymous"></script>
         <script src="/scripts/index.js"></script>
     </body>
 </html>
