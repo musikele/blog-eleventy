@@ -1,14 +1,14 @@
 <meta property="og:title" content="{{title}}" />
 <meta property="og:site_name" content="{{sitename}}" />
 <meta property="og:url" content="{{base}}/{{permalink}}" />
-<meta name="description" property="og:description" content="{{description}}" />
+<meta name="description" property="og:description" content="{{ description or site.description }}" />
 <meta name="image" property="og:image" content="{{headerImg | imagePath}}" />
 
 <!-- Twitter cards -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="{{twitterName}}" />
 <meta name="twitter:title" content="{{ title }}" />
-<meta name="twitter:description" content="{{ description }}" />
+<meta name="twitter:description" content="{{ description or site.description }}" />
 <meta name="twitter:image" content="{{ headerImg | imagePath }}" />
 <!-- end of Twitter cards -->
 
