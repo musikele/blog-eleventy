@@ -3,7 +3,7 @@ title: How to read and write from STDIN and STDOUT in GO
 date: 2020-09-16
 layout: post
 description: Using the Go programming language, i'll explain some basic features of the language with this simple Hello World program.
-permalink: ''
+permalink: /2020/09/16/how-to-read-and-write-from-stdin-and-stdout-in-go.html
 tags:
   - go
   - hello world
@@ -52,7 +52,7 @@ $ go run hello-world.go
 And finally: **go has an official formatting tool**. This means that you cannot decide how many spaces (or tabs), or how long your lines should be, etc. Smart IDEs like Visual Studio Code with the Go extension will automagically run the formatting tool for you at every save. But if you want to run it from the command line:
 
 ```shell
-$ go fmt hello-world.go
+go fmt hello-world.go
 ```
 
 No more issues on git merge :)
@@ -69,17 +69,17 @@ Here's the source code:
 package main
 
 import (
-	"bufio"
-	"fmt"
-	"os"
+ "bufio"
+ "fmt"
+ "os"
 )
 
 func main() {
-	var reader = bufio.NewReader(os.Stdin)
-	message, _ := reader.ReadString('\n')
+ var reader = bufio.NewReader(os.Stdin)
+ message, _ := reader.ReadString('\n')
 
-	fmt.Println("Hello, World.")
-	fmt.Println(message)
+ fmt.Println("Hello, World.")
+ fmt.Println(message)
 }
 ```
 
@@ -97,9 +97,9 @@ package main
 
 ```go
 import (
-	"bufio"
-	"fmt"
-	"os"
+ "bufio"
+ "fmt"
+ "os"
 )
 ```
 

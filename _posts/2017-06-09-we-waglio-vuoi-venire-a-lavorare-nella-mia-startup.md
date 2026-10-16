@@ -4,7 +4,7 @@ title: We' waglio', vuoi venire a lavorare nella mia startup?
 date: 2017-06-09T11:20
 layout: post
 description: ''
-permalink: ''
+permalink: /2017/06/09/we-waglio-vuoi-venire-a-lavorare-nella-mia-startup.html
 tags:
   - startup
   - lavoro

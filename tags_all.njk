@@ -11,7 +11,9 @@ title: Tags
       <ul>
       {% set orderedCollection = collections | sortObjectByKey  %}
       {%- for tag, posts in orderedCollection %}
+        {%- if tag not in ["all", "posts", "tagsList"] %}
         <li><a href="/tags/{{tag | slugify}}/"><strong>{{ tag }}</strong></a> - {{ posts | length }} posts</li>
+        {%- endif %}
       {%- endfor %}
       </ul>
     </article>

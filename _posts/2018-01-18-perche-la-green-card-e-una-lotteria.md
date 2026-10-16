@@ -4,7 +4,7 @@ title: Perchè la Green Card è una lotteria?
 date: 2018-01-17 00:00:00
 layout: post
 description: Perchè per l'asta dei diritti televisivi si usa un'asta di secondo prezzo? E perchè la green card è una lottera? Analizziamo questi metodi da un punto di vista informatico.
-permalink: ''
+permalink: /2018/01/17/perche-la-green-card-e-una-lotteria.html
 tags:
   - green card
   - usa

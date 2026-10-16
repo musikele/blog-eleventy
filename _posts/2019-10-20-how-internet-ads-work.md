@@ -3,7 +3,7 @@ title: How internet ads work
 date: 2019-10-21
 layout: post
 description: header bidding, DFP, GAM, cpm ... welcome in the world of ads, where everything is an acronym. Le me try to explain how everything works under the hood.
-permalink: ''
+permalink: /2019/10/21/how-internet-ads-work.html
 tags:
   - ads
   - google

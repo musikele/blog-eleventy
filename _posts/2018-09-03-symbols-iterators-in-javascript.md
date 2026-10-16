@@ -26,7 +26,7 @@ for (const fruit of arr) {
 // -> orange
 ```
 
-### How does it work
+## How does it work
 
 What you are seeing is a syntax that iterates on an **iterator**, a common concept in other languages but fairly new in Javascript.
 
@@ -82,7 +82,7 @@ Confused?
 
 ### Example
 
-Do you remember the `Group` class we [designed in the last article](https://michelenasti.com/2018/09/03/some-things-you-may-not-know-about-object-oriented-javascript-es6.html)? Basically it is a Set object with another name. It holds just one copy for every object (duplicates are not allowed) and we use a simple array to store data inside. Let's write an iterator for it!
+Do you remember the `Group` class we [designed in the last article](https://michelenasti.com/2018/09/02/some-things-you-may-not-know-about-object-oriented-javascript-es6.html)? Basically it is a Set object with another name. It holds just one copy for every object (duplicates are not allowed) and we use a simple array to store data inside. Let's write an iterator for it!
 
 ```javascript
 

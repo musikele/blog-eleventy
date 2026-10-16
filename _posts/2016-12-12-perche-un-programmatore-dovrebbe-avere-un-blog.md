@@ -24,7 +24,7 @@ Non per i soldi, o meglio non direttamente. Sarà molto difficile riuscire a far
 
 E allora perchè avere un blog? Beh, si tratta di _personal branding_. Non c'è bisogno di dimostrare di essere i migliori programmatori su scala globale, certe volte basta esserlo su scala "locale" e godere di un'ottima visibilità, che qualcosa intorno a te inizierà inevitabilmente a muoversi ;)
 
-Il blog è uno strumento perfetto per il personal branding, e insieme a un CV ben fatto (e un ottmo profilo LinkedIn) formano un'accoppiata formidabile. Infatti [le aziende si informano su chi siete tramite i social](2016/01/i-colloqui-di-lavoro-iniziano-e-finiscono-su-facebook/) e se riuscite a portarli sul vostro blog avrete fatto bingo già prima del colloquio.
+Il blog è uno strumento perfetto per il personal branding, e insieme a un CV ben fatto (e un ottmo profilo LinkedIn) formano un'accoppiata formidabile. Infatti [le aziende si informano su chi siete tramite i social](/2016/01/i-colloqui-di-lavoro-iniziano-e-finiscono-su-facebook/) e se riuscite a portarli sul vostro blog avrete fatto bingo già prima del colloquio.
 
 Col blog dimostrerete:
 

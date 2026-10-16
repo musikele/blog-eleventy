@@ -72,9 +72,9 @@ undefined
 { value: undefined, done: true }
 ```
 
-I've already discussed this issue in [in another article](https://michelenasti.com/2018/09/04/symbols-iterators-in-javascript.html 'Symbols & Iterators in Javascript '); there you'll find other examples and more explanations!
+I've already discussed this issue in [in another article](https://michelenasti.com/2018/09/03/symbols-iterators-in-javascript.html 'Symbols & Iterators in Javascript '); there you'll find other examples and more explanations!
 
-## Iterators are not funny.
+## Iterators are not funny
 
 Nobody wants to write a functions that returns an object with a next property that returns a value.
 

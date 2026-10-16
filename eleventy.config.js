@@ -29,7 +29,20 @@ function imageKitUrl(imagePath, width, quality, format) {
     const transform = [`w-${width}`, quality && `q-${quality}`, format && `f-${format}`]
         .filter(Boolean)
         .join(',');
-    return `${IMAGEKIT_BASE}/tr:${transform}/${String(imagePath ?? '').replace(/^\/+/, '')}`;
+    return `${IMAGEKIT_BASE}/tr:${transform}/${encodePath(String(imagePath ?? '').replace(/^\/+/, ''))}`;
+}
+
+/**
+ * Codifica spazi e caratteri speciali (necessario nei srcset), senza ricodificare i path già codificati
+ * @param {string} imagePath
+ * @returns {string}
+ */
+function encodePath(imagePath) {
+    try {
+        return encodeURI(decodeURI(imagePath));
+    } catch {
+        return encodeURI(imagePath);
+    }
 }
 
 /**

@@ -4,7 +4,7 @@ title: I colloqui di lavoro nelle Big
 date: 2017-05-22T17:08
 layout: post
 description: ''
-permalink: ''
+permalink: /2017/05/22/i-colloqui-di-lavoro-nelle-big.html
 tags:
   - colloqui di lavoro
 comments: true
@@ -29,31 +29,19 @@ A fine talk molti sono venuti per chiedermi le "soluzioni" (che ripeto: non semp
 
 Eccovene alcuni!
 
-### Dado senza dado
+- **Dado senza dado**: Sai simulare un dado con una monetina? Puoi lanciare la moneta più volte.
 
-Sai simulare un dado con una monetina? Puoi lanciare la moneta più volte.
-
-### I Filosofi bugiardi
-
-Attorno a un tavolo sono seduti tanti filosofi. Alcuni dicono sempre la verità; altri solo bugie.
-
+- **I Filosofi bugiardi**: Attorno a un tavolo sono seduti tanti filosofi. Alcuni dicono sempre la verità; altri solo bugie.
 A turno, ogni filosofo prende la parola e dice: "Il filosofo alla mia sinistra è un bugiardo!"
-
 Quando tutti i filosofi hanno espresso questo importantissimo concetto, prende la parola un altro filosofo ed esclama: "siamo 21 seduti a questo tavolo!"
-
 Il suo vicino ribatte: "Non è vero! Siamo 22!"
-
 Che diamine stanno dicendo?! Quanti sono? Chi ha ragione? Come sono seduti?
 
 ## Le risposte di mia moglie
 
-**Dado senza dado:**
+- **Dado senza dado:** Con la moneta entro in un negozio e compro il dado.
 
-> Con la moneta entro in un negozio e compro il dado.
-
-**Problema dei filosofi bugiardi:**
-
-> Cambio tavolo: vado a sedermi da un'altra parte.
+- **Problema dei filosofi bugiardi:** Cambio tavolo: vado a sedermi da un'altra parte.
 
 Posso dirvi che in aziende come Google queste risposte non sarebbero state solo degli _ice-breaker_, ma verrebbero probabilmente considerate nel giudizio globale del candidato.
 
