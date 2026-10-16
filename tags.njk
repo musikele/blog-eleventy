@@ -15,7 +15,7 @@ permalink: /tags/{{ tag | slugify }}/
     <article>
       <a href="{{ post.url }}">
         <div class="img-container">
-          {% responsiveImage post.data.headerImg, { loading: "lazy", decoding: "async" } %}
+          {% responsiveImage post.data.headerImg, { loading: ("eager" if loop.first else "lazy"), fetchpriority: ("high" if loop.first else "auto"), decoding: "async" } %}
         </div>
         <div class="title-container">
           <h2>{{ post.data.title }}</h2>
