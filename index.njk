@@ -37,14 +37,10 @@ permalink: "/{% if pagination.pageNumber > 0 %}archives/page{{ pagination.pageNu
 
   <section class="button-container">
     {% if pagination.href.next %}
-      <a href="{{ pagination.href.next }}">
-        <button>	&#8592; Older</button>
-      </a>
+      <a href="{{ pagination.href.next }}">&#8592; Older</a>
     {% endif %}
     {% if pagination.href.previous %}
-      <a href="{{ pagination.href.previous }}">
-        <button>Newer 	&#8594;</button>
-      </a>
+      <a href="{{ pagination.href.previous }}">Newer &#8594;</a>
     {% endif %}
   </section>
 </section>

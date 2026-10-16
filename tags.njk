@@ -38,14 +38,10 @@ permalink: /tags/{{ tag | slugify }}/
 
   <section class="button-container">
     {% if taglist.href.next %}
-      <a href="{{ taglist.href.next }}">
-        <button>	&#8592; Older</button>
-      </a>
+      <a href="{{ taglist.href.next }}">&#8592; Older</a>
     {% endif %}
     {% if taglist.href.previous %}
-      <a href="{{ taglist.href.previous }}">
-        <button>Newer 	&#8594;</button>
-      </a>
+      <a href="{{ taglist.href.previous }}">Newer &#8594;</a>
     {% endif %}
   </section>
 </section>

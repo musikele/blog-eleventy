@@ -244,6 +244,24 @@ a {
 section.button-container {
     display: flex;
     justify-content: space-between;
+
+    a {
+        display: inline-block;
+        min-height: 48px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: var(--accent);
+        color: var(--bg);
+        padding: 0.7rem 0.9rem;
+        margin: 0.5rem 0;
+        text-decoration: none;
+        transition: 0.4s;
+
+        &:hover,
+        &:focus {
+            filter: brightness(1.4);
+        }
+    }
 }
 
 #footer {
