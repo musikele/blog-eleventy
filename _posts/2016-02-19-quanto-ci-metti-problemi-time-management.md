@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 592
 title: '"quanto ci metti?" - perchè i programmatori sono delle pippe col time management'
 date: 2016-02-19T12:47:00+00:00

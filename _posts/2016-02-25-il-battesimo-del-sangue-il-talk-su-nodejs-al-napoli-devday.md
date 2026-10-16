@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 598
 title: 'Il battesimo del sangue: il talk su NodeJS al Napoli DevDay'
 date: 2016-02-25T19:00:36+00:00

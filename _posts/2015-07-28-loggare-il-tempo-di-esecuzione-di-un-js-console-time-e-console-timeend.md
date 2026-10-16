@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 362
 title: 'loggare il tempo di esecuzione di un JS : console.time e console.timeEnd'
 date: 2015-07-28T20:30:09+00:00

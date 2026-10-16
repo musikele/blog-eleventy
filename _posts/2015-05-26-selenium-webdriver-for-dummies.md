@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 306
 title: Selenium WebDriver for dummies
 date: 2015-05-26T08:58:58+00:00

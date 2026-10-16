@@ -1,4 +1,5 @@
 ---
+lang: it
 title: Perché un programmatore dovrebbe avere un blog
 date: 2016-12-12
 author: musikele

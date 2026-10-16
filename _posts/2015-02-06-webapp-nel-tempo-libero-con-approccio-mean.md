@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 128
 title: WebApp nel tempo libero con approccio MEAN
 date: 2015-02-06T10:17:38+00:00

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 587
 title: Ho partecipato a Google HashCode 2016. Ecco com'é andata
 date: 2016-02-15T20:23:33+00:00

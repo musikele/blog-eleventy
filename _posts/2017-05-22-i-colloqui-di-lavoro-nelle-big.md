@@ -1,4 +1,5 @@
 ---
+lang: it
 title: I colloqui di lavoro nelle Big
 date: 2017-05-22T17:08
 layout: post

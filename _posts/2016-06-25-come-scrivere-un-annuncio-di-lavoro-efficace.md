@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 765
 title: Come scrivere un annuncio di lavoro efficace (soprattutto quando hai poco budget)
 date: 2016-06-25 11:22:11

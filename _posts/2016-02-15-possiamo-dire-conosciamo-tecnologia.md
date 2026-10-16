@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 538
 title: Quando possiamo dire che conosciamo una tecnologia?
 date: 2016-02-15T11:06:14+00:00

@@ -1,4 +1,5 @@
 ---
+lang: it
 title: Le tecnologie che compongono un blog Jekyll
 author: musikele
 layout: post

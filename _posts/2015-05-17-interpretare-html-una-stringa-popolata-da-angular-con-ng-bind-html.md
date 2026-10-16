@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 297
 title: Interpretare HTML in una stringa popolata da angular con ng-bind-html
 date: 2015-05-17T00:19:27+00:00

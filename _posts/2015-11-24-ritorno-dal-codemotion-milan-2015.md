@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 452
 title: di ritorno dal Codemotion Milan 2015
 date: 2015-11-24T19:30:36+00:00

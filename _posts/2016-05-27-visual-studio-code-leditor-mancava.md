@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 676
 title: Visual Studio Code, l'editor che mancava per JS e Node
 date: 2016-05-27T08:28:39+00:00

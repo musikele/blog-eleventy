@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 572
 title: Sarò al Codemotion 2016, Roma
 date: 2016-01-29T18:00:39+00:00

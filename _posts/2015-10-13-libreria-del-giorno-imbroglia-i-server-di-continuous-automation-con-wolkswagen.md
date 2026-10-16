@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 398
 title: 'Libreria del giorno: imbroglia i server di Continuous Automation con Wolkswagen'
 date: 2015-10-13T18:25:17+00:00

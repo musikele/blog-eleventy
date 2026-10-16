@@ -1,4 +1,5 @@
 ---
+lang: it
 title: Jekyll & Github in pratica
 date: 2016-12-22
 author: musikele

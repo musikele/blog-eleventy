@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 53
 title: Hackerando la caldaia Junkers CERACLASS SMART INCASSO per farla funzionare col termostato NetAtmo
 date: 2015-01-11T16:20:32+00:00

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 444
 title: Serve un piano, anzi tre
 date: 2015-11-20T10:30:00+00:00

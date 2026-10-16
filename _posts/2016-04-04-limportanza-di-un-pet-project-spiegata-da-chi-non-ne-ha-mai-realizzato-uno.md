@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 644
 title: L'importanza di un Pet Project spiegata da chi non ne ha mai realizzato uno
 date: 2016-04-04T18:14:18+00:00

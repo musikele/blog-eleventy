@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 1150
 title: Esportazioni e reddito
 date: 2016-11-22T00:31:39+00:00

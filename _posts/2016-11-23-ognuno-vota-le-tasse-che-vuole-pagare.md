@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 1154
 title: Ognuno vota le tasse che vuole pagare
 date: 2016-11-23T09:30:00+00:00

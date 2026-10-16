@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 298
 title: iFrame, Safari, iOs e la lotta all'ultimo millisecondo
 date: 2015-05-27T08:00:27+00:00

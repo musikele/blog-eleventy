@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 535
 title: Creare dinamicamente Groovy beans in Spring
 date: 2016-01-26T10:10:01+00:00

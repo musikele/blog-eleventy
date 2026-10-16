@@ -1,4 +1,5 @@
 ---
+lang: it
 eleventyExcludeFromCollections: false
 layout: post
 title: Lo ha fatto Elon, e ora lo faccio anch'io

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 32
 title: 'JAVA - Convertire un array di byte in un file con FileOutputStream'
 date: 2015-01-08T10:49:51+00:00

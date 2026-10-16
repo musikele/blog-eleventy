@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 525
 title: Realizzare un piccolo motore di Scripting in una webapp Java con Groovy
 date: 2016-01-22T10:10:35+00:00

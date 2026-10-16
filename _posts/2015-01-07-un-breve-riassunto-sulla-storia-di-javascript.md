@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 17
 title: Un breve riassunto sulla storia di Javascript
 date: 2015-01-07T23:01:17+00:00

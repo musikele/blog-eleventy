@@ -1,4 +1,5 @@
 ---
+lang: it
 title: 'Tip del giorno: stampare comandi di uno script Bash'
 date: 2017-01-12 15:37:51
 paginate: true

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 605
 title: Considerazioni sul Public Speaking
 date: 2016-02-27T10:10:23+00:00

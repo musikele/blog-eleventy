@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 286
 title: convertire label in camelCase o CONSTANT_CASE con IntelliJ e String Manipulation
 date: 2015-05-05T18:45:08+00:00

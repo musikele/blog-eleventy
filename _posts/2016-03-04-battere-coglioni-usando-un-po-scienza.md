@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 612
 title: Chi è Jacopo Notarstefano, l'inventore del programma anti-Calderoli
 date: 2016-03-04T20:37:24+00:00

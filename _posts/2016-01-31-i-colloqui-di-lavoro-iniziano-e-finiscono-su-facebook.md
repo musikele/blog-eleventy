@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 574
 title: I colloqui di lavoro iniziano (e finiscono) su facebook
 date: 2016-01-31T23:02:35+00:00

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 439
 title: I tre pilastri per migliorare la propria carriera
 date: 2015-11-18T18:09:10+00:00

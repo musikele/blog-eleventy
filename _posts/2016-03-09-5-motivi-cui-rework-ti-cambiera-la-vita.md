@@ -1,4 +1,5 @@
 ---
+lang: it
 title: 5 motivi per cui Rework ti cambierà la vita
 date: 2016-03-09T20:33
 layout: post

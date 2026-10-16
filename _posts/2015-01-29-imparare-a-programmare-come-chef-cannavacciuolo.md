@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 109
 title: 'Imparare a programmare come ... chef Cannavacciuolo'
 date: 2015-01-29T20:13:20+00:00

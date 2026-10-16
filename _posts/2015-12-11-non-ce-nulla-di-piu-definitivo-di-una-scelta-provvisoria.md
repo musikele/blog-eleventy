@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 467
 title: Non c'é nulla di più definitivo di una scelta provvisoria
 date: 2015-12-11T08:34:51+00:00

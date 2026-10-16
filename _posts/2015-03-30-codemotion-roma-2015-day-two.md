@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 238
 title: 'Codemotion Roma 2015 - day two'
 date: 2015-03-30T08:14:53+00:00

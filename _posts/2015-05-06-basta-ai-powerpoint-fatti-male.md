@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 294
 title: BASTA! ai powerpoint fatti male
 date: 2015-05-06T18:32:43+00:00

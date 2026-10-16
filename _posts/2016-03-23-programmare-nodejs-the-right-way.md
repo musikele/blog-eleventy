@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 640
 title: Come programmare in NodeJS, the right way
 date: 2016-03-23T09:46:28+00:00

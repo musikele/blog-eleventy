@@ -1,4 +1,5 @@
 ---
+lang: it
 title: Quali sono gli svantaggi del lavoro da remoto?
 date: 2017-02-05T00:00:00+00:00
 paginate: true

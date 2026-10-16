@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 350
 title: Ci ho messo del tempo per capire il passaggio di parametri delle funzioni Javascript
 date: 2015-07-21T18:30:10+00:00

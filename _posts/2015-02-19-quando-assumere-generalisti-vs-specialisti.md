@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 136
 title: Quando assumere Generalisti vs Specialisti
 date: 2015-02-19 13:00:32

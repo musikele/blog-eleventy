@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 274
 title: 'PHP Symphony: che faccio, me lo studio?'
 date: 2015-04-17T13:45:46+00:00

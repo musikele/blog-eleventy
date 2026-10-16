@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 627
 title: Vuoi imparare flexbox ma ti annoi? Prova questo gioco
 date: 2016-03-13T16:27:01+00:00

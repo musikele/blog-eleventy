@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 985
 title: Com'è lavorare da remoto?
 date: 2016-09-18T18:23:43+00:00

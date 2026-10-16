@@ -1,4 +1,5 @@
 ---
+lang: it
 title: We' waglio', vuoi venire a lavorare nella mia startup?
 date: 2017-06-09T11:20
 layout: post

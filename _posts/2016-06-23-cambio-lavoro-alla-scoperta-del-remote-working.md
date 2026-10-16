@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 702
 title: Cambio Lavoro
 date: 2016-06-23T18:41:54+00:00

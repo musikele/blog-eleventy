@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 690
 title: 'Flow e Typscript:  Type checking per Javascript'
 date: 2016-06-06T18:00:46+00:00

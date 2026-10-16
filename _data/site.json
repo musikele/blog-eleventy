@@ -3,5 +3,6 @@
     "email": "michele@nasti.dev",
     "description": "A developer blog by Michele Nasti.",
     "baseurl": "",
-    "url": "https://nasti.dev"
+    "url": "https://nasti.dev",
+    "lang": "en"
 }

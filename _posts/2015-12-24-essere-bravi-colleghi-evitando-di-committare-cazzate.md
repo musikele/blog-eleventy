@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 472
 title: Essere bravi colleghi evitando di committare cazzate
 date: 2015-12-24T10:30:46+00:00

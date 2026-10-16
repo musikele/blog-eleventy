@@ -1,4 +1,5 @@
 ---
+lang: it
 title: Pro e contro di AngularJs dopo 2 mesi di lavoro
 date: 2015-02-02T10:55
 layout: post

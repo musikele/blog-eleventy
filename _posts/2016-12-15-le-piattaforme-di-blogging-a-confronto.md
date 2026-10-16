@@ -1,4 +1,5 @@
 ---
+lang: it
 title: Le migliori piattaforme di blogging (per un developer) a confronto
 date: 2016-12-15
 author: musikele

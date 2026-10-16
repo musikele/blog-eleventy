@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 356
 title: Informatica Antincendio
 date: 2015-07-26T19:25:19+00:00

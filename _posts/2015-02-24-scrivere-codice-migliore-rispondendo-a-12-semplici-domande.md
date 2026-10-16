@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 161
 title: Scrivere codice migliore rispondendo a 12 semplici domande
 date: 2015-02-24T13:15:36+00:00

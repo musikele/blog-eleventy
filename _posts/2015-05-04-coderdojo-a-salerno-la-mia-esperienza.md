@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 282
 title: 'Coderdojo a Salerno: la mia esperienza'
 date: 2015-05-04T18:30:41+00:00

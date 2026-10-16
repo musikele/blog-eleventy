@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 248
 title: BlogZinga!
 date: 2015-04-08T21:49:22+00:00

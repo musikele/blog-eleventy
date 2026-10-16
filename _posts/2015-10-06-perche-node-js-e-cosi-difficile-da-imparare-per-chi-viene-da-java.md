@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 367
 title: Perchè Node.JS è così difficile da imparare (per chi viene da Java)
 date: 2015-10-06T19:00:12+00:00

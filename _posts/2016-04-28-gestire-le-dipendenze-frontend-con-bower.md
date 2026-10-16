@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 652
 title: 'Gestire le dipendenze frontend con... bower'
 date: 2016-04-28T07:15:32+00:00

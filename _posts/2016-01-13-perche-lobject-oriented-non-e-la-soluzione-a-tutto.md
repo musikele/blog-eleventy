@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 513
 title: un pratico esempio del perchè l'Object Oriented non è la Soluzione Universale©'
 date: 2016-01-13T10:10:58+00:00

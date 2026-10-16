@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 251
 title: IntelliJ IDEA, alla fine è arrivato l'amore
 date: 2015-04-09T13:30:21+00:00

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 229
 title: 'Codemotion Roma 2015: raccontiamo questa prima giornata'
 date: 2015-03-27T21:25:17+00:00

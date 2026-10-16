@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 324
 title: Impostare PHPUnit in IntelliJ
 date: 2015-06-24T13:30:12+00:00

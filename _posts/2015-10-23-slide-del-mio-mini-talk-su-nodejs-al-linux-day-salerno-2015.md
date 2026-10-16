@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 404
 title: Slide del mio mini-talk su NodeJS al Linux Day Salerno 2015
 date: 2015-10-23T18:34:12+00:00

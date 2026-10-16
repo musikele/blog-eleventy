@@ -1,4 +1,5 @@
 ---
+lang: it
 title: Come riconoscere (e perché assumere) un buon "giocatore di squadra"
 date: 2016-11-21T09:30:00+00:00
 layout: post

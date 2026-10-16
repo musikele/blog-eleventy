@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 279
 title: 'due risate con la libreria JS del giorno: Elevator.JS'
 date: 2015-04-24T09:41:54+00:00

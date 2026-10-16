@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 435
 title: 'React.js day a Napoli: impressioni'
 date: 2015-11-17T13:30:16+00:00

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 333
 title: Alcune Best Practices per non impazzire con i DB relazionali
 date: 2015-07-03T18:30:16+00:00

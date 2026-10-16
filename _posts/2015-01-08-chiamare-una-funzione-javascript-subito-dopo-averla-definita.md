@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 28
 title: chiamare una funzione Javascript subito dopo averla definita
 date: 2015-01-08T09:14:21+00:00

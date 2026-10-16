@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 610
 title: Javascript Meetup a Salerno!
 date: 2016-02-29T08:15:19+00:00

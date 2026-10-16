@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 336
 title: 'Tutti i modi per generare ID in Hibernate &#038; JPA'
 date: 2015-11-27T10:00:50+00:00

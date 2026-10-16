@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 68
 title: 'Pdfmake : libreria JS per creare PDF'
 date: 2015-01-13T13:30:46+00:00

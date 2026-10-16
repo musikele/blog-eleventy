@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 43
 title: Uscire dalla Comfort Zone per ottenere più successo
 date: 2015-01-09T09:11:25+00:00

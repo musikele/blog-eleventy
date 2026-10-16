@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 770
 title: 'Progetti a cui lavoro: HYPE - carta di credito, conto bancario, app. 3 in 1!'
 date: 2016-07-17T15:13:25+00:00

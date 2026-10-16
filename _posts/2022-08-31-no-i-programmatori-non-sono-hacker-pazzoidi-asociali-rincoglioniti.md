@@ -1,4 +1,5 @@
 ---
+lang: it
 eleventyExcludeFromCollections: false
 layout: post
 title: No, i programmatori non sono hacker pazzoidi asociali strambi

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 13
 title: What’s new in Javascript?
 date: 2015-01-07

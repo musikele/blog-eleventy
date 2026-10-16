@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 860
 title: "Come ho cambiato lavoro (Prequel di: com'è lavorare da remoto?)"
 date: 2016-09-19T09:14:50+00:00

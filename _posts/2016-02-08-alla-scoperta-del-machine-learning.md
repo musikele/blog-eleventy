@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 580
 title: Alla scoperta del Machine Learning
 date: 2016-02-08T09:40:09+00:00

@@ -1,4 +1,5 @@
 ---
+lang: it
 id: 510
 title: La Programmazione Funzionale con le Funzioni Pure
 date: 2016-01-12T10:10:50+00:00
