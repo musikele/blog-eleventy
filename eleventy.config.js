@@ -5,6 +5,87 @@ import path from 'path';
 import markdownIt from 'markdown-it';
 import markdownItFootnote from 'markdown-it-footnote';
 
+const IMAGEKIT_BASE = 'https://ik.imagekit.io/xthvogziier';
+const IMAGE_WIDTHS = [360, 480, 665, 720, 1080, 1440];
+// Il contenuto è largo min(45rem, 90%): su mobile ~90vw, su desktop 720px
+const IMAGE_SIZES = '(max-width: 800px) 90vw, 720px';
+// Su mobile le immagini vengono servite con qualità ridotta
+const MOBILE_MEDIA = '(max-width: 800px)';
+const MOBILE_QUALITY = 65;
+
+/**
+ * URL ImageKit ridimensionato alla larghezza indicata
+ * @param {string} imagePath
+ * @param {number} width
+ * @param {number} [quality] se assente, usa la qualità di default di ImageKit
+ * @param {string} [format] es. 'avif'; se assente, ImageKit sceglie il formato (WebP)
+ * @returns {string}
+ */
+function imageKitUrl(imagePath, width, quality, format) {
+    if (process.env.LOCAL) {
+        return imagePath;
+    }
+    const transform = [`w-${width}`, quality && `q-${quality}`, format && `f-${format}`]
+        .filter(Boolean)
+        .join(',');
+    return `${IMAGEKIT_BASE}/tr:${transform}/${String(imagePath ?? '').replace(/^\/+/, '')}`;
+}
+
+/**
+ * @param {string} imagePath
+ * @param {number[]} widths
+ * @param {number} [quality]
+ * @param {string} [format]
+ * @returns {string}
+ */
+function imageSrcset(imagePath, widths, quality, format) {
+    return widths.map((w) => `${imageKitUrl(imagePath, w, quality, format)} ${w}w`).join(', ');
+}
+
+/**
+ * @param {string} value
+ * @returns {string}
+ */
+function escapeAttr(value) {
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+}
+
+/**
+ * <picture> responsive: su mobile qualità MOBILE_QUALITY, su desktop qualità di default.
+ * AVIF per i browser che lo supportano, altrimenti il formato scelto da ImageKit (WebP).
+ * Il browser usa il primo <source> che corrisponde a media e type.
+ * @param {string} imagePath
+ * @param {Object<string, string | number>} [attrs] attributi extra per <img>
+ * @param {{ widths?: number[], sizes?: string, fallbackWidth?: number }} [options]
+ * @returns {string}
+ */
+function responsiveImage(imagePath, attrs = {}, options = {}) {
+    const { widths = IMAGE_WIDTHS, sizes = IMAGE_SIZES, fallbackWidth = 720 } = options;
+    const imgAttrs = Object.entries(attrs)
+        .filter(([, value]) => value !== undefined && value !== null)
+        .map(([key, value]) => ` ${key}="${escapeAttr(value)}"`)
+        .join('');
+
+    if (process.env.LOCAL || !imagePath) {
+        return `<img src="${escapeAttr(imagePath ?? '')}"${imgAttrs}>`;
+    }
+
+    const src = escapeAttr(imageKitUrl(imagePath, fallbackWidth));
+    const srcset = (quality, format) => escapeAttr(imageSrcset(imagePath, widths, quality, format));
+    return (
+        `<picture>` +
+        `<source media="${MOBILE_MEDIA}" type="image/avif" srcset="${srcset(MOBILE_QUALITY, 'avif')}" sizes="${sizes}">` +
+        `<source media="${MOBILE_MEDIA}" srcset="${srcset(MOBILE_QUALITY)}" sizes="${sizes}">` +
+        `<source type="image/avif" srcset="${srcset(undefined, 'avif')}" sizes="${sizes}">` +
+        `<img src="${src}" srcset="${srcset()}" sizes="${sizes}"${imgAttrs}>` +
+        `</picture>`
+    );
+}
+
 /**
  * 
  * @param {{
@@ -21,6 +102,24 @@ import markdownItFootnote from 'markdown-it-footnote';
  */
 export default async function (eleventyConfig) {
     const markdownLibrary = markdownIt().use(markdownItFootnote);
+
+    // Le immagini locali nei post passano da ImageKit con <picture> responsive
+    const defaultImageRender = markdownLibrary.renderer.rules.image;
+    markdownLibrary.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const token = tokens[idx];
+        const src = token.attrGet('src');
+        if (!src || !src.startsWith('/') || src.startsWith('//') || /\.svg$/i.test(src)) {
+            token.attrSet('loading', 'lazy');
+            token.attrSet('decoding', 'async');
+            return defaultImageRender(tokens, idx, options, env, self);
+        }
+        return responsiveImage(src, {
+            alt: self.renderInlineAsText(token.children, options, env),
+            title: token.attrGet('title') ?? undefined,
+            loading: 'lazy',
+            decoding: 'async',
+        });
+    };
     eleventyConfig.setLibrary('md', markdownLibrary);
 
     // Global data
@@ -59,12 +158,9 @@ export default async function (eleventyConfig) {
      * @param {string} imagePath
      * @returns {string}
      */
-    eleventyConfig.addFilter('imagePath', (imagePath) => {
-        if (process.env.LOCAL) {
-            return imagePath;
-        }
-        return `https://ik.imagekit.io/xthvogziier/tr:w-720/${imagePath}`;
-    });
+    eleventyConfig.addFilter('imagePath', (imagePath, width = 720) => imageKitUrl(imagePath, width));
+
+    eleventyConfig.addShortcode('responsiveImage', responsiveImage);
 
     /**
      * Formatta una data in formato "yyyy/MM/dd"

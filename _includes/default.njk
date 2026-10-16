@@ -15,7 +15,7 @@
             <i class="fa-solid fa-palette"></i>
         </div>
         <header>
-            <img src="{{'/images/volto.jpg' | imagePath }}">
+            {% responsiveImage '/images/volto.jpg', { width: 150, height: 150, alt: 'Michele Nasti' }, { widths: [150, 263, 300, 450], sizes: '150px', fallbackWidth: 300 } %}
             <h1>Michele Nasti</h1>
             <p>Thoughts on what I learn</p>
             <nav>
