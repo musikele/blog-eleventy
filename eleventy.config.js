@@ -258,6 +258,7 @@ export default async function (eleventyConfig) {
 
     // Ignores
     eleventyConfig.ignores.add('AGENTS.md');
+    eleventyConfig.ignores.add('CLAUDE.md');
 
     return {
         templateFormats: ['md', 'njk', 'html'],

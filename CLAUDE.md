@@ -28,10 +28,18 @@ This is an [Eleventy](https://www.11ty.dev/) (11ty v3) static blog. The main con
 - `postDate` — formats a Date as "Month day, year"
 - `toISODate` — formats a Date as "yyyy/MM/dd" (used in permalinks)
 - `fileName` — extracts filename without extension from `inputPath`
-- `imagePath` — rewrites image paths to ImageKit CDN (`https://ik.imagekit.io/xthvogziier/tr:w-720/`) unless `LOCAL` env is set
+- `imagePath(width = 720)` — rewrites an image path to an ImageKit CDN URL (`https://ik.imagekit.io/xthvogziier/tr:w-<width>/`) unless `LOCAL` env is set. Used for og/twitter meta images.
 - `sortObjectByKey` — sorts an object by its keys
 
-**Styling:** SCSS files are compiled to CSS via a custom Eleventy extension (using the `sass` package). No PostCSS or webpack involved.
+**Shortcodes:**
+- `responsiveImage src, attrs, options` — outputs a `<picture>` for an image via ImageKit: srcset at `IMAGE_WIDTHS`, AVIF sources (`f-avif`, because automatic AVIF is disabled on the ImageKit account), and lower quality (`MOBILE_QUALITY`, q-65) only for `MOBILE_MEDIA` (≤800px); desktop keeps ImageKit's default quality. `attrs` go on the `<img>`; `options` can override `widths`, `sizes`, `fallbackWidth`. With `LOCAL` set it outputs a plain `<img>`. Use it for every content image; the first/LCP image gets `fetchpriority: "high"` and no `loading: "lazy"`.
+- `inlineStyles` — inlines `simple-v1.min.css`, `prism-okaidia.css` and `custom.scss` (compressed via sass) into a `<style>` in `<head>`, cached per build. Add new site-wide stylesheets to `INLINE_STYLES` in the config instead of a `<link>`.
+
+**Images in Markdown:** a custom markdown-it image renderer routes local images (paths starting with `/`, not SVG) through `responsiveImage`, with lazy loading. External images are left as-is.
+
+**Icons:** inline SVGs in [_includes/icons/](_includes/icons/) (from Font Awesome Free, CC BY 4.0), included with `{% include "icons/<name>.svg" %}` and styled by the `.icon` class. Don't reintroduce the Font Awesome kit or web fonts.
+
+**Styling:** SCSS files are compiled to CSS via a custom Eleventy extension (using the `sass` package). No PostCSS or webpack involved. The pages don't link the CSS files: it is inlined by the `inlineStyles` shortcode (see below). Text uses system fonts only.
 
 **Plugins:** RSS feed (`@11ty/eleventy-plugin-rss`) and syntax highlighting (`@11ty/eleventy-plugin-syntaxhighlight`). Markdown uses `markdown-it` with footnote support.
 
