@@ -160,6 +160,11 @@ article {
         width: 100%;
         display: flex;
         justify-content: center;
+        // responsiveImage avvolge l'img in un <picture>: senza questo il flex item si restringe
+        picture {
+            display: block;
+            width: 100%;
+        }
         img {
             background-color: var(--text);
             width: 100%;
