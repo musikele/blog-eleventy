@@ -2,6 +2,7 @@ import pluginRss from '@11ty/eleventy-plugin-rss';
 import pluginSyntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import sass from 'sass';
 import path from 'path';
+import fs from 'fs';
 import markdownIt from 'markdown-it';
 import markdownItFootnote from 'markdown-it-footnote';
 
@@ -192,6 +193,26 @@ export default async function (eleventyConfig) {
     eleventyConfig.addFilter('sortObjectByKey', (collection) => {
         const entries = Object.entries(collection);
         return entries.sort((a, b) => (a[0] <= b[0] ? -1 : 1));
+    });
+
+    // CSS critico incorporato nell'<head>: evita richieste bloccanti in catena.
+    // Calcolato una volta per build.
+    const INLINE_STYLES = ['css/simple-v1.min.css', 'css/prism-okaidia.css', 'css/custom.scss'];
+    let inlineStylesCache = null;
+    eleventyConfig.on('eleventy.before', () => {
+        inlineStylesCache = null;
+    });
+    eleventyConfig.addShortcode('inlineStyles', () => {
+        if (inlineStylesCache === null) {
+            const css = INLINE_STYLES.map((file) =>
+                sass.compileString(fs.readFileSync(file, 'utf8'), {
+                    syntax: file.endsWith('.scss') ? 'scss' : 'css',
+                    style: 'compressed',
+                }).css
+            ).join('');
+            inlineStylesCache = `<style>${css}</style>`;
+        }
+        return inlineStylesCache;
     });
 
     // SCSS extension

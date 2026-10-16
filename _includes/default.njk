@@ -4,9 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if title %}{{ title }} - {% endif %}Michele Nasti's blog</title>
-        <link rel="stylesheet" href="/css/simple-v1.min.css">
-        <link rel="stylesheet" href="/css/prism-okaidia.css">
-		<link rel="stylesheet" href="/css/custom.css">
+        {% inlineStyles %}
+        <script src="/scripts/index.js" defer></script>
         {% include 'metadata.html' %}
         {% include 'analytics.html' %}
     </head>
@@ -30,6 +29,5 @@
                 {{ content | safe }}
         </main>
         {% include 'footer.html' %}
-        <script src="/scripts/index.js"></script>
     </body>
 </html>
