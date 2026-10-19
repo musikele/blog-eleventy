@@ -12,6 +12,7 @@ tags:
   - productivity
   - tools
 headerImg: /images/logseq-to-obsidian.png
+headerImgAlt: ''
 ---
 
 ## Why I left Logseq
@@ -48,7 +49,7 @@ One more setting to check: plugin sync. If it's off, every plugin below has to b
 
 Obsidian doesn't behave like an outliner out of the box. Six community plugins and one built-in setting got me back to how I worked in Logseq:
 
-**[SCREENSHOT: the list of installed community plugins]**
+![My obsidian installed plugins: importer, outliner, slash commander, find and replace in selection, natural language dates (revived), todoseq, list tree indentation guides](/images/immagine-3.png "My obsidian installed plugins: importer, outliner, slash commander, find and replace in selection, natural language dates (revived), todoseq, list tree indentation guides")
 
 | What I needed | What I use in Obsidian | Notes |
 | --- | --- | --- |
@@ -63,7 +64,6 @@ Obsidian doesn't behave like an outliner out of the box. Six community plugins a
 ![adding a datepicker selection with slash commander](/images/immagine-1.png)
 
 The last row is the one I cared about most. In Logseq, opening a page like `[[Gym]]` showed every journal entry that mentioned it, together with the bullets around it. Obsidian does the same natively: the linked mentions at the bottom of the note are grouped by daily note, and with the "Show more context" toggle each mention expands to show the surrounding lines too. So I can still see not just _when_ I went to the gym, but what else I wrote that day.
-
 
 ![](/images/immagine-2.png)
 
