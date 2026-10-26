@@ -1,5 +1,5 @@
 ---
-title: 'Interviewing a CTV Product Manager: the questions I asked as an engineer'
+title: 'Interviewing for a CTV Product Manager role: what I asked as an engineer'
 date: 2026-10-26T10:41:00
 layout: post
 description: I interviewed candidates for a CTV Product Manager role. Here are the questions I asked as an engineer, what each one reveals, and the red flags I watched for.
