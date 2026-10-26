@@ -1,22 +1,22 @@
 ---
-paginate: true
-comments: true
-author: musikele
-category: English
-layout: post
-date: 2022-02-07
 title: My problem with job junting
+date: 2022-02-07
+layout: post
+description: Company tend to hire people that already knows the technologies they use; devs tend to stick in teams they love to work with. Is there space for fixing the hiring problem?
 permalink: dev-vs-company-expectation-hiring/
-description: Company tend to hire people that already knows the technologies they
-  use; devs tend to stick in teams they love to work with. Is there space for fixing
-  the hiring problem?
-headerImg: '/images/pexels-nappy-935977.jpg'
+eleventyExcludeFromCollections: true
 tags:
   - work
-  - ' hiring'
+  - hiring
   - job
   - team
   - software development
+headerImg: /images/pexels-nappy-935977.jpg
+headerImgAlt: ''
+author: musikele
+category: English
+comments: true
+paginate: true
 ---
 
 Whenever I scroll a job board, I have a feeling that the things that matter to a company are (in _their_ order of importance):
