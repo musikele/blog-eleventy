@@ -4,14 +4,14 @@ date: 2026-10-26T10:41:00
 layout: post
 description: I interviewed candidates for a CTV Product Manager role. Here are the questions I asked as an engineer, what each one reveals, and the red flags I watched for.
 permalink: /2026/interviewing-ctv-product-manager/
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 tags:
   - adtech
   - video ads
   - ctv
   - product management
   - hiring
-headerImg: ''
+headerImg: /images/Senza titolo.png
 headerImgAlt: ''
 ---
 
@@ -25,7 +25,7 @@ If you're new to video advertising, I wrote [a dive into the world of video ads]
 
 So I asked myself a simple question: **what do I, as an engineer, want to know about my future PM?**
 
-[TODO Michele: one or two lines on how you ended up in the interview loop.]
+During the interviews, it was 3 of us asking questions: the boss of PMs, the PM that is currently taking that spot, and me. So, the product questions were left to them. **I had to cover only the knowledge of the ad industry.**
 
 ## Why CTV is a different beast
 
@@ -41,7 +41,6 @@ So during the interviews I was looking for three things:
 
 - **Domain understanding**: do you get how an ad actually reaches the screen?
 - **Method**: when something breaks, where do you start?
-- **Spine**: can you say no to someone?
 
 ## The questions
 
@@ -59,17 +58,13 @@ A good answer mentions both sides: heterogeneous devices and limited players on 
 
 ### 3. "A publisher says the fill rate of their pods is low. Where do you start?"
 
-Here I'm not looking for the right answer, I'm looking for **the method**. What data do you ask for? Who do you ask? Do you think about spot durations, competitive separation, timeouts, floor prices? Or do you just open a ticket for the engineers saying "fill rate low, pls fix"?
+Here I'm not looking for the right answer, I'm looking for **the method**. What data do you ask for? Who do you ask? Do you think about spot durations, timeouts, floor prices? Or do you just open a ticket for the engineers saying "fill rate low, pls fix"?
 
 ### 4. "A standard we've used for years is becoming obsolete. How do you handle the transition?"
 
 Customers still depend on it, sales wants to keep everybody happy, engineering wants to delete code. This is pure product work: **priorities, communication, compromises**.
 
-### 5. "Tell me about a time you said no to a customer or to sales"
-
-Not CTV specific, but for an engineer this is crucial. A PM who says yes to everything is a PM whose promises **land on the dev team**. I want to hear a concrete story, with a cost and a consequence.
-
-### 6. "Write me a user story for cross-device frequency capping"
+### 5. "Write me a user story for cross-device frequency capping"
 
 Can you turn a business need into something an engineer can estimate? Do you think about edge cases? Do you know what you **don't** know (spoiler: identity in CTV is a mess)?
 
@@ -82,12 +77,14 @@ No names, no details, just patterns. These are the things that made me raise an 
 - **No numbers.** A PM who never mentions a metric, a KPI, a before and after, is a PM who doesn't measure. And if you don't measure, you don't know.
 - **Never wrong.** Every story ends with a success. Nobody ever shipped something that flopped? Really?
 
-[TODO Michele: add one anonymous, generic example from your interviews, if you want.]
+So yes, in my interviews we had the experienced guy that talked only in jargoneese, and the fresh graduate that seemed to think with his own head. And the guy that seemed super-smart but that spoke very bad english, and the support guy that wanted to change career to grow.  
 
 ## So, what did I learn?
 
-That interviewing is hard. Way harder than being interviewed. You have one hour to guess how it will feel to work with someone for the next two years.
+That interviewing is hard. Way harder than being interviewed. You have 30 minutes to guess how it will feel to work with someone for the next years.
 
-But also that engineers **should** be in the loop when hiring a PM. Not to test if they can code (please don't), but to check if the two of you will speak the same language. In CTV, where everything is a trade-off, that language matters a lot.
+I also suffered from the "interviewer fatigue": you talk to 10 candidates in a week, you start mixing conversations you had with other candidates, asking questions you already asked, etc. It's like dating 10 people in the same week (something I would not advice to do): you don't remember what you have told to one and not the other!
+
+Engineers **should** be in the loop when hiring a PM. Not to test if they can code (please don't), but to check if the two of you will speak the same language. In CTV, where everything is a trade-off, that language matters a lot.
 
 And you? Have you ever interviewed someone outside your role? Which question would you add? Let me know in the comments.
