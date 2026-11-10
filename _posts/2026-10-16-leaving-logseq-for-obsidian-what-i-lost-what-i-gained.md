@@ -59,7 +59,8 @@ Obsidian doesn't behave like an outliner out of the box. Six community plugins a
 | Type `/` for a command menu | **Slash Commander** | Better than Logseq: any command can go in the menu, each with its own icon |
 | Date picker that links a daily note | **Natural Language Dates Revived** | Unlike the original plugin, it opens a real date picker from the slash command |
 | Find and replace in part of a note | **Find and replace in selection** | Limits the replace to the selected text |
-| Linked references with context | Built-in backlinks, "Show more context" toggle | No plugin needed |
+| See all daily notes one after another | **Daily Notes Editor** | You can set this as the default view, and remove all backlinks and frontmatter |
+| Linked references with context | Built-in backlinks, "Show more context" toggle | No plugin needed | 
 
 ![adding a datepicker selection with slash commander](/images/immagine-1.png)
 
