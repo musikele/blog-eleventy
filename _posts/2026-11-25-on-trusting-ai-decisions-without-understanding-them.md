@@ -3,7 +3,7 @@ title: On trusting AI decisions without understanding them
 date: 2026-11-25T19:27:00
 layout: post
 description: What is our purpose, as humans, if all the hard things are tackled by AI? Should we trust something we don't understand?
-permalink: /2026/confusion-and-rejection-about-AI
+permalink: /2026/confusion-and-rejection-about-AI/
 eleventyExcludeFromCollections: false
 tags:
   - AI
